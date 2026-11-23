@@ -117,8 +117,15 @@
   }
 
   /* -------------------------------------------------------------- question */
+  function isAnswered(p) {
+    var a = st.answers[p.qid];
+    return p.type === 'open'
+      ? typeof a === 'string' && a.trim().length > 0
+      : a !== undefined && a !== null;
+  }
+
   function answeredCount() {
-    return st.pages.filter(function (p) { return st.answers[p.qid] !== undefined && st.answers[p.qid] !== null; }).length;
+    return st.pages.filter(isAnswered).length;
   }
 
   function renderStrip(box, big) {
@@ -127,7 +134,7 @@
       var b = document.createElement('button');
       b.type = 'button';
       b.textContent = String(i + 1);
-      var done = st.answers[p.qid] !== undefined && st.answers[p.qid] !== null;
+      var done = isAnswered(p);
       if (done) b.classList.add('is-answered');
       else if (big) b.classList.add('is-open');
       if (!big && i === st.idx) b.classList.add('is-current');
@@ -156,25 +163,43 @@
 
     $('q-text').textContent = p.text;
     var box = $('q-options');
+    var open = $('q-open');
     box.textContent = '';
-    var chosen = st.answers[p.qid];
-    p.options.forEach(function (text, i) {
-      var label = document.createElement('label');
-      label.className = 'option' + (chosen === i ? ' is-selected' : '');
-      var input = document.createElement('input');
-      input.type = 'radio'; input.name = 'opt'; input.value = String(i); input.checked = chosen === i;
-      var key = document.createElement('span'); key.className = 'option__key'; key.textContent = LETTERS[i];
-      var t = document.createElement('span'); t.textContent = text;
-      label.append(input, key, t);
-      input.addEventListener('change', function () { choose(i); });
-      box.appendChild(label);
-    });
+    if (p.type === 'open') {
+      box.hidden = true;
+      open.hidden = false;
+      $('q-open-points').textContent = 'This open-ended question is worth ' + p.points +
+        ' point' + (Number(p.points) === 1 ? '' : 's') + '. Your teacher will mark it.';
+      var response = $('q-response');
+      response.value = typeof st.answers[p.qid] === 'string' ? st.answers[p.qid] : '';
+      response.oninput = function () {
+        st.answers[p.qid] = response.value;
+        persist();
+        renderStrip($('q-strip'), false);
+      };
+    } else {
+      open.hidden = true;
+      box.hidden = false;
+      var chosen = st.answers[p.qid];
+      p.options.forEach(function (text, i) {
+        var label = document.createElement('label');
+        label.className = 'option' + (chosen === i ? ' is-selected' : '');
+        var input = document.createElement('input');
+        input.type = 'radio'; input.name = 'opt'; input.value = String(i); input.checked = chosen === i;
+        var key = document.createElement('span'); key.className = 'option__key'; key.textContent = LETTERS[i];
+        var t = document.createElement('span'); t.textContent = text;
+        label.append(input, key, t);
+        input.addEventListener('change', function () { choose(i); });
+        box.appendChild(label);
+      });
+    }
     $('btn-prev').disabled = st.idx === 0;
     $('btn-next').textContent = st.idx === total - 1 ? 'Review & submit →' : 'Next →';
   }
 
   function choose(i) {
     var p = st.pages[st.idx];
+    if (p.type === 'open') return;
     st.answers[p.qid] = i;
     persist();
     var opts = $('q-options').children;
@@ -209,6 +234,9 @@
       startedAt: new Date(st.startedAt).toISOString().slice(0, 19).replace('T', ' '),
       durationSec: Math.round((Date.now() - st.startedAt) / 1000),
       answers: st.pages.map(function (p, i) {
+        if (p.type === 'open') {
+          return { qid: p.qid, position: i + 1, response: st.answers[p.qid] || '' };
+        }
         var shown = st.answers[p.qid];
         return { qid: p.qid, position: i + 1, order: p.order, chosen: shown === undefined || shown === null ? null : p.order[shown] };
       })
@@ -239,6 +267,7 @@
     if (!raw) return;
     try { st = JSON.parse(raw); } catch (e) { st = null; return; }
     if (!st || !st.pages || !st.pages.length) { st = null; return; }
+    st.pages.forEach(function (p) { if (!p.type) p.type = p.options && p.options.length ? 'mcq' : 'open'; });
     $('resume-text').textContent = st.student + ' (Grade ' + st.grade + ') · ' + st.title + ' · ' + answeredCount() + ' of ' + st.pages.length + ' answered';
     $('resume-card').hidden = false;
   }

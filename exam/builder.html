@@ -15,6 +15,7 @@
       <span>EnigmaPath<small>Exam builder</small></span>
     </a>
     <div class="ep-topbar__right">
+      <a class="btn btn--small btn--ghost" href="marking.html">Mark exams</a>
       <a class="btn btn--small btn--ghost" href="results.html">Results</a>
       <a class="btn btn--small btn--ghost" href="index.html" target="_blank" rel="noopener">Open the student exam page</a>
       <button class="btn btn--small btn--ghost" id="teacher-logout" type="button">Sign out</button>
@@ -39,6 +40,26 @@
           <label for="ex-title">Exam title</label>
           <input id="ex-title" type="text" maxlength="120" placeholder="e.g. Grade 8 ICT test: networks and mazes">
         </div>
+        <div class="grid-2">
+          <div class="field">
+            <label for="ex-subject">Subject <span class="hint">(shown on the result paper)</span></label>
+            <input id="ex-subject" type="text" maxlength="80" list="subject-list" placeholder="e.g. ICT">
+            <datalist id="subject-list">
+              <option value="ICT"></option>
+              <option value="Mathematics"></option>
+              <option value="General Science"></option>
+              <option value="Physics"></option>
+              <option value="Chemistry"></option>
+              <option value="Biology"></option>
+              <option value="Geography"></option>
+              <option value="General Knowledge"></option>
+            </datalist>
+          </div>
+          <div class="field">
+            <label>Exam type</label>
+            <p class="mode-badge" id="ex-mode-label">MCQ only</p>
+          </div>
+        </div>
         <div class="field">
           <label for="ex-desc">Instructions for students <span class="hint">(optional)</span></label>
           <textarea id="ex-desc" rows="2" maxlength="2000" placeholder="Shown when the student picks this exam."></textarea>
@@ -51,7 +72,8 @@
       <div id="items"></div>
 
       <div class="card add-row">
-        <button class="btn" id="add-q" type="button">+ Question</button>
+        <button class="btn" id="add-q" type="button">+ Multiple-choice question</button>
+        <button class="btn" id="add-open" type="button" hidden>+ Open-ended question</button>
         <button class="btn" id="add-maze" type="button">+ Maze with questions</button>
         <button class="btn" id="add-bank" type="button">+ From the practice quiz bank</button>
       </div>
@@ -69,6 +91,26 @@
       <p class="hint" id="server-hint" hidden>The builder needs the EnigmaPath server: double-click <b>start.bat</b> or <b>start.sh</b> and use the page that opens.</p>
     </section>
   </main>
+
+  <div class="modal-backdrop" id="mode-modal" hidden>
+    <div class="modal card mode-modal" role="dialog" aria-modal="true" aria-labelledby="mode-title">
+      <h2 id="mode-title">What kind of exam is this?</h2>
+      <p class="muted">Choose before you start. MCQ-only exams keep the current flow. Mixed exams can also contain open-ended questions that you mark yourself.</p>
+      <div class="mode-choices">
+        <button class="mode-choice" id="mode-mcq" type="button">
+          <b>MCQ only</b>
+          <span>Multiple-choice questions only. Every question is worth 1 point and is marked automatically.</span>
+        </button>
+        <button class="mode-choice" id="mode-mixed" type="button">
+          <b>Mixed exam</b>
+          <span>Multiple-choice questions worth 1 point, plus open-ended questions where you choose the points and mark the answers.</span>
+        </button>
+      </div>
+      <div class="modal__actions">
+        <button class="btn" id="mode-cancel" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
 
   <div class="modal-backdrop" id="bank-modal" hidden>
     <div class="modal card bank" role="dialog" aria-modal="true" aria-labelledby="bank-title">

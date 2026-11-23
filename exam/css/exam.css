@@ -26,6 +26,10 @@
 .maze-figure svg { display: block; width: 100%; height: auto; }
 .question-text { font-size: clamp(19px, 2.4vw, 25px); margin-bottom: 16px; outline: none; }
 .options { display: grid; gap: 10px; }
+.open-answer { display: grid; gap: 8px; }
+.open-answer[hidden] { display: none; }
+.open-answer label { font-weight: 600; color: var(--soft); }
+.open-answer textarea { width: 100%; resize: vertical; min-height: 160px; }
 .option {
   display: flex; align-items: center; gap: 14px; padding: 12px 16px; border-radius: var(--radius-md);
   border: 1px solid var(--line-strong); background: var(--bg-deep); cursor: pointer; transition: border-color 0.15s, background 0.15s;

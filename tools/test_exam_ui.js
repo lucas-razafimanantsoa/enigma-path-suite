@@ -41,6 +41,7 @@ async function login(page) {
   expect('login opens the builder', /builder\.html/.test(await t.ev('location.href')));
   expect('builder shows no exams yet', /No exams yet/.test(await t.ev('document.getElementById("list-hint").textContent')));
   await t.click('#btn-new');
+  await t.click('#mode-mcq');
   await t.type('#ex-title', 'E2E test exam');
   await t.type('#ex-desc', 'Answer everything.');
   // first (blank) question

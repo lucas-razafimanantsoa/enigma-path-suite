@@ -1,0 +1,38 @@
+.marking .lede { max-width: 85ch; margin-bottom: 18px; }
+.mark-panel { margin-top: 20px; display: grid; gap: 18px; scroll-margin-top: 80px; }
+.mark-panel[hidden] { display: none; }
+.mark-head { display: flex; justify-content: space-between; align-items: start; gap: 16px; flex-wrap: wrap; }
+.mark-head h2 { margin: 2px 0 4px; }
+.mark-head .eyebrow { margin: 0; }
+.auto-summary { padding: 12px 16px; border-radius: var(--radius-md); background: var(--bg-deep); border: 1px solid var(--line); }
+.auto-summary b { color: var(--soft); }
+.md-status {
+  display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px;
+  background: var(--bg-deep); border: 1px solid var(--line); color: var(--soft); white-space: nowrap;
+}
+.md-status.is-pending { border-color: var(--warn); color: var(--warn); }
+.md-status.is-marked { border-color: var(--ok); color: var(--ok); }
+.open-question {
+  display: grid; gap: 12px; padding: 16px; border-radius: var(--radius-md);
+  border: 1px solid var(--line-strong); background: var(--bg-deep);
+}
+.open-question h3 { margin: 0; font-size: 16px; color: var(--soft); }
+.open-question__text { font-size: 16px; font-weight: 600; white-space: pre-wrap; }
+.open-question__response {
+  padding: 10px 14px; border-radius: var(--radius-sm); background: var(--bg-raised);
+  border-left: 4px solid var(--soft); white-space: pre-wrap;
+}
+.open-question__response.is-empty { border-left-color: var(--muted); color: var(--muted); font-style: italic; }
+.open-question__notes { font-size: 14px; color: var(--muted); white-space: pre-wrap; }
+.open-question__notes b { color: var(--soft); }
+.mark-controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.mark-controls .btn.is-active { border-color: var(--soft); background: var(--surface); }
+.mark-controls input[type="number"] { width: 92px; }
+.mark-controls label { display: inline-flex; gap: 6px; align-items: center; color: var(--soft); font-size: 14px; }
+.comment-field { display: grid; gap: 6px; }
+.comment-field label { font-size: 14px; color: var(--soft); }
+.mark-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.mark-msg { color: var(--ok); font-size: 14px; }
+.mark-msg.is-error { color: var(--bad); }
+.answer-pill { font-size: 12px; color: var(--muted); }
+@media print { .mark-panel, .toolbar, .summary, .marking .lede, #marking-table { display: none !important; } }

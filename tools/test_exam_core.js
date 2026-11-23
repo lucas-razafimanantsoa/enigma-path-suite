@@ -100,5 +100,30 @@ check('validateExam accepts a good exam and rejects bad ones', () => {
   assert.ok(/cannot reach/.test(X.validateExam(unsolvable)));
 });
 
+check('mixed exams, open questions, points and symbol', () => {
+  const open = { type: 'open', id: 'o1', text: 'Explain?', points: 5 };
+  const mcq = { type: 'question', id: 'q1', text: 'Q?', options: ['a', 'b'], correct: 0 };
+  const exam = { title: 'Mixed', mode: 'mixed', subject: 'ICT', items: [mcq, open] };
+  assert.strictEqual(X.validateExam(exam), null);
+  assert.strictEqual(X.countQuestions(exam), 2);
+  assert.strictEqual(X.examPoints(exam), 6);
+  assert.ok(/only allowed in a mixed exam/.test(X.validateExam({ ...exam, mode: 'mcq' })));
+  assert.ok(/points must be a whole number/.test(X.validateExam({ ...exam, items: [mcq, { ...open, points: 0 }] })));
+  assert.ok(/points must be a whole number/.test(X.validateExam({ ...exam, items: [mcq, { ...open, points: 2.5 }] })));
+
+  const pages = X.buildSession(exam, rng(1));
+  const openPage = pages.filter((p) => p.qid === 'o1')[0];
+  const mcqPage = pages.filter((p) => p.qid === 'q1')[0];
+  assert.strictEqual(openPage.type, 'open');
+  assert.strictEqual(openPage.points, 5);
+  assert.deepStrictEqual(openPage.options, []);
+  assert.strictEqual(mcqPage.type, 'mcq');
+  assert.strictEqual(mcqPage.points, 1);
+
+  const symbols = [[100, 'A+'], [96, 'A+'], [95.9, 'A'], [90, 'A'], [86, 'B+'], [80, 'B'],
+    [76, 'C+'], [70, 'C'], [66, 'D+'], [60, 'D'], [56, 'E+'], [50, 'E'], [49.9, 'F']];
+  symbols.forEach(([p, s]) => assert.strictEqual(X.symbolFor(p), s, p + ' -> ' + X.symbolFor(p)));
+});
+
 console.log(fails ? fails + ' check(s) FAILED' : 'exam-core checks passed');
 process.exit(fails ? 1 : 0);

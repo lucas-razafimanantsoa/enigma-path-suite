@@ -54,7 +54,10 @@
         var b = el('button');
         b.type = 'button';
         if (st.exam && st.exam.id === e.id) b.className = 'is-active';
-        b.append(el('b', null, e.title), el('small', null, e.questions + ' questions'));
+        b.append(
+          el('b', null, e.title),
+          el('small', null, e.questions + ' questions · ' + (e.points || e.questions) + ' points · ' + (e.mode === 'mixed' ? 'Mixed' : 'MCQ only'))
+        );
         b.addEventListener('click', function () { openExam(e.id); });
         li.appendChild(b);
         ul.appendChild(li);
@@ -74,19 +77,29 @@
     var lv = LIB[0];
     return { type: 'maze', id: X.newId('m'), title: 'Maze 1', intro: 'Study the maze, then answer the questions.', maze: { name: 'Maze 1', map: lv.map.slice(), dir: lv.dir, from: 'library:' + lv.id }, questions: [] };
   }
+  function blankOpen() {
+    return { type: 'open', id: X.newId('o'), text: '', points: 5, modelAnswer: '', markingNotes: '' };
+  }
 
   function newExam() {
     if (!confirmLeave()) return;
+    $('mode-modal').hidden = false;
+  }
+
+  function createExam(mode) {
+    $('mode-modal').hidden = true;
     var q = blankQuestion(); q.type = 'question';
-    st.exam = { id: '', title: '', description: '', items: [q] };
+    st.exam = { id: '', title: '', subject: '', description: '', mode: mode, items: [q] };
     st.dirty = false;
     openEditor();
-    setMsg('New exam, not saved yet', '');
+    setMsg('New ' + (mode === 'mixed' ? 'mixed' : 'MCQ-only') + ' exam, not saved yet', '');
   }
 
   function openExam(id) {
     if (!confirmLeave()) return;
     api('../api/exams/' + encodeURIComponent(id)).then(function (e) {
+      e.mode = e.mode === 'mixed' || e.items.some(function (it) { return it.type === 'open'; }) ? 'mixed' : 'mcq';
+      e.subject = e.subject || '';
       e.items.forEach(function (it) { if (it.type === 'maze') it.maze.from = it.maze.from || 'custom'; });
       st.exam = e;
       st.dirty = false;
@@ -102,7 +115,10 @@
     $('editor').hidden = false;
     $('savebar').hidden = false;
     $('ex-title').value = st.exam.title;
+    $('ex-subject').value = st.exam.subject || '';
     $('ex-desc').value = st.exam.description || '';
+    $('ex-mode-label').textContent = st.exam.mode === 'mixed' ? 'Mixed exam' : 'MCQ only';
+    $('add-open').hidden = st.exam.mode !== 'mixed';
     renderItems();
     window.scrollTo(0, 0);
   }
@@ -114,7 +130,7 @@
     var n = 0;
     var items = st.exam.items;
     items.forEach(function (it, i) {
-      var card = el('div', 'card item' + (it.type === 'maze' ? ' maze-card' : ''));
+      var card = el('div', 'card item' + (it.type === 'maze' ? ' maze-card' : '') + (it.type === 'open' ? ' open-card' : ''));
       var head = el('div', 'item-head');
       var tools = el('div', 'tools');
       addTools(tools, items, i, function () { return clone(it); });
@@ -124,6 +140,14 @@
         head.appendChild(tools);
         card.appendChild(head);
         card.appendChild(questionEditor(it, null));
+      } else if (it.type === 'open') {
+        n++;
+        var title = el('h3', null, 'Question ' + n + ' · Open-ended');
+        title.appendChild(el('span', 'tag', it.points + ' point' + (Number(it.points) === 1 ? '' : 's')));
+        head.appendChild(title);
+        head.appendChild(tools);
+        card.appendChild(head);
+        card.appendChild(openQuestionEditor(it));
       } else {
         head.appendChild(el('h3', null, 'Maze block: ' + (it.title || 'untitled')));
         head.appendChild(tools);
@@ -210,6 +234,51 @@
     box.appendChild(rows);
     box.appendChild(add);
     renderOptions();
+    return box;
+  }
+
+  /* One open-ended question. The teacher chooses its maximum points. */
+  function openQuestionEditor(q) {
+    var box = el('div', 'q-edit');
+    var f = el('div', 'field');
+    f.appendChild(el('label', null, 'Question'));
+    var ta = el('textarea');
+    ta.rows = 3; ta.maxLength = 1000; ta.value = q.text || '';
+    ta.placeholder = 'Type the open-ended question here';
+    ta.addEventListener('input', function () { q.text = ta.value; setDirty(true); });
+    f.appendChild(ta);
+    box.appendChild(f);
+
+    var grid = el('div', 'grid-2');
+    var pf = el('div', 'field');
+    pf.appendChild(el('label', null, 'Maximum points'));
+    var pts = el('input'); pts.type = 'number'; pts.min = '1'; pts.max = '100'; pts.step = '1'; pts.value = q.points;
+    pts.addEventListener('input', function () {
+      q.points = pts.value === '' ? 0 : Number(pts.value);
+      setDirty(true);
+    });
+    pf.appendChild(pts);
+    pf.appendChild(el('p', 'hint', 'Multiple-choice questions are always worth 1 point.'));
+    grid.appendChild(pf);
+    box.appendChild(grid);
+
+    var mf = el('div', 'field');
+    mf.appendChild(el('label', null, 'Expected answer / marking notes (optional, teacher only)'));
+    var model = el('textarea'); model.rows = 3; model.maxLength = 4000; model.value = q.modelAnswer || '';
+    model.placeholder = 'What a full-mark answer should include. Shown only on the marking page.';
+    model.addEventListener('input', function () { q.modelAnswer = model.value; setDirty(true); });
+    mf.appendChild(model);
+    box.appendChild(mf);
+
+    var nf = el('div', 'field');
+    nf.appendChild(el('label', null, 'Private marking notes (optional)'));
+    var notes = el('textarea'); notes.rows = 2; notes.maxLength = 4000; notes.value = q.markingNotes || '';
+    notes.placeholder = 'Reminders for yourself while marking.';
+    notes.addEventListener('input', function () { q.markingNotes = notes.value; setDirty(true); });
+    nf.appendChild(notes);
+    box.appendChild(nf);
+
+    box.appendChild(el('p', 'hint', 'Students will see a text box. You will mark the answer manually on the Mark exams page.'));
     return box;
   }
 
@@ -306,11 +375,20 @@
   function cleaned() {
     var e = clone(st.exam);
     e.title = e.title.trim();
+    e.subject = (e.subject || '').trim();
+    e.mode = e.mode === 'mixed' ? 'mixed' : 'mcq';
     e.items.forEach(function (it) {
       delete it._stale;
       if (it.type === 'maze') {
         it.maze.name = it.title;
         it.questions.forEach(tidy);
+      } else if (it.type === 'open') {
+        it.text = String(it.text || '').trim();
+        it.points = Number(it.points);
+        it.modelAnswer = (it.modelAnswer || '').trim();
+        it.markingNotes = (it.markingNotes || '').trim();
+        if (!it.modelAnswer) delete it.modelAnswer;
+        if (!it.markingNotes) delete it.markingNotes;
       } else tidy(it);
     });
     function tidy(q) {
@@ -337,7 +415,7 @@
       .then(function (r) {
         st.exam.id = r.id;
         st.dirty = false;
-        setMsg('Saved ✓ (' + r.questions + ' questions)', 'ok');
+        setMsg('Saved ✓ (' + r.questions + ' questions, ' + r.points + ' points)', 'ok');
         toast('Exam saved.', 'ok');
         return refreshList();
       })
@@ -365,6 +443,9 @@
         var taken = st.list.map(function (x) { return x.id; });
         if (!e.id || taken.indexOf(e.id) >= 0) e.id = '';
         e.description = e.description || '';
+        e.subject = e.subject || '';
+        if (e.items.some(function (it) { return it.type === 'open'; })) e.mode = 'mixed';
+        else e.mode = e.mode === 'mixed' ? 'mixed' : 'mcq';
         st.exam = e;
         openEditor();
         setDirty(true);
@@ -419,9 +500,14 @@
   $('btn-export').addEventListener('click', exportFile);
   $('file-import').addEventListener('change', function (e) { if (e.target.files[0]) importFile(e.target.files[0]); e.target.value = ''; });
   $('ex-title').addEventListener('input', function (e) { st.exam.title = e.target.value; setDirty(true); });
+  $('ex-subject').addEventListener('input', function (e) { st.exam.subject = e.target.value; setDirty(true); });
   $('ex-desc').addEventListener('input', function (e) { st.exam.description = e.target.value; setDirty(true); });
   $('add-q').addEventListener('click', function () { var q = blankQuestion(); q.type = 'question'; st.exam.items.push(q); setDirty(true); renderItems(); });
+  $('add-open').addEventListener('click', function () { st.exam.items.push(blankOpen()); setDirty(true); renderItems(); });
   $('add-maze').addEventListener('click', function () { st.exam.items.push(blankMaze()); setDirty(true); renderItems(); });
+  $('mode-mcq').addEventListener('click', function () { createExam('mcq'); });
+  $('mode-mixed').addEventListener('click', function () { createExam('mixed'); });
+  $('mode-cancel').addEventListener('click', function () { $('mode-modal').hidden = true; });
   $('add-bank').addEventListener('click', openBank);
   $('bank-level').addEventListener('change', renderBank);
   $('bank-search').addEventListener('input', renderBank);

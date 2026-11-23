@@ -29,8 +29,10 @@ API (JSON):
     GET    /api/login-status                  is this browser logged in as teacher?
     POST   /api/exams                         create / replace an exam (teacher only)
     DELETE /api/exams/<id>                    (teacher only)
-    POST   /api/submit                        a student's answers: graded here and saved
-    GET    /api/results[?exam=<id>]           saved results (teacher only)
+    POST   /api/submit                        a student's answers: MCQ graded, open answers saved
+    GET    /api/results[?exam=<id>]           saved results with automatic/manual marks (teacher only)
+    GET    /api/results/<id>                  one result and its marked sidecar (teacher only)
+    POST   /api/results/<id>/mark             save open-ended marks and comments (teacher only)
     POST   /api/results/import                merge result files copied from other computers (teacher only)
     DELETE /api/results/<id>                  (teacher only)
     GET    /api/results.csv                   all results as CSV (teacher only)
@@ -62,8 +64,13 @@ RESULTS_DIR = BASE_DIR / "results"
 CSV_FIELDS = [
     "finished_at", "exam_id", "exam_title", "student", "grade", "score", "total",
     "percent", "duration_sec", "wrong_questions", "unanswered_questions", "wrong_details",
+    "subject", "mode", "status", "auto_score", "open_score", "symbol", "marked_at",
 ]
 MAX_BODY = 8_000_000
+MAX_RESPONSE = 10_000
+DEFAULT_SUBJECT = "General"
+MODES = ("mcq", "mixed")
+DISPLAY_ONLY_FIELDS = ("marked", "markedAt", "finalScore", "finalPercent", "finalStatus")
 LOCK = threading.Lock()
 
 # --- teacher access -------------------------------------------------------
@@ -72,7 +79,7 @@ TEACHER_PASSWORD = DEFAULT_PASSWORD   # set in main()
 TEACHER_COOKIE = "ep_teacher"
 TEACHER_TOKENS = {}                   # token -> expiry (unix time), memory only
 TEACHER_TTL = 8 * 3600                # 8 hours
-TEACHER_PAGES = ("/exam/builder.html", "/exam/results.html")
+TEACHER_PAGES = ("/exam/builder.html", "/exam/results.html", "/exam/marking.html", "/exam/report.html")
 
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,79}$")
 REVEAL = ("score", "wrong", "all")
@@ -163,6 +170,28 @@ def validate_question(q, where, seen_ids):
     return None
 
 
+def validate_open(q, where, seen_ids):
+    if not isinstance(q, dict):
+        return "{}: must be an object.".format(where)
+    qid = q.get("id")
+    if not isinstance(qid, str) or not re.match(r"^[A-Za-z0-9_-]{1,40}$", qid):
+        return "{}: needs an id (letters, digits, - or _).".format(where)
+    if qid in seen_ids:
+        return "{}: duplicate id {}.".format(where, qid)
+    seen_ids.add(qid)
+    text = clean_text(q.get("text"), 1000)
+    if not text:
+        return "{}: question text is empty or too long.".format(where)
+    points = q.get("points")
+    if not isinstance(points, int) or isinstance(points, bool) or not 1 <= points <= 100:
+        return "{}: points must be a whole number from 1 to 100.".format(where)
+    for key, limit in (("modelAnswer", 4000), ("markingNotes", 4000)):
+        value = q.get(key)
+        if value is not None and (not isinstance(value, str) or len(value) > limit):
+            return "{}: {} is too long.".format(where, key)
+    return None
+
+
 def validate_maze(m, where):
     if not isinstance(m, dict):
         return "{}: maze missing.".format(where)
@@ -192,6 +221,12 @@ def validate_exam(exam):
         return "The exam needs a title (up to 120 characters)."
     if not isinstance(exam.get("description", ""), str) or len(exam.get("description", "")) > 2000:
         return "The description is too long."
+    mode = exam.get("mode", "mcq")
+    if mode not in MODES:
+        return "The exam type must be 'mcq' or 'mixed'."
+    subject = exam.get("subject", "")
+    if not isinstance(subject, str) or len(subject) > 80:
+        return "The subject is too long."
     if exam.get("reveal", "wrong") not in REVEAL:
         return "reveal must be one of {}.".format(", ".join(REVEAL))
     items = exam.get("items")
@@ -205,6 +240,13 @@ def validate_exam(exam):
             return "{}: must be an object.".format(where)
         if item.get("type") == "question":
             err = validate_question(item, where, seen_ids)
+            if err:
+                return err
+            count += 1
+        elif item.get("type") == "open":
+            if mode != "mixed":
+                return "{}: open-ended questions are only allowed in a mixed exam.".format(where)
+            err = validate_open(item, where, seen_ids)
             if err:
                 return err
             count += 1
@@ -229,25 +271,35 @@ def validate_exam(exam):
                     return err
                 count += 1
         else:
-            return "{}: type must be 'question' or 'maze'.".format(where)
+            return "{}: type must be 'question', 'open' or 'maze'.".format(where)
     if count < 1:
         return "The exam has no questions."
     return None
 
 
-def flat_questions(exam):
-    """Questions in teacher order with their number (1-based) and maze title."""
+def flat_items(exam):
+    """Questions in teacher order with their number, type and maze title."""
     out = []
     n = 0
     for item in exam["items"]:
         if item["type"] == "question":
             n += 1
-            out.append((n, item, None))
+            out.append({"n": n, "item": item, "maze": None, "type": "mcq"})
+        elif item["type"] == "open":
+            n += 1
+            out.append({"n": n, "item": item, "maze": None, "type": "open"})
         else:
             for q in item["questions"]:
                 n += 1
-                out.append((n, q, item.get("title") or "Maze"))
+                out.append({"n": n, "item": q, "maze": item.get("title") or "Maze", "type": "mcq"})
     return out
+
+
+def exam_points(exam):
+    total = 0
+    for entry in flat_items(exam):
+        total += entry["item"]["points"] if entry["type"] == "open" else 1
+    return total
 
 
 def student_view(exam):
@@ -260,13 +312,21 @@ def student_view(exam):
             d = strip_q(item)
             d["type"] = "question"
             items.append(d)
+        elif item["type"] == "open":
+            items.append({
+                "type": "open", "id": item["id"], "text": item["text"],
+                "points": item["points"],
+            })
         else:
             items.append({
                 "type": "maze", "id": item["id"], "title": item.get("title", ""),
                 "intro": item.get("intro", ""), "maze": item["maze"],
                 "questions": [strip_q(q) for q in item["questions"]],
             })
-    return {"id": exam["id"], "title": exam["title"], "description": exam.get("description", ""), "items": items}
+    return {
+        "id": exam["id"], "title": exam["title"], "description": exam.get("description", ""),
+        "subject": exam.get("subject", ""), "mode": exam.get("mode", "mcq"), "items": items,
+    }
 
 
 # --------------------------------------------------------------------- results
@@ -280,8 +340,62 @@ def now_iso():
     return dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
+def symbol_for(percent):
+    if percent is None or percent == "":
+        return ""
+    p = float(percent)
+    if p >= 96:
+        return "A+"
+    if p >= 90:
+        return "A"
+    if p >= 86:
+        return "B+"
+    if p >= 80:
+        return "B"
+    if p >= 76:
+        return "C+"
+    if p >= 70:
+        return "C"
+    if p >= 66:
+        return "D+"
+    if p >= 60:
+        return "D"
+    if p >= 56:
+        return "E+"
+    if p >= 50:
+        return "E"
+    return "F"
+
+
+def clean_response(value):
+    if not isinstance(value, str):
+        return ""
+    value = value.strip()
+    return value if len(value) <= MAX_RESPONSE else ""
+
+
+def normalise_result(r):
+    """Fill fields that older result files did not have yet."""
+    answers = r.get("answers") if isinstance(r.get("answers"), list) else []
+    has_open = any(isinstance(a, dict) and a.get("type") == "open" for a in answers)
+    if r.get("status") not in ("pending", "auto-marked", "marked"):
+        r["status"] = "pending" if has_open else "auto-marked"
+    r["mode"] = r.get("mode") or "mcq"
+    r["subject"] = r.get("subject") or DEFAULT_SUBJECT
+    if not isinstance(r.get("autoScore"), (int, float)):
+        r["autoScore"] = sum(
+            1 for a in answers
+            if isinstance(a, dict) and a.get("type", "mcq") == "mcq" and a.get("isCorrect")
+        ) if has_open else r.get("score", 0)
+    if not isinstance(r.get("openCount"), int):
+        r["openCount"] = sum(1 for a in answers if isinstance(a, dict) and a.get("type") == "open")
+    if not r.get("symbol") and r.get("percent") is not None:
+        r["symbol"] = symbol_for(r.get("percent"))
+    return r
+
+
 def grade_submission(exam, sub):
-    """Return (result dict, error)."""
+    """Return (result dict, error). MCQ answers are graded here; open answers stay pending."""
     if not isinstance(sub, dict):
         return None, "Invalid submission."
     name = clean_text(sub.get("student"), 80)
@@ -297,58 +411,129 @@ def grade_submission(exam, sub):
     for a in answers:
         if isinstance(a, dict) and isinstance(a.get("qid"), str):
             by_id[a["qid"]] = a
-    details, score, total = [], 0, 0
-    for n, q, maze_title in flat_questions(exam):
-        total += 1
+
+    details = []
+    total = 0
+    auto_score = 0
+    open_count = 0
+    for entry in flat_items(exam):
+        n, q, maze_title, kind = entry["n"], entry["item"], entry["maze"], entry["type"]
         a = by_id.get(q["id"], {})
+        position = a.get("position") if isinstance(a.get("position"), int) else None
+        if kind == "open":
+            raw = a.get("response")
+            if isinstance(raw, str) and len(raw.strip()) > MAX_RESPONSE:
+                return None, "An open-ended answer is too long."
+            points = q["points"]
+            total += points
+            open_count += 1
+            details.append({
+                "n": n, "qid": q["id"], "type": "open", "position": position,
+                "text": q["text"], "maze": None, "points": points, "maxPoints": points,
+                "options": [], "shownOrder": [],
+                "chosen": None, "chosenText": None, "correct": None, "correctText": None,
+                "isCorrect": None, "awarded": None, "comment": "",
+                "response": clean_response(raw),
+                "modelAnswer": q.get("modelAnswer", ""), "markingNotes": q.get("markingNotes", ""),
+            })
+            continue
+
+        total += 1
         chosen = a.get("chosen")
         if not (isinstance(chosen, int) and not isinstance(chosen, bool) and 0 <= chosen < len(q["options"])):
             chosen = None
         order = a.get("order")
         if not (isinstance(order, list) and sorted(order) == list(range(len(q["options"])))):
             order = list(range(len(q["options"])))
-        position = a.get("position") if isinstance(a.get("position"), int) else None
         ok = chosen is not None and chosen == q["correct"]
-        score += 1 if ok else 0
+        auto_score += 1 if ok else 0
         details.append({
-            "n": n, "qid": q["id"], "position": position, "text": q["text"], "maze": maze_title,
+            "n": n, "qid": q["id"], "type": "mcq", "position": position,
+            "text": q["text"], "maze": maze_title, "points": 1, "maxPoints": 1,
             "options": q["options"], "shownOrder": order,
             "chosen": chosen, "chosenText": q["options"][chosen] if chosen is not None else None,
-            "correct": q["correct"], "correctText": q["options"][q["correct"]], "isCorrect": ok,
+            "correct": q["correct"], "correctText": q["options"][q["correct"]],
+            "isCorrect": ok, "awarded": 1 if ok else 0, "comment": "",
         })
+
     started = clean_text(sub.get("startedAt"), 40) or ""
     duration = sub.get("durationSec")
     duration = duration if isinstance(duration, int) and 0 <= duration < 10 ** 6 else None
     finished = now_iso()
     rid = "{}-{}-{}".format(dt.datetime.now().strftime("%Y%m%d-%H%M%S"), slug(name, "student", 20), secrets.token_hex(2))
+    pending = open_count > 0
+    percent = None if pending else (round(100.0 * auto_score / total, 1) if total else 0.0)
     return {
-        "id": rid, "examId": exam["id"], "examTitle": exam["title"], "student": name, "grade": grade,
+        "id": rid, "examId": exam["id"], "examTitle": exam["title"],
+        "subject": exam.get("subject", "") or DEFAULT_SUBJECT, "mode": exam.get("mode", "mcq"),
+        "student": name, "grade": grade,
         "startedAt": started, "finishedAt": finished, "durationSec": duration,
-        "score": score, "total": total, "percent": round(100.0 * score / total, 1) if total else 0.0,
+        "status": "pending" if pending else "auto-marked", "openCount": open_count,
+        "autoScore": auto_score, "openScore": None if pending else 0,
+        "score": auto_score, "total": total, "percent": percent,
+        "symbol": "" if pending else symbol_for(percent),
         "answers": details,
     }, None
 
 
 def csv_row(r):
-    wrong = [a for a in r["answers"] if a["chosen"] is not None and not a["isCorrect"]]
-    skipped = [a for a in r["answers"] if a["chosen"] is None]
+    mcq = [a for a in r["answers"] if a.get("type", "mcq") == "mcq"]
+    wrong = [a for a in mcq if a.get("chosen") is not None and not a.get("isCorrect")]
+    skipped = [a for a in mcq if a.get("chosen") is None]
     details = " | ".join(
         "Q{}: chose '{}' (correct: '{}')".format(a["n"], a["chosenText"], a["correctText"]) for a in wrong
     )
+    marked = bool(r.get("marked"))
+    score = r.get("finalScore") if marked else r.get("score")
+    percent = r.get("finalPercent") if marked else r.get("percent")
+    symbol = r.get("symbol") if (marked or r.get("status") == "auto-marked") else ""
+    open_score = r.get("openScore") if marked else ""
     return {
         "finished_at": r["finishedAt"], "exam_id": r["examId"], "exam_title": r["examTitle"],
-        "student": r["student"], "grade": r["grade"], "score": r["score"], "total": r["total"],
-        "percent": r["percent"], "duration_sec": r.get("durationSec", ""),
+        "student": r["student"], "grade": r["grade"], "score": score, "total": r["total"],
+        "percent": "" if percent is None else percent, "duration_sec": r.get("durationSec", ""),
         "wrong_questions": "; ".join("Q{}".format(a["n"]) for a in wrong),
         "unanswered_questions": "; ".join("Q{}".format(a["n"]) for a in skipped),
         "wrong_details": details,
+        "subject": r.get("subject", ""), "mode": r.get("mode", "mcq"),
+        "status": r.get("finalStatus") or ("marked" if marked else r.get("status", "")),
+        "auto_score": r.get("autoScore", ""), "open_score": open_score,
+        "symbol": symbol, "marked_at": r.get("markedAt", "") if marked else "",
     }
 
 
 def result_files():
     if not RESULTS_DIR.exists():
         return []
-    return sorted(RESULTS_DIR.glob("*/*.json"))
+    return sorted(
+        p for p in RESULTS_DIR.glob("*/*.json")
+        if not p.name.endswith(".marked.json")
+    )
+
+
+def marked_path(result_path):
+    return result_path.with_name(result_path.stem + ".marked.json")
+
+
+def read_marked(result_path):
+    try:
+        return json.loads(marked_path(result_path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def find_result(result_id):
+    """Return (result, path) for an original submission."""
+    if not isinstance(result_id, str) or not re.match(r"^[A-Za-z0-9_-]{3,80}$", result_id):
+        return None, None
+    for p in result_files():
+        if p.stem != result_id:
+            continue
+        try:
+            return json.loads(p.read_text(encoding="utf-8")), p
+        except (OSError, json.JSONDecodeError):
+            return None, None
+    return None, None
 
 
 def load_results(exam_id=None):
@@ -357,9 +542,26 @@ def load_results(exam_id=None):
         if exam_id and p.parent.name != exam_id:
             continue
         try:
-            out.append(json.loads(p.read_text(encoding="utf-8")))
+            r = normalise_result(json.loads(p.read_text(encoding="utf-8")))
         except (OSError, json.JSONDecodeError):
             continue
+        marked = read_marked(p)
+        r["marked"] = marked is not None
+        if marked:
+            r["markedAt"] = marked.get("markedAt", "")
+            r["finalScore"] = marked.get("score")
+            r["finalPercent"] = marked.get("percent")
+            r["symbol"] = marked.get("symbol", "")
+            r["openScore"] = marked.get("openScore", 0)
+            r["finalStatus"] = "auto-marked" if r.get("status") == "auto-marked" else "marked"
+        else:
+            r["markedAt"] = ""
+            r["finalScore"] = r.get("score") if r.get("status") == "auto-marked" else None
+            r["finalPercent"] = r.get("percent") if r.get("status") == "auto-marked" else None
+            r["symbol"] = r.get("symbol", "")
+            r["openScore"] = r.get("openScore")
+            r["finalStatus"] = r.get("status") or "unmarked"
+        out.append(r)
     out.sort(key=lambda r: r.get("finishedAt", ""), reverse=True)
     return out
 
@@ -376,14 +578,67 @@ def results_csv_text(results):
 def write_result(r):
     folder = RESULTS_DIR / r["examId"]
     folder.mkdir(parents=True, exist_ok=True)
-    (folder / (r["id"] + ".json")).write_text(json.dumps(r, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-    csv_path = RESULTS_DIR / "results.csv"
-    new = not csv_path.exists() or csv_path.stat().st_size == 0
-    with csv_path.open("a", newline="", encoding="utf-8-sig" if new else "utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=CSV_FIELDS)
-        if new:
-            w.writeheader()
-        w.writerow(csv_row(r))
+    path = folder / (r["id"] + ".json")
+    path.write_text(json.dumps(r, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    return path
+
+
+def write_marked(result_path, marked):
+    marked_path(result_path).write_text(
+        json.dumps(marked, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def build_marked(result, marks, comments, general_comment):
+    """Return (marked result, error). All totals are computed here, never trusted from the browser."""
+    if not isinstance(marks, dict):
+        return None, "Marks must be an object keyed by question id."
+    if not isinstance(comments, dict):
+        return None, "Comments must be an object keyed by question id."
+    if not isinstance(general_comment, str) or len(general_comment) > 4000:
+        return None, "The general comment is too long."
+    marked = json.loads(json.dumps(result))
+    auto_score = 0.0
+    open_score = 0.0
+    total = 0
+    for a in marked["answers"]:
+        qid = a.get("qid")
+        kind = a.get("type", "mcq")
+        max_points = a.get("maxPoints", a.get("points", 1))
+        a["type"] = kind
+        a["maxPoints"] = max_points
+        a["points"] = max_points if kind == "open" else 1
+        total += max_points
+        comment = comments.get(qid, "")
+        if not isinstance(comment, str) or len(comment) > 4000:
+            return None, "A comment is too long."
+        if kind == "open":
+            value = marks.get(qid)
+            if isinstance(value, bool) or not isinstance(value, (int, float)):
+                return None, "Mark every open-ended question."
+            value = round(float(value), 2)
+            if value < 0 or value > max_points:
+                return None, "A mark is outside the allowed range."
+            a["awarded"] = value
+            a["comment"] = comment.strip()
+            open_score += value
+        else:
+            a["awarded"] = 1 if a.get("isCorrect") else 0
+            a["comment"] = comment.strip()
+            auto_score += a["awarded"]
+    score = round(auto_score + open_score, 2)
+    percent = round(100.0 * score / total, 1) if total else 0.0
+    marked.update({
+        "status": "marked",
+        "markedAt": now_iso(),
+        "autoScore": round(auto_score, 2),
+        "openScore": round(open_score, 2),
+        "score": score,
+        "total": total,
+        "percent": percent,
+        "symbol": symbol_for(percent),
+        "generalComment": general_comment.strip(),
+    })
+    return marked, None
 
 
 def valid_imported_result(r):
@@ -397,12 +652,22 @@ def valid_imported_result(r):
         return False
     if not isinstance(r.get("grade"), int) or not 3 <= r["grade"] <= 12:
         return False
-    if not all(isinstance(r.get(k), (int, float)) for k in ("score", "total", "percent")):
+    if not all(isinstance(r.get(k), (int, float)) for k in ("score", "total")):
+        return False
+    if r.get("percent") is not None and not isinstance(r.get("percent"), (int, float)):
+        return False
+    if r.get("status") == "marked":
         return False
     if not isinstance(r.get("answers"), list):
         return False
     for a in r["answers"]:
-        if not isinstance(a, dict) or not all(k in a for k in ("n", "text", "isCorrect", "correctText", "chosen", "chosenText")):
+        if not isinstance(a, dict):
+            return False
+        kind = a.get("type", "mcq")
+        if kind == "open":
+            if not all(k in a for k in ("n", "text", "points", "response")):
+                return False
+        elif not all(k in a for k in ("n", "text", "isCorrect", "correctText", "chosen", "chosenText")):
             return False
     for k in ("examTitle", "finishedAt"):
         if not isinstance(r.get(k), str):
@@ -435,7 +700,9 @@ def list_exams():
                 continue
             out.append({
                 "id": e["id"], "title": e["title"], "description": e.get("description", ""),
-                "questions": len(flat_questions(e)), "updated": e.get("updated", ""),
+                "subject": e.get("subject", "") or DEFAULT_SUBJECT, "mode": e.get("mode", "mcq"),
+                "questions": len(flat_items(e)), "points": exam_points(e),
+                "updated": e.get("updated", ""),
             })
     out.sort(key=lambda e: e["updated"], reverse=True)
     return out
@@ -515,8 +782,9 @@ class Handler(SimpleHTTPRequestHandler):
         if any(low.startswith(p) for p in BLOCKED_PREFIXES) or ".." in path:
             return self.send_error(404, "Not found")
         if path in TEACHER_PAGES and not self.is_teacher():
+            target = path + (("?" + parsed.query) if parsed.query else "")
             self.send_response(302)
-            self.send_header("Location", "/exam/login.html?next=" + quote(path, safe=""))
+            self.send_header("Location", "/exam/login.html?next=" + quote(target, safe=""))
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
@@ -539,6 +807,9 @@ class Handler(SimpleHTTPRequestHandler):
             return self.api_submit()
         if path == "/api/results/import":
             return self.api_import()
+        m = re.match(r"^/api/results/([A-Za-z0-9_-]+)/mark$", path)
+        if m:
+            return self.api_mark(m.group(1))
         self.send_json(404, {"error": "Not found"})
 
     def do_DELETE(self):
@@ -559,6 +830,10 @@ class Handler(SimpleHTTPRequestHandler):
                 for p in result_files():
                     if p.stem == m.group(1):
                         p.unlink()
+                        try:
+                            marked_path(p).unlink()
+                        except OSError:
+                            pass
                         self.rewrite_csv()
                         return self.send_json(200, {"ok": True})
             return self.send_json(404, {"error": "Result not found."})
@@ -614,6 +889,20 @@ class Handler(SimpleHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
             return None
+        m = re.match(r"^/api/results/([A-Za-z0-9_-]+)$", path)
+        if m:
+            if not self.is_teacher():
+                return self.deny_teacher()
+            result, result_path = find_result(m.group(1))
+            if not result:
+                return self.send_json(404, {"error": "Result not found."})
+            result = normalise_result(result)
+            marked = read_marked(result_path)
+            return self.send_json(200, {
+                "result": result,
+                "marked": marked,
+                "markedAvailable": marked is not None,
+            })
         self.send_json(404, {"error": "Not found"})
 
     def api_save_exam(self):
@@ -629,8 +918,13 @@ class Handler(SimpleHTTPRequestHandler):
             exam["created"] = (old or {}).get("created") or now_iso()
             exam["updated"] = now_iso()
             exam.setdefault("reveal", "wrong")
+            exam.setdefault("mode", "mcq")
+            exam.setdefault("subject", "")
             exam_path(exam["id"]).write_text(json.dumps(exam, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        self.send_json(200, {"ok": True, "id": exam["id"], "questions": len(flat_questions(exam))})
+        self.send_json(200, {
+            "ok": True, "id": exam["id"], "questions": len(flat_items(exam)),
+            "points": exam_points(exam),
+        })
 
     def api_submit(self):
         sub = self.read_json()
@@ -644,9 +938,14 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json(400, {"error": err})
         try:
             with LOCK:
-                write_result(result)
-        except OSError as error:
-            return self.send_json(500, {"error": "Could not save the result: {}".format(error)})
+                path = write_result(result)
+                if result.get("status") == "auto-marked":
+                    marked, mark_err = build_marked(result, {}, {}, "")
+                    if not mark_err:
+                        write_marked(path, marked)
+                self.rewrite_csv()
+        except OSError:
+            return self.send_json(500, {"error": "Could not save the result."})
         # Students never see their score: it is stored for the teacher's results page only.
         self.send_json(200, {"ok": True})
 
@@ -666,10 +965,40 @@ class Handler(SimpleHTTPRequestHandler):
                 elif r["id"] in have:
                     skipped += 1
                 else:
-                    write_result(r)
+                    clean = {k: v for k, v in r.items() if k not in DISPLAY_ONLY_FIELDS}
+                    path = write_result(clean)
+                    if clean.get("status") == "auto-marked":
+                        marked, mark_err = build_marked(clean, {}, {}, "")
+                        if not mark_err:
+                            write_marked(path, marked)
                     have.add(r["id"])
                     added += 1
+            if added:
+                self.rewrite_csv()
         self.send_json(200, {"ok": True, "added": added, "skipped": skipped, "invalid": invalid})
+
+    def api_mark(self, result_id):
+        payload = self.read_json()
+        if payload is None:
+            return
+        result, path = find_result(result_id)
+        if not result:
+            return self.send_json(404, {"error": "Result not found."})
+        marked, err = build_marked(
+            result,
+            payload.get("marks", {}) if isinstance(payload, dict) else {},
+            payload.get("comments", {}) if isinstance(payload, dict) else {},
+            payload.get("generalComment", "") if isinstance(payload, dict) else "",
+        )
+        if err:
+            return self.send_json(400, {"error": err})
+        try:
+            with LOCK:
+                write_marked(path, marked)
+                self.rewrite_csv()
+        except OSError:
+            return self.send_json(500, {"error": "Could not save the marks."})
+        self.send_json(200, {"ok": True, "marked": marked})
 
     def rewrite_csv(self):
         (RESULTS_DIR / "results.csv").write_text(
@@ -720,7 +1049,7 @@ def main():
     print("EnigmaPath server")
     print("  Home:      " + url)
     print("  Exam:      " + url + "exam/index.html")
-    print("  Teacher:   " + url + "exam/login.html  ->  builder.html / results.html")
+    print("  Teacher:   " + url + "exam/login.html  ->  builder.html / marking.html / results.html")
     print("  Results:   " + str(RESULTS_DIR))
     print("Press Ctrl+C to stop.")
     if not args.no_browser:

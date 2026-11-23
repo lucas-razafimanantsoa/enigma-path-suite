@@ -41,12 +41,30 @@
     var blocks = shuffle(exam.items, rand);
     var pages = [];
     blocks.forEach(function (item) {
+      if (item.type === 'open') {
+        pages.push({
+          qid: item.id,
+          type: 'open',
+          text: item.text,
+          points: item.points,
+          options: [],
+          order: [],
+          maze: null,
+          mazeTitle: null,
+          intro: null,
+          blockId: item.id,
+          firstInBlock: true
+        });
+        return;
+      }
       var qs = item.type === 'maze' ? item.questions : [item];
       qs.forEach(function (q, i) {
         var order = shuffle(q.options.map(function (_, k) { return k; }), rand);
         pages.push({
           qid: q.id,
+          type: 'mcq',
           text: q.text,
+          points: 1,
           options: order.map(function (k) { return q.options[k]; }),
           order: order,
           maze: item.type === 'maze' ? item.maze : null,
@@ -181,8 +199,30 @@
     return null;
   }
 
+  function validateOpen(q, where) {
+    if (!q || typeof q !== 'object') return where + ': invalid open-ended question.';
+    if (!String(q.text || '').trim()) return where + ': the question text is empty.';
+    if (!(Number.isInteger(q.points) && q.points >= 1 && q.points <= 100)) {
+      return where + ': points must be a whole number from 1 to 100.';
+    }
+    var optional = { modelAnswer: 4000, markingNotes: 4000 };
+    for (var key in optional) {
+      if (q[key] !== undefined && q[key] !== null) {
+        if (typeof q[key] !== 'string' || q[key].length > optional[key]) {
+          return where + ': ' + key + ' is too long.';
+        }
+      }
+    }
+    return null;
+  }
+
   function validateExam(exam) {
     if (!String(exam.title || '').trim()) return 'Give the exam a title.';
+    var mode = exam.mode || 'mcq';
+    if (mode !== 'mcq' && mode !== 'mixed') return 'Choose MCQ only or mixed for the exam type.';
+    if (exam.subject !== undefined && (typeof exam.subject !== 'string' || exam.subject.length > 80)) {
+      return 'The subject is too long.';
+    }
     if (!exam.items || !exam.items.length) return 'Add at least one question.';
     var n = 0;
     for (var i = 0; i < exam.items.length; i++) {
@@ -191,6 +231,11 @@
         n++;
         var e = validateQuestion(it, 'Question ' + n);
         if (e) return e;
+      } else if (it.type === 'open') {
+        if (mode !== 'mixed') return 'Open-ended questions are only allowed in a mixed exam.';
+        n++;
+        var eo = validateOpen(it, 'Question ' + n);
+        if (eo) return eo;
       } else if (it.type === 'maze') {
         var m = it.maze;
         var label = 'Maze "' + (it.title || (i + 1)) + '"';
@@ -209,12 +254,39 @@
   }
 
   function countQuestions(exam) {
-    return exam.items.reduce(function (s, it) { return s + (it.type === 'maze' ? it.questions.length : 1); }, 0);
+    return exam.items.reduce(function (s, it) {
+      return s + (it.type === 'maze' ? it.questions.length : 1);
+    }, 0);
+  }
+
+  function examPoints(exam) {
+    return exam.items.reduce(function (s, it) {
+      if (it.type === 'open') return s + (Number(it.points) || 0);
+      if (it.type === 'maze') return s + it.questions.length;
+      return s + 1;
+    }, 0);
+  }
+
+  function symbolFor(percent) {
+    if (percent === null || percent === undefined || percent === '' || isNaN(Number(percent))) return '';
+    var p = Number(percent);
+    if (p >= 96) return 'A+';
+    if (p >= 90) return 'A';
+    if (p >= 86) return 'B+';
+    if (p >= 80) return 'B';
+    if (p >= 76) return 'C+';
+    if (p >= 70) return 'C';
+    if (p >= 66) return 'D+';
+    if (p >= 60) return 'D';
+    if (p >= 56) return 'E+';
+    if (p >= 50) return 'E';
+    return 'F';
   }
 
   return {
     shuffle: shuffle, newId: newId, slugify: slugify, buildSession: buildSession,
     autoQuestion: autoQuestion, AUTO_KINDS: KINDS, numericOptions: numericOptions,
-    validateExam: validateExam, validateQuestion: validateQuestion, countQuestions: countQuestions, COMPASS: COMPASS
+    validateExam: validateExam, validateQuestion: validateQuestion, validateOpen: validateOpen,
+    countQuestions: countQuestions, examPoints: examPoints, symbolFor: symbolFor, COMPASS: COMPASS
   };
 }));

@@ -56,24 +56,43 @@
   function fmtTime(s) { return s === null || s === undefined ? '' : Math.floor(s / 60) + ' min ' + (s % 60) + ' s'; }
   function pctClass(p) { return p >= 75 ? 'pct-good' : p >= 50 ? 'pct-mid' : 'pct-bad'; }
 
+  function scoreInfo(r) {
+    var marked = r.marked === true && typeof r.finalScore === 'number';
+    var score = marked ? r.finalScore : r.score;
+    var pct = marked ? r.finalPercent : r.percent;
+    var symbol = marked ? r.symbol : (r.status === 'auto-marked' ? r.symbol : '');
+    return { marked: marked, score: score, pct: pct, symbol: symbol, pending: !marked && r.status === 'pending' };
+  }
+  function statusLabel(r) {
+    if (r.status === 'auto-marked') return 'Auto-marked';
+    if (r.marked) return 'Marked';
+    if (r.status === 'pending') return 'Pending marking';
+    return 'Unmarked';
+  }
+
   function render() {
     var rows = filtered();
     var body = $('results-body');
     body.textContent = '';
-    var avg = rows.length ? rows.reduce(function (s, r) { return s + r.percent; }, 0) / rows.length : 0;
-    var best = rows.reduce(function (m, r) { return Math.max(m, r.percent); }, 0);
+    var scored = rows.filter(function (r) { return scoreInfo(r).pct !== null && scoreInfo(r).pct !== undefined; });
+    var avg = scored.length ? scored.reduce(function (s, r) { return s + scoreInfo(r).pct; }, 0) / scored.length : 0;
+    var best = scored.reduce(function (m, r) { return Math.max(m, scoreInfo(r).pct); }, 0);
+    var pending = rows.filter(function (r) { return scoreInfo(r).pending; }).length;
     var sum = $('summary');
     sum.textContent = '';
-    [['Attempts', rows.length], ['Average', avg.toFixed(1) + '%'], ['Highest', best + '%']].forEach(function (s) {
+    [['Attempts', rows.length], ['Average', avg.toFixed(1) + '%'], ['Highest', best + '%'], ['Pending', pending]].forEach(function (s) {
       var d = el('div', 'sum'); d.append(el('b', null, String(s[1])), el('span', null, s[0])); sum.appendChild(d);
     });
     $('empty-msg').textContent = rows.length ? '' : 'No results match. Results appear here after students submit an exam.';
 
     rows.forEach(function (r) {
-      var wrong = r.answers.filter(function (a) { return a.chosen !== null && !a.isCorrect; }).map(function (a) { return 'Q' + a.n; });
-      var skipped = r.answers.filter(function (a) { return a.chosen === null; }).map(function (a) { return 'Q' + a.n; });
+      var info = scoreInfo(r);
+      var mcq = r.answers.filter(function (a) { return a.type !== 'open'; });
+      var wrong = mcq.filter(function (a) { return a.chosen !== null && !a.isCorrect; }).map(function (a) { return 'Q' + a.n; });
+      var skipped = mcq.filter(function (a) { return a.chosen === null; }).map(function (a) { return 'Q' + a.n; });
+      var openCount = r.answers.filter(function (a) { return a.type === 'open'; }).length;
       var tr = el('tr', 'row');
-      var pct = el('td', pctClass(r.percent), r.percent + '%');
+      var pct = el('td', info.pct === null || info.pct === undefined ? '' : pctClass(info.pct), info.pct === null || info.pct === undefined ? '—' : info.pct + '%');
       var actions = el('td');
       var del = el('button', 'btn btn--small btn--danger', 'Delete');
       del.type = 'button';
@@ -83,19 +102,37 @@
         api('../api/results/' + encodeURIComponent(r.id), { method: 'DELETE' }).then(load).catch(function (e) { toast(e.message, 'error'); });
       });
       actions.appendChild(del);
-      tr.append(el('td', null, r.finishedAt), el('td', null, r.student), el('td', null, String(r.grade)), el('td', null, r.examTitle),
-        el('td', null, r.score + ' / ' + r.total), pct, el('td', null, fmtTime(r.durationSec)),
-        el('td', null, wrong.join(', ') + (skipped.length ? (wrong.length ? ' · ' : '') + 'skipped: ' + skipped.join(', ') : '') || '–'), actions);
+      var scoreText = info.pending ? (info.score + ' / ' + r.total + ' auto') : (info.score + ' / ' + r.total);
+      var wrongText = wrong.join(', ') + (skipped.length ? (wrong.length ? ' · ' : '') + 'skipped: ' + skipped.join(', ') : '') || '–';
+      if (openCount && !info.marked) wrongText = 'Open-ended: pending';
+      tr.append(
+        el('td', null, r.finishedAt), el('td', null, r.student), el('td', null, String(r.grade)), el('td', null, r.examTitle),
+        el('td', null, scoreText), pct, el('td', null, info.symbol || '—'), el('td', null, statusLabel(r)),
+        el('td', null, fmtTime(r.durationSec)), el('td', null, wrongText), actions
+      );
       tr.addEventListener('click', function () { open[r.id] = !open[r.id]; render(); });
       body.appendChild(tr);
       if (open[r.id]) {
         var d = el('tr', 'detail');
-        var td = el('td'); td.colSpan = 9;
+        var td = el('td'); td.colSpan = 11;
         var list = el('div', 'detail-list');
         r.answers.slice().sort(function (a, b) { return a.n - b.n; }).forEach(function (a) {
-          var it = el('div', 'detail-item' + (a.isCorrect ? ' ok' : a.chosen === null ? ' skip' : ''));
-          it.appendChild(el('b', null, 'Q' + a.n + (a.maze ? ' (' + a.maze + ')' : '') + ': ' + a.text));
-          it.appendChild(el('small', null, (a.isCorrect ? '✓ Correct: ' : a.chosen === null ? '– Not answered. Correct: ' : '✗ Answered: ' + a.chosenText + ' · Correct: ') + a.correctText));
+          var it;
+          if (a.type === 'open') {
+            it = el('div', 'detail-item' + (a.awarded !== null && a.awarded !== undefined ? ' ok' : ' skip'));
+            it.appendChild(el('b', null, 'Q' + a.n + ' (Open-ended, ' + a.points + ' points): ' + a.text));
+            it.appendChild(el('small', null, a.response ? 'Answer: ' + a.response : 'No answer.'));
+            if (a.awarded !== null && a.awarded !== undefined) {
+              it.appendChild(el('small', null, 'Mark: ' + a.awarded + ' / ' + a.points));
+              if (a.comment) it.appendChild(el('small', null, 'Comment: ' + a.comment));
+            } else {
+              it.appendChild(el('small', null, 'Awaiting marking.'));
+            }
+          } else {
+            it = el('div', 'detail-item' + (a.isCorrect ? ' ok' : a.chosen === null ? ' skip' : ''));
+            it.appendChild(el('b', null, 'Q' + a.n + (a.maze ? ' (' + a.maze + ')' : '') + ': ' + a.text));
+            it.appendChild(el('small', null, (a.isCorrect ? '✓ Correct: ' : a.chosen === null ? '– Not answered. Correct: ' : '✗ Answered: ' + a.chosenText + ' · Correct: ') + a.correctText));
+          }
           list.appendChild(it);
         });
         td.appendChild(list); d.appendChild(td); body.appendChild(d);
@@ -111,6 +148,7 @@
     var stats = {};
     rows.forEach(function (r) {
       r.answers.forEach(function (a) {
+        if (a.type === 'open') return;
         var s = stats[a.n] || (stats[a.n] = { n: a.n, text: a.text, ok: 0, bad: 0, skip: 0 });
         if (a.chosen === null) s.skip++; else if (a.isCorrect) s.ok++; else s.bad++;
       });
@@ -145,14 +183,19 @@
 
   function exportCsv() {
     var rows = filtered().slice().sort(function (a, b) { return a.finishedAt < b.finishedAt ? -1 : 1; });
-    var head = ['finished_at', 'exam_id', 'exam_title', 'student', 'grade', 'score', 'total', 'percent', 'duration_sec', 'wrong_questions', 'unanswered_questions', 'wrong_details'];
+    var head = ['finished_at', 'exam_id', 'exam_title', 'student', 'grade', 'score', 'total', 'percent', 'duration_sec', 'wrong_questions', 'unanswered_questions', 'wrong_details', 'subject', 'mode', 'status', 'auto_score', 'open_score', 'symbol', 'marked_at'];
     var lines = [head.join(',')];
     rows.forEach(function (r) {
-      var wrong = r.answers.filter(function (a) { return a.chosen !== null && !a.isCorrect; });
-      var skipped = r.answers.filter(function (a) { return a.chosen === null; });
-      lines.push([r.finishedAt, r.examId, r.examTitle, r.student, r.grade, r.score, r.total, r.percent, r.durationSec,
+      var info = scoreInfo(r);
+      var mcq = r.answers.filter(function (a) { return a.type !== 'open'; });
+      var wrong = mcq.filter(function (a) { return a.chosen !== null && !a.isCorrect; });
+      var skipped = mcq.filter(function (a) { return a.chosen === null; });
+      lines.push([r.finishedAt, r.examId, r.examTitle, r.student, r.grade,
+        info.pending ? r.score : info.score, r.total, info.pct === null || info.pct === undefined ? '' : info.pct, r.durationSec,
         wrong.map(function (a) { return 'Q' + a.n; }).join('; '), skipped.map(function (a) { return 'Q' + a.n; }).join('; '),
-        wrong.map(function (a) { return "Q" + a.n + ": chose '" + a.chosenText + "' (correct: '" + a.correctText + "')"; }).join(' | ')].map(csvEscape).join(','));
+        wrong.map(function (a) { return "Q" + a.n + ": chose '" + a.chosenText + "' (correct: '" + a.correctText + "')"; }).join(' | '),
+        r.subject || '', r.mode || 'mcq', statusLabel(r), r.autoScore, info.marked ? r.openScore : '', info.symbol || '', r.markedAt || ''
+      ].map(csvEscape).join(','));
     });
     download('enigmapath-results.csv', '\ufeff' + lines.join('\r\n') + '\r\n', 'text/csv;charset=utf-8');
   }

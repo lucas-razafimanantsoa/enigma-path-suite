@@ -221,7 +221,7 @@
 
       if (a.modelAnswer) {
         var expected = el('p', 'open-question__notes');
-        expected.appendChild(el('b', null, 'Expected answer: '));
+        expected.appendChild(el('b', null, 'Answer key: '));
         expected.appendChild(document.createTextNode(a.modelAnswer));
         card.appendChild(expected);
       }

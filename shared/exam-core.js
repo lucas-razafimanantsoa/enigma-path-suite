@@ -205,12 +205,13 @@
     if (!(Number.isInteger(q.points) && q.points >= 1 && q.points <= 100)) {
       return where + ': points must be a whole number from 1 to 100.';
     }
-    var optional = { modelAnswer: 4000, markingNotes: 4000 };
-    for (var key in optional) {
-      if (q[key] !== undefined && q[key] !== null) {
-        if (typeof q[key] !== 'string' || q[key].length > optional[key]) {
-          return where + ': ' + key + ' is too long.';
-        }
+    if (typeof q.modelAnswer !== 'string' || !q.modelAnswer.trim()) {
+      return where + ': provide an answer key for this open-ended question.';
+    }
+    if (q.modelAnswer.length > 4000) return where + ': the answer key is too long.';
+    if (q.markingNotes !== undefined && q.markingNotes !== null) {
+      if (typeof q.markingNotes !== 'string' || q.markingNotes.length > 4000) {
+        return where + ': marking notes are too long.';
       }
     }
     return null;

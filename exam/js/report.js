@@ -102,20 +102,28 @@
     scheme.appendChild(table);
     page.appendChild(scheme);
 
-    var open = answers.filter(function (a) { return a.type === 'open'; });
-    if (open.length) {
-      var section = el('section', 'report-section');
-      section.appendChild(el('h2', null, 'Open-ended answers'));
-      open.forEach(function (a) {
-        var card = el('article', 'report-open');
-        card.appendChild(el('h3', null, 'Q' + a.n + ' · ' + fmtNum(a.awarded) + ' / ' + fmtNum(a.maxPoints || a.points) + ' points'));
-        card.appendChild(el('p', null, a.text));
-        card.appendChild(el('div', 'report-open__answer', a.response || 'No answer.'));
-        if (a.comment) card.appendChild(el('p', 'report-open__comment', 'Comment: ' + a.comment));
-        section.appendChild(card);
-      });
-      page.appendChild(section);
-    }
+    var questions = el('section', 'report-section');
+    questions.appendChild(el('h2', null, 'Questions and answers'));
+    answers.forEach(function (a) {
+      var isOpen = a.type === 'open';
+      var max = a.maxPoints || a.points || 1;
+      var card = el('article', 'report-question');
+      card.appendChild(el('h3', null, 'Q' + a.n + ' · ' + (isOpen ? 'Open-ended' : 'MCQ') +
+        ' · ' + fmtNum(a.awarded) + ' / ' + fmtNum(max) + ' points'));
+      card.appendChild(el('p', 'report-question__text', a.text));
+      var grid = el('div', 'report-answer-grid');
+      var student = el('div', 'report-answer');
+      student.appendChild(el('span', 'report-answer__label', 'Student answer'));
+      student.appendChild(el('div', 'report-answer__value', isOpen ? (a.response || 'No answer.') : (a.chosenText || 'No answer.')));
+      var key = el('div', 'report-answer');
+      key.appendChild(el('span', 'report-answer__label', isOpen ? 'Answer key' : 'Correct answer'));
+      key.appendChild(el('div', 'report-answer__value', isOpen ? (a.modelAnswer || 'No answer key recorded.') : (a.correctText || '—')));
+      grid.append(student, key);
+      card.appendChild(grid);
+      if (a.comment) card.appendChild(el('p', 'report-question__comment', 'Comment: ' + a.comment));
+      questions.appendChild(card);
+    });
+    page.appendChild(questions);
 
     if (marked.generalComment) {
       var general = el('section', 'report-section');

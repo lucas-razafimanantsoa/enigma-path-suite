@@ -51,7 +51,7 @@ async function login(page) {
   await t.click('#add-open');
   await t.type('#items .item:nth-child(2) .q-edit textarea', 'Explain why networks are useful.');
   await t.type('#items .item:nth-child(2) .q-edit input[type=number]', '5');
-  await t.type('#items .item:nth-child(2) .q-edit textarea:nth-of-type(2)', 'Devices share files and messages.');
+  await t.type('#items .item:nth-child(2) .q-edit textarea.open-answer-key', 'Devices share files and messages.');
   expect('open question card appears', (await t.ev('document.querySelectorAll("#items .open-card").length')) === 1);
   await t.click('#btn-save');
   await t.sleep(600);
@@ -60,6 +60,17 @@ async function login(page) {
   const exams = await (await teacherApi('/api/exams')).json();
   expect('server stores mixed mode and points', exams.exams.length === 1 && exams.exams[0].mode === 'mixed' && exams.exams[0].points === 6, JSON.stringify(exams));
   const examId = exams.exams[0].id;
+
+  await t.goto(BASE + '/exam/paper.html?id=' + encodeURIComponent(examId));
+  await t.sleep(600);
+  const paperText = await t.ev('document.getElementById("paper-page").textContent');
+  expect('answered exam shows every question and answer',
+    /Answered exam/.test(paperText) && /What is 2 \+ 2\?/.test(paperText) &&
+    /Correct answer/.test(paperText) && /Explain why networks are useful\./.test(paperText) &&
+    /Answer key/.test(paperText) && /Devices share files and messages\./.test(paperText), paperText.slice(0, 600));
+  expect('answered exam has both question cards', (await t.ev('document.querySelectorAll(".paper-question").length')) === 2);
+  await t.shot('/tmp/opencode/answered-exam.png', 1100, 1400);
+  expect('answered exam errors', t.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, t.logs.join('|'));
   await t.close();
 
   /* ---------------- student takes it ---------------- */
@@ -120,6 +131,10 @@ async function login(page) {
   expect('report shows the header', /Examination Result/.test(reportText) && /Mary Jackson/.test(reportText) && /ICT/.test(reportText), reportText.slice(0, 400));
   expect('report shows score, symbol and signature', /4\.5 \/ 6/.test(reportText) && /C/.test(reportText) && /Parent's signature/.test(reportText), reportText);
   expect('report shows the marking scheme', /Marking scheme/.test(reportText) && /Open-ended/.test(reportText) && /3\.5/.test(reportText), reportText);
+  expect('report shows every question with student and correct answers',
+    /Questions and answers/.test(reportText) && /What is 2 \+ 2\?/.test(reportText) &&
+    /Student answer/.test(reportText) && /Correct answer/.test(reportText) && /Answer key/.test(reportText) &&
+    /Devices share files and messages\./.test(reportText), reportText);
   expect('report shows comments', /Good explanation/.test(reportText) && /Keep practising/.test(reportText), reportText);
   const pdf = await m.send('Page.printToPDF', { printBackground: true, preferCSSPageSize: true });
   const pdfBytes = Buffer.from(pdf.result.data, 'base64');

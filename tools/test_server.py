@@ -162,11 +162,13 @@ MIXED = {
         {"type": "question", "id": "mq1", "text": "2+2?", "options": ["3", "4", "5"], "correct": 1},
         {"type": "open", "id": "op1", "text": "Explain a network.", "points": 5,
          "modelAnswer": "Devices connected to share data.", "markingNotes": "Look for devices and sharing."},
-        {"type": "open", "id": "op2", "text": "Name one protocol.", "points": 3},
+        {"type": "open", "id": "op2", "text": "Name one protocol.", "points": 3, "modelAnswer": "TCP or HTTP."},
     ],
 }
 s, r = call("POST", "/api/exams", MIXED)
 check("save mixed exam", s == 200 and r.get("questions") == 3 and r.get("points") == 9, r)
+bad = json.loads(json.dumps(MIXED)); del bad["items"][1]["modelAnswer"]
+check("open question requires an answer key", call("POST", "/api/exams", bad)[0] == 400)
 s, r = call("GET", "/api/exams/mixed-test-exam/student", as_teacher=False)
 mixed_text = json.dumps(r)
 check("student view shows mixed mode and open points",

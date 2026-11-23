@@ -79,7 +79,7 @@ TEACHER_PASSWORD = DEFAULT_PASSWORD   # set in main()
 TEACHER_COOKIE = "ep_teacher"
 TEACHER_TOKENS = {}                   # token -> expiry (unix time), memory only
 TEACHER_TTL = 8 * 3600                # 8 hours
-TEACHER_PAGES = ("/exam/builder.html", "/exam/results.html", "/exam/marking.html", "/exam/report.html")
+TEACHER_PAGES = ("/exam/builder.html", "/exam/results.html", "/exam/marking.html", "/exam/report.html", "/exam/paper.html")
 
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,79}$")
 REVEAL = ("score", "wrong", "all")
@@ -185,10 +185,14 @@ def validate_open(q, where, seen_ids):
     points = q.get("points")
     if not isinstance(points, int) or isinstance(points, bool) or not 1 <= points <= 100:
         return "{}: points must be a whole number from 1 to 100.".format(where)
-    for key, limit in (("modelAnswer", 4000), ("markingNotes", 4000)):
-        value = q.get(key)
-        if value is not None and (not isinstance(value, str) or len(value) > limit):
-            return "{}: {} is too long.".format(where, key)
+    answer_key = q.get("modelAnswer")
+    if not isinstance(answer_key, str) or not answer_key.strip():
+        return "{}: provide an answer key for this open-ended question.".format(where)
+    if len(answer_key) > 4000:
+        return "{}: the answer key is too long.".format(where)
+    notes = q.get("markingNotes")
+    if notes is not None and (not isinstance(notes, str) or len(notes) > 4000):
+        return "{}: marking notes are too long.".format(where)
     return None
 
 

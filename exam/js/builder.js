@@ -263,16 +263,16 @@
     box.appendChild(grid);
 
     var mf = el('div', 'field');
-    mf.appendChild(el('label', null, 'Expected answer / marking notes (optional, teacher only)'));
-    var model = el('textarea'); model.rows = 3; model.maxLength = 4000; model.value = q.modelAnswer || '';
-    model.placeholder = 'What a full-mark answer should include. Shown only on the marking page.';
+    mf.appendChild(el('label', null, 'Answer key (required)'));
+    var model = el('textarea', 'open-answer-key'); model.rows = 3; model.maxLength = 4000; model.value = q.modelAnswer || '';
+    model.placeholder = 'The expected answer. Required, and shown on the marking page and the printed result.';
     model.addEventListener('input', function () { q.modelAnswer = model.value; setDirty(true); });
     mf.appendChild(model);
     box.appendChild(mf);
 
     var nf = el('div', 'field');
     nf.appendChild(el('label', null, 'Private marking notes (optional)'));
-    var notes = el('textarea'); notes.rows = 2; notes.maxLength = 4000; notes.value = q.markingNotes || '';
+    var notes = el('textarea', 'open-marking-notes'); notes.rows = 2; notes.maxLength = 4000; notes.value = q.markingNotes || '';
     notes.placeholder = 'Reminders for yourself while marking.';
     notes.addEventListener('input', function () { q.markingNotes = notes.value; setDirty(true); });
     nf.appendChild(notes);
@@ -457,37 +457,81 @@
 
   /* ------------------------------------------------------- practice bank */
   var bankPicked = {};
-  function openBank() {
+  var bankTopics = Array.isArray(window.QUESTION_TOPICS) ? window.QUESTION_TOPICS : [];
+  function bankKey(topicId, n) { return topicId === 'ict' ? 'level' + n : topicId + n; }
+  function bankTopic() {
+    return bankTopics.filter(function (t) { return t.id === $('bank-topic').value; })[0] || bankTopics[0];
+  }
+  function fillBankTopics() {
+    var sel = $('bank-topic');
+    if (sel.options.length) return;
+    bankTopics.forEach(function (t) {
+      var o = el('option', null, t.name); o.value = t.id; sel.appendChild(o);
+    });
+    if (bankTopics.length) sel.value = bankTopics[0].id;
+  }
+  function fillBankLevels() {
+    var topic = bankTopic();
     var sel = $('bank-level');
-    if (!sel.options.length) {
-      for (var n = 1; n <= 10; n++) { var o = el('option', null, 'Level ' + n); o.value = String(n); sel.appendChild(o); }
-    }
+    var keep = sel.value;
+    sel.textContent = '';
+    var all = el('option', null, 'All levels'); all.value = ''; sel.appendChild(all);
+    (topic ? topic.levels : []).forEach(function (lv, i) {
+      var o = el('option', null, 'Level ' + (i + 1) + ' — ' + lv.title);
+      o.value = String(i + 1); sel.appendChild(o);
+    });
+    var values = Array.prototype.map.call(sel.options, function (o) { return o.value; });
+    sel.value = values.indexOf(keep) >= 0 ? keep : (values.indexOf('1') >= 0 ? '1' : '');
+  }
+  function openBank() {
+    fillBankTopics();
+    fillBankLevels();
     bankPicked = {};
     $('bank-modal').hidden = false;
     renderBank();
   }
-  function renderBank() {
+  function bankPool(topic, level) {
     var bank = window.QUESTION_BANK || {};
-    var list = (bank['level' + $('bank-level').value] || []);
+    var out = [];
+    var levels = level ? [Number(level)] : (topic ? topic.levels.map(function (_, i) { return i + 1; }) : []);
+    levels.forEach(function (n) {
+      (bank[bankKey(topic.id, n)] || []).forEach(function (q, i) {
+        out.push({ key: topic.id + ':' + n + ':' + i, q: q, topic: topic.name, level: n });
+      });
+    });
+    return out;
+  }
+  function renderBank() {
+    var topic = bankTopic();
+    if (!topic) { $('bank-list').textContent = 'No question topics found.'; $('bank-count').textContent = ''; return; }
+    var list = bankPool(topic, $('bank-level').value);
     var term = $('bank-search').value.trim().toLowerCase();
-    var shown = list.filter(function (q) { return !term || q.question_text.toLowerCase().indexOf(term) >= 0; }).slice(0, 150);
+    var filtered = list.filter(function (entry) { return !term || entry.q.question_text.toLowerCase().indexOf(term) >= 0; });
+    var shown = filtered.slice(0, 150);
     var box = $('bank-list');
     box.textContent = '';
-    shown.forEach(function (q) {
+    shown.forEach(function (entry) {
+      var q = entry.q;
       var lab = el('label', 'bank-item');
-      var cb = el('input'); cb.type = 'checkbox'; cb.checked = !!bankPicked[q.question_text];
-      cb.addEventListener('change', function () { if (cb.checked) bankPicked[q.question_text] = q; else delete bankPicked[q.question_text]; });
+      var cb = el('input'); cb.type = 'checkbox'; cb.checked = !!bankPicked[entry.key];
+      cb.addEventListener('change', function () {
+        if (cb.checked) bankPicked[entry.key] = entry;
+        else delete bankPicked[entry.key];
+      });
       var d = el('div');
       d.append(q.question_text);
-      d.appendChild(el('small', null, 'Answer: ' + q.options[q.correct_answer_index]));
+      d.appendChild(el('small', null, 'Answer: ' + q.options[q.correct_answer_index] +
+        ' · ' + entry.topic + ' · Level ' + entry.level));
       lab.append(cb, d);
       box.appendChild(lab);
     });
-    $('bank-count').textContent = shown.length + ' shown' + (list.length > shown.length ? ' (of ' + list.length + ', type words to narrow down)' : '');
+    $('bank-count').textContent = shown.length + ' shown' +
+      (filtered.length > shown.length ? ' (of ' + filtered.length + ', type words to narrow down)' : '');
   }
   function addFromBank() {
     var picked = Object.keys(bankPicked).map(function (k) { return bankPicked[k]; });
-    picked.forEach(function (q) {
+    picked.forEach(function (entry) {
+      var q = entry.q;
       st.exam.items.push({ type: 'question', id: X.newId('q'), text: q.question_text, options: q.options.slice(), correct: q.correct_answer_index });
     });
     $('bank-modal').hidden = true;
@@ -498,6 +542,11 @@
   $('btn-new').addEventListener('click', newExam);
   $('btn-save').addEventListener('click', save);
   $('btn-export').addEventListener('click', exportFile);
+  $('btn-print-exam').addEventListener('click', function () {
+    if (!st.exam || !st.exam.id) { setMsg('Save the exam first, then print the answered copy.', 'error'); return; }
+    if (st.dirty && !window.confirm('Print the saved version? Unsaved changes will not appear.')) return;
+    window.open('paper.html?id=' + encodeURIComponent(st.exam.id), '_blank', 'noopener');
+  });
   $('file-import').addEventListener('change', function (e) { if (e.target.files[0]) importFile(e.target.files[0]); e.target.value = ''; });
   $('ex-title').addEventListener('input', function (e) { st.exam.title = e.target.value; setDirty(true); });
   $('ex-subject').addEventListener('input', function (e) { st.exam.subject = e.target.value; setDirty(true); });
@@ -509,6 +558,7 @@
   $('mode-mixed').addEventListener('click', function () { createExam('mixed'); });
   $('mode-cancel').addEventListener('click', function () { $('mode-modal').hidden = true; });
   $('add-bank').addEventListener('click', openBank);
+  $('bank-topic').addEventListener('change', function () { fillBankLevels(); renderBank(); });
   $('bank-level').addEventListener('change', renderBank);
   $('bank-search').addEventListener('input', renderBank);
   $('bank-add').addEventListener('click', addFromBank);

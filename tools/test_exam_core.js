@@ -101,7 +101,7 @@ check('validateExam accepts a good exam and rejects bad ones', () => {
 });
 
 check('mixed exams, open questions, points and symbol', () => {
-  const open = { type: 'open', id: 'o1', text: 'Explain?', points: 5 };
+  const open = { type: 'open', id: 'o1', text: 'Explain?', points: 5, modelAnswer: 'A full-mark answer.' };
   const mcq = { type: 'question', id: 'q1', text: 'Q?', options: ['a', 'b'], correct: 0 };
   const exam = { title: 'Mixed', mode: 'mixed', subject: 'ICT', items: [mcq, open] };
   assert.strictEqual(X.validateExam(exam), null);
@@ -110,6 +110,7 @@ check('mixed exams, open questions, points and symbol', () => {
   assert.ok(/only allowed in a mixed exam/.test(X.validateExam({ ...exam, mode: 'mcq' })));
   assert.ok(/points must be a whole number/.test(X.validateExam({ ...exam, items: [mcq, { ...open, points: 0 }] })));
   assert.ok(/points must be a whole number/.test(X.validateExam({ ...exam, items: [mcq, { ...open, points: 2.5 }] })));
+  assert.ok(/provide an answer key/.test(X.validateExam({ ...exam, items: [mcq, { ...open, modelAnswer: '' }] })));
 
   const pages = X.buildSession(exam, rng(1));
   const openPage = pages.filter((p) => p.qid === 'o1')[0];

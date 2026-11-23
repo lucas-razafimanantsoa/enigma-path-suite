@@ -80,6 +80,7 @@
 
       <div class="savebar" id="savebar">
         <span id="save-msg" class="save-msg" role="status" aria-live="polite"></span>
+        <button class="btn btn--small" id="btn-print-exam" type="button">Print answered exam</button>
         <button class="btn btn--small" id="btn-export" type="button">Export file</button>
         <button class="btn btn--primary" id="btn-save" type="button">Save exam</button>
       </div>
@@ -116,8 +117,9 @@
     <div class="modal card bank" role="dialog" aria-modal="true" aria-labelledby="bank-title">
       <h2 id="bank-title">Add questions from the practice bank</h2>
       <div class="bank-filters">
-        <select id="bank-level"></select>
-        <input type="text" id="bank-search" placeholder="Search words…">
+        <div class="field"><label for="bank-topic">Subject</label><select id="bank-topic"></select></div>
+        <div class="field"><label for="bank-level">Level</label><select id="bank-level"></select></div>
+        <div class="field"><label for="bank-search">Search</label><input type="text" id="bank-search" placeholder="Search words…"></div>
       </div>
       <p class="hint" id="bank-count"></p>
       <div class="bank-list" id="bank-list"></div>
@@ -134,6 +136,7 @@
   <script src="../shared/maze-lib.js"></script>
   <script src="../shared/maze-levels.js"></script>
   <script src="../shared/exam-core.js"></script>
+  <script src="../quiz/data/topics.js"></script>
   <script src="../quiz/data/questions.js"></script>
   <script src="js/maze-editor.js"></script>
   <script src="../shared/teacher-logout.js"></script>

@@ -8,7 +8,7 @@ EnigmaPath is an in-development educational app for students and teachers. It co
 
 - **Practice Quiz** — eight subjects: ICT, Mathematics, General Science, Physics, Chemistry, Biology, Geography and General Knowledge, with ten levels each and an A-Level maths extension.
 - **Educational games** — Guide the Robot, Enigmatica Cipher Lab, Tower of Hanoi, Binary Search, Knight's Tour, Graph Colouring, Huffman Coding and Guess the Password.
-- **Exam tools** — multiple-choice or mixed exams, a point-and-click builder, a student exam page, manual marking with per-question and general comments, and printable A4 result papers with the marking scheme.
+- **Exam tools** — multiple-choice or mixed exams, a point-and-click builder with the full practice bank, a student exam page, manual marking with per-question and general comments, printable A4 result papers with the marking scheme, and a printable answered exam for teachers.
 - **Extras** — a fun-fact bank and an About page.
 
 ## Try it online
@@ -74,7 +74,7 @@ macOS/Linux:
 
 The server opens <http://127.0.0.1:8000/>. The same password unlocks the teacher pages. Do not leave the password blank.
 
-The exam builder lets you choose a multiple-choice-only exam or a mixed exam with open-ended questions. After students submit, open **Mark exams** to mark the open answers, add comments, and print or save the marked A4 result paper as a PDF with the browser's print dialog.
+The exam builder lets you choose a multiple-choice-only exam or a mixed exam with open-ended questions. Open-ended questions require an answer key. After students submit, open **Mark exams** to mark the open answers, add comments, and print or save the marked A4 result paper as a PDF with the browser's print dialog. The builder can also print an answered teacher copy of the exam, with all questions, answers and answer keys.
 
 ## Data and privacy
 

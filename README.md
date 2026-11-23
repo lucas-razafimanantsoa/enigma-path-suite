@@ -1,8 +1,8 @@
 # EnigmaPath
 
-**Version v2026.11.23.0** · **Status: in development**
+**Version v0.1.0** · **Status: in development**
 
-EnigmaPath is an in-development educational app for students and teachers. It combines practice quizzes with small educational games and a teacher-made exam tool. The static apps run in any modern browser; the exam tools need the small Python server in this repository.
+EnigmaPath is an in-development educational app for students and teachers. It combines practice quizzes with small educational games and a teacher-made exam tool. The static apps run in any modern browser; the exam tools need the small Python server in this repository. Created by [Lucas Mirija](https://lucas-mirija-pf.netlify.app).
 
 ## What is inside
 
@@ -136,7 +136,8 @@ The results are saved on the teacher computer in `results/`. Download a backup f
 
 ## Version
 
-**v2026.11.23.0** — in development. Features, question banks and file formats may change.
+**v0.1.0** — in development. Features, question banks and file formats may change.
 
-Contact: lucas.mirija@pm.me  
+Contact: lucas.mirija@pm.me
+Portfolio: <https://lucas-mirija-pf.netlify.app>
 Repository: <https://github.com/lucas-razafimanantsoa/enigma-path-suite>

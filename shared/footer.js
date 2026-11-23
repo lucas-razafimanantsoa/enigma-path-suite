@@ -18,11 +18,13 @@
   var inner = document.createElement('div');
   inner.className = 'ep-footer__inner';
   inner.innerHTML =
-    '<span class="ep-footer__copy">Lucas M.R 2026, with vibes</span>' +
+    '<span class="ep-footer__copy">Lucas M.R 2026, with vibes · v0.1.0</span>' +
     '<span class="ep-footer__links">' +
       '<a href="' + aboutUrl + '">About the app</a>' +
       '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
       '<a href="mailto:lucas.mirija@pm.me">Contact</a>' +
+      '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
+      '<a href="https://lucas-mirija-pf.netlify.app" target="_blank" rel="noopener noreferrer">Portfolio</a>' +
       '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
       '<a href="https://github.com/lucas-razafimanantsoa/enigma-path-suite" target="_blank" rel="noopener noreferrer">GitHub repository</a>' +
     '</span>';

@@ -35,6 +35,9 @@
       width: 100%; max-width: 300px; height: 1px; border: 0; margin: 2px 0 0;
       background: var(--line-strong);
     }
+    .hero__byline { margin: 0; font-size: 14px; color: var(--muted); }
+    .hero__byline a { color: var(--soft); font-weight: 700; }
+    .hero__version { font-variant-numeric: tabular-nums; }
     .hero__lede {
       font-size: clamp(17px, 2vw, 21px);
       color: var(--muted);
@@ -192,6 +195,7 @@
     </a>
     <nav class="ep-topbar__right" aria-label="Site links">
       <a class="ep-topbar__link" href="about/index.html">About the app</a>
+      <a class="ep-topbar__link" href="https://lucas-mirija-pf.netlify.app" target="_blank" rel="noopener noreferrer">Portfolio</a>
       <a class="ep-topbar__link" href="mailto:lucas.mirija@pm.me">Contact</a>
       <a class="ep-topbar__link" href="https://github.com/lucas-razafimanantsoa/enigma-path-suite" target="_blank" rel="noopener noreferrer">GitHub</a>
     </nav>
@@ -202,6 +206,7 @@
       <div class="hero__copy">
         <svg class="hero__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#87CEEB"/><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="#3A6F99" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
         <h1>EnigmaPath</h1>
+        <p class="hero__byline">A learning suite by <a href="https://lucas-mirija-pf.netlify.app" target="_blank" rel="noopener noreferrer">Lucas Mirija</a> · <span class="hero__version">v0.1.0</span></p>
         <hr class="hero__rule">
         <p class="hero__lede">Small, hands-on labs for big ideas. Play a game, crack a cipher or take a quiz — then see how it works.</p>
         <div class="hero__actions">

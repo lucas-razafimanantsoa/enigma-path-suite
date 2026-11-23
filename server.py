@@ -67,7 +67,7 @@ MAX_BODY = 8_000_000
 LOCK = threading.Lock()
 
 # --- teacher access -------------------------------------------------------
-DEFAULT_PASSWORD = "Mirija04"
+DEFAULT_PASSWORD = ""
 TEACHER_PASSWORD = DEFAULT_PASSWORD   # set in main()
 TEACHER_COOKIE = "ep_teacher"
 TEACHER_TOKENS = {}                   # token -> expiry (unix time), memory only

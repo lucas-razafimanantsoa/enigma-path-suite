@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is a river?",
+  "options": [
+   "A pool of still water",
+   "A hill made of rock",
+   "A road through a town",
+   "A large body of flowing water"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which landform is a raised area with a peak?",
+  "options": [
+   "A delta",
+   "A valley",
+   "A mountain",
+   "A beach"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where does a river usually begin?",
+  "options": [
+   "In a lake",
+   "High up in hills or mountains",
+   "In a sandy desert",
+   "At the sea"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do we call the place where a river meets the sea?",
+  "options": [
+   "A mouth",
+   "A source",
+   "A waterfall",
+   "A valley"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a beach usually made of?",
+  "options": [
+   "Solid rock only",
+   "Tree roots",
+   "Volcanic ash",
+   "Sand or pebbles"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the process called when water turns into vapour?",
+  "options": [
+   "Collection",
+   "Rain",
+   "Evaporation",
+   "Condensation"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a valley?",
+  "options": [
+   "A dry desert",
+   "A low area between hills",
+   "A large ocean",
+   "A mountain top"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these flows along a river channel?",
+  "options": [
+   "Light",
+   "Sand",
+   "Wind",
+   "Water"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is condensation?",
+  "options": [
+   "Water boiling away",
+   "Rain soaking into the soil",
+   "Rivers reaching the sea",
+   "Water vapour turning into liquid"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a waterfall?",
+  "options": [
+   "A wide river mouth",
+   "A gentle slope in a river",
+   "A steep drop in a river's course",
+   "A sandy riverbank"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a coastal landform?",
+  "options": [
+   "A meander",
+   "A cliff",
+   "A tributary",
+   "A mountain"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these describes a tributary?",
+  "options": [
+   "A small stream joining a larger river",
+   "A rocky coastline",
+   "A type of cloud",
+   "A hilltop spring"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens during precipitation?",
+  "options": [
+   "Water rises as vapour",
+   "Rivers freeze over",
+   "Clouds disappear",
+   "Water falls from clouds"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the upper part of a river called?",
+  "options": [
+   "Mouth",
+   "Middle course",
+   "Upper course",
+   "Lower course"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is erosion?",
+  "options": [
+   "The dropping of sediments",
+   "The growth of plants",
+   "The flow of electricity",
+   "The wearing away of rock and soil"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is deposition?",
+  "options": [
+   "Dropping of sediments",
+   "Wearing away of rocks",
+   "Carrying of materials",
+   "Making of clouds"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which process helps shape a bend in a river?",
+  "options": [
+   "Freezing of the river",
+   "Evaporation from the surface",
+   "Wind blowing upstream",
+   "Erosion on the outside of the bend"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How is an oxbow lake formed?",
+  "options": [
+   "By a volcano erupting",
+   "By rain filling a mountain top",
+   "By a river cutting off a meander",
+   "By waves building a beach"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a delta?",
+  "options": [
+   "A deep valley",
+   "Deposits at a river's mouth",
+   "A mountain lake",
+   "A steep cliff"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a watershed?",
+  "options": [
+   "The boundary between drainage basins",
+   "A type of dam",
+   "A sandy beach",
+   "A river's end"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a flood plain?",
+  "options": [
+   "A mountain slope above a river",
+   "A deep ocean trench",
+   "A sandy dune",
+   "Flat land beside a river that can flood"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What do waves mainly do to the base of a cliff?",
+  "options": [
+   "Cover it with soil",
+   "Build it higher",
+   "Erode it",
+   "Freeze it solid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a spit?",
+  "options": [
+   "A mountain ridge",
+   "A narrow deposit of sand jutting into the sea",
+   "A river delta",
+   "A steep rock stack"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In the water cycle, what happens to water that soaks into the ground?",
+  "options": [
+   "It becomes a river bend",
+   "It becomes groundwater",
+   "It turns into a cloud at once",
+   "It evaporates immediately"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

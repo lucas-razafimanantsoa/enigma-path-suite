@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "A body starts from rest and accelerates at 3 m/s² for 4 s. Final velocity?",
+  "options": [
+   "7 m/s",
+   "0.75 m/s",
+   "12 m/s",
+   "12 s"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which suvat equation links v, u, a and t?",
+  "options": [
+   "v = u + 2as",
+   "v = u + at",
+   "v = s / t",
+   "v = u − 2as"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a vector quantity?",
+  "options": [
+   "One with both magnitude and direction",
+   "One that cannot be added",
+   "One with magnitude only",
+   "One measured in joules"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In simple harmonic motion, the acceleration is...",
+  "options": [
+   "constant and upward",
+   "zero at the extremes",
+   "always increasing",
+   "proportional to displacement and directed towards equilibrium"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The period of an oscillation is...",
+  "options": [
+   "The maximum displacement",
+   "The speed at equilibrium",
+   "The time for one complete cycle",
+   "The number of cycles each second"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The SI unit of electric field strength is...",
+  "options": [
+   "N",
+   "N/C",
+   "J/C",
+   "C/N"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Coulomb's law gives the force between...",
+  "options": [
+   "two point charges",
+   "two masses",
+   "two bar magnets",
+   "a charge and a wire"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Near Earth's surface, gravitational field strength is about...",
+  "options": [
+   "9.8 N",
+   "9.8 kg/N",
+   "98 N/kg",
+   "9.8 N/kg"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a capacitor used for?",
+  "options": [
+   "Increasing resistance",
+   "Producing light",
+   "Storing electric charge",
+   "Measuring current"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A ball is thrown up at 20 m/s. With g = 10 m/s², how high does it rise?",
+  "options": [
+   "40 m",
+   "20 m",
+   "10 m",
+   "20 s"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 2 kg mass at 3 m/s sticks to a 1 kg mass at rest. Common speed?",
+  "options": [
+   "2 m/s",
+   "4.5 m/s",
+   "1 m/s",
+   "6 m/s"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A spring has k = 200 N/m. What force extends it by 0.05 m?",
+  "options": [
+   "10 J",
+   "4 N",
+   "40 N",
+   "10 N"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A pendulum is 4 m long. With g = 10 m/s², T = 2π√(L/g). Find T.",
+  "options": [
+   "4.0 s",
+   "8.0 s",
+   "4 s",
+   "2.0 s"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 6 V battery feeds a 2 ohm and a 4 ohm resistor in series. Current?",
+  "options": [
+   "1 V",
+   "1 A",
+   "3 A",
+   "0.5 A"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Capacitors of 2 µF and 3 µF in parallel have a capacitance of...",
+  "options": [
+   "5 µF",
+   "6 µF",
+   "5 V",
+   "1.2 µF"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does the area under a velocity–time graph represent?",
+  "options": [
+   "Acceleration",
+   "Speed",
+   "Force",
+   "Displacement"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A projectile leaves a 45 m cliff horizontally at 20 m/s. g = 10. Time to land?",
+  "options": [
+   "9 s",
+   "4.5 s",
+   "3 s",
+   "3 m"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "An electron accelerates from rest through 100 V. What kinetic energy does it gain?",
+  "options": [
+   "1.6 × 10⁻¹⁹ J",
+   "100 eV",
+   "10 eV",
+   "1000 eV"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Flux through a 100-turn coil changes from 0.5 Wb to 0.1 Wb in 0.2 s. Induced e.m.f.?",
+  "options": [
+   "200 V",
+   "400 V",
+   "200 A",
+   "20 V"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 5 kg body moves at 4 m/s. What is its kinetic energy?",
+  "options": [
+   "20 J",
+   "40 W",
+   "10 J",
+   "40 J"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which quantity is conserved in a perfectly inelastic collision?",
+  "options": [
+   "Speed",
+   "Temperature",
+   "Momentum",
+   "Kinetic energy"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "For a wave on a string, what happens to its frequency if the tension increases?",
+  "options": [
+   "It decreases",
+   "It increases",
+   "It is unchanged",
+   "It becomes zero"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 10 ohm resistor carries 0.2 A. What power is dissipated?",
+  "options": [
+   "0.4000000000000001 W",
+   "0.04 W",
+   "2 W",
+   "0.4 V"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the Doppler effect?",
+  "options": [
+   "Change of wave speed in a vacuum",
+   "Reflection from a surface",
+   "Bending at a boundary",
+   "Change in observed frequency due to relative motion"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In special relativity, what happens to the measured length of a moving object?",
+  "options": [
+   "It is completely unchanged",
+   "It becomes infinite",
+   "It contracts along the direction of motion",
+   "It expands in all directions"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

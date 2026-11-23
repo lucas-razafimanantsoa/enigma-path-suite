@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which part of a plant makes most of its food?",
+  "options": [
+   "The petals",
+   "The bark",
+   "The leaves",
+   "The roots"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What gas do plants take in for photosynthesis?",
+  "options": [
+   "Oxygen",
+   "Carbon dioxide",
+   "Nitrogen",
+   "Hydrogen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the green pigment in leaves called?",
+  "options": [
+   "Glucose",
+   "Starch",
+   "Chlorophyll",
+   "Cellulose"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is needed by plants to make food?",
+  "options": [
+   "Moonlight",
+   "Wind",
+   "Sand",
+   "Sunlight"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do roots mainly absorb from the soil?",
+  "options": [
+   "Oxygen from the air",
+   "Sunlight",
+   "Water and mineral ions",
+   "Sugar made in leaves"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part carries water up a plant?",
+  "options": [
+   "The petal",
+   "The stem",
+   "The seed",
+   "The fruit"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a product of photosynthesis?",
+  "options": [
+   "Glucose",
+   "Nitrogen",
+   "Carbon dioxide",
+   "Water"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where are most stomata found?",
+  "options": [
+   "On flower petals",
+   "In the roots",
+   "Inside seeds",
+   "On the underside of leaves"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why are leaves usually broad and flat?",
+  "options": [
+   "To hold the stem upright",
+   "To store water",
+   "To catch more light",
+   "To keep the plant warm"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which word equation describes photosynthesis?",
+  "options": [
+   "Water → glucose + oxygen",
+   "Carbon dioxide + water → glucose + oxygen",
+   "Oxygen + glucose → water + carbon dioxide",
+   "Glucose + oxygen → carbon dioxide + water"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which mineral ion is needed to make chlorophyll?",
+  "options": [
+   "Magnesium",
+   "Calcium",
+   "Iron",
+   "Phosphate"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens to excess glucose in a plant?",
+  "options": [
+   "It is lost as oxygen",
+   "It becomes soil",
+   "It turns into water",
+   "It is stored as starch"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of a flower receives pollen?",
+  "options": [
+   "The petal",
+   "The anther",
+   "The stigma",
+   "The sepal"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is pollination?",
+  "options": [
+   "The making of food in leaves",
+   "The transfer of pollen to the stigma",
+   "The loss of water from a leaf",
+   "The growth of a seed"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of a flower develops into a fruit?",
+  "options": [
+   "The ovary",
+   "The petal",
+   "The root",
+   "The sepal"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do plants need nitrate ions?",
+  "options": [
+   "To make chlorophyll only",
+   "To absorb sunlight",
+   "To form cell walls",
+   "To make amino acids and proteins"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which change would increase the rate of photosynthesis?",
+  "options": [
+   "Less light",
+   "Less carbon dioxide",
+   "More light, up to a limit",
+   "Colder leaves in darkness"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A plant is grown in soil lacking magnesium. What happens first?",
+  "options": [
+   "Its roots store more starch",
+   "Its leaves turn yellow",
+   "It grows taller",
+   "Its flowers become larger"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is transpiration?",
+  "options": [
+   "The loss of water vapour from leaves",
+   "The uptake of minerals by roots",
+   "The making of glucose",
+   "The movement of pollen"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do stomata often close at night?",
+  "options": [
+   "To take in oxygen",
+   "To increase transpiration",
+   "To let in more carbon dioxide",
+   "To reduce water loss when photosynthesis stops"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these can limit the rate of photosynthesis?",
+  "options": [
+   "The colour of the pot",
+   "The size of the label",
+   "Low carbon dioxide concentration",
+   "The number of petals"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which plant cell is adapted to absorb water efficiently?",
+  "options": [
+   "A petal cell",
+   "A root hair cell",
+   "A palisade mesophyll cell",
+   "A guard cell"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How is a leaf adapted for photosynthesis?",
+  "options": [
+   "It has a large surface area and many chloroplasts",
+   "It has a thick waterproof covering",
+   "It has no veins",
+   "It contains no chlorophyll"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about photosynthesis and respiration is true?",
+  "options": [
+   "Respiration only happens in leaves",
+   "Plants never use oxygen",
+   "Only plants respire at night",
+   "Photosynthesis stores energy; respiration releases it"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

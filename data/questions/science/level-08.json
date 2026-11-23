@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "An exothermic reaction...",
+  "options": [
+   "releases energy to the surroundings",
+   "absorbs energy from the surroundings",
+   "does not involve energy",
+   "only occurs when heated"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which change increases the rate of a reaction between marble chips and acid?",
+  "options": [
+   "Cooling the acid",
+   "Using larger marble chips",
+   "Adding water to the acid",
+   "Using smaller marble chips"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What happens to total mass when a reaction occurs in a closed container?",
+  "options": [
+   "It always increases",
+   "It depends on the temperature",
+   "It stays the same",
+   "It always decreases"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A solution with pH 3 is...",
+  "options": [
+   "a pure metal",
+   "acidic",
+   "neutral",
+   "alkaline"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Acid + base → ...",
+  "options": [
+   "salt + water",
+   "salt + hydrogen",
+   "water + oxygen",
+   "metal + acid"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "During electrolysis of a molten salt, positive ions move to the...",
+  "options": [
+   "anode",
+   "battery",
+   "positive terminal",
+   "cathode"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a series circuit, the current is...",
+  "options": [
+   "zero between components",
+   "greater near the battery",
+   "the same at every point",
+   "smaller in each component"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a parallel circuit, the voltage across each branch is...",
+  "options": [
+   "zero",
+   "the same",
+   "inversely proportional to resistance",
+   "the sum of the branches"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A 12 V supply drives a current through a 4 Ω resistor. What is the current?",
+  "options": [
+   "3 A",
+   "48 A",
+   "16 A",
+   "0.33 A"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Electrical power is calculated using...",
+  "options": [
+   "P = V + I",
+   "P = V ÷ I",
+   "P = I ÷ V",
+   "P = V × I"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the purpose of a fuse?",
+  "options": [
+   "It changes AC into DC",
+   "It increases the voltage supply",
+   "It melts and breaks the circuit when current is too high",
+   "It stores electrical charge"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a transverse wave, the oscillations are...",
+  "options": [
+   "parallel to the direction of travel",
+   "perpendicular to the direction of travel",
+   "in circles around the wave",
+   "always vertical"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Wave speed is calculated as...",
+  "options": [
+   "frequency × wavelength",
+   "frequency + wavelength",
+   "frequency ÷ wavelength",
+   "wavelength ÷ frequency"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A frequency of 50 Hz means...",
+  "options": [
+   "50 seconds per wave",
+   "the wave travels 50 m/s",
+   "the wavelength is 50 m",
+   "50 waves pass a point each second"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Sound cannot travel through...",
+  "options": [
+   "water",
+   "air",
+   "a vacuum",
+   "steel"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The angle of reflection is measured between the reflected ray and the...",
+  "options": [
+   "incident ray",
+   "normal",
+   "principal axis",
+   "mirror surface"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Light bends when it enters glass because...",
+  "options": [
+   "its speed changes",
+   "the glass is opaque",
+   "its colour changes",
+   "it is absorbed"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Metals conduct heat well because they have...",
+  "options": [
+   "trapped air",
+   "fixed ions only",
+   "no particles",
+   "free electrons"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Convection currents occur in fluids because...",
+  "options": [
+   "the fluid turns into a solid",
+   "cold fluid becomes less dense and rises",
+   "warm fluid becomes less dense and rises",
+   "particles move in straight lines only"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Thermal radiation can travel through...",
+  "options": [
+   "metals only",
+   "a vacuum",
+   "water only",
+   "solids only"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Specific heat capacity is the energy needed to raise the temperature of...",
+  "options": [
+   "1 kg of a substance by 1 °C",
+   "1 kg of a substance by 100 °C",
+   "1 g of a substance by 10 °C",
+   "any mass by 100 °C"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "During melting, the temperature stays constant because energy is used to...",
+  "options": [
+   "raise the kinetic energy of the particles",
+   "increase the mass",
+   "create new electrons",
+   "overcome forces between particles"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The efficiency of a device is...",
+  "options": [
+   "energy wasted ÷ useful energy",
+   "total energy input ÷ useful output × 100%",
+   "useful energy output ÷ total energy input × 100%",
+   "useful power × total time"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which change reduces heat loss from a house?",
+  "options": [
+   "Using thinner walls",
+   "Installing double glazing",
+   "Opening windows in winter",
+   "Removing loft insulation"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

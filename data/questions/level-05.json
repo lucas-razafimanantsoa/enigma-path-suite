@@ -1,1102 +1,1102 @@
 [
-  {
-    "question_text": "Which is a positive effect of ICT on shopping?",
-    "options": [
-      "Every shop must stay open all night long",
-      "Customers no longer need to pay for items",
-      "Shoppers can compare prices from home",
-      "Delivery of goods is always instant"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "In a digital image, what is a pixel?",
-    "options": [
-      "A file format used to compress pictures",
-      "A tiny coloured dot of the picture",
-      "The screen that displays the picture",
-      "A tool for cropping the picture"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "An email from 'your bank' says 'Dear customer, click here at once or your account will close'. What should you do?",
-    "options": [
-      "Do not click; contact the bank directly",
-      "Click the link quickly to protect the account",
-      "Reply with your password to prove who you are",
-      "Forward the email to all of your friends"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What does putting a phrase inside quotation marks do in most search engines?",
-    "options": [
-      "Hides the results from other users",
-      "Translates the phrase into another language",
-      "Shows only pictures of the phrase",
-      "Finds those words together in that order"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "A table is sorted A to Z on First name. Names are Maya, Omar, Ben, Zoe and Carl. Which name comes second?",
-    "options": [
-      "Ben",
-      "Carl",
-      "Maya",
-      "Omar"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "What value does s have at the end? s = 100; WHILE s > 20: s = s - 30; END WHILE",
-    "options": [
-      "40",
-      "10",
-      "20",
-      "70"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "A friend asks for your game password to 'level up' your account. What is the best reply?",
-    "options": [
-      "Say no, because passwords are private",
-      "Share it if they promise to keep it secret",
-      "Share it, then change it again next week",
-      "Share only the first half of the password"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "A sound is recorded digitally by measuring the sound wave many times each second. What is this process called?",
-    "options": [
-      "Compressing",
-      "Encrypting",
-      "Sampling",
-      "Formatting"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "What is plagiarism?",
-    "options": [
-      "Sharing your own finished work with a teacher",
-      "Saving a file in the wrong folder",
-      "Presenting someone else's work as your own",
-      "Writing a list of all your sources"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "An email attachment is too large to send. What is a sensible solution?",
-    "options": [
-      "Rename the file with a much longer file name",
-      "Type the file name in the subject line",
-      "Compress it into a zip file or use a link",
-      "Send the same email several times"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Why would you write $B$1 in a formula instead of B1?",
-    "options": [
-      "So the cell is hidden from other users",
-      "So the result is shown in currency format",
-      "So that the cell can only contain text",
-      "So the reference stays fixed when copied"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Cell A1 holds 3.456 but is formatted to show 2 decimal places (3.46). What does =A1*10 give?",
-    "options": [
-      "34.60",
-      "34.56",
-      "3.456",
-      "35.00"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What is two-step (two-factor) verification?",
-    "options": [
-      "Typing your password twice as fast as usual",
-      "Logging in on two computers at once",
-      "A password plus a second proof of identity",
-      "Using two different web browsers at once"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Why can two websites about the same topic give different information?",
-    "options": [
-      "Search engines change facts to match each user",
-      "Websites cannot be updated once published",
-      "One may be biased or contain mistakes",
-      "The internet stores only one version of facts"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Supermarkets collect data about what you buy with a loyalty card. Which concern does this raise most?",
-    "options": [
-      "Privacy of personal information",
-      "The weight of the shopping bags",
-      "Fading ink on printed receipts",
-      "The length of the checkout queue"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What might happen if you spend too long looking at a screen without breaks?",
-    "options": [
-      "Tired eyes and headaches",
-      "Better hearing",
-      "A faster internet connection",
-      "A longer battery life"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Why should you use a different password for each account?",
-    "options": [
-      "It makes your computer start up faster",
-      "A stolen password cannot open other sites",
-      "It means you never have to log out again",
-      "It makes every password much shorter to type"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Why is a field such as 'Surname' unsuitable as a primary key?",
-    "options": [
-      "Surnames are too long to be stored",
-      "Surnames cannot be sorted into any order",
-      "A key must always be a whole number value",
-      "Different people can share the same surname"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which is true of images found with a search engine?",
-    "options": [
-      "Many are copyrighted, so check the licence first",
-      "All of them are free for anyone to use",
-      "They belong to the search engine company",
-      "They are free to use once they are resized"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "What is the result of adding the binary numbers 0110 and 0111? Give the answer in binary.",
-    "options": [
-      "1100",
-      "1110",
-      "1011",
-      "1101"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A school buys a software licence for 30 computers. What is it allowed to do?",
-    "options": [
-      "Install and use it on up to 30 computers",
-      "Put it on every pupil's home computer",
-      "Give free copies to other local schools",
-      "Sell copies of it to parents at school"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "You get an email saying you won a prize and must enter your bank details at a link. What is it most likely?",
-    "options": [
-      "A phishing attempt",
-      "A school notice",
-      "A software update from your computer",
-      "An encrypted file backup"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which action helps you avoid plagiarism in a project?",
-    "options": [
-      "Copying a paragraph and changing one word",
-      "Writing in your own words and giving sources",
-      "Deleting the author's name from a picture",
-      "Using a friend's essay as your own"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Cells A1, A2 and A3 hold 15, the word 'absent' and 9. What does =COUNT(A1:A3) show?",
-    "options": [
-      "3",
-      "24",
-      "2",
-      "1"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Your friend sends you a private email. Which action breaks good netiquette?",
-    "options": [
-      "Forwarding it on without asking your friend",
-      "Replying with a short, polite thank you",
-      "Saving it in a folder on your computer",
-      "Deleting it after you have read it"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What does ASCII provide for a computer?",
-    "options": [
-      "A method of making files smaller in size",
-      "A standard number for each character",
-      "A set of rules for sending email messages",
-      "A format for storing coloured pictures"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which pair of functions finds the smallest and then the largest number in a range?",
-    "options": [
-      "MIN and MAX",
-      "MAX and MIN",
-      "LOW and HIGH",
-      "SUM and COUNT"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What does a Creative Commons licence let a creator do?",
-    "options": [
-      "Stop everyone from ever seeing the work",
-      "Let others reuse the work under set conditions",
-      "Remove the author's name from the work",
-      "Sell the work only to schools and colleges"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "In a LAN, which device connects many computers together and passes data only to the computer that needs it?",
-    "options": [
-      "Monitor",
-      "Webcam",
-      "Switch",
-      "Speaker"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Cell F2 holds =B2+$D2. It is copied one column to the right into G2. What does G2 hold?",
-    "options": [
-      "=B2+$D2",
-      "=C2+$E2",
-      "=C2+$D2",
-      "=C2+D2"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which function tells you how many cells in a range hold numbers?",
-    "options": [
-      "SUM",
-      "COUNT",
-      "AVERAGE",
-      "TOTAL"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which part of an email shows the receiver what the message is about?",
-    "options": [
-      "Attachment",
-      "Signature box",
-      "Inbox",
-      "Subject line"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "The first results in a search list are marked 'Ad'. What does this tell you?",
-    "options": [
-      "They are paid for and may not be reliable",
-      "They are checked and approved by the government",
-      "They are the most popular websites",
-      "They load faster than other results"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A web page with the headline 'Doctors HATE this trick!' has no author and no sources. What should you do?",
-    "options": [
-      "Accept it because it is on the internet",
-      "Be cautious and look for a reliable source",
-      "Share it with friends because it is exciting",
-      "Believe it because it is written confidently"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which search is most likely to find the height of Mount Kilimanjaro quickly?",
-    "options": [
-      "height of Mount Kilimanjaro in metres",
-      "mountain Africa",
-      "tall mountains in Africa and elsewhere",
-      "what is the biggest thing in the world"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "In a flowchart, which shape is used for the Start and End of an algorithm?",
-    "options": [
-      "Rectangle (process box)",
-      "Diamond (decision box)",
-      "Oval (rounded rectangle)",
-      "Parallelogram (slanted box)"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "A town replaces its ticket office staff with ticket machines. What is a likely effect on people?",
-    "options": [
-      "Nobody can buy a ticket in the town",
-      "All workers earn more money at once",
-      "Some jobs go but new technical jobs appear",
-      "The machines never need any servicing"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which is true about the internet?",
-    "options": [
-      "It is a single computer that stores all data",
-      "It is a worldwide network of networks",
-      "It belongs to one company that sets all rules",
-      "It is a network limited to one country"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Convert the decimal number 13 to binary.",
-    "options": [
-      "1011",
-      "1110",
-      "1001",
-      "1101"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "What is output? p = 1; FOR i = 1 TO 4: p = p * i; END FOR; OUTPUT p",
-    "options": [
-      "10",
-      "16",
-      "12",
-      "24"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Rewriting an author's idea in your own words without mentioning the author is which of these?",
-    "options": [
-      "Not plagiarism, because the words changed",
-      "A way of getting copyright for yourself",
-      "Always allowed if the work is short",
-      "Still plagiarism, as the idea needs credit"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Only the Marks column is sorted smallest to largest; the Names column next to it is left alone. What goes wrong?",
-    "options": [
-      "The names are deleted automatically",
-      "The marks are all changed to zero",
-      "Marks no longer line up with the right names",
-      "Nothing, because sorting only changes colours"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which is good netiquette when emailing your teacher?",
-    "options": [
-      "Write quickly in text-speak and no greeting",
-      "Leave the subject blank to save some time",
-      "Use a clear subject, greeting and polite tone",
-      "Mark every message as urgent to be noticed"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "A program multiplies when it should add, and runs without crashing but gives wrong answers. What kind of error is this?",
-    "options": [
-      "Logic error",
-      "Hardware error",
-      "Network error",
-      "Syntax error"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A pupil puts a photo in a project and writes the photographer's name and website beneath it. What is this called?",
-    "options": [
-      "Encrypting the photo",
-      "Crediting the source",
-      "Compressing the photo",
-      "Formatting the photo"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Why can a wired (Ethernet) connection be more reliable than Wi-Fi in a busy building?",
-    "options": [
-      "Cables suffer less interference from walls",
-      "Cables use radio waves that travel much farther",
-      "Wi-Fi cannot send files larger than 1 MB",
-      "Cables never need a router or switch"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What is the effect of putting an address in the Bcc box?",
-    "options": [
-      "The person gets a copy that others cannot see",
-      "The person receives the email before anyone else",
-      "The person is the only one allowed to reply",
-      "The email is automatically encrypted for the person"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Why might you sort a database table by Surname?",
-    "options": [
-      "To put the records into alphabetical order",
-      "To remove duplicate surnames from the table",
-      "To change every surname to capital letters",
-      "To make the primary key unique"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Cells A1 to A5 hold 6, the word 'n/a', 14, nothing (empty) and 10. What does =AVERAGE(A1:A5) show?",
-    "options": [
-      "6",
-      "10",
-      "7.5",
-      "12"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Two recordings of the same song are made. One samples more times per second. What is the effect?",
-    "options": [
-      "It sounds the same but the file is smaller",
-      "It sounds worse but the file is larger",
-      "It sounds closer to the original and the file is smaller",
-      "It sounds closer to the original but the file is larger"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which is a job that has partly been replaced by automation with robots?",
-    "options": [
-      "Teaching a lesson to a class of 30 pupils",
-      "Comforting a patient in hospital",
-      "Assembling cars on a factory line",
-      "Writing a brand new story"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which formula multiplies the numbers in cells A1 and B1?",
-    "options": [
-      "=A1xB1",
-      "=A1&B1",
-      "=A1*B1",
-      "=A1+B1"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which formula would add the values in cells A1, A2, A3 and A4?",
-    "options": [
-      "=A1:A4",
-      "=ADD(A1,A4)",
-      "=TOTAL A1-A4",
-      "=SUM(A1:A4)"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which is the best sign that a web page is reliable?",
-    "options": [
-      "It has bright colours and lots of adverts",
-      "It names an expert author and gives its sources",
-      "It is listed first in the search results",
-      "It uses capital letters and exclamation marks"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which type of network joins computers in a single school building?",
-    "options": [
-      "WAN",
-      "LAN",
-      "GPS",
-      "USB"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What is the final value of n? n = 1; WHILE n < 50: n = n * 3; END WHILE",
-    "options": [
-      "27",
-      "81",
-      "50",
-      "243"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A company has offices in London and Tokyo joined into one network. What type of network is this?",
-    "options": [
-      "LAN",
-      "WAN",
-      "PAN",
-      "Star"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "A pop-up says your computer is infected and tells you to call a number and let them take control. What should you do?",
-    "options": [
-      "Close it and tell an adult; do not phone",
-      "Call the number shown on the screen straight away",
-      "Give the caller your passwords so they can help",
-      "Pay the caller to clear the virus from the PC"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A table has 6 fields and 30 records. How many columns does it have?",
-    "options": [
-      "6",
-      "30",
-      "36",
-      "5"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Convert the decimal number 100 to an 8-bit binary number.",
-    "options": [
-      "01100100",
-      "01100010",
-      "01101100",
-      "00110100"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A table of 40 records is searched for Town = \"Leeds\" AND Year = 7. Compared with searching Town = \"Leeds\", the result will usually have what?",
-    "options": [
-      "A larger number of records than before",
-      "Exactly twice as many records as before",
-      "The same number of records or fewer",
-      "All 40 records from the table"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A loop is meant to stop when count reaches 10 but nothing changes count inside the loop. What happens?",
-    "options": [
-      "The loop stops after 10 repeats",
-      "The loop never starts at all",
-      "It never ends (infinite loop)",
-      "The computer deletes the variable"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which health problem is most associated with long, repeated use of a keyboard and mouse?",
-    "options": [
-      "Food poisoning from snacks",
-      "Sunburn from the screen",
-      "Hearing loss from the speakers",
-      "Repetitive strain injury (RSI)"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "In a flowchart, which shape is normally used for input or output?",
-    "options": [
-      "Parallelogram (slanted box)",
-      "Diamond (yes/no decision box)",
-      "Rectangle (processing box)",
-      "Oval (rounded rectangle)"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which of these is a valid binary number?",
-    "options": [
-      "120110",
-      "100210",
-      "ABC110",
-      "100110"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which structure chooses between different actions depending on a condition?",
-    "options": [
-      "Loop (FOR or WHILE)",
-      "Sequence (steps in order)",
-      "Variable (stored value)",
-      "Selection (IF ... THEN)"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What does a web server do?",
-    "options": [
-      "Prints web pages for users who are online",
-      "Draws the screen for the user's browser",
-      "Stores pages and sends them when asked",
-      "Blocks every message from other computers"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What is the purpose of a primary key in a table?",
-    "options": [
-      "To give every record a unique value",
-      "To sort the records in alphabetical order",
-      "To hide the table from other users",
-      "To count how many fields there are"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which statement about the internet and the World Wide Web is correct?",
-    "options": [
-      "The internet is a collection of web pages only",
-      "The web is a set of pages reached via the internet",
-      "The web and the internet are exactly the same thing",
-      "The internet is a program that runs inside the web"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "A black and white image is 8 pixels wide and 8 pixels high. Each pixel uses 1 bit. How many bytes is the image?",
-    "options": [
-      "64",
-      "8",
-      "16",
-      "1"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "In a web address, what does the padlock and HTTPS indicate?",
-    "options": [
-      "Everything on the site is always true",
-      "The website is run by a government",
-      "The site has no adverts on its pages",
-      "The connection to the site is encrypted"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Cell A4 holds =SUM(A1:A3). It is copied one column right into B4. What does B4 hold?",
-    "options": [
-      "=SUM(A1:A3)",
-      "=SUM(B2:B4)",
-      "=SUM(B1:B3)",
-      "=SUM(A1:B3)"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Typing a whole email in CAPITAL LETTERS is generally seen as what?",
-    "options": [
-      "A way to make email safer",
-      "A sign of a formal letter",
-      "Shouting, which is impolite",
-      "A way to save storage space"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Why check the date of a web page when researching?",
-    "options": [
-      "Older pages are always more accurate",
-      "The date shows who owns the page",
-      "The date shows how many visitors it has",
-      "The information may be out of date"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "A1 holds 7 and B1 holds 8. What does =IF(A1=B1,\"Same\",\"Different\") show?",
-    "options": [
-      "Different",
-      "Same",
-      "TRUE",
-      "7"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What does 'Reply All' do?",
-    "options": [
-      "Replies only to the first person on the list",
-      "Deletes the original email for all recipients",
-      "Forwards the message to all your contacts",
-      "Sends your reply to all the original recipients"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which two digits does the binary number system use?",
-    "options": [
-      "1 and 2",
-      "0 and 9",
-      "0 and 1",
-      "0 and 7"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which habit helps keep a school computer safe from viruses?",
-    "options": [
-      "Opening every attachment to see what it is",
-      "Keeping antivirus software on and up to date",
-      "Switching off updates to avoid interruptions",
-      "Plugging in any USB stick that you find"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What is output? m = 0; FOR each v IN [6, 2, 9, 4]: IF v > m THEN m = v; END FOR; OUTPUT m",
-    "options": [
-      "4",
-      "6",
-      "21",
-      "9"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "What does WAN stand for?",
-    "options": [
-      "Wide Area Network",
-      "Wireless Access Node",
-      "Web Address Name",
-      "Wide Access Network"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Start with a = 4 and b = 9. Then: t = a; a = b; b = t. What are a and b at the end?",
-    "options": [
-      "a = 4, b = 9",
-      "a = 9, b = 9",
-      "a = 9, b = 4",
-      "a = 4, b = 4"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which part of a chart tells you what each colour or bar stands for?",
-    "options": [
-      "The chart's grid lines",
-      "The page margin",
-      "The legend (key)",
-      "The cell border"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which is the safest thing to do on a public Wi-Fi network at a cafe?",
-    "options": [
-      "Share your passwords with other customers",
-      "Turn off your antivirus software",
-      "Avoid logging in to private accounts",
-      "Download files from unknown senders"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A Books table has these prices: 8, 12, 15, 9 and 20. How many records does the search Price > 10 return?",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "A cell shows ##### instead of a number. What is the most likely cause?",
-    "options": [
-      "The formula contains a spelling mistake",
-      "The number is being divided by zero",
-      "The workbook was saved in the wrong folder",
-      "The column is too narrow to show the number"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which device sends data between your home network and the internet?",
-    "options": [
-      "Monitor",
-      "Scanner",
-      "Router",
-      "Webcam"
-    ],
-    "correct_answer_index": 2,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "In a star network every computer connects to a central switch. What happens if one computer's cable breaks?",
-    "options": [
-      "Every computer loses the connection",
-      "The switch deletes all data",
-      "All computers keep sending data twice",
-      "Only that computer is disconnected"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "In ASCII the capital letter A has the code 65. What is the code for the capital letter E?",
-    "options": [
-      "68",
-      "70",
-      "97",
-      "69"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "How has ICT changed the way people can work?",
-    "options": [
-      "Many can work from home using the internet",
-      "Everyone must now work in factories",
-      "Nobody needs a computer for work",
-      "Workers no longer need any skills"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "What is a hyperlink on a web page?",
-    "options": [
-      "A line that shows how fast the page loads",
-      "Text or a picture that links to another page",
-      "A password that unlocks the restricted web page",
-      "A list of every page you have visited"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which database action finds only the records that match a condition such as Year = 7?",
-    "options": [
-      "Deleting the table",
-      "Renaming the field",
-      "Compressing the file",
-      "Searching or filtering"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Convert the binary number 1010 to decimal.",
-    "options": [
-      "12",
-      "9",
-      "5",
-      "10"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What is output? age = 12; IF age >= 13 THEN OUTPUT \"Teen\" ELSE OUTPUT \"Child\"",
-    "options": [
-      "Teen",
-      "Child",
-      "Child Teen",
-      "Nothing is displayed"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "What should you do when you finish using a shared school computer?",
-    "options": [
-      "Leave your account open for the next pupil",
-      "Turn off only the monitor and walk away",
-      "Write your password on a note by the screen",
-      "Log out so nobody else can use your account"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "Which environmental problem is linked to the fast replacement of phones and computers?",
-    "options": [
-      "Electronic waste (e-waste)",
-      "A shortage of web addresses",
-      "Slower typing speeds for users",
-      "Weaker Wi-Fi signals in homes"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Which password rule is the best advice?",
-    "options": [
-      "Use your birthday so that you never forget it",
-      "Change one letter and reuse it on every site",
-      "Write it on a note stuck to the side of the monitor",
-      "Make it long and hard to guess, with no personal facts"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  },
-  {
-    "question_text": "Cells A1 to A5 hold 4, 8, 6, 10 and 2. What does =AVERAGE(A1:A5) show?",
-    "options": [
-      "30",
-      "6",
-      "5",
-      "7"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "What is the digital divide?",
-    "options": [
-      "A fault that splits a hard disk into two parts",
-      "The gap between those with and without ICT",
-      "The difference between binary and decimal numbers",
-      "The line between two screens joined together"
-    ],
-    "correct_answer_index": 1,
-    "term_category": "Term 2"
-  },
-  {
-    "question_text": "Which of these is most likely to give better search results?",
-    "options": [
-      "Precise keywords: 'volcano formation causes'",
-      "One vague word such as 'things' or 'stuff'",
-      "A long sentence full of random words",
-      "Typing the name of your computer model"
-    ],
-    "correct_answer_index": 0,
-    "term_category": "Term 1"
-  },
-  {
-    "question_text": "A pupil copies three sentences from a website into a report, with quotation marks and the website name. Is this plagiarism?",
-    "options": [
-      "Yes, because any copied words are plagiarism",
-      "Yes, because websites cannot be used as sources",
-      "No, because anything online is free to copy",
-      "No, as the words are quoted and credited"
-    ],
-    "correct_answer_index": 3,
-    "term_category": "Term 3"
-  }
+ {
+  "question_text": "Which is a positive effect of ICT on shopping?",
+  "options": [
+   "Customers no longer need to pay for items",
+   "Shoppers can compare prices from home",
+   "Delivery of goods is always instant",
+   "Every shop must stay open all night long"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a digital image, what is a pixel?",
+  "options": [
+   "A tiny coloured dot of the picture",
+   "The screen that displays the picture",
+   "A tool for cropping the picture",
+   "A file format used to compress pictures"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "An email from 'your bank' says 'Dear customer, click here at once or your account will close'. What should you do?",
+  "options": [
+   "Click the link quickly to protect the account",
+   "Reply with your password to prove who you are",
+   "Forward the email to all of your friends",
+   "Do not click; contact the bank directly"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does putting a phrase inside quotation marks do in most search engines?",
+  "options": [
+   "Translates the phrase into another language",
+   "Shows only pictures of the phrase",
+   "Finds those words together in that order",
+   "Hides the results from other users"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A table is sorted A to Z on First name. Names are Maya, Omar, Ben, Zoe and Carl. Which name comes second?",
+  "options": [
+   "Ben",
+   "Carl",
+   "Maya",
+   "Omar"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What value does s have at the end? s = 100; WHILE s > 20: s = s - 30; END WHILE",
+  "options": [
+   "10",
+   "20",
+   "70",
+   "40"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A friend asks for your game password to 'level up' your account. What is the best reply?",
+  "options": [
+   "Share it if they promise to keep it secret",
+   "Share it, then change it again next week",
+   "Share only the first half of the password",
+   "Say no, because passwords are private"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A sound is recorded digitally by measuring the sound wave many times each second. What is this process called?",
+  "options": [
+   "Compressing",
+   "Encrypting",
+   "Sampling",
+   "Formatting"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is plagiarism?",
+  "options": [
+   "Saving a file in the wrong folder",
+   "Presenting someone else's work as your own",
+   "Writing a list of all your sources",
+   "Sharing your own finished work with a teacher"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "An email attachment is too large to send. What is a sensible solution?",
+  "options": [
+   "Compress it into a zip file or use a link",
+   "Send the same email several times",
+   "Rename the file with a much longer file name",
+   "Type the file name in the subject line"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why would you write $B$1 in a formula instead of B1?",
+  "options": [
+   "So the cell is hidden from other users",
+   "So the result is shown in currency format",
+   "So that the cell can only contain text",
+   "So the reference stays fixed when copied"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Cell A1 holds 3.456 but is formatted to show 2 decimal places (3.46). What does =A1*10 give?",
+  "options": [
+   "35.00",
+   "34.60",
+   "34.56",
+   "3.456"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is two-step (two-factor) verification?",
+  "options": [
+   "Logging in on two computers at once",
+   "A password plus a second proof of identity",
+   "Using two different web browsers at once",
+   "Typing your password twice as fast as usual"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why can two websites about the same topic give different information?",
+  "options": [
+   "One may be biased or contain mistakes",
+   "The internet stores only one version of facts",
+   "Search engines change facts to match each user",
+   "Websites cannot be updated once published"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Supermarkets collect data about what you buy with a loyalty card. Which concern does this raise most?",
+  "options": [
+   "The weight of the shopping bags",
+   "Fading ink on printed receipts",
+   "The length of the checkout queue",
+   "Privacy of personal information"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What might happen if you spend too long looking at a screen without breaks?",
+  "options": [
+   "A faster internet connection",
+   "A longer battery life",
+   "Tired eyes and headaches",
+   "Better hearing"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why should you use a different password for each account?",
+  "options": [
+   "It makes your computer start up faster",
+   "A stolen password cannot open other sites",
+   "It means you never have to log out again",
+   "It makes every password much shorter to type"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why is a field such as 'Surname' unsuitable as a primary key?",
+  "options": [
+   "Different people can share the same surname",
+   "Surnames are too long to be stored",
+   "Surnames cannot be sorted into any order",
+   "A key must always be a whole number value"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is true of images found with a search engine?",
+  "options": [
+   "All of them are free for anyone to use",
+   "They belong to the search engine company",
+   "They are free to use once they are resized",
+   "Many are copyrighted, so check the licence first"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the result of adding the binary numbers 0110 and 0111? Give the answer in binary.",
+  "options": [
+   "1110",
+   "1011",
+   "1101",
+   "1100"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A school buys a software licence for 30 computers. What is it allowed to do?",
+  "options": [
+   "Sell copies of it to parents at school",
+   "Install and use it on up to 30 computers",
+   "Put it on every pupil's home computer",
+   "Give free copies to other local schools"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "You get an email saying you won a prize and must enter your bank details at a link. What is it most likely?",
+  "options": [
+   "A phishing attempt",
+   "A school notice",
+   "A software update from your computer",
+   "An encrypted file backup"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which action helps you avoid plagiarism in a project?",
+  "options": [
+   "Deleting the author's name from a picture",
+   "Using a friend's essay as your own",
+   "Copying a paragraph and changing one word",
+   "Writing in your own words and giving sources"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Cells A1, A2 and A3 hold 15, the word 'absent' and 9. What does =COUNT(A1:A3) show?",
+  "options": [
+   "3",
+   "24",
+   "2",
+   "1"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Your friend sends you a private email. Which action breaks good netiquette?",
+  "options": [
+   "Deleting it after you have read it",
+   "Forwarding it on without asking your friend",
+   "Replying with a short, polite thank you",
+   "Saving it in a folder on your computer"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does ASCII provide for a computer?",
+  "options": [
+   "A standard number for each character",
+   "A set of rules for sending email messages",
+   "A format for storing coloured pictures",
+   "A method of making files smaller in size"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which pair of functions finds the smallest and then the largest number in a range?",
+  "options": [
+   "MAX and MIN",
+   "LOW and HIGH",
+   "SUM and COUNT",
+   "MIN and MAX"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a Creative Commons licence let a creator do?",
+  "options": [
+   "Sell the work only to schools and colleges",
+   "Stop everyone from ever seeing the work",
+   "Let others reuse the work under set conditions",
+   "Remove the author's name from the work"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a LAN, which device connects many computers together and passes data only to the computer that needs it?",
+  "options": [
+   "Webcam",
+   "Switch",
+   "Speaker",
+   "Monitor"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Cell F2 holds =B2+$D2. It is copied one column to the right into G2. What does G2 hold?",
+  "options": [
+   "=C2+$D2",
+   "=C2+D2",
+   "=B2+$D2",
+   "=C2+$E2"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which function tells you how many cells in a range hold numbers?",
+  "options": [
+   "AVERAGE",
+   "TOTAL",
+   "SUM",
+   "COUNT"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of an email shows the receiver what the message is about?",
+  "options": [
+   "Signature box",
+   "Inbox",
+   "Subject line",
+   "Attachment"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The first results in a search list are marked 'Ad'. What does this tell you?",
+  "options": [
+   "They load faster than other results",
+   "They are paid for and may not be reliable",
+   "They are checked and approved by the government",
+   "They are the most popular websites"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A web page with the headline 'Doctors HATE this trick!' has no author and no sources. What should you do?",
+  "options": [
+   "Be cautious and look for a reliable source",
+   "Share it with friends because it is exciting",
+   "Believe it because it is written confidently",
+   "Accept it because it is on the internet"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which search is most likely to find the height of Mount Kilimanjaro quickly?",
+  "options": [
+   "mountain Africa",
+   "tall mountains in Africa and elsewhere",
+   "what is the biggest thing in the world",
+   "height of Mount Kilimanjaro in metres"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a flowchart, which shape is used for the Start and End of an algorithm?",
+  "options": [
+   "Rectangle (process box)",
+   "Diamond (decision box)",
+   "Oval (rounded rectangle)",
+   "Parallelogram (slanted box)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A town replaces its ticket office staff with ticket machines. What is a likely effect on people?",
+  "options": [
+   "All workers earn more money at once",
+   "Some jobs go but new technical jobs appear",
+   "The machines never need any servicing",
+   "Nobody can buy a ticket in the town"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is true about the internet?",
+  "options": [
+   "It is a worldwide network of networks",
+   "It belongs to one company that sets all rules",
+   "It is a network limited to one country",
+   "It is a single computer that stores all data"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Convert the decimal number 13 to binary.",
+  "options": [
+   "1011",
+   "1110",
+   "1001",
+   "1101"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is output? p = 1; FOR i = 1 TO 4: p = p * i; END FOR; OUTPUT p",
+  "options": [
+   "16",
+   "12",
+   "24",
+   "10"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Rewriting an author's idea in your own words without mentioning the author is which of these?",
+  "options": [
+   "Always allowed if the work is short",
+   "Still plagiarism, as the idea needs credit",
+   "Not plagiarism, because the words changed",
+   "A way of getting copyright for yourself"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Only the Marks column is sorted smallest to largest; the Names column next to it is left alone. What goes wrong?",
+  "options": [
+   "Marks no longer line up with the right names",
+   "Nothing, because sorting only changes colours",
+   "The names are deleted automatically",
+   "The marks are all changed to zero"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is good netiquette when emailing your teacher?",
+  "options": [
+   "Mark every message as urgent to be noticed",
+   "Write quickly in text-speak and no greeting",
+   "Leave the subject blank to save some time",
+   "Use a clear subject, greeting and polite tone"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A program multiplies when it should add, and runs without crashing but gives wrong answers. What kind of error is this?",
+  "options": [
+   "Network error",
+   "Syntax error",
+   "Logic error",
+   "Hardware error"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A pupil puts a photo in a project and writes the photographer's name and website beneath it. What is this called?",
+  "options": [
+   "Encrypting the photo",
+   "Crediting the source",
+   "Compressing the photo",
+   "Formatting the photo"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why can a wired (Ethernet) connection be more reliable than Wi-Fi in a busy building?",
+  "options": [
+   "Cables suffer less interference from walls",
+   "Cables use radio waves that travel much farther",
+   "Wi-Fi cannot send files larger than 1 MB",
+   "Cables never need a router or switch"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the effect of putting an address in the Bcc box?",
+  "options": [
+   "The person receives the email before anyone else",
+   "The person is the only one allowed to reply",
+   "The email is automatically encrypted for the person",
+   "The person gets a copy that others cannot see"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why might you sort a database table by Surname?",
+  "options": [
+   "To change every surname to capital letters",
+   "To make the primary key unique",
+   "To put the records into alphabetical order",
+   "To remove duplicate surnames from the table"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Cells A1 to A5 hold 6, the word 'n/a', 14, nothing (empty) and 10. What does =AVERAGE(A1:A5) show?",
+  "options": [
+   "6",
+   "10",
+   "7.5",
+   "12"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Two recordings of the same song are made. One samples more times per second. What is the effect?",
+  "options": [
+   "It sounds closer to the original but the file is larger",
+   "It sounds the same but the file is smaller",
+   "It sounds worse but the file is larger",
+   "It sounds closer to the original and the file is smaller"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a job that has partly been replaced by automation with robots?",
+  "options": [
+   "Writing a brand new story",
+   "Teaching a lesson to a class of 30 pupils",
+   "Comforting a patient in hospital",
+   "Assembling cars on a factory line"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which formula multiplies the numbers in cells A1 and B1?",
+  "options": [
+   "=A1xB1",
+   "=A1&B1",
+   "=A1*B1",
+   "=A1+B1"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which formula would add the values in cells A1, A2, A3 and A4?",
+  "options": [
+   "=TOTAL A1-A4",
+   "=SUM(A1:A4)",
+   "=A1:A4",
+   "=ADD(A1,A4)"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is the best sign that a web page is reliable?",
+  "options": [
+   "It names an expert author and gives its sources",
+   "It is listed first in the search results",
+   "It uses capital letters and exclamation marks",
+   "It has bright colours and lots of adverts"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which type of network joins computers in a single school building?",
+  "options": [
+   "GPS",
+   "USB",
+   "WAN",
+   "LAN"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the final value of n? n = 1; WHILE n < 50: n = n * 3; END WHILE",
+  "options": [
+   "243",
+   "27",
+   "81",
+   "50"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A company has offices in London and Tokyo joined into one network. What type of network is this?",
+  "options": [
+   "LAN",
+   "WAN",
+   "PAN",
+   "Star"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A pop-up says your computer is infected and tells you to call a number and let them take control. What should you do?",
+  "options": [
+   "Close it and tell an adult; do not phone",
+   "Call the number shown on the screen straight away",
+   "Give the caller your passwords so they can help",
+   "Pay the caller to clear the virus from the PC"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A table has 6 fields and 30 records. How many columns does it have?",
+  "options": [
+   "30",
+   "36",
+   "5",
+   "6"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Convert the decimal number 100 to an 8-bit binary number.",
+  "options": [
+   "01101100",
+   "00110100",
+   "01100100",
+   "01100010"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A table of 40 records is searched for Town = \"Leeds\" AND Year = 7. Compared with searching Town = \"Leeds\", the result will usually have what?",
+  "options": [
+   "Exactly twice as many records as before",
+   "The same number of records or fewer",
+   "All 40 records from the table",
+   "A larger number of records than before"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A loop is meant to stop when count reaches 10 but nothing changes count inside the loop. What happens?",
+  "options": [
+   "It never ends (infinite loop)",
+   "The computer deletes the variable",
+   "The loop stops after 10 repeats",
+   "The loop never starts at all"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which health problem is most associated with long, repeated use of a keyboard and mouse?",
+  "options": [
+   "Food poisoning from snacks",
+   "Sunburn from the screen",
+   "Hearing loss from the speakers",
+   "Repetitive strain injury (RSI)"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a flowchart, which shape is normally used for input or output?",
+  "options": [
+   "Rectangle (processing box)",
+   "Oval (rounded rectangle)",
+   "Parallelogram (slanted box)",
+   "Diamond (yes/no decision box)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a valid binary number?",
+  "options": [
+   "ABC110",
+   "100110",
+   "120110",
+   "100210"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which structure chooses between different actions depending on a condition?",
+  "options": [
+   "Selection (IF ... THEN)",
+   "Loop (FOR or WHILE)",
+   "Sequence (steps in order)",
+   "Variable (stored value)"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a web server do?",
+  "options": [
+   "Blocks every message from other computers",
+   "Prints web pages for users who are online",
+   "Draws the screen for the user's browser",
+   "Stores pages and sends them when asked"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the purpose of a primary key in a table?",
+  "options": [
+   "To hide the table from other users",
+   "To count how many fields there are",
+   "To give every record a unique value",
+   "To sort the records in alphabetical order"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement about the internet and the World Wide Web is correct?",
+  "options": [
+   "The internet is a collection of web pages only",
+   "The web is a set of pages reached via the internet",
+   "The web and the internet are exactly the same thing",
+   "The internet is a program that runs inside the web"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A black and white image is 8 pixels wide and 8 pixels high. Each pixel uses 1 bit. How many bytes is the image?",
+  "options": [
+   "8",
+   "16",
+   "1",
+   "64"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a web address, what does the padlock and HTTPS indicate?",
+  "options": [
+   "Everything on the site is always true",
+   "The website is run by a government",
+   "The site has no adverts on its pages",
+   "The connection to the site is encrypted"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Cell A4 holds =SUM(A1:A3). It is copied one column right into B4. What does B4 hold?",
+  "options": [
+   "=SUM(A1:A3)",
+   "=SUM(B2:B4)",
+   "=SUM(B1:B3)",
+   "=SUM(A1:B3)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Typing a whole email in CAPITAL LETTERS is generally seen as what?",
+  "options": [
+   "A sign of a formal letter",
+   "Shouting, which is impolite",
+   "A way to save storage space",
+   "A way to make email safer"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why check the date of a web page when researching?",
+  "options": [
+   "The information may be out of date",
+   "Older pages are always more accurate",
+   "The date shows who owns the page",
+   "The date shows how many visitors it has"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A1 holds 7 and B1 holds 8. What does =IF(A1=B1,\"Same\",\"Different\") show?",
+  "options": [
+   "Same",
+   "TRUE",
+   "7",
+   "Different"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does 'Reply All' do?",
+  "options": [
+   "Deletes the original email for all recipients",
+   "Forwards the message to all your contacts",
+   "Sends your reply to all the original recipients",
+   "Replies only to the first person on the list"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which two digits does the binary number system use?",
+  "options": [
+   "0 and 9",
+   "0 and 1",
+   "0 and 7",
+   "1 and 2"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which habit helps keep a school computer safe from viruses?",
+  "options": [
+   "Keeping antivirus software on and up to date",
+   "Switching off updates to avoid interruptions",
+   "Plugging in any USB stick that you find",
+   "Opening every attachment to see what it is"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is output? m = 0; FOR each v IN [6, 2, 9, 4]: IF v > m THEN m = v; END FOR; OUTPUT m",
+  "options": [
+   "4",
+   "6",
+   "21",
+   "9"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does WAN stand for?",
+  "options": [
+   "Web Address Name",
+   "Wide Access Network",
+   "Wide Area Network",
+   "Wireless Access Node"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Start with a = 4 and b = 9. Then: t = a; a = b; b = t. What are a and b at the end?",
+  "options": [
+   "a = 9, b = 9",
+   "a = 9, b = 4",
+   "a = 4, b = 4",
+   "a = 4, b = 9"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which part of a chart tells you what each colour or bar stands for?",
+  "options": [
+   "The legend (key)",
+   "The cell border",
+   "The chart's grid lines",
+   "The page margin"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is the safest thing to do on a public Wi-Fi network at a cafe?",
+  "options": [
+   "Download files from unknown senders",
+   "Share your passwords with other customers",
+   "Turn off your antivirus software",
+   "Avoid logging in to private accounts"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A Books table has these prices: 8, 12, 15, 9 and 20. How many records does the search Price > 10 return?",
+  "options": [
+   "5",
+   "2",
+   "3",
+   "4"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A cell shows ##### instead of a number. What is the most likely cause?",
+  "options": [
+   "The workbook was saved in the wrong folder",
+   "The column is too narrow to show the number",
+   "The formula contains a spelling mistake",
+   "The number is being divided by zero"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which device sends data between your home network and the internet?",
+  "options": [
+   "Router",
+   "Webcam",
+   "Monitor",
+   "Scanner"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a star network every computer connects to a central switch. What happens if one computer's cable breaks?",
+  "options": [
+   "Every computer loses the connection",
+   "The switch deletes all data",
+   "All computers keep sending data twice",
+   "Only that computer is disconnected"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In ASCII the capital letter A has the code 65. What is the code for the capital letter E?",
+  "options": [
+   "70",
+   "97",
+   "69",
+   "68"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How has ICT changed the way people can work?",
+  "options": [
+   "Workers no longer need any skills",
+   "Many can work from home using the internet",
+   "Everyone must now work in factories",
+   "Nobody needs a computer for work"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a hyperlink on a web page?",
+  "options": [
+   "Text or a picture that links to another page",
+   "A password that unlocks the restricted web page",
+   "A list of every page you have visited",
+   "A line that shows how fast the page loads"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which database action finds only the records that match a condition such as Year = 7?",
+  "options": [
+   "Deleting the table",
+   "Renaming the field",
+   "Compressing the file",
+   "Searching or filtering"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Convert the binary number 1010 to decimal.",
+  "options": [
+   "9",
+   "5",
+   "10",
+   "12"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is output? age = 12; IF age >= 13 THEN OUTPUT \"Teen\" ELSE OUTPUT \"Child\"",
+  "options": [
+   "Teen",
+   "Child",
+   "Child Teen",
+   "Nothing is displayed"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What should you do when you finish using a shared school computer?",
+  "options": [
+   "Log out so nobody else can use your account",
+   "Leave your account open for the next pupil",
+   "Turn off only the monitor and walk away",
+   "Write your password on a note by the screen"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which environmental problem is linked to the fast replacement of phones and computers?",
+  "options": [
+   "A shortage of web addresses",
+   "Slower typing speeds for users",
+   "Weaker Wi-Fi signals in homes",
+   "Electronic waste (e-waste)"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which password rule is the best advice?",
+  "options": [
+   "Change one letter and reuse it on every site",
+   "Write it on a note stuck to the side of the monitor",
+   "Make it long and hard to guess, with no personal facts",
+   "Use your birthday so that you never forget it"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Cells A1 to A5 hold 4, 8, 6, 10 and 2. What does =AVERAGE(A1:A5) show?",
+  "options": [
+   "30",
+   "6",
+   "5",
+   "7"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the digital divide?",
+  "options": [
+   "The gap between those with and without ICT",
+   "The difference between binary and decimal numbers",
+   "The line between two screens joined together",
+   "A fault that splits a hard disk into two parts"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is most likely to give better search results?",
+  "options": [
+   "One vague word such as 'things' or 'stuff'",
+   "A long sentence full of random words",
+   "Typing the name of your computer model",
+   "Precise keywords: 'volcano formation causes'"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A pupil copies three sentences from a website into a report, with quotation marks and the website name. Is this plagiarism?",
+  "options": [
+   "Yes, because websites cannot be used as sources",
+   "No, because anything online is free to copy",
+   "No, as the words are quoted and credited",
+   "Yes, because any copied words are plagiarism"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
 ]

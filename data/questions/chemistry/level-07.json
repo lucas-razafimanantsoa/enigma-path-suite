@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "The atomic number of an element is the number of...",
+  "options": [
+   "electrons in the outer shell",
+   "protons plus neutrons",
+   "neutrons in the nucleus",
+   "protons in the nucleus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The mass number of an atom is...",
+  "options": [
+   "the number of protons only",
+   "the number of neutrons only",
+   "the number of protons plus neutrons",
+   "the total number of electrons in all shells"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Isotopes of the same element have different numbers of...",
+  "options": [
+   "shells",
+   "neutrons",
+   "protons",
+   "electrons"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many neutrons are in an atom of ²³Na? (atomic number 11)",
+  "options": [
+   "12",
+   "23",
+   "11",
+   "34"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the electron configuration of magnesium (atomic number 12)?",
+  "options": [
+   "2,8,8",
+   "2,2,8",
+   "2,8,4",
+   "2,8,2"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Chlorine is 75% ³⁵Cl and 25% ³⁷Cl. What is its relative atomic mass?",
+  "options": [
+   "35.0",
+   "37.0",
+   "35.5",
+   "36.5"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the relative atomic mass of an element?",
+  "options": [
+   "The number of protons in one atom",
+   "The weighted average mass of its isotopes compared with 1/12 of a carbon-12 atom",
+   "The total mass of all the protons and neutrons in one atom of the element measured in atomic mass units",
+   "The mass of one atom in grams"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which two particles have approximately the same mass?",
+  "options": [
+   "Proton and neutron",
+   "Proton and electron",
+   "Neutron and electron",
+   "Electron and photon"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many moles are in 44 g of CO₂? (M = 44 g mol⁻¹)",
+  "options": [
+   "44 mol",
+   "0.5 mol",
+   "2 mol",
+   "1 mol"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the mass of 0.5 mol of water? (M = 18 g mol⁻¹)",
+  "options": [
+   "36 g",
+   "0.5 g",
+   "9 g",
+   "18 g"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How many moles of gas are in 48 dm³ at room temperature and pressure? (1 mol occupies 24 dm³)",
+  "options": [
+   "0.5 mol",
+   "2 mol",
+   "24 mol",
+   "48 mol"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A solution contains 0.1 mol of NaOH in 500 cm³. What is its concentration?",
+  "options": [
+   "0.2 mol dm⁻³",
+   "0.1 mol dm⁻³",
+   "0.05 mol dm⁻³",
+   "1.0 mol dm⁻³"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the empirical formula of a compound containing 1 mol Ca, 1 mol C and 3 mol O?",
+  "options": [
+   "Ca₂CO₃",
+   "CaCO₂",
+   "CaC₂O₃",
+   "CaCO₃"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A compound has empirical formula CH₂ and relative molecular mass 42. What is its molecular formula?",
+  "options": [
+   "CH₂",
+   "C₂H₄",
+   "C₃H₆",
+   "C₄H₈"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Ions in a giant ionic lattice are held together by...",
+  "options": [
+   "hydrogen bonds",
+   "strong electrostatic attraction",
+   "shared electron pairs",
+   "weak intermolecular forces between molecules"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does graphite conduct electricity?",
+  "options": [
+   "It has delocalised electrons between layers",
+   "Its molecules are small",
+   "It contains metal atoms within its layered structure",
+   "Its ions can move"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Diamond is hard because...",
+  "options": [
+   "it contains ions",
+   "its molecules slide easily",
+   "it has weak forces between layers",
+   "each carbon atom is covalently bonded to four others in a giant structure"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many electrons are in a Mg²⁺ ion? (atomic number 12)",
+  "options": [
+   "14",
+   "24",
+   "10",
+   "12"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many oxygen atoms are in 1 mol of H₂SO₄?",
+  "options": [
+   "6.02 × 10²³ atoms",
+   "4 × 6.02 × 10²³",
+   "1",
+   "2"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The Avogadro constant is...",
+  "options": [
+   "6.02 × 10²³ mol⁻¹",
+   "1.00 × 10⁻³ mol dm⁻³",
+   "24 dm³ mol⁻¹",
+   "6.02 × 10⁻²³ mol"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the formula of the ionic compound formed from Al³⁺ and O²⁻?",
+  "options": [
+   "AlO",
+   "Al₃O₂",
+   "AlO₂",
+   "Al₂O₃"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do isotopes of an element have the same chemical properties?",
+  "options": [
+   "They have the same mass number",
+   "They have different numbers of neutrons in their nuclei",
+   "They have the same electron configuration",
+   "They have different numbers of protons"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Concentration in mol dm⁻³ is calculated as...",
+  "options": [
+   "volume ÷ moles",
+   "moles ÷ volume in dm³",
+   "mass of solute ÷ molar mass of solute",
+   "moles × volume"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the percentage by mass of oxygen in water? (H₂O, M = 18)",
+  "options": [
+   "88.9%",
+   "50.0%",
+   "16.0%",
+   "11.1%"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which sample contains 0.25 mol?",
+  "options": [
+   "44 g of CO₂",
+   "2 g of H₂",
+   "18 g of H₂O",
+   "8 g of O₂"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

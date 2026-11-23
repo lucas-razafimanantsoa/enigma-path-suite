@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Binary Search Works | EnigmaPath</title>
+<link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../shared/theme.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .learn-page .lab-head { display: grid; gap: 10px; justify-items: start; }
+  .learn-page section.card { margin-bottom: 18px; }
+  .learn-page h2 { font-size: 19px; margin-bottom: 10px; }
+  .learn-page p + p { margin-top: 10px; }
+  .learn-page .table-wrap { overflow-x: auto; margin-top: 12px; }
+  .learn-page table { width: 100%; min-width: 460px; border-collapse: collapse; font-size: 14px; }
+  .learn-page th, .learn-page td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+  .learn-page th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--soft, #3A6F99); }
+  .learn-page tbody tr:nth-child(even) { background: var(--bg-deep, #D9F1F7); }
+  .learn-page .formula {
+    display: inline-block; margin-top: 12px; padding: 10px 14px;
+    border: 1px solid var(--line-strong, #b6d8e8); border-radius: var(--radius-sm, 10px);
+    background: var(--bg-deep, #D9F1F7); font-family: var(--font-mono, monospace); font-size: 17px;
+  }
+  .halving { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 16px 0; }
+  .halving__step {
+    min-width: 64px; padding: 8px 10px; text-align: center;
+    border: 1px solid var(--line-strong, #b6d8e8); border-radius: var(--radius-sm, 10px);
+    background: var(--bg-raised, #F6FDFF);
+  }
+  .halving__step strong { display: block; font-family: var(--font-mono, monospace); font-size: 18px; color: var(--accent, #4682B4); }
+  .halving__step span { font-size: 11px; color: var(--muted, #456C85); }
+  .halving__arrow { color: var(--soft, #3A6F99); font-weight: 700; }
+  .quiz-item {
+    margin-top: 10px; padding: 12px 14px;
+    border: 1px solid var(--line-strong, #b6d8e8); border-radius: var(--radius-sm, 10px);
+    background: var(--bg-raised, #F6FDFF);
+  }
+  .quiz-item summary { cursor: pointer; font-weight: 600; }
+  .quiz-answer {
+    margin-top: 10px; padding-top: 10px;
+    border-top: 1px solid var(--line); font-size: 14px; color: var(--muted, #456C85);
+  }
+  @media (max-width: 500px) { .halving__step { min-width: 54px; } }
+</style>
+</head><body>
+<header class="ep-topbar">
+  <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+    <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+    <span>EnigmaPath<small>Binary Search Lab</small></span>
+  </a>
+  <a class="btn btn--small" href="index.html">← Back to the game</a>
+</header>
+<main class="ep-main learn-page">
+
+  <div class="lab-head">
+    <p class="eyebrow">Learn · search algorithms</p>
+    <h1>How binary search works</h1>
+    <p class="muted">A short guide to the guessing game: why guessing the middle is so powerful, how many guesses you can expect, and when the trick stops working.</p>
+    <a class="btn btn--small" href="index.html">Back to the game</a>
+  </div>
+
+  <section class="card">
+    <h2>The idea in one sentence</h2>
+    <p>Binary search guesses the <b>middle</b> of the remaining range. The answer “higher” or “lower” tells you which half cannot contain the secret, so you throw that half away and repeat.</p>
+    <p>In the game you are the one making the guesses. The computer plays the part of a sorted list: it can only tell you which side the secret is on.</p>
+  </section>
+
+  <section class="card">
+    <h2>Worked example: find 100 in 1–100</h2>
+    <p>Suppose the secret is <b>100</b>. Each row guesses the midpoint of the range that is still possible, then keeps only the half that could contain the answer.</p>
+    <div class="table-wrap">
+      <table class="guess-table">
+        <thead><tr><th scope="col">Guess #</th><th scope="col">Possible range</th><th scope="col">Midpoint guess</th><th scope="col">Reply</th><th scope="col">Numbers left</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>1–100</td><td>50</td><td>Higher — try a bigger number</td><td>50 (51–100)</td></tr>
+          <tr><td>2</td><td>51–100</td><td>75</td><td>Higher — try a bigger number</td><td>25 (76–100)</td></tr>
+          <tr><td>3</td><td>76–100</td><td>88</td><td>Higher — try a bigger number</td><td>12 (89–100)</td></tr>
+          <tr><td>4</td><td>89–100</td><td>94</td><td>Higher — try a bigger number</td><td>6 (95–100)</td></tr>
+          <tr><td>5</td><td>95–100</td><td>97</td><td>Higher — try a bigger number</td><td>3 (98–100)</td></tr>
+          <tr><td>6</td><td>98–100</td><td>99</td><td>Higher — try a bigger number</td><td>1 (100)</td></tr>
+          <tr><td>7</td><td>100–100</td><td>100</td><td>Correct!</td><td>0 — found</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="hint">Seven guesses is the worst case for 1–100. Other secrets are often found sooner — for example, if the secret were 50, the very first guess would win.</p>
+  </section>
+
+  <section class="card">
+    <h2>Why each guess halves the search space</h2>
+    <p>A reply of “higher” rules out every number at or below your guess. “Lower” rules out every number at or above it. Because you guessed the middle, you discard about half of what was left, whichever answer you get.</p>
+    <div class="halving" aria-label="The search space roughly halves at each step: 100, 50, 25, 13, 7, 4, 2, 1">
+      <div class="halving__step"><strong>100</strong><span>start</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>50</strong><span>1 guess</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>25</strong><span>2 guesses</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>13</strong><span>3 guesses</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>7</strong><span>4 guesses</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>4</strong><span>5 guesses</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>2</strong><span>6 guesses</span></div><span class="halving__arrow" aria-hidden="true">→</span>
+      <div class="halving__step"><strong>1</strong><span>7 guesses</span></div>
+    </div>
+    <p>After 7 halvings, at most one number can still be possible. Halving is what makes binary search fast: doubling the range only adds one extra guess.</p>
+  </section>
+
+  <section class="card">
+    <h2>The log<sub>2</sub> formula</h2>
+    <p>If there are <i>n</i> possibilities, then after <i>k</i> guesses about <i>n</i> / 2<sup><i>k</i></sup> possibilities remain. We need that to fall to 1, so <i>k</i> must be at least log<sub>2</sub>(<i>n</i>). Round up because you cannot make a fraction of a guess:</p>
+    <p class="formula">guesses ≤ ceil(log₂(n))</p>
+    <p>For 1–100 there are <i>n</i> = 100 possibilities. 2<sup>6</sup> = 64 is not enough, but 2<sup>7</sup> = 128 covers them all, so ceil(log₂(100)) = <b>7</b>. That is why the game reports 7 as the optimal maximum for the default range.</p>
+  </section>
+
+  <section class="card">
+    <h2>Binary search vs linear search</h2>
+    <p>Linear search checks numbers one at a time from the start. Binary search throws half away each time. For small ranges the difference is minor; for big ones it is enormous.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Range</th><th scope="col">Linear search, worst case</th><th scope="col">Binary search, worst case</th></tr></thead>
+        <tbody>
+          <tr><td>1–100</td><td>100 guesses</td><td>7 guesses</td></tr>
+          <tr><td>1–1,000</td><td>1,000 guesses</td><td>10 guesses</td></tr>
+          <tr><td>1–10,000</td><td>10,000 guesses</td><td>14 guesses</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="hint">Linear search does have one advantage: it works on any list, sorted or not.</p>
+  </section>
+
+  <section class="card">
+    <h2>One catch: the data must be sorted</h2>
+    <p>“Higher” and “lower” are only useful when the values are in order. In a sorted list, knowing that the secret is bigger than your guess means everything at or below that position can be safely skipped.</p>
+    <p>On an unsorted list, a bigger value might be hiding anywhere — even in the half you just discarded. So binary search needs sorted data (and sorting has its own cost). The guessing game works because the number line is naturally ordered.</p>
+  </section>
+
+  <section class="card">
+    <h2>Check your understanding</h2>
+    <p class="hint">Click a question to reveal its answer.</p>
+    <details class="quiz-item">
+      <summary>1. You guess 50 in a 1–100 game and hear “Lower — try a smaller number”. How many numbers are still possible?</summary>
+      <div class="quiz-answer">49 numbers: 1 through 49. Your guess of 50 and everything above it has been ruled out.</div>
+    </details>
+    <details class="quiz-item">
+      <summary>2. Why can't binary search be used directly on an unsorted list?</summary>
+      <div class="quiz-answer">Because “higher” or “lower” only tells you which half to keep if the values are ordered. Without order you cannot safely discard half the list, so you would have to check items one by one.</div>
+    </details>
+    <details class="quiz-item">
+      <summary>3. About how many guesses would binary search need for 1–1,000?</summary>
+      <div class="quiz-answer">At most 10, because 2<sup>9</sup> = 512 is too small and 2<sup>10</sup> = 1,024 covers 1,000. That is ceil(log₂(1000)) = 10.</div>
+    </details>
+  </section>
+
+</main>
+<script src="../shared/footer.js"></script>
+</body></html>

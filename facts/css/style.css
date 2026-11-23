@@ -1,0 +1,84 @@
+/* Fun Facts page — flat cards, light palette, gentle fade-in. */
+
+.facts-head { max-width: 660px; margin: 0 auto clamp(16px, 3vw, 26px); }
+.facts-head h1 { font-size: clamp(30px, 6vw, 44px); margin: 4px 0 8px; letter-spacing: 0.02em; }
+
+.fact-card {
+  max-width: 780px;
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+  box-shadow: none;
+  border: 1px solid var(--line-strong);
+  animation: fact-in 0.42s ease both;
+}
+
+@keyframes fact-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.fact-card.is-in { animation: fact-in 0.42s ease both; }
+
+.fact-topic {
+  justify-self: start;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  background: var(--bg-deep);
+}
+.fact-topic--maths { background: #D9F1F7; }
+.fact-topic--computing { background: #E3F0FA; }
+.fact-topic--puzzle { background: #E8F5EC; }
+.fact-topic--logic { background: #F1EAF7; }
+.fact-topic--algorithm { background: #FBF1E2; }
+.fact-topic--history { background: #F2ECF0; }
+
+#fact-title { font-size: clamp(24px, 5vw, 34px); line-height: 1.2; }
+
+.fact-hook {
+  font-size: clamp(18px, 3vw, 22px);
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.fact-detail { color: var(--muted); line-height: 1.7; }
+
+.fact-source {
+  justify-self: start;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--soft);
+}
+.fact-source:hover { border-bottom-style: solid; }
+
+.fact-actions {
+  max-width: 780px;
+  margin: 18px auto 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.fact-count, .fact-tip { max-width: 780px; margin: 12px auto 0; }
+.fact-tip { margin-top: 4px; font-size: 12px; }
+
+.noscript {
+  max-width: 780px;
+  margin: 0 auto 24px;
+  padding: 16px;
+  border: 1px solid var(--warn);
+  border-radius: var(--radius-md);
+  background: var(--bg-raised);
+}
+
+@media (max-width: 360px) {
+  .facts-head h1 { font-size: 28px; }
+  .fact-card { padding: 16px; gap: 12px; }
+  .fact-actions .btn { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fact-card, .fact-card.is-in { animation: none !important; }
+}

@@ -188,16 +188,16 @@
       for (var r = 0; r < rows; r++) {
         for (var c = 0; c < cols; c++) {
           var ch = state.grid[r][c];
-          ctx.fillStyle = ch === '#' ? '#141e2b' : '#b2c1c5';
+          ctx.fillStyle = ch === '#' ? '#1E3D56' : '#E0FFFF';
           ctx.fillRect(c * cs, r * cs, cs, cs);
-          if (ch === '#') { ctx.fillStyle = '#26394d'; ctx.fillRect(c * cs + 1, r * cs + 1, cs - 2, cs - 2); }
-          else { ctx.strokeStyle = 'rgba(20,30,43,0.25)'; ctx.strokeRect(c * cs + 0.5, r * cs + 0.5, cs - 1, cs - 1); }
+          if (ch === '#') { ctx.fillStyle = '#4682B4'; ctx.fillRect(c * cs + 1, r * cs + 1, cs - 2, cs - 2); }
+          else { ctx.strokeStyle = 'rgba(30,61,86,0.18)'; ctx.strokeRect(c * cs + 0.5, r * cs + 0.5, cs - 1, cs - 1); }
         }
       }
       var g = find('G');
       if (g) {
-        ctx.fillStyle = '#e6c27a'; ctx.fillRect(g.c * cs + 2, g.r * cs + 2, cs - 4, cs - 4);
-        ctx.fillStyle = '#141e2b'; ctx.font = '700 ' + Math.round(cs * 0.6) + 'px sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+        ctx.fillStyle = '#E0FFFF'; ctx.fillRect(g.c * cs + 2, g.r * cs + 2, cs - 4, cs - 4);
+        ctx.fillStyle = '#1E3D56'; ctx.font = '700 ' + Math.round(cs * 0.6) + 'px sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
         ctx.fillText('G', g.c * cs + cs / 2, g.r * cs + cs / 2 + 1);
       }
       var s = find('S');
@@ -205,8 +205,8 @@
         ctx.save();
         ctx.translate(s.c * cs + cs / 2, s.r * cs + cs / 2);
         ctx.rotate(['N', 'E', 'S', 'W'].indexOf(state.dir) * Math.PI / 2);
-        ctx.fillStyle = '#141e2b'; ctx.beginPath(); ctx.arc(0, 0, cs * 0.4, 0, Math.PI * 2); ctx.fill();
-        ctx.fillStyle = '#7fc8a0'; ctx.beginPath(); ctx.moveTo(0, -cs * 0.3); ctx.lineTo(cs * 0.22, cs * 0.2); ctx.lineTo(-cs * 0.22, cs * 0.2); ctx.closePath(); ctx.fill();
+        ctx.fillStyle = '#1E3D56'; ctx.beginPath(); ctx.arc(0, 0, cs * 0.4, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = '#E0FFFF'; ctx.beginPath(); ctx.moveTo(0, -cs * 0.32); ctx.lineTo(cs * 0.2, cs * 0.08); ctx.lineTo(-cs * 0.2, cs * 0.08); ctx.closePath(); ctx.fill();
         ctx.restore();
       }
     }

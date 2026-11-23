@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graph Colouring | EnigmaPath</title>
+<link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../shared/theme.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../shared/gate.css">
+</head><body>
+<header class="ep-topbar">
+  <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+    <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+    <span>EnigmaPath<small>Graph Colouring</small></span>
+  </a>
+</header>
+<main class="ep-main">
+  <section class="gc-head">
+    <p class="eyebrow">Graph puzzle</p>
+    <h1>Graph / Map Colouring</h1>
+    <p class="muted">Colour the dots so that no two dots joined by a line share a colour — then try to use as few colours as you can. Pick any graph below, or press <strong>Next graph</strong> for a new puzzle.</p>
+  </section>
+
+  <div class="gc-layout">
+    <div class="card gc-graph-card">
+      <div class="gc-preset">
+        <label for="preset-select">Choose a graph</label>
+        <select id="preset-select" aria-label="Choose a graph"></select>
+      </div>
+      <div class="gc-graph-title">
+        <h2 id="preset-name">Preset</h2>
+        <span class="badge" id="color-count-badge">Minimum colours: —</span>
+      </div>
+      <p class="gc-chromatic" id="chromatic-line">This graph needs at least — colours.</p>
+      <svg class="graph" id="graph" viewBox="0 0 100 100" role="img" aria-label="Colourable graph">
+        <g id="edges"></g>
+        <g id="nodes"></g>
+      </svg>
+      <div class="gc-legend" id="legend"></div>
+    </div>
+
+    <div class="card gc-side">
+      <div class="gc-stats">
+        <div class="stat"><span class="stat__v" id="stat-conflicts">0</span><span class="stat__l">Conflicts</span></div>
+        <div class="stat"><span class="stat__v" id="stat-moves">0</span><span class="stat__l">Moves</span></div>
+        <div class="stat"><span class="stat__v" id="stat-used">1</span><span class="stat__l">Colours used</span></div>
+      </div>
+
+      <div class="gc-buttons">
+        <button class="btn btn--primary" id="btn-new" type="button">Next graph</button>
+        <button class="btn" id="btn-check" type="button">Check</button>
+        <button class="btn" id="btn-reset" type="button">Reset colours</button>
+      </div>
+
+      <div class="gc-msg" id="msg" role="status" aria-live="polite">Colour the nodes so no edge joins two of the same colour.</div>
+
+      <button class="btn btn--small gc-solution" id="btn-solution" type="button">Show solution (teacher)</button>
+      <p class="hint">Tip: a triangle needs 3 colours; K₄ needs 4. Right-click or Shift-click a node to go backwards.</p>
+    </div>
+  </div>
+
+  <section class="card gc-explain" aria-labelledby="explain-title">
+    <h2 id="explain-title">How map colouring works</h2>
+    <p class="gc-explain__intro">Imagine a map where every region gets a colour. If two regions share a border, they must look different. In a graph, the regions become <strong>nodes</strong> (dots) and the shared borders become <strong>edges</strong> (lines).</p>
+    <div class="gc-explain__grid">
+      <div>
+        <h3>The rule</h3>
+        <p>Two nodes joined by a line must never have the same colour. A dashed red line means you have broken the rule — change one of its two nodes.</p>
+      </div>
+      <div>
+        <h3>The goal</h3>
+        <p>Use as few colours as possible. The smallest number that can work is called the graph's <strong>chromatic number</strong> — look for the "Minimum colours" badge above.</p>
+      </div>
+      <div>
+        <h3>How to play</h3>
+        <ul>
+          <li>Click a node to cycle its colour A → B → C → D (right-click or Shift-click to go back).</li>
+          <li>Watch the counters for conflicts, moves and colours used.</li>
+          <li>Use <strong>Check</strong> to test your answer, <strong>Reset colours</strong> to start over, or <strong>Next graph</strong> for a new puzzle.</li>
+        </ul>
+      </div>
+      <div class="gc-theorem">
+        <h3>The Four Colour Theorem</h3>
+        <p>Any flat map can be coloured with <strong>at most four colours</strong> so that no two neighbouring regions share a colour. In graph language: every planar graph is 4-colourable. It was proved with <strong>computer assistance in 1976 by Kenneth Appel and Wolfgang Haken</strong> — one of the first famous proofs to rely on a computer.</p>
+      </div>
+    </div>
+    <p class="gc-explain__why"><strong>Why it matters:</strong> it explains why any world map, board game or timetable can be sorted into just four conflict-free groups — a handy idea whenever things must not overlap.</p>
+  </section>
+</main>
+<script src="../shared/gate.js"></script>
+<script src="../shared/footer.js"></script>
+<script src="js/app.js"></script>
+</body></html>

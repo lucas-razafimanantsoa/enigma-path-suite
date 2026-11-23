@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which products are made during photosynthesis?",
+  "options": [
+   "Oxygen and water",
+   "Glucose and oxygen",
+   "Carbon dioxide and water",
+   "Glucose and carbon dioxide"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Aerobic respiration releases energy from...",
+  "options": [
+   "glucose using oxygen",
+   "sunlight and water",
+   "carbon dioxide and water",
+   "glucose without oxygen"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a food chain, the arrow points from...",
+  "options": [
+   "the eater to the food",
+   "the producer to the Sun",
+   "the predator to the prey that it catches",
+   "the organism being eaten to the eater"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which organism in a food chain is a producer?",
+  "options": [
+   "Fungus",
+   "Rabbit",
+   "Grass",
+   "Fox"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the role of decomposers?",
+  "options": [
+   "They make their own food using sunlight, water and air",
+   "They break down dead material and recycle nutrients",
+   "They eat living animals only",
+   "They produce oxygen from water"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How does photosynthesis affect the carbon cycle?",
+  "options": [
+   "It removes carbon dioxide from the air",
+   "It adds carbon dioxide to the atmosphere",
+   "It converts oxygen into nitrogen",
+   "It stops respiration in plants"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which bacteria convert nitrogen gas into compounds plants can use?",
+  "options": [
+   "Denitrifying bacteria in the soil",
+   "Photosynthetic bacteria",
+   "Decomposing bacteria",
+   "Nitrogen-fixing bacteria"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which process returns water vapour to the atmosphere from plants?",
+  "options": [
+   "Condensation",
+   "Precipitation from clouds",
+   "Transpiration",
+   "Filtration"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A rabbit population rises because...",
+  "options": [
+   "disease has spread quickly through the population",
+   "more food and fewer predators are available",
+   "the birth rate has fallen",
+   "its habitat has been destroyed"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Biodiversity means...",
+  "options": [
+   "the variety of species and habitats",
+   "the size of an ecosystem",
+   "the rate of extinction",
+   "the number of individuals in one species"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which effect is caused by large-scale deforestation?",
+  "options": [
+   "Increased biodiversity",
+   "More stable rainfall",
+   "Faster recycling of nutrients in the soil",
+   "Loss of habitat and soil erosion"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Fertiliser runoff into a lake can cause...",
+  "options": [
+   "faster water evaporation",
+   "increased oxygen levels",
+   "eutrophication and oxygen depletion",
+   "much lower nitrate levels in the water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which gas is a major greenhouse gas?",
+  "options": [
+   "Oxygen",
+   "Carbon dioxide",
+   "Argon (a noble gas)",
+   "Nitrogen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A likely consequence of global warming is...",
+  "options": [
+   "rising sea levels",
+   "less extreme weather",
+   "falling global temperatures",
+   "more polar ice"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A pathogen is...",
+  "options": [
+   "a medicine that kills bacteria in the body",
+   "a vitamin needed for health",
+   "a type of white blood cell",
+   "a microorganism that causes disease"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does antibiotic resistance spread?",
+  "options": [
+   "Vaccines create resistant bacteria in the human body",
+   "Resistance is caused by cold weather",
+   "Bacteria with resistance survive and reproduce",
+   "Antibiotics change human genes"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A vaccine protects a person by...",
+  "options": [
+   "providing all the nutrients that the body's cells need",
+   "stimulating an immune response before infection",
+   "killing all bacteria in the body",
+   "replacing white blood cells"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which white blood cells produce antibodies?",
+  "options": [
+   "Lymphocytes",
+   "Red blood cells",
+   "Platelets",
+   "Phagocytes"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A lack of vitamin C can cause...",
+  "options": [
+   "rickets",
+   "anaemia",
+   "goitre",
+   "scurvy"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Anaerobic respiration in muscles produces...",
+  "options": [
+   "ethanol and oxygen",
+   "carbon dioxide and water",
+   "lactic acid",
+   "glucose and oxygen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Villi in the small intestine increase...",
+  "options": [
+   "the production of bile",
+   "the surface area for absorption",
+   "the size of the liver",
+   "the rate at which breathing takes place"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Transpiration is faster when...",
+  "options": [
+   "the air is warm and dry",
+   "humidity is very high",
+   "the air is cold and damp",
+   "the stomata are closed"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which method helps conserve a threatened species?",
+  "options": [
+   "Destroying its habitat",
+   "Introducing more predators into the habitat",
+   "Increasing pollution",
+   "Captive breeding programmes"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are fishing quotas used?",
+  "options": [
+   "To catch only the largest fish",
+   "To remove all predators",
+   "To prevent overfishing and allow populations to recover",
+   "To allow more fishing boats to work in the area each year"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

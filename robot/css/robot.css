@@ -19,7 +19,7 @@
 .level-card .t { font-weight: 600; }
 .level-card .m { font-size: 12px; color: var(--muted); }
 .level-card .s { position: absolute; top: 10px; right: 12px; font-size: 18px; }
-.level-card.is-done { border-color: rgba(127, 200, 160, 0.55); }
+.level-card.is-done { border-color: rgba(44, 117, 98, 0.55); }
 .level-card.is-done .s { color: var(--ok); }
 .level-card.is-current { border-color: var(--soft); box-shadow: 0 0 0 1px var(--soft) inset; }
 
@@ -33,7 +33,7 @@
 .legend { display: flex; gap: 16px; margin-top: 10px; font-size: 13px; color: var(--muted); flex-wrap: wrap; }
 .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
 .dot--robot { background: var(--ink); }
-.dot--goal { background: var(--warn); border-radius: 3px; }
+.dot--goal { background: #E0FFFF; border: 1px solid var(--ink); border-radius: 3px; }
 .dot--trail { background: var(--surface-2); }
 
 .side-card { display: grid; gap: 12px; }
@@ -72,3 +72,21 @@
 .message.is-bad { border-left-color: var(--bad); }
 .message.is-info { border-left-color: var(--warn); }
 .win-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* ---- Small screens ---- */
+@media (max-width: 560px) {
+  .ep-topbar { flex-wrap: wrap; gap: 6px; padding: 8px 14px; }
+  .ep-topbar .ep-brand { width: 100%; }
+  .ep-topbar__right { width: 100%; }
+  .levels-head { gap: 12px; }
+  .levels-tools { min-width: 0; width: 100%; }
+  .level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .level-card { padding: 11px; }
+  .stats { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .ins-buttons { gap: 6px; }
+  .ins { padding: 9px 4px; }
+  .ins span { font-size: 21px; }
+  .legend { gap: 10px; font-size: 12px; }
+  .edit-row, .run-row { gap: 6px; }
+  .run-row .btn { min-height: 44px; }
+}

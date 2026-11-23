@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which factor does NOT increase the rate of a reaction?",
+  "options": [
+   "Adding a catalyst",
+   "Lowering the temperature",
+   "Increasing concentration",
+   "Increasing surface area"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A catalyst increases the rate because it...",
+  "options": [
+   "provides an alternative pathway with lower activation energy",
+   "increases the activation energy needed for the reaction to start",
+   "increases the temperature",
+   "adds more particles"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why does a powdered solid react faster than a lump?",
+  "options": [
+   "It contains more atoms",
+   "It has a higher activation energy",
+   "It has a lower melting point",
+   "It has a larger surface area"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which change increases the rate of a reaction between gases?",
+  "options": [
+   "Adding water",
+   "Cooling the mixture",
+   "Increasing the pressure",
+   "Using larger pieces of solid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "According to collision theory, particles must collide with...",
+  "options": [
+   "any speed at all",
+   "enough energy and the correct orientation",
+   "enough energy only, whatever their orientation",
+   "no energy"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Activation energy is...",
+  "options": [
+   "the minimum energy needed for a reaction to occur",
+   "the energy released when the products are eventually formed",
+   "the total energy of all particles",
+   "the energy of the products minus reactants"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which measurement can follow the rate of a reaction that produces a gas?",
+  "options": [
+   "Colour of a solid",
+   "Melting point",
+   "Mass of the catalyst",
+   "Volume of gas over time"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Increasing temperature increases reaction rate mainly because...",
+  "options": [
+   "the particles become much larger and heavier as they heat up and move faster",
+   "activation energy falls to zero",
+   "more particles have energy greater than the activation energy",
+   "the catalyst melts"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A reversible reaction is one in which...",
+  "options": [
+   "products cannot react again",
+   "products can react to reform reactants",
+   "only the forward reaction can occur at all",
+   "no energy is involved"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "At dynamic equilibrium...",
+  "options": [
+   "the forward and reverse rates are equal",
+   "the amounts of reactants and products are equal",
+   "the reaction has stopped",
+   "only the forward reaction occurs"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In the Haber process, nitrogen reacts with...",
+  "options": [
+   "oxygen",
+   "chlorine",
+   "water",
+   "hydrogen"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The Haber process uses a catalyst of...",
+  "options": [
+   "platinum",
+   "nickel",
+   "iron",
+   "vanadium(V) oxide"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The Haber process is carried out at approximately...",
+  "options": [
+   "25°C and 1 atm",
+   "450°C and 200 atm",
+   "1000°C and 1 atmosphere",
+   "450°C and 1 atm"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), increasing the pressure...",
+  "options": [
+   "shifts the equilibrium right",
+   "stops the reaction",
+   "shifts the equilibrium to the left",
+   "has no effect"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The forward reaction in the Haber process is exothermic. Increasing the temperature...",
+  "options": [
+   "increases the yield of ammonia",
+   "has no effect on yield",
+   "increases the rate and the yield equally",
+   "decreases the yield of ammonia"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In the Haber process, ammonia is removed as it forms. This...",
+  "options": [
+   "lowers the rate only",
+   "stops the catalyst working",
+   "shifts the equilibrium to the right",
+   "shifts the equilibrium position to the left"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Le Chatelier's principle says that a system at equilibrium will...",
+  "options": [
+   "increase its temperature by itself",
+   "oppose a change imposed on it",
+   "always move left",
+   "never change"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Adding more reactant to an equilibrium mixture generally...",
+  "options": [
+   "shifts it right",
+   "destroys the catalyst",
+   "shifts it left",
+   "has no effect"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A catalyst changes the rate of a reversible reaction but not...",
+  "options": [
+   "the activation energy",
+   "the collision frequency",
+   "the temperature of the mixture",
+   "the position of equilibrium"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which units are used for reaction rate?",
+  "options": [
+   "mol dm⁻³",
+   "dm³ s⁻¹",
+   "mol dm⁻³ s⁻¹",
+   "mol dm³ s⁻¹ per gram"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The Contact process makes sulfuric acid. Its catalyst is...",
+  "options": [
+   "aluminium oxide powder",
+   "vanadium(V) oxide",
+   "iron",
+   "nickel"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "For an equilibrium with equal numbers of gas moles on both sides, increasing pressure...",
+  "options": [
+   "has no effect on the position",
+   "increases the yield of products",
+   "shifts it right",
+   "shifts it left"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A dust explosion in a flour mill is dangerous because...",
+  "options": [
+   "flour has no activation energy",
+   "flour contains a catalyst",
+   "the particles are very cold and widely spaced",
+   "fine particles have a very large surface area"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about a catalyst is correct?",
+  "options": [
+   "It only speeds up the reverse reaction",
+   "It is used up in the reaction",
+   "It lowers the activation energy for both forward and reverse reactions",
+   "It changes the enthalpy change of the overall reaction taking place"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In an exothermic reversible reaction, raising the temperature shifts equilibrium...",
+  "options": [
+   "to the side with fewer gas moles",
+   "to the left",
+   "to the right",
+   "to the side with more gas moles"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

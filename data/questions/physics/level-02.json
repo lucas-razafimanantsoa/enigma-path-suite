@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What unit is used to measure distance in science?",
+  "options": [
+   "gram (g)",
+   "litre (L)",
+   "metre (m)",
+   "second (s)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which instrument measures length?",
+  "options": [
+   "Clock",
+   "Ruler",
+   "Balance",
+   "Thermometer"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What unit is used to measure time?",
+  "options": [
+   "second (s)",
+   "newton (N)",
+   "metre (m)",
+   "kilogram (kg)"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A student walks 10 m in 5 s. What is the speed?",
+  "options": [
+   "50 m/s",
+   "5 m/s",
+   "15 m/s",
+   "2 m/s"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A car travels 60 km in 1 hour. What is its speed?",
+  "options": [
+   "600 km/h",
+   "1 km/h",
+   "60 km/h",
+   "6 km/h"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a unit of speed?",
+  "options": [
+   "kg",
+   "m/s",
+   "m",
+   "s"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do you use to measure time in a race?",
+  "options": [
+   "Stopwatch",
+   "Balance",
+   "Ruler",
+   "Thermometer"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many metres are there in 1 kilometre?",
+  "options": [
+   "100 m",
+   "10 m",
+   "10000 m",
+   "1000 m"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A distance of 2 km is the same as how many metres?",
+  "options": [
+   "20 m",
+   "20000 m",
+   "2000 m",
+   "200 m"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A runner covers 400 m in 80 s. What is the average speed?",
+  "options": [
+   "8 m/s",
+   "5 m/s",
+   "32000 m/s",
+   "2 m/s"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A train travels 120 km in 2 hours. What is its average speed?",
+  "options": [
+   "60 km/h",
+   "12 km/h",
+   "240 km/h",
+   "60 km"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How far does a cyclist travel at 8 m/s for 30 s?",
+  "options": [
+   "38 m",
+   "240 s",
+   "4 m",
+   "240 m"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A journey takes 3 hours at 50 km/h. How far is it?",
+  "options": [
+   "150 h",
+   "15 km",
+   "150 km",
+   "53 km"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which unit is best for measuring the length of a pencil?",
+  "options": [
+   "kilometres",
+   "centimetres",
+   "litres",
+   "kilograms"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is the greatest distance?",
+  "options": [
+   "1 km",
+   "1000 cm",
+   "900 m",
+   "800 m"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which two measurements are needed to calculate speed?",
+  "options": [
+   "mass and time",
+   "length and weight",
+   "time and temperature",
+   "distance and time"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A car travels 150 km in 2.5 hours. What is its average speed?",
+  "options": [
+   "152.5 km/h",
+   "37.5 km/h",
+   "60 km/h",
+   "75 km/h"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A walker covers 3 km in 40 minutes. What is the speed in km/h?",
+  "options": [
+   "7.5 km/h",
+   "4.5 km/h",
+   "1.33 km/h",
+   "120 km/h"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Convert 36 km/h into m/s.",
+  "options": [
+   "10 m/s",
+   "36 m/s",
+   "3.6 m/s",
+   "100 m/s"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A ball rolls 12 m in 4 s. How far in 10 s at the same speed?",
+  "options": [
+   "30 s",
+   "16 m",
+   "120 m",
+   "30 m"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 240 km trip takes 4 hours including a 1-hour stop. Moving speed?",
+  "options": [
+   "80 km",
+   "240 km/h",
+   "80 km/h",
+   "60 km/h"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is faster, 10 m/s or 30 km/h?",
+  "options": [
+   "30 km/h",
+   "10 m/s",
+   "They are equal",
+   "It cannot be worked out"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Average speed for 100 m in 20 s then 100 m in 25 s?",
+  "options": [
+   "4.4 m/s",
+   "4 m/s",
+   "4.5 m/s",
+   "5 m/s"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A map scale is 1 cm to 5 km. Two towns are 4 cm apart. Real distance?",
+  "options": [
+   "20 cm",
+   "9 km",
+   "45 km",
+   "20 km"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is average speed used for a car journey?",
+  "options": [
+   "Distance is always constant",
+   "Time cannot be measured",
+   "Speed often changes during the trip",
+   "Cars never change their speed"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

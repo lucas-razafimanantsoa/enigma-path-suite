@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "In which year was the United Nations founded?",
+  "options": [
+   "1945",
+   "1948",
+   "1955",
+   "1919"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where is United Nations headquarters located?",
+  "options": [
+   "Vienna",
+   "Geneva",
+   "Paris",
+   "New York City"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many members did the UN have when it was founded?",
+  "options": [
+   "75",
+   "193",
+   "51",
+   "26"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which UN body has main responsibility for peace and security?",
+  "options": [
+   "General Assembly",
+   "Security Council",
+   "World Health Organization",
+   "International Court of Justice"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many members sit on the UN Security Council?",
+  "options": [
+   "15",
+   "10",
+   "5",
+   "193"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which UN agency specialises in world health?",
+  "options": [
+   "FAO",
+   "UNESCO",
+   "UNICEF",
+   "WHO"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where is the headquarters of the World Health Organization?",
+  "options": [
+   "Paris",
+   "Rome",
+   "Geneva",
+   "New York City"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which year was the World Health Organization founded?",
+  "options": [
+   "1945",
+   "1948",
+   "1950",
+   "1960"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which UN agency works in education, science and culture?",
+  "options": [
+   "UNESCO",
+   "WHO",
+   "IMF",
+   "WTO"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In which city is UNESCO headquartered?",
+  "options": [
+   "Rome",
+   "Vienna",
+   "Geneva",
+   "Paris"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which organisation replaced GATT in 1995?",
+  "options": [
+   "European Union",
+   "World Bank",
+   "WTO",
+   "IMF"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In which city is the WTO based?",
+  "options": [
+   "Brussels",
+   "Geneva",
+   "New York City",
+   "Washington"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which two institutions were created at Bretton Woods in 1944?",
+  "options": [
+   "IMF and World Bank",
+   "UN and WHO",
+   "WTO and GATT",
+   "NATO and EU"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which UN body includes all member states?",
+  "options": [
+   "Trusteeship Council",
+   "Secretariat",
+   "Security Council",
+   "General Assembly"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How many permanent members does the Security Council have?",
+  "options": [
+   "Three",
+   "Four",
+   "Five",
+   "Ten"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which UN agency focuses on children's welfare?",
+  "options": [
+   "UNESCO",
+   "UNICEF",
+   "WHO",
+   "UNHCR"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which UN agency maintains the World Heritage List?",
+  "options": [
+   "UNESCO",
+   "WHO",
+   "WTO",
+   "IMF"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which document, adopted in 1948, sets out basic human rights?",
+  "options": [
+   "Geneva Convention",
+   "Magna Carta",
+   "UN Charter",
+   "Universal Declaration of Human Rights"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What special power do the five permanent Security Council members have?",
+  "options": [
+   "Power to close the UN",
+   "Power to print money",
+   "Right to veto resolutions",
+   "Right to elect the pope"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does IMF stand for?",
+  "options": [
+   "Intergovernmental Monetary Forum",
+   "International Monetary Fund",
+   "International Medical Federation",
+   "Institute of Money and Finance"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which institution lends money to countries for development projects?",
+  "options": [
+   "World Bank",
+   "WTO",
+   "WHO",
+   "UNESCO"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which UN agency was founded in 1950 to protect refugees?",
+  "options": [
+   "WHO",
+   "ILO",
+   "UNICEF",
+   "UNHCR"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many Sustainable Development Goals were adopted in 2015?",
+  "options": [
+   "10",
+   "21",
+   "17",
+   "8"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a 'specialised agency' in the UN system?",
+  "options": [
+   "A body that reports to one country",
+   "An independent organisation linked to the UN",
+   "A committee inside the General Assembly",
+   "A military alliance"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which organisation sets global rules for international trade?",
+  "options": [
+   "WTO",
+   "WHO",
+   "UNESCO",
+   "IMF"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

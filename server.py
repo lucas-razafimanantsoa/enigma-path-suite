@@ -9,6 +9,11 @@ The EXAM needs this server because it saves exams and results as files.
     python3 server.py --port 8080
     python3 server.py --host 0.0.0.0  # let other computers on the network connect
     python3 server.py --no-browser
+    python3 server.py --teacher-password secret  # skip the startup prompt
+
+The teacher password is asked for on startup (default: Mirija04). Teacher pages and
+teacher API calls also need a browser login at /exam/login.html. Students can take
+exams without logging in.
 
 Folders (created automatically):
     data/exams/<exam-id>.json                 exams made with the builder
@@ -19,13 +24,18 @@ API (JSON):
     GET    /api/exams                         list of exams (no answers)
     GET    /api/exams/<id>                    full exam with answer key (teacher)
     GET    /api/exams/<id>/student            exam without answers (student)
-    POST   /api/exams                         create / replace an exam (validated)
-    DELETE /api/exams/<id>
+    POST   /api/login                         teacher login (sets an HttpOnly cookie)
+    POST   /api/logout                        clear the teacher cookie
+    GET    /api/login-status                  is this browser logged in as teacher?
+    POST   /api/exams                         create / replace an exam (teacher only)
+    DELETE /api/exams/<id>                    (teacher only)
     POST   /api/submit                        a student's answers: graded here and saved
-    GET    /api/results[?exam=<id>]           saved results
-    POST   /api/results/import                merge result files copied from other computers
-    DELETE /api/results/<id>
-    GET    /api/results.csv                   all results as CSV
+    GET    /api/results[?exam=<id>]           saved results (teacher only)
+    POST   /api/results/import                merge result files copied from other computers (teacher only)
+    DELETE /api/results/<id>                  (teacher only)
+    GET    /api/results.csv                   all results as CSV (teacher only)
+
+Everything marked "teacher only" is also denied without a password on startup.
 """
 
 from __future__ import annotations
@@ -33,15 +43,18 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import getpass
+import hmac
 import io
 import json
 import re
 import secrets
 import threading
+import time
 import webbrowser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import unquote, urlparse, parse_qs
+from urllib.parse import unquote, urlparse, parse_qs, quote
 
 BASE_DIR = Path(__file__).resolve().parent
 EXAMS_DIR = BASE_DIR / "data" / "exams"
@@ -53,10 +66,66 @@ CSV_FIELDS = [
 MAX_BODY = 8_000_000
 LOCK = threading.Lock()
 
+# --- teacher access -------------------------------------------------------
+DEFAULT_PASSWORD = "Mirija04"
+TEACHER_PASSWORD = DEFAULT_PASSWORD   # set in main()
+TEACHER_COOKIE = "ep_teacher"
+TEACHER_TOKENS = {}                   # token -> expiry (unix time), memory only
+TEACHER_TTL = 8 * 3600                # 8 hours
+TEACHER_PAGES = ("/exam/builder.html", "/exam/results.html")
+
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{1,79}$")
 REVEAL = ("score", "wrong", "all")
 BLOCKED_PREFIXES = ("/data/", "/results", "/tools/", "/server.py", "/.", "/start.")
 TILES = set("#.SG")
+
+
+# ----------------------------------------------------------------- teacher access
+
+def password_ok(value):
+    return isinstance(value, str) and hmac.compare_digest(value, TEACHER_PASSWORD)
+
+
+def new_teacher_token():
+    token = secrets.token_urlsafe(24)
+    now = time.time()
+    with LOCK:
+        for old in [k for k, expiry in TEACHER_TOKENS.items() if expiry <= now]:
+            TEACHER_TOKENS.pop(old, None)
+        TEACHER_TOKENS[token] = now + TEACHER_TTL
+    return token
+
+
+def teacher_token_valid(token):
+    if not token:
+        return False
+    with LOCK:
+        expiry = TEACHER_TOKENS.get(token)
+        if expiry is None:
+            return False
+        if expiry <= time.time():
+            TEACHER_TOKENS.pop(token, None)
+            return False
+    return True
+
+
+def read_start_password(provided):
+    """Ask for the teacher password. Returns None if it was refused."""
+    if provided is not None:
+        return provided
+    for attempt in range(3):
+        try:
+            value = getpass.getpass("Teacher password (Enter for %s): " % DEFAULT_PASSWORD)
+        except (EOFError, KeyboardInterrupt):
+            print()
+            return None
+        if not value:
+            value = DEFAULT_PASSWORD
+        if hmac.compare_digest(value, DEFAULT_PASSWORD):
+            return value
+        left = 2 - attempt
+        print("Incorrect password." + (" %d attempt(s) left." % left if left else ""))
+    return None
 
 
 # ----------------------------------------------------------------- validation
@@ -379,13 +448,36 @@ class Handler(SimpleHTTPRequestHandler):
         super().__init__(*args, directory=str(BASE_DIR), **kwargs)
 
     # -- helpers
-    def send_json(self, status, payload):
+    def send_json(self, status, payload, headers=None):
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
+        for key, value in (headers or []):
+            self.send_header(key, value)
         self.end_headers()
         self.wfile.write(body)
+
+    def cookie_token(self):
+        for part in self.headers.get("Cookie", "").split(";"):
+            key, _, value = part.strip().partition("=")
+            if key == TEACHER_COOKIE:
+                return value
+        return ""
+
+    def is_teacher(self):
+        return teacher_token_valid(self.cookie_token())
+
+    def deny_teacher(self):
+        self.send_json(401, {"error": "Teacher login required.", "login": "/exam/login.html"})
+
+    def set_teacher_cookie(self, token, delete=False):
+        if delete:
+            value = "%s=; Path=/; Max-Age=0; HttpOnly; SameSite=Strict" % TEACHER_COOKIE
+        else:
+            value = "%s=%s; Path=/; Max-Age=%d; HttpOnly; SameSite=Strict" % (
+                TEACHER_COOKIE, token, TEACHER_TTL)
+        self.send_header("Set-Cookie", value)
 
     def read_json(self):
         try:
@@ -416,10 +508,18 @@ class Handler(SimpleHTTPRequestHandler):
         parsed = urlparse(self.path)
         path = unquote(parsed.path)
         if path.startswith("/api/"):
+            if path == "/api/login-status":
+                return self.send_json(200, {"teacher": self.is_teacher()})
             return self.api_get(path, parse_qs(parsed.query))
         low = path.lower()
         if any(low.startswith(p) for p in BLOCKED_PREFIXES) or ".." in path:
             return self.send_error(404, "Not found")
+        if path in TEACHER_PAGES and not self.is_teacher():
+            self.send_response(302)
+            self.send_header("Location", "/exam/login.html?next=" + quote(path, safe=""))
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
         return super().do_GET()
 
     def do_HEAD(self):
@@ -427,6 +527,12 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         path = unquote(urlparse(self.path).path)
+        if path == "/api/login":
+            return self.api_login()
+        if path == "/api/logout":
+            return self.api_logout()
+        if not self.is_teacher() and path != "/api/submit":
+            return self.deny_teacher()
         if path == "/api/exams":
             return self.api_save_exam()
         if path == "/api/submit":
@@ -436,6 +542,8 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_json(404, {"error": "Not found"})
 
     def do_DELETE(self):
+        if not self.is_teacher():
+            return self.deny_teacher()
         path = unquote(urlparse(self.path).path)
         m = re.match(r"^/api/exams/([a-z0-9-]+)$", path)
         if m:
@@ -457,6 +565,30 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_json(404, {"error": "Not found"})
 
     # -- API
+    def api_login(self):
+        payload = self.read_json()
+        if payload is None:
+            return
+        if not password_ok(payload.get("password") if isinstance(payload, dict) else None):
+            return self.send_json(401, {"error": "Incorrect password."})
+        token = new_teacher_token()
+        self.send_response(200)
+        self.set_teacher_cookie(token)
+        body = json.dumps({"ok": True}).encode("utf-8")
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def api_logout(self):
+        with LOCK:
+            token = self.cookie_token()
+            TEACHER_TOKENS.pop(token, None)
+        self.send_response(200)
+        self.set_teacher_cookie("", delete=True)
+        self.send_header("Content-Length", "0")
+        self.end_headers()
+
     def api_get(self, path, query):
         if path == "/api/exams":
             return self.send_json(200, {"exams": list_exams()})
@@ -465,7 +597,11 @@ class Handler(SimpleHTTPRequestHandler):
             exam = read_exam(m.group(1))
             if not exam or validate_exam(exam):
                 return self.send_json(404, {"error": "Exam not found."})
+            if not m.group(2) and not self.is_teacher():
+                return self.deny_teacher()
             return self.send_json(200, student_view(exam) if m.group(2) else exam)
+        if path in ("/api/results", "/api/results.csv") and not self.is_teacher():
+            return self.deny_teacher()
         if path == "/api/results":
             exam_id = (query.get("exam") or [None])[0]
             return self.send_json(200, {"results": load_results(exam_id)})
@@ -511,17 +647,8 @@ class Handler(SimpleHTTPRequestHandler):
                 write_result(result)
         except OSError as error:
             return self.send_json(500, {"error": "Could not save the result: {}".format(error)})
-        reveal = exam.get("reveal", "wrong")
-        review = []
-        if reveal in ("wrong", "all"):
-            for a in result["answers"]:
-                if reveal == "all" or not a["isCorrect"]:
-                    review.append({k: a[k] for k in ("n", "position", "text", "maze", "chosenText", "correctText", "isCorrect")})
-        self.send_json(200, {
-            "ok": True, "id": result["id"], "score": result["score"], "total": result["total"],
-            "percent": result["percent"], "reveal": reveal, "review": review,
-            "saved_to": "results/{}/{}.json".format(result["examId"], result["id"]),
-        })
+        # Students never see their score: it is stored for the teacher's results page only.
+        self.send_json(200, {"ok": True})
 
     def api_import(self):
         payload = self.read_json()
@@ -556,14 +683,23 @@ def make_server(host, port):
 
 
 def main():
+    global TEACHER_PASSWORD, EXAMS_DIR, RESULTS_DIR
+
     parser = argparse.ArgumentParser(description="EnigmaPath local server (needed for the exam).")
     parser.add_argument("--host", default="127.0.0.1", help="Address to listen on (default 127.0.0.1; use 0.0.0.0 for the whole network).")
     parser.add_argument("--port", type=int, default=8000, help="Port (default 8000).")
     parser.add_argument("--no-browser", action="store_true", help="Do not open the browser.")
     parser.add_argument("--data", help="Folder for exams/ and results/ (default: this folder).")
+    parser.add_argument("--teacher-password", help="Set the teacher password without an interactive prompt.")
     args = parser.parse_args()
+
+    password = read_start_password(args.teacher_password)
+    if password is None:
+        print("Wrong password too many times. The server did not start.")
+        return
+    TEACHER_PASSWORD = password
+
     if args.data:
-        global EXAMS_DIR, RESULTS_DIR
         EXAMS_DIR = Path(args.data).resolve() / "exams"
         RESULTS_DIR = Path(args.data).resolve() / "results"
 
@@ -584,7 +720,7 @@ def main():
     print("EnigmaPath server")
     print("  Home:      " + url)
     print("  Exam:      " + url + "exam/index.html")
-    print("  Teacher:   " + url + "exam/builder.html  and  " + url + "exam/results.html")
+    print("  Teacher:   " + url + "exam/login.html  ->  builder.html / results.html")
     print("  Results:   " + str(RESULTS_DIR))
     print("Press Ctrl+C to stop.")
     if not args.no_browser:

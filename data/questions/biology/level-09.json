@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is the structure of a DNA molecule?",
+  "options": [
+   "A flat sheet of bases",
+   "A double helix",
+   "A single straight strand",
+   "A triple coil"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In DNA, which base pairs with adenine?",
+  "options": [
+   "Thymine",
+   "Cytosine",
+   "Uracil",
+   "Guanine"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a gene?",
+  "options": [
+   "The membrane that surrounds the cell nucleus",
+   "A complete chromosome",
+   "A molecule of glucose",
+   "A section of DNA that codes for a protein"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a Punnett square, what does a capital letter usually represent?",
+  "options": [
+   "A sex chromosome",
+   "A mutation",
+   "A dominant allele",
+   "A recessive allele"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the expected probability that a human baby is male?",
+  "options": [
+   "100%",
+   "50%",
+   "25%",
+   "75%"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the term genotype mean?",
+  "options": [
+   "The alleles an organism possesses",
+   "The number of chromosomes in a cell",
+   "The habitat in which an organism lives",
+   "The visible characteristics of an organism"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Two heterozygous tall pea plants (Tt) are crossed. What fraction of the offspring is expected to be short?",
+  "options": [
+   "3/4",
+   "0",
+   "1/2",
+   "1/4"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a mutation?",
+  "options": [
+   "A change in an organism's behaviour",
+   "A change in the environment",
+   "A change in the DNA base sequence",
+   "A change in the number of body cells"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who proposed the theory of evolution by natural selection?",
+  "options": [
+   "Gregor Mendel",
+   "Charles Darwin",
+   "Jean-Baptiste Lamarck",
+   "Carl Linnaeus"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is natural selection?",
+  "options": [
+   "Organisms with advantageous traits survive and reproduce",
+   "The movement of organisms to new habitats",
+   "The deliberate breeding of organisms by humans",
+   "The random change of DNA in body cells"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a kingdom of living organisms?",
+  "options": [
+   "Insects",
+   "Mammals",
+   "Vertebrates",
+   "Fungi"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the binomial scientific name of humans?",
+  "options": [
+   "Pan troglodytes",
+   "Homo neanderthalensis",
+   "Homo sapiens",
+   "Homo erectus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a homologous structure?",
+  "options": [
+   "A structure found only in extinct species",
+   "A structure with a similar origin but different function",
+   "A structure that has no function",
+   "A structure with the same function but different origin"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a species?",
+  "options": [
+   "A group of organisms that can interbreed to produce fertile offspring",
+   "A group of organisms that look similar",
+   "A group of organisms living in one habitat",
+   "A group of organisms with the same diet"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why are antibiotic-resistant bacteria becoming more common?",
+  "options": [
+   "Bacteria learn to resist antibiotics during their lifetime",
+   "Antibiotics cause every bacterium to mutate",
+   "Bacteria pass resistance directly to human cells",
+   "Resistant bacteria survive treatment and reproduce"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who developed the binomial system of classification?",
+  "options": [
+   "Gregor Mendel",
+   "Robert Koch",
+   "Carl Linnaeus",
+   "Charles Robert Darwin"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a producer in an ecosystem?",
+  "options": [
+   "An organism that feeds on blood",
+   "An organism that makes its own food by photosynthesis",
+   "An organism that eats other organisms",
+   "An organism that breaks down dead matter"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a food chain, what do the arrows represent?",
+  "options": [
+   "The direction of energy transfer",
+   "The size of each organism",
+   "The number of offspring produced by each organism",
+   "The direction of water flow"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the role of a decomposer?",
+  "options": [
+   "Making food by photosynthesis",
+   "Hunting other animals for food",
+   "Causing disease in living organisms",
+   "Breaking down dead material and recycling nutrients"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a biotic factor?",
+  "options": [
+   "Soil pH",
+   "Temperature",
+   "Predation",
+   "Rainfall"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the role of nitrogen-fixing bacteria in the nitrogen cycle?",
+  "options": [
+   "Absorbing phosphorus from soil",
+   "Converting nitrogen gas into nitrogen compounds",
+   "Converting nitrates into nitrogen gas",
+   "Breaking down dead leaves"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is energy lost between trophic levels in a food chain?",
+  "options": [
+   "Energy is lost through respiration, heat and excretion",
+   "Consumers carry out photosynthesis",
+   "Energy is stored permanently in the soil",
+   "Plants reflect all the sunlight they receive"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does biodiversity mean?",
+  "options": [
+   "The amount of rainfall in a habitat",
+   "The number of individuals in one species",
+   "The total biomass of a food chain",
+   "The variety of species in an ecosystem"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which human activity is a major cause of habitat loss?",
+  "options": [
+   "Reducing pesticide use",
+   "Planting native trees",
+   "Deforestation for agriculture",
+   "Building wildlife corridors between habitats"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

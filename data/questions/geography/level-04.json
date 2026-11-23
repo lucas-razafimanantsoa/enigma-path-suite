@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is a settlement?",
+  "options": [
+   "A place where people live",
+   "A type of farm crop",
+   "A large ocean",
+   "A weather pattern"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which settlement is usually the smallest?",
+  "options": [
+   "A town",
+   "A metropolis",
+   "A city",
+   "A village"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a city?",
+  "options": [
+   "A single farmhouse",
+   "A small group of homes",
+   "A large permanent settlement",
+   "A forest clearing"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do most people in a village do?",
+  "options": [
+   "Study in universities",
+   "Live and work locally",
+   "Work in deep mines",
+   "Sail across oceans"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a service found in most towns?",
+  "options": [
+   "A shop",
+   "A volcano",
+   "An ocean",
+   "A glacier"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a community?",
+  "options": [
+   "A type of weather",
+   "A mountain range",
+   "A group of people living together",
+   "A single building"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a suburb?",
+  "options": [
+   "The centre of a city",
+   "A type of farm",
+   "An outer residential area",
+   "A coastal cliff"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why do towns often grow near rivers?",
+  "options": [
+   "For the steep slopes",
+   "For water and transport",
+   "For the cold air",
+   "For the sandy beaches"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is urbanisation?",
+  "options": [
+   "Growth of towns and cities",
+   "Farming in rural areas",
+   "Falling birth rates",
+   "Building of new roads"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which job is in the primary sector?",
+  "options": [
+   "Driving a bus",
+   "Working in a bank",
+   "Teaching",
+   "Farming"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which job is in the secondary sector?",
+  "options": [
+   "Fishing",
+   "Nursing",
+   "Manufacturing goods",
+   "Accounting"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which job is in the tertiary sector?",
+  "options": [
+   "Working in a shop",
+   "Assembling cars",
+   "Mining coal",
+   "Growing wheat"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a rural area?",
+  "options": [
+   "Countryside outside towns",
+   "A busy city centre",
+   "An industrial estate",
+   "A large shopping district"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a conurbation?",
+  "options": [
+   "A tiny hamlet",
+   "A farm on a hillside",
+   "A single village",
+   "A large urban area formed by merging towns"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do services cluster in city centres?",
+  "options": [
+   "The air is cleaner there",
+   "Fewer people visit",
+   "There are more customers and transport links",
+   "The land is cheaper there"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a function of a settlement?",
+  "options": [
+   "The colour of its buildings",
+   "Its main role or purpose",
+   "Its total area in kilometres",
+   "Its distance from the sea"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a hierarchy of settlements?",
+  "options": [
+   "An ordering by size and services",
+   "A list of local farms",
+   "A map of underground pipes",
+   "A plan for new roads"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which settlement usually has the widest range of services?",
+  "options": [
+   "A small village",
+   "A farmstead",
+   "A hamlet",
+   "A large city"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the sphere of influence of a town?",
+  "options": [
+   "The height of its buildings",
+   "The number of its roads",
+   "The area its shops and services serve",
+   "The age of its houses"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why might a village shrink?",
+  "options": [
+   "Roads improve",
+   "New families arrive",
+   "Young people move away",
+   "More shops open"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is counter-urbanisation?",
+  "options": [
+   "People moving from cities to rural areas",
+   "People moving from farms to cities",
+   "Buildings becoming taller",
+   "Rivers changing course"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a greenfield site?",
+  "options": [
+   "A site in a city centre",
+   "A site under water",
+   "Land previously built on",
+   "Land not previously developed"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which issue can rapid city growth cause?",
+  "options": [
+   "Too few people",
+   "Fewer roads needed",
+   "Overcrowded housing",
+   "Lower demand for water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a sustainable community likely to encourage?",
+  "options": [
+   "Building on all green space",
+   "Recycling and local services",
+   "More car journeys",
+   "Wasteful use of water"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

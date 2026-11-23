@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Password | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+      <span>EnigmaPath<small>Guess the Password</small></span>
+    </a>
+    <div class="ep-topbar__right">
+      <a class="btn btn--small btn--ghost" href="more-about.html">More about the game</a>
+    </div>
+  </header>
+
+  <main class="ep-main">
+    <section class="cb-head">
+      <p class="eyebrow">Logic puzzle · bulls and cows</p>
+      <h1>Guess the Password</h1>
+      <p class="muted">A secret password made of 3, 4 or 5 different digits. Every guess is scored with bulls and cows. Can you crack it in as few guesses as possible?</p>
+    </section>
+
+    <section class="card cb-controls" aria-label="Game settings">
+      <div class="cb-length" role="group" aria-label="Password length">
+        <button class="btn btn--small" type="button" data-length="3">3 digits</button>
+        <button class="btn btn--small" type="button" data-length="4">4 digits</button>
+        <button class="btn btn--small" type="button" data-length="5">5 digits</button>
+      </div>
+      <div class="cb-controls__actions">
+        <button class="btn btn--primary" type="button" id="btn-new">New game</button>
+        <button class="btn" type="button" id="btn-giveup">Give up</button>
+      </div>
+      <p class="hint" id="best-line"></p>
+    </section>
+
+    <div class="cb-stats" aria-label="Game counters">
+      <div class="stat"><b id="stat-guesses">0</b><span>Guesses</span></div>
+      <div class="stat"><b id="stat-left">—</b><span>Possible left</span></div>
+      <div class="stat"><b id="stat-best">—</b><span>Your best</span></div>
+    </div>
+
+    <div class="card cb-info" id="info-card">
+      <p class="cb-info__line" id="info-line"></p>
+    </div>
+
+    <section class="card cb-play">
+      <form id="guess-form" novalidate>
+        <label class="label" for="guess-input">Your guess</label>
+        <div class="cb-input-row">
+          <input id="guess-input" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" placeholder="Type a 4-digit password">
+          <button class="btn btn--primary" type="submit" id="btn-guess">Guess</button>
+        </div>
+        <p class="cb-error" id="guess-error" role="alert" hidden></p>
+      </form>
+
+      <div class="cb-legend" aria-label="What bulls and cows mean">
+        <div class="cb-legend__item">
+          <span class="cb-mark cb-mark--bull" aria-hidden="true">●</span>
+          <div><b>Bull</b><p>A digit that is in the password <strong>and</strong> in the right position.</p></div>
+        </div>
+        <div class="cb-legend__item">
+          <span class="cb-mark cb-mark--cow" aria-hidden="true">○</span>
+          <div><b>Cow</b><p>A digit that is in the password but in the <strong>wrong</strong> position.</p></div>
+        </div>
+      </div>
+
+      <p class="cb-feedback" id="feedback" role="status" aria-live="polite">Make your first guess. Every digit in the password is different.</p>
+
+      <div class="cb-history-wrap" id="history-wrap" hidden>
+        <table class="cb-history">
+          <thead><tr><th>#</th><th>Guess</th><th>Bulls</th><th>Cows</th><th>Possible left</th></tr></thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+
+      <div class="cb-result" id="result" hidden>
+        <p class="eyebrow" id="result-eyebrow">Cracked</p>
+        <h2 id="result-title"></h2>
+        <p id="result-text"></p>
+        <div class="cb-result__actions">
+          <button class="btn btn--primary" type="button" id="result-new">Play again</button>
+          <a class="btn" href="more-about.html">How the maths works</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../shared/footer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

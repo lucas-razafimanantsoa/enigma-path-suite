@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these is a source of light?",
+  "options": [
+   "The Sun",
+   "A mirror",
+   "A white wall",
+   "The Moon"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is sound caused by?",
+  "options": [
+   "Light bending",
+   "Gravity",
+   "Objects getting hotter",
+   "Vibrations"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a form of energy?",
+  "options": [
+   "A shadow",
+   "A mirror",
+   "Heat",
+   "A rock"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How does light travel?",
+  "options": [
+   "Only through water",
+   "In straight lines",
+   "Only at night",
+   "In curves"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which surface reflects light best?",
+  "options": [
+   "A shiny mirror",
+   "Black cloth",
+   "Rough grey concrete",
+   "Dark soil"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What happens when light hits an opaque object?",
+  "options": [
+   "It makes the object glow",
+   "It passes straight through",
+   "It turns into sound",
+   "It is blocked"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a renewable energy source?",
+  "options": [
+   "Natural gas",
+   "Coal",
+   "Wind",
+   "Oil"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is the best conductor of sound?",
+  "options": [
+   "A woollen scarf",
+   "A metal rail",
+   "Empty space",
+   "A foam cushion"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main energy source for most life on Earth?",
+  "options": [
+   "The Sun",
+   "The wind",
+   "The soil",
+   "The Moon"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which object would cast the darkest shadow?",
+  "options": [
+   "Clear window glass",
+   "Clean drinking water",
+   "A thin cotton net",
+   "A wooden board"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these produces its own light?",
+  "options": [
+   "A mirror on the wall",
+   "A planet",
+   "A candle flame",
+   "The Moon"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How can you change the pitch of a guitar string?",
+  "options": [
+   "By changing its colour",
+   "By adjusting its tightness",
+   "By moving it closer to a lamp",
+   "By closing your eyes"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is energy?",
+  "options": [
+   "The ability to do work",
+   "The amount of matter in an object",
+   "A type of force",
+   "A measure of temperature"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these uses electrical energy?",
+  "options": [
+   "A kite flying",
+   "A ball rolling",
+   "A candle burning",
+   "A glowing lamp"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why can you not hear sounds in space?",
+  "options": [
+   "Gravity is too strong",
+   "Space is too cold",
+   "No air to carry it",
+   "Space is too bright"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a non-renewable energy source?",
+  "options": [
+   "Wind",
+   "Coal",
+   "Hydroelectric",
+   "Solar"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens to a shadow when the light source moves closer to the object?",
+  "options": [
+   "It becomes larger",
+   "It changes its colour",
+   "It disappears",
+   "It becomes smaller"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which part of the eye gets smaller in bright light?",
+  "options": [
+   "The eyelid",
+   "The tear duct",
+   "The eyebrow",
+   "The pupil"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the unit of energy?",
+  "options": [
+   "The newton",
+   "The second",
+   "The joule",
+   "The metre"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does a spoon in a glass of water look bent?",
+  "options": [
+   "Water makes the spoon grow",
+   "Light bends in water",
+   "The spoon is actually broken",
+   "The water is moving"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these sounds has the highest pitch?",
+  "options": [
+   "A whistle",
+   "Thunder",
+   "A drum beat",
+   "A deep voice"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a good insulator to keep a drink hot?",
+  "options": [
+   "A copper mug",
+   "A steel can",
+   "An aluminium flask",
+   "A foam cup"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What happens to sound as you move further from its source?",
+  "options": [
+   "It gets higher",
+   "It changes colour",
+   "It gets quieter",
+   "It gets louder"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these transfers energy from the Sun to plants?",
+  "options": [
+   "Sound waves",
+   "Light",
+   "Friction",
+   "Magnetism"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

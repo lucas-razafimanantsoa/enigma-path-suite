@@ -1,8 +1,15 @@
 # EnigmaPath — question writing brief
 
-EnigmaPath is a school ICT learning app. The Practice Quiz has **10 levels**. Each level is a pool of
-**at least 100 multiple-choice questions**; a quiz run draws a random subset. Levels map to school grades
-(never shown to students, but they set the difficulty and content):
+EnigmaPath is a school learning app. The Practice Quiz has **eight subjects**, each with **10 levels** (Mathematics adds an **11th A-Level extension**).
+ICT keeps its original pool of **at least 100 multiple-choice questions per level**; the other subjects
+(maths, general science, physics, chemistry, biology, geography, general knowledge) keep **at least 20
+per level**, enough for a varied run. The number of levels is read from each `meta.json`; maths has 11. Levels map to school grades (never shown to students, but they set
+the difficulty and content). New subject files live in `data/questions/<topic>/level-NN.json` with a
+`meta.json` beside them; ICT keeps `data/questions/level-NN.json` and `data/questions/meta.json`.
+
+The ICT level table below is the original one; each new subject's `meta.json` contains its own
+per-level title and blurb, and levels 7-9 should follow IGCSE subject content while level 10 should
+follow IB/higher content.
 
 | Level | Grade | Content focus |
 |---|---|---|
@@ -63,10 +70,11 @@ Each file is a JSON list. Every item has exactly these four keys:
 ## Workflow
 
 1. Write your questions in 4 files of 25 questions each:
-   `data/questions/_parts/LNN-1.json` ... `LNN-4.json` (NN = two-digit level, e.g. `L07-1.json`).
+   `data/questions/<topic>/_parts/LNN-1.json` ... `LNN-4.json` (NN = two-digit level, e.g. `L07-1.json`).
+   ICT parts go directly in `data/questions/_parts/`.
    Use the write tool, valid JSON, UTF-8.
-2. From the project root (`EnigmaPath/`) run `python3 tools/questions_tool.py merge N` then
-   `python3 tools/questions_tool.py validate N` and fix every ERROR and every WARN that concerns your level
-   (edit `data/questions/level-NN.json` directly afterwards).
+2. From the project root (`EnigmaPath/`) run `python3 tools/questions_tool.py merge <topic> N` then
+   `python3 tools/questions_tool.py validate <topic> N` and fix every ERROR and every WARN that concerns your level
+   (edit the level file directly afterwards). Omit `<topic>` for ICT.
 3. Finally re-read your whole level file once, slowly, as a strict examiner, and fix any questionable item.
    Report: the final question count, term counts, and anything you were unsure about.

@@ -13,34 +13,34 @@
  {
   "question_text": "A file called budget.xlsx was most likely made in which program?",
   "options": [
+   "Paint",
    "Excel",
    "Word",
-   "PowerPoint",
-   "Paint"
+   "PowerPoint"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "What kind of file is talk.pptx?",
   "options": [
-   "A spreadsheet made in Excel",
-   "A letter typed in Word",
    "A PowerPoint presentation",
-   "A recording of a music track"
+   "A recording of a music track",
+   "A spreadsheet made in Excel",
+   "A letter typed in Word"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which file extension is normally used for a plain text file made in Notepad?",
   "options": [
+   ".docx",
    ".png",
    ".mp3",
-   ".txt",
-   ".docx"
+   ".txt"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -57,12 +57,12 @@
  {
   "question_text": "A file called song.mp3 is most likely which kind of file?",
   "options": [
-   "A database of names",
    "A photograph",
    "Sound or music",
-   "A slide show with text"
+   "A slide show with text",
+   "A database of names"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -90,34 +90,34 @@
  {
   "question_text": "What does 'Save As' let you do with a document?",
   "options": [
-   "Save it with a new name or in a new place",
-   "Delete the old version of the file straight away",
    "Print it without using a printer",
-   "Save it only after you close the program"
+   "Save it only after you close the program",
+   "Save it with a new name or in a new place",
+   "Delete the old version of the file straight away"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "On a Windows computer, where does a deleted file normally go first?",
   "options": [
+   "The Desktop",
    "The Recycle Bin",
    "The Downloads folder",
-   "The Documents folder",
-   "The Desktop"
+   "The Documents folder"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which is the most helpful name for a file that holds your maths homework from 12 May?",
   "options": [
+   "Maths homework 12 May",
    "Homework",
    "My very important school work",
-   "Document1 final copy",
-   "Maths homework 12 May"
+   "Document1 final copy"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
@@ -134,23 +134,23 @@
  {
   "question_text": "Cell A1 holds 9 and B1 holds 4. Which formula subtracts B1 from A1?",
   "options": [
+   "=A1+B1",
    "=A1/B1",
    "=A1-B1",
-   "=B1-A1",
-   "=A1+B1"
+   "=B1-A1"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which of these is the address of the cell in column C and row 5 of an Excel sheet?",
   "options": [
+   "C+5",
    "C5",
    "R5",
-   "5C",
-   "C+5"
+   "5C"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -167,23 +167,23 @@
  {
   "question_text": "How are the columns of an Excel worksheet labelled?",
   "options": [
+   "With the names of the pupils",
    "With colours such as red and blue",
    "With numbers such as 1, 2 and 3",
-   "With letters such as A, B and C",
-   "With the names of the pupils"
+   "With letters such as A, B and C"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the name for the empty space between the edge of the paper and the text in a Word document?",
   "options": [
-   "Caption",
    "Footnote",
    "Heading",
-   "Margin"
+   "Margin",
+   "Caption"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -200,89 +200,89 @@
  {
   "question_text": "What do you use a search engine for?",
   "options": [
-   "To scan and remove viruses from files",
-   "To send messages and emails to friends",
    "To find web pages by typing key words",
-   "To save and edit photos on the computer"
+   "To save and edit photos on the computer",
+   "To scan and remove viruses from files",
+   "To send messages and emails to friends"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the home page of a web browser?",
   "options": [
-   "The last page that you visited yesterday",
-   "The page that opens when you start the browser",
    "The page that lists all of your files",
-   "The page where your emails are stored"
+   "The page where your emails are stored",
+   "The last page that you visited yesterday",
+   "The page that opens when you start the browser"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which part of the email address maya@school.org comes after the @ sign?",
   "options": [
-   "Maya's password",
    "maya",
    "@",
-   "school.org"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What is an email attachment?",
-  "options": [
-   "A spelling mistake in the subject line",
-   "A password that the sender has chosen",
-   "A reply to the last message in the list",
-   "A file sent together with an email"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What does the subject line of an email tell the reader?",
-  "options": [
-   "How many people have read it",
-   "What the message is about",
-   "When the message will be deleted",
-   "Who the message is from"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "A pop-up says 'You have won a free tablet! Type your home address here.' What should you do?",
-  "options": [
-   "Send the offer on to all your friends",
-   "Type in your address to get the prize",
-   "Close it and tell a trusted adult",
-   "Click it again to check it is real"
+   "school.org",
+   "Maya's password"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which of these is the strongest password?",
+  "question_text": "What is an email attachment?",
   "options": [
-   "Tr33!House_88",
-   "letmein12345",
-   "SamSam2016",
-   "password1234"
+   "A reply to the last message in the list",
+   "A file sent together with an email",
+   "A spelling mistake in the subject line",
+   "A password that the sender has chosen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the subject line of an email tell the reader?",
+  "options": [
+   "What the message is about",
+   "When the message will be deleted",
+   "Who the message is from",
+   "How many people have read it"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
+  "question_text": "A pop-up says 'You have won a free tablet! Type your home address here.' What should you do?",
+  "options": [
+   "Click it again to check it is real",
+   "Send the offer on to all your friends",
+   "Type in your address to get the prize",
+   "Close it and tell a trusted adult"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is the strongest password?",
+  "options": [
+   "SamSam2016",
+   "password1234",
+   "Tr33!House_88",
+   "letmein12345"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
   "question_text": "Which username is the safest to use on a website for children?",
   "options": [
+   "Your full name and your school's name",
    "A made-up nickname like BlueOtter7",
    "Your full real first and last name",
-   "Your first name and your birth date",
-   "Your full name and your school's name"
+   "Your first name and your birth date"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -299,12 +299,12 @@
  {
   "question_text": "What is a cipher?",
   "options": [
-   "A secret way of writing by changing letters",
    "A kind of password that you keep on paper",
    "A very fast way to type a message on a keyboard",
-   "A program that checks the spelling of words"
+   "A program that checks the spelling of words",
+   "A secret way of writing by changing letters"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -321,78 +321,78 @@
  {
   "question_text": "In secret writing, what is the 'ciphertext'?",
   "options": [
-   "The title that is written above the message",
    "The original message that you first wrote",
    "The scrambled, unreadable message",
-   "The number of places used in the shift"
+   "The number of places used in the shift",
+   "The title that is written above the message"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which device lets other people hear you during a video call?",
   "options": [
+   "Microphone",
    "Projector",
    "Loudspeaker",
-   "Trackpad",
-   "Microphone"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which small device can you plug into a USB port to carry files from one computer to another?",
-  "options": [
-   "USB flash drive",
-   "Laptop charging cable",
-   "Mouse mat with a logo",
-   "Monitor stand with legs"
+   "Trackpad"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
+  "question_text": "Which small device can you plug into a USB port to carry files from one computer to another?",
+  "options": [
+   "Laptop charging cable",
+   "Mouse mat with a logo",
+   "Monitor stand with legs",
+   "USB flash drive"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
   "question_text": "Which type of computer is made to be carried around and has a screen and keyboard built in?",
   "options": [
+   "Server",
    "Projector",
    "Laptop",
-   "Desktop",
-   "Server"
+   "Desktop"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which output device can show your slides on a big screen or wall for the whole class?",
   "options": [
-   "Scanner",
    "Microphone",
    "Projector",
-   "Keyboard"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which kind of software helps to find and remove computer viruses?",
-  "options": [
-   "A music player",
-   "Antivirus software",
-   "A spreadsheet program",
-   "A drawing program"
+   "Keyboard",
+   "Scanner"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
+  "question_text": "Which kind of software helps to find and remove computer viruses?",
+  "options": [
+   "Antivirus software",
+   "A spreadsheet program",
+   "A drawing program",
+   "A music player"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
   "question_text": "What does Wi-Fi let a laptop do?",
   "options": [
+   "Store a lot more files on the drive",
    "Print pages more quickly in colour",
    "Make the screen picture much brighter",
-   "Join the internet without a cable",
-   "Store a lot more files on the drive"
+   "Join the internet without a cable"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -409,23 +409,23 @@
  {
   "question_text": "Which key can you press to leave a PowerPoint slide show?",
   "options": [
+   "Caps Lock",
    "Esc",
    "Tab",
-   "Insert",
-   "Caps Lock"
+   "Insert"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which part of a Word page repeats text, such as a page number, at the very bottom of every page?",
   "options": [
+   "Footer",
    "Caption",
    "Margin",
-   "Header",
-   "Footer"
+   "Header"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -442,34 +442,34 @@
  {
   "question_text": "What does the Format Painter copy from one piece of text to another?",
   "options": [
+   "The words and sentences themselves",
    "The page numbers and the margins",
    "The look, such as font and colour",
-   "The name of the file and its folder",
-   "The words and sentences themselves"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Which Word feature tells you how many words a document contains?",
-  "options": [
-   "Spell Check",
-   "Text Highlight",
-   "Word Count",
-   "Line Spacing"
+   "The name of the file and its folder"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
-  "question_text": "Which page orientation makes a page taller than it is wide?",
+  "question_text": "Which Word feature tells you how many words a document contains?",
   "options": [
-   "Wrapped",
-   "Portrait",
-   "Centred",
-   "Landscape"
+   "Text Highlight",
+   "Word Count",
+   "Line Spacing",
+   "Spell Check"
   ],
   "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which page orientation makes a page taller than it is wide?",
+  "options": [
+   "Portrait",
+   "Centred",
+   "Landscape",
+   "Wrapped"
+  ],
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -497,12 +497,12 @@
  {
   "question_text": "Which kind of list puts 1, 2, 3 in front of each item?",
   "options": [
-   "A bulleted list",
    "A list of footnotes",
    "A numbered list",
-   "A table of figures"
+   "A table of figures",
+   "A bulleted list"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -519,34 +519,34 @@
  {
   "question_text": "Which alignment makes text line up neatly along both the left and right margins?",
   "options": [
-   "Justify",
    "Centred",
    "Right aligned",
-   "Left aligned"
+   "Left aligned",
+   "Justify"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which shortcut opens the Find box in Word?",
   "options": [
+   "Ctrl + G",
    "Ctrl + H",
    "Ctrl + F",
-   "Ctrl + S",
-   "Ctrl + G"
+   "Ctrl + S"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Cell A1 holds 8 and B1 holds 2. What does the formula =A1*B1 show?",
   "options": [
-   "10",
    "4",
    "16",
-   "82"
+   "82",
+   "10"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -574,23 +574,23 @@
  {
   "question_text": "What does =MIN(14,9,21,6) show?",
   "options": [
+   "4",
    "50",
    "6",
-   "21",
-   "4"
+   "21"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "What does =AVERAGE(10,20,30,40) show?",
   "options": [
+   "10",
    "25",
    "100",
-   "50",
-   "10"
+   "50"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -607,89 +607,89 @@
  {
   "question_text": "What is a group of worksheets saved together in one Excel file called?",
   "options": [
+   "A formula bar",
    "A column heading",
    "A template file",
-   "A workbook",
-   "A formula bar"
+   "A workbook"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is the Formula Bar in Excel used for?",
   "options": [
+   "Showing the time and date on the screen",
    "Choosing the paper size for printing pages",
    "Showing and editing a cell's contents",
-   "Counting how many workbooks are open now",
-   "Showing the time and date on the screen"
+   "Counting how many workbooks are open now"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "In PowerPoint, which feature controls how one slide changes into the next slide?",
   "options": [
-   "Speaker Notes",
-   "Colour Theme",
    "Slide Layout",
-   "Transition"
+   "Transition",
+   "Speaker Notes",
+   "Colour Theme"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What does choosing a different slide layout change?",
   "options": [
+   "Where the title, text and picture boxes go",
    "The number of slides in the whole presentation",
    "The speed at which the whole slide show runs",
-   "The name given to the whole presentation file",
-   "Where the title, text and picture boxes go"
+   "The name given to the whole presentation file"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which PowerPoint view shows the slides full screen for your audience?",
   "options": [
-   "Outline",
-   "Slide Show",
    "Normal",
-   "Slide Sorter"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "A Caesar cipher uses shift 3. What does HELLO become?",
-  "options": [
-   "EBIIL",
-   "KHOOR",
-   "JGNNQ",
-   "IFMMP"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "A Caesar cipher uses shift 1. What does WORLD become?",
-  "options": [
-   "ZRUOG",
-   "VNQKC",
-   "YQTNF",
-   "XPSME"
+   "Slide Sorter",
+   "Outline",
+   "Slide Show"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
-  "question_text": "In a Caesar cipher the letter A becomes E. What is the shift?",
+  "question_text": "A Caesar cipher uses shift 3. What does HELLO become?",
   "options": [
-   "3",
-   "4",
-   "5",
-   "6"
+   "IFMMP",
+   "EBIIL",
+   "KHOOR",
+   "JGNNQ"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A Caesar cipher uses shift 1. What does WORLD become?",
+  "options": [
+   "YQTNF",
+   "XPSME",
+   "ZRUOG",
+   "VNQKC"
   ],
   "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a Caesar cipher the letter A becomes E. What is the shift?",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "3"
+  ],
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -706,12 +706,12 @@
  {
   "question_text": "What does URL stand for?",
   "options": [
+   "User Reference Location",
    "Universal Resource Listing",
    "Uniform Resource Locator",
-   "United Remote Location",
-   "User Reference Location"
+   "United Remote Location"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -728,45 +728,45 @@
  {
   "question_text": "What does ROM stand for?",
   "options": [
+   "Read Only Memory",
    "Rapid Online Memory",
    "Random Output Memory",
-   "Remote Operating Module",
-   "Read Only Memory"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "A website is offering a free game download. What should you do first?",
-  "options": [
-   "Click the biggest button",
-   "Download it on a school computer",
-   "Ask a teacher or parent",
-   "Turn off the antivirus software"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "What is phishing?",
-  "options": [
-   "A trick that uses fake messages to steal details",
-   "A way of searching the web for fishing sites and clubs",
-   "A game that tests how fast you can type",
-   "A method of speeding up your internet link"
+   "Remote Operating Module"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
-  "question_text": "You get an email from someone you do not know. It has an attachment. What should you do?",
+  "question_text": "A website is offering a free game download. What should you do first?",
   "options": [
-   "Forward it to all of your friends",
-   "Reply and give your address to ask who it is",
-   "Open it quickly to see who sent it",
-   "Do not open it and tell an adult"
+   "Turn off the antivirus software",
+   "Click the biggest button",
+   "Download it on a school computer",
+   "Ask a teacher or parent"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is phishing?",
+  "options": [
+   "A game that tests how fast you can type",
+   "A method of speeding up your internet link",
+   "A trick that uses fake messages to steal details",
+   "A way of searching the web for fishing sites and clubs"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "You get an email from someone you do not know. It has an attachment. What should you do?",
+  "options": [
+   "Open it quickly to see who sent it",
+   "Do not open it and tell an adult",
+   "Forward it to all of your friends",
+   "Reply and give your address to ask who it is"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -783,23 +783,23 @@
  {
   "question_text": "You find a USB drive in the school car park. What is the safest thing to do?",
   "options": [
-   "Copy its files onto your own laptop to check",
-   "Hand it to a teacher without plugging it in",
    "Lend it to a friend who needs more storage",
-   "Plug it into a school computer to see who owns it"
+   "Plug it into a school computer to see who owns it",
+   "Copy its files onto your own laptop to check",
+   "Hand it to a teacher without plugging it in"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "You accidentally delete a file that belongs to another pupil. What is the right thing to do?",
   "options": [
+   "Delete more files to hide it",
    "Say nothing and hope nobody notices",
    "Tell the teacher what happened",
-   "Say someone else did it",
-   "Delete more files to hide it"
+   "Say someone else did it"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -816,45 +816,45 @@
  {
   "question_text": "Cell A1 holds 15. What does =IF(A1>10,\"Big\",\"Small\") show?",
   "options": [
-   "True",
-   "Small",
    "Big",
-   "15"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Cell B2 holds 50. What does =IF(B2>=50,\"Pass\",\"Fail\") show?",
-  "options": [
-   "False",
-   "Pass",
-   "50",
-   "Fail"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Cell A1 holds 30. Which formula shows half of the number in A1?",
-  "options": [
-   "=A1/2",
-   "=A1+2",
-   "=A1-2",
-   "=A1*2"
+   "15",
+   "True",
+   "Small"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
-  "question_text": "What does Excel show for the formula =2+3*4?",
+  "question_text": "Cell B2 holds 50. What does =IF(B2>=50,\"Pass\",\"Fail\") show?",
   "options": [
-   "20",
-   "24",
-   "14",
-   "9"
+   "50",
+   "Fail",
+   "False",
+   "Pass"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Cell A1 holds 30. Which formula shows half of the number in A1?",
+  "options": [
+   "=A1-2",
+   "=A1*2",
+   "=A1/2",
+   "=A1+2"
   ],
   "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does Excel show for the formula =2+3*4?",
+  "options": [
+   "24",
+   "14",
+   "9",
+   "20"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -871,12 +871,12 @@
  {
   "question_text": "A class survey asks which fruit each pupil prefers. Which chart best shows each fruit as part of the whole class?",
   "options": [
-   "A pie chart",
    "A line chart",
    "A scatter graph",
-   "A flow chart"
+   "A flow chart",
+   "A pie chart"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -904,78 +904,78 @@
  {
   "question_text": "For your project you find a picture on a website. What is the best thing to do?",
   "options": [
+   "Check you may use it and say where it is from",
    "Use it but cut off the part showing the website",
    "Use it and tell people that you drew it yourself",
-   "Change its colours a little and then call it yours",
-   "Check you may use it and say where it is from"
+   "Change its colours a little and then call it yours"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "You saved report.docx last week but cannot see it. What is a sensible first step?",
   "options": [
-   "Reinstall Word to bring the file back again",
-   "Search for the file name in the search box",
    "Write the whole report again from the beginning",
-   "Delete the Documents folder and start again"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Why is it a good idea to keep a backup copy of important homework on a second device or online?",
-  "options": [
-   "You still have it if the first copy is lost",
-   "The file will take up no space on the drive",
-   "The file will open much faster on your computer",
-   "The file will no longer need a name or a folder"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Which of these file sizes is the largest?",
-  "options": [
-   "900 MB",
-   "2 MB",
-   "1 GB",
-   "800 KB"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "What does zipping a folder of files usually do?",
-  "options": [
-   "Makes each file open faster",
-   "Changes every file into a picture",
-   "Removes all viruses from them",
-   "Packs them into one smaller file"
+   "Delete the Documents folder and start again",
+   "Reinstall Word to bring the file back again",
+   "Search for the file name in the search box"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
-  "question_text": "The file path is Documents > School > Maths > test.docx. Which folder directly holds the file test.docx?",
+  "question_text": "Why is it a good idea to keep a backup copy of important homework on a second device or online?",
   "options": [
-   "School",
-   "Maths",
-   "Documents",
-   "test"
+   "The file will open much faster on your computer",
+   "The file will no longer need a name or a folder",
+   "You still have it if the first copy is lost",
+   "The file will take up no space on the drive"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these file sizes is the largest?",
+  "options": [
+   "2 MB",
+   "1 GB",
+   "800 KB",
+   "900 MB"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
-  "question_text": "A Caesar cipher uses shift 3. What does ICT become?",
+  "question_text": "What does zipping a folder of files usually do?",
   "options": [
-   "LFW",
-   "KEV",
-   "MGX",
-   "FZQ"
+   "Packs them into one smaller file",
+   "Makes each file open faster",
+   "Changes every file into a picture",
+   "Removes all viruses from them"
   ],
   "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The file path is Documents > School > Maths > test.docx. Which folder directly holds the file test.docx?",
+  "options": [
+   "Documents",
+   "test",
+   "School",
+   "Maths"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A Caesar cipher uses shift 3. What does ICT become?",
+  "options": [
+   "MGX",
+   "FZQ",
+   "LFW",
+   "KEV"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -992,23 +992,23 @@
  {
   "question_text": "A Caesar cipher uses shift 3 and the message arrives as KHOOR. What was the original message?",
   "options": [
-   "NKRRU",
    "HELLO",
    "JGNNQ",
-   "GDKKN"
+   "GDKKN",
+   "NKRRU"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "In a Caesar cipher, A becomes E. What does W become?",
   "options": [
-   "A",
    "B",
    "Z",
-   "S"
+   "S",
+   "A"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -1036,133 +1036,133 @@
  {
   "question_text": "To read a message that was made with a Caesar shift of 3, what do you do to each letter?",
   "options": [
+   "Move it back 3 places in the alphabet",
    "Move it forward by another 3 places in the alphabet",
    "Swap it with the letter that comes next to it",
-   "Replace it with its number in the alphabet",
-   "Move it back 3 places in the alphabet"
+   "Replace it with its number in the alphabet"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Why is a Caesar cipher easy to break?",
   "options": [
-   "There are few shifts, so each can be tried",
    "It only changes the numbers and not the letters",
    "It needs very expensive special software to read it",
-   "It only works on words that are very short indeed"
+   "It only works on words that are very short indeed",
+   "There are few shifts, so each can be tried"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which part of a web address shows that the connection to the site is protected?",
   "options": [
-   "mailto:",
    "www.",
    "http://www.",
-   "https://"
+   "https://",
+   "mailto:"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is your digital footprint?",
   "options": [
-   "The size of the screen on your own computer",
    "The brand name printed on your computer mouse",
    "Information about you that is left online",
-   "The speed of your typing on the keyboard"
+   "The speed of your typing on the keyboard",
+   "The size of the screen on your own computer"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is identity theft online?",
   "options": [
+   "Pretending to be someone using their details",
    "Typing a friend's name into a school document",
    "Losing your laptop on the way home from school",
-   "Changing your own password to a stronger one",
-   "Pretending to be someone using their details"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Why do social media sites have privacy settings?",
-  "options": [
-   "So your passwords can be shown on screen to all",
-   "So you can choose who sees your information",
-   "So everyone can see all of your posts and photos",
-   "So that your pictures load much faster online"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Why do some websites have age limits?",
-  "options": [
-   "To make the pages look brighter and more colourful",
-   "To stop adults from visiting the website at all",
-   "To make the website load more quickly for all",
-   "To keep younger users from unsuitable content"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "You want to install a new program on a school computer. What is the correct thing to do?",
-  "options": [
-   "Ask your teacher or the IT staff first",
-   "Install it from a USB drive a friend has lent you",
-   "Install it quietly when no teacher is looking",
-   "Install it straight away if the program is free"
+   "Changing your own password to a stronger one"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
-  "question_text": "An email from a friend's address has an odd link and strange wording. What is the best action?",
+  "question_text": "Why do social media sites have privacy settings?",
   "options": [
-   "Click the link quickly to find out where it goes",
-   "Send it on to everyone you know to warn them",
-   "Do not click it; ask your friend another way",
-   "Reply and ask your friend to confirm the password"
+   "So everyone can see all of your posts and photos",
+   "So that your pictures load much faster online",
+   "So your passwords can be shown on screen to all",
+   "So you can choose who sees your information"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do some websites have age limits?",
+  "options": [
+   "To stop adults from visiting the website at all",
+   "To make the website load more quickly for all",
+   "To keep younger users from unsuitable content",
+   "To make the pages look brighter and more colourful"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
-  "question_text": "Which clue most suggests that an email is a phishing message?",
+  "question_text": "You want to install a new program on a school computer. What is the correct thing to do?",
   "options": [
-   "It arrived early in the morning, before school",
-   "It has a short subject line and no pictures",
-   "It says your account closes unless you click now",
-   "It was sent to your teacher as well as to you"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Which internet connection would download a large file the fastest?",
-  "options": [
-   "1 Mbps",
-   "100 Mbps",
-   "100 kbps",
-   "10 Mbps"
+   "Install it straight away if the program is free",
+   "Ask your teacher or the IT staff first",
+   "Install it from a USB drive a friend has lent you",
+   "Install it quietly when no teacher is looking"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
-  "question_text": "Which type of drive has no moving parts inside?",
+  "question_text": "An email from a friend's address has an odd link and strange wording. What is the best action?",
   "options": [
-   "CD drive",
-   "HDD",
-   "Floppy disk drive",
-   "SSD"
+   "Do not click it; ask your friend another way",
+   "Reply and ask your friend to confirm the password",
+   "Click the link quickly to find out where it goes",
+   "Send it on to everyone you know to warn them"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which clue most suggests that an email is a phishing message?",
+  "options": [
+   "It was sent to your teacher as well as to you",
+   "It arrived early in the morning, before school",
+   "It has a short subject line and no pictures",
+   "It says your account closes unless you click now"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which internet connection would download a large file the fastest?",
+  "options": [
+   "10 Mbps",
+   "1 Mbps",
+   "100 Mbps",
+   "100 kbps"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which type of drive has no moving parts inside?",
+  "options": [
+   "Floppy disk drive",
+   "SSD",
+   "CD drive",
+   "HDD"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -1190,34 +1190,34 @@
  {
   "question_text": "Which device is used both to put information into a tablet and to show information from it?",
   "options": [
-   "Loudspeaker",
    "Laser printer",
    "Document scanner",
-   "Touchscreen"
+   "Touchscreen",
+   "Loudspeaker"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Your slides are hard to read from the back of the room. Which change helps most?",
   "options": [
-   "Add busy pictures behind the words on every slide",
-   "Use a smaller font so more words fit on the slide",
    "Use pale yellow text on a white background",
-   "Use larger plain text that stands out"
+   "Use larger plain text that stands out",
+   "Add busy pictures behind the words on every slide",
+   "Use a smaller font so more words fit on the slide"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A spell checker does not mark 'their' in the sentence 'Put the book over their.' Why not?",
   "options": [
-   "The spell checker has been switched off today",
-   "The sentence is too short to be checked at all",
    "It is a real word, so check it yourself",
-   "The capital letters are missing in the sentence"
+   "The capital letters are missing in the sentence",
+   "The spell checker has been switched off today",
+   "The sentence is too short to be checked at all"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  }
 ]

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More about Guess the Password | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+      <span>EnigmaPath<small>Guess the Password</small></span>
+    </a>
+    <div class="ep-topbar__right"><a class="btn btn--small btn--ghost" href="index.html">← Back to the game</a></div>
+  </header>
+
+  <main class="ep-main theory">
+    <section class="cb-head">
+      <p class="eyebrow">Strategy · combinatorics · information theory</p>
+      <h1>More about the game</h1>
+      <p class="muted">Bulls and Cows looks like a guessing game, but every answer is a clue that removes possibilities. This page explains the maths behind it and a strategy you can actually use.</p>
+    </section>
+
+    <section class="card theory-card">
+      <h2>1. The rules in one minute</h2>
+      <p>The computer hides a password made of <b>different digits</b>. You type a guess of the same length. Each guess is scored:</p>
+      <ul>
+        <li><b>Bull</b> — the digit is correct <b>and</b> in the correct position.</li>
+        <li><b>Cow</b> — the digit is in the password but in the wrong position.</li>
+      </ul>
+      <p>Example: if the password is <code>4 2 7 1</code> and you guess <code>1 2 3 4</code>, the <b>2</b> is a bull, while the <b>1</b> and <b>4</b> are cows. The <b>3</b> is not in the password at all. Score: <b>1 bull, 2 cows</b>.</p>
+    </section>
+
+    <section class="card theory-card">
+      <h2>2. How many passwords are possible?</h2>
+      <p>Digits may not repeat, so the number of passwords is the number of ways to choose an ordered list of <i>n</i> different digits from 0–9:</p>
+      <div class="formula-box">
+        3 digits: 10 × 9 × 8 = <b>720</b><br>
+        4 digits: 10 × 9 × 8 × 7 = <b>5,040</b><br>
+        5 digits: 10 × 9 × 8 × 7 × 6 = <b>30,240</b>
+      </div>
+      <div class="table-wrap">
+        <table class="theory-table">
+          <thead><tr><th>Length</th><th>Passwords</th><th>Information</th><th>Possible answers</th><th>Average lower bound</th><th>Known optimal average</th></tr></thead>
+          <tbody>
+            <tr><td>3 digits</td><td>720</td><td>9.49 bits</td><td>9</td><td>3.00 guesses</td><td>—</td></tr>
+            <tr><td>4 digits</td><td>5,040</td><td>12.30 bits</td><td>14</td><td>3.23 guesses</td><td><b>5.21</b> (max 7)</td></tr>
+            <tr><td>5 digits</td><td>30,240</td><td>14.88 bits</td><td>20</td><td>3.44 guesses</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="hint">“Average lower bound” comes from information theory. It is the absolute best any strategy could do on average — real strategies need more guesses. For 4 digits the best known strategy averages 5.21 guesses and never needs more than 7.</p>
+    </section>
+
+    <section class="card theory-card">
+      <h2>3. Information and “surprise”, without the jargon</h2>
+      <p>Before your first guess there are 5,040 possible 4-digit passwords. After an answer, only some of them still fit. The game shows this as <b>possible passwords left</b>.</p>
+      <p>In information theory, the amount of information in an answer is measured in <b>bits</b>. One bit is the information you get from a fair coin toss: it halves the possibilities. If an answer removes a lot of passwords, it gives you more bits and you are closer to the secret.</p>
+      <div class="formula-box">information = log₂(number of possibilities)</div>
+      <p>For 4 digits, log₂(5040) ≈ 12.30 bits. A single answer can have at most 14 different bull/cow scores (the pair “3 bulls, 1 cow” is impossible), so one answer can carry at most log₂(14) ≈ 3.81 bits. Dividing the total by the maximum gives the lower bound:</p>
+      <div class="formula-box">12.30 ÷ 3.81 ≈ 3.23 guesses on average</div>
+      <p>That is why the lower bound is not the whole story: an answer rarely splits the possibilities perfectly evenly. A good player tries to make the next answer as <i>surprising</i> as possible by choosing a guess whose possible scores leave groups of similar size.</p>
+    </section>
+
+    <section class="card theory-card">
+      <h2>4. A strategy that works</h2>
+      <ol class="strategy-list">
+        <li><b>Open with different digits.</b> For 4 digits, <code>0123</code> is a popular opening because it tests four different digits and positions. The optimal computer strategy found by Tetsuro Tanaka also starts with <code>0123</code>.</li>
+        <li><b>Keep only passwords that fit.</b> After every answer, cross out every password that would have produced a different number of bulls or cows. The “possible left” counter does this for you.</li>
+        <li><b>Choose an informative guess.</b> Prefer a guess that splits the remaining passwords into groups of similar size. You want the next answer to surprise you, not to confirm what you already know.</li>
+        <li><b>Break ties with a real candidate.</b> If two guesses would split the set equally well, choose one that could actually be the password, so you might win immediately.</li>
+        <li><b>Use the bulls and cows together.</b> Two bulls narrows the position of two digits; cows tell you which other digits are present but misplaced. Do not read one without the other.</li>
+        <li><b>Track repeated digits.</b> A digit can appear in at most one position, so once a digit is a bull, it cannot be a cow elsewhere.</li>
+      </ol>
+      <p>On 5 digits the search space is six times larger than on 4, but each answer can also have up to 20 outcomes, so a good question can still remove a large chunk of possibilities.</p>
+    </section>
+
+    <section class="card theory-card">
+      <h2>5. Known results and further reading</h2>
+      <p>The 4-digit game is the classic version. An optimal strategy solves every 5,040-password game in at most 7 guesses and averages 5.21 guesses. That result is from Tetsuro Tanaka (1996) and was independently confirmed by John Francis.</p>
+      <ul class="source-list">
+        <li><a href="https://en.wikipedia.org/wiki/Bulls_and_cows" target="_blank" rel="noopener noreferrer">Wikipedia: Bulls and Cows</a> — rules, history and the 5.21 average.</li>
+        <li><a href="https://arxiv.org/abs/2207.04845" target="_blank" rel="noopener noreferrer">Tetsuro Tanaka, “An optimal MOO strategy”</a> — the exhaustive search and a worked optimal game.</li>
+        <li><a href="https://raw.org/math/information-theory/mastermind-information-theory" target="_blank" rel="noopener noreferrer">The Mathematics of Mastermind: How to Ask the Best Question</a> — entropy, minimax and expected-size strategies.</li>
+        <li><a href="https://plus.maths.org/information-surprise" target="_blank" rel="noopener noreferrer">Plus Maths: “Information is surprise”</a> — a friendly introduction to Shannon information.</li>
+        <li><a href="https://arxiv.org/abs/2511.19446" target="_blank" rel="noopener noreferrer">A Weighted Entropy Approach to Near-Optimal Mastermind</a> — modern entropy-based strategies and the 14 feedback types.</li>
+      </ul>
+    </section>
+
+    <p class="theory-back"><a class="btn btn--primary" href="index.html">Play Guess the Password</a></p>
+  </main>
+
+  <script src="../shared/footer.js"></script>
+</body>
+</html>

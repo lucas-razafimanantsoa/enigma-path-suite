@@ -4,45 +4,222 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EnigmaPath</title>
-  <meta name="description" content="EnigmaPath: ICT practice quizzes, logic games, a cipher lab and teacher-made exams.">
+  <meta name="description" content="EnigmaPath: ICT practice quizzes, logic games, a cipher lab, maths and algorithm labs, and teacher-made exams.">
+  <meta name="theme-color" content="#EAF9FC">
   <link rel="icon" href="shared/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="shared/theme.css">
   <style>
-    .hero { text-align: center; padding: clamp(10px, 4vw, 40px) 0 28px; }
-    .hero__mark { width: 84px; height: 84px; margin: 0 auto 14px; color: var(--soft); }
-    .hero h1 { font-size: clamp(38px, 7vw, 68px); letter-spacing: 0.04em; }
-    .hero p { color: var(--muted); max-width: 52ch; margin: 10px auto 0; font-size: 18px; }
-    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
-    .tile {
-      display: grid; gap: 10px; align-content: start; padding: 22px; text-decoration: none; color: var(--ink);
-      background: linear-gradient(180deg, var(--bg-raised), var(--bg)); border: 1px solid var(--line); border-radius: var(--radius-lg);
-      transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s; cursor: pointer; text-align: left; font: inherit;
+    .hub-bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.95; }
+
+    /* ---- Hero: the headline carries the page ---- */
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+      gap: clamp(28px, 5vw, 64px);
+      align-items: center;
+      padding: clamp(30px, 5vw, 72px) 0 clamp(30px, 5vw, 64px);
+      position: relative;
     }
-    .tile:hover { transform: translateY(-4px); border-color: var(--soft); box-shadow: var(--shadow); }
-    .tile__icon { width: 52px; height: 52px; border-radius: 14px; background: var(--surface); display: grid; place-items: center; color: var(--soft); }
-    .tile__icon svg { width: 30px; height: 30px; }
-    .tile h2 { font-size: 22px; }
-    .tile p { color: var(--muted); font-size: 15px; }
-    .tile .tag { font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--soft); font-weight: 700; }
-    .tile--exam { border-color: var(--surface-2); }
-    .teacher-row { display: flex; justify-content: center; gap: 12px; margin-top: 26px; flex-wrap: wrap; }
-    .notice { margin: 0 auto 22px; max-width: 720px; display: grid; gap: 8px; border-color: var(--warn); }
-    .notice code { background: var(--bg-deep); padding: 1px 6px; border-radius: 6px; font-family: var(--font-mono); }
+    .hero__copy { display: grid; gap: 16px; justify-items: start; max-width: 660px; }
+    .hero__mark {
+      width: 68px; height: 68px; color: var(--soft);
+      animation: hero-float 7s ease-in-out infinite;
+    }
+    .hero h1 {
+      font-size: clamp(54px, 9vw, 104px);
+      letter-spacing: -0.035em;
+      line-height: 0.94;
+      font-weight: 600;
+    }
+    .hero__rule {
+      width: 100%; max-width: 300px; height: 1px; border: 0; margin: 2px 0 0;
+      background: var(--line-strong);
+    }
+    .hero__lede {
+      font-size: clamp(17px, 2vw, 21px);
+      color: var(--muted);
+      max-width: 46ch;
+      line-height: 1.5;
+    }
+    .hero__actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 2px; }
+    .hero__count { font-size: 13px; color: var(--muted); font-weight: 600; letter-spacing: 0.01em; }
+    @keyframes hero-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+
+    /* ---- Fact card ---- */
+    .fact-card { max-width: 440px; width: 100%; display: grid; gap: 10px; }
+    .fact-card.is-changing { animation: fact-swap 0.28s ease; }
+    .fact-card__top { display: flex; align-items: center; gap: 9px; }
+    .fact-card__spark {
+      width: 26px; height: 26px; display: grid; place-items: center; border-radius: 8px;
+      background: var(--surface); color: var(--soft); font-size: 14px; flex: none;
+    }
+    .fact-card__topic { font-size: 12px; font-weight: 700; color: var(--soft); }
+    .fact-card h2 {
+      font-family: var(--font-display); font-weight: 600;
+      font-size: clamp(21px, 2.4vw, 26px); color: var(--ink); line-height: 1.2;
+    }
+    .fact-card p { color: var(--muted); font-size: 15px; max-width: 60ch; }
+    .fact-card__actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+    @keyframes fact-swap { 0% { opacity: 0.35; transform: translateY(4px); } 100% { opacity: 1; transform: none; } }
+
+    /* ---- Lab index: a contents page, not a card grid ---- */
+    .index-head {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 16px; flex-wrap: wrap; margin: 0 0 14px;
+    }
+    .index-head h2 { font-family: var(--font-display); font-size: clamp(26px, 3vw, 34px); font-weight: 600; }
+    .index-head p { color: var(--muted); font-size: 14px; max-width: 44ch; }
+
+    .lab-index {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      box-shadow: inset 0 1px 0 var(--glass-highlight), var(--shadow-soft);
+      backdrop-filter: blur(14px) saturate(1.06);
+      -webkit-backdrop-filter: blur(14px) saturate(1.06);
+      overflow: hidden;
+      scroll-margin-top: 90px;
+    }
+    .lab-list {
+      list-style: none; margin: 0; padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-rows: repeat(5, auto);
+      grid-auto-flow: column;
+    }
+    .lab-list > li { border-top: 1px solid var(--line); }
+    .lab-list > li:nth-child(1),
+    .lab-list > li:nth-child(6) { border-top: 0; }
+    .lab-list > li:nth-child(-n + 5) { border-right: 1px solid var(--line); }
+
+    .lab {
+      display: grid;
+      grid-template-columns: 34px 40px minmax(0, 1fr) 20px;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 18px;
+      text-decoration: none;
+      color: var(--ink);
+      transition: background 0.16s;
+      height: 100%;
+    }
+    .lab:hover { background: rgba(173, 216, 230, 0.3); }
+    .lab__num {
+      font-family: var(--font-mono); font-size: 12px; color: var(--muted);
+      font-variant-numeric: tabular-nums; letter-spacing: 0.02em;
+    }
+    .lab__icon {
+      width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center;
+      background: var(--surface); color: var(--soft); flex: none;
+      transition: background 0.16s, color 0.16s, transform 0.2s;
+    }
+    .lab__icon svg { width: 22px; height: 22px; }
+    .lab:hover .lab__icon { background: var(--soft); color: #fff; transform: rotate(-5deg); }
+    .lab__body { display: grid; gap: 2px; min-width: 0; }
+    .lab__name { font-weight: 700; font-size: 16px; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+    .lab__kind { font-size: 11px; font-weight: 700; color: var(--soft); }
+    .lab__desc { font-size: 13.5px; color: var(--muted); line-height: 1.45; }
+    .lab__go {
+      color: var(--soft); font-size: 15px; opacity: 0;
+      transform: translateX(-4px); transition: opacity 0.16s, transform 0.16s;
+    }
+    .lab:hover .lab__go, .lab:focus-visible .lab__go { opacity: 1; transform: none; }
+
+    .lab--exam { background: rgba(135, 206, 235, 0.16); }
+    .lab--exam .lab__icon { background: var(--surface-2); }
+
+    .index-foot {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; flex-wrap: wrap; padding: 14px 18px;
+      border-top: 1px solid var(--line-strong); font-size: 13px; color: var(--muted);
+    }
+    .index-foot__links { display: flex; gap: 8px; flex-wrap: wrap; }
+
+    .notice { margin: 0 0 18px; max-width: 760px; border-color: var(--warn); display: grid; gap: 8px; }
+    .notice code { background: var(--bg-deep); padding: 1px 6px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.94em; }
+
+    /* ---- Contact band ---- */
+    .contact-band {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: center;
+      margin-top: 22px;
+      padding: clamp(20px, 3vw, 30px);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      background: var(--glass);
+      box-shadow: inset 0 1px 0 var(--glass-highlight), var(--shadow-soft);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .contact-band h2 { font-family: var(--font-display); font-size: clamp(21px, 2.4vw, 26px); font-weight: 600; }
+    .contact-band p { color: var(--muted); font-size: 14px; max-width: 52ch; margin-top: 4px; }
+    .contact-band__actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .contact-mail { display: inline-flex; align-items: center; gap: 9px; font-weight: 700; }
+    .contact-mail svg { width: 18px; height: 18px; }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; gap: 30px; }
+      .fact-card { max-width: none; }
+      .lab-list { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }
+      .lab-list > li:nth-child(6) { border-top: 1px solid var(--line); }
+      .lab-list > li:nth-child(-n + 5) { border-right: 0; }
+      .contact-band { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      .hero h1 { font-size: clamp(46px, 15vw, 72px); }
+      .hero__actions .btn { flex: 1 1 auto; }
+      .lab { grid-template-columns: 26px 36px minmax(0, 1fr); gap: 10px; padding: 14px; }
+      .lab__icon { width: 36px; height: 36px; }
+      .lab__go { display: none; }
+      .lab__desc { font-size: 13px; }
+      .index-foot { flex-direction: column; align-items: flex-start; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero__mark { animation: none !important; }
+      .lab__icon, .lab__go { transition: none !important; }
+    }
   </style>
 </head>
 <body>
+  <canvas class="hub-bg" id="hub-bg" aria-hidden="true"></canvas>
+
   <header class="ep-topbar">
-    <span class="ep-brand">
-      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#71899b"/><circle cx="52" cy="14" r="5" fill="#e8e9e2"/></svg>
-      <span>EnigmaPath</span>
-    </span>
+    <a class="ep-brand" href="index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+      <span>EnigmaPath<small>Learning suite</small></span>
+    </a>
+    <nav class="ep-topbar__right" aria-label="Site links">
+      <a class="ep-topbar__link" href="about/index.html">About the app</a>
+      <a class="ep-topbar__link" href="mailto:lucas.mirija@pm.me">Contact</a>
+      <a class="ep-topbar__link" href="https://github.com/lucas-razafimanantsoa/EnigmaPath" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
   </header>
 
   <main class="ep-main">
     <section class="hero">
-      <svg class="hero__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#26394d"/><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="#b2c1c5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#71899b"/><circle cx="52" cy="14" r="5" fill="#e8e9e2"/></svg>
-      <h1>EnigmaPath</h1>
-      <p>Learn ICT, solve puzzles and take your tests. Pick where to go.</p>
+      <div class="hero__copy">
+        <svg class="hero__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#87CEEB"/><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="#3A6F99" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+        <h1>EnigmaPath</h1>
+        <hr class="hero__rule">
+        <p class="hero__lede">Small, hands-on labs for big ideas. Play a game, crack a cipher or take a quiz — then see how it works.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#labs">Open the lab index</a>
+          <a class="btn" href="about/index.html">About the app</a>
+        </div>
+        <p class="hero__count">Ten labs. Eight subjects. No account needed.</p>
+      </div>
+
+      <article class="card fact-card" id="fact-card" aria-live="polite">
+        <div class="fact-card__top"><span class="fact-card__spark" aria-hidden="true">✦</span><span class="fact-card__topic" id="fact-topic">Fun fact</span></div>
+        <h2 id="fact-title">Did you know?</h2>
+        <p id="fact-text">Every refresh brings another story from maths, technology and logic.</p>
+        <div class="fact-card__actions">
+          <a class="btn btn--primary btn--small" id="fact-more" href="facts/index.html">Read the full fact</a>
+          <button class="btn btn--small" id="fact-next" type="button">Show another fact</button>
+        </div>
+      </article>
     </section>
 
     <div class="card notice" id="exam-notice" hidden>
@@ -51,48 +228,131 @@
       <div><button class="btn btn--small" id="notice-close" type="button">OK</button></div>
     </div>
 
-    <nav class="tiles" aria-label="EnigmaPath apps">
-      <a class="tile" href="quiz/index.html">
-        <span class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.6 2.2c-.7.4-1.1 1-1.1 1.8"/><path d="M12 17h.01"/></svg></span>
-        <span class="tag">Practice</span>
-        <h2>Practice Quiz</h2>
-        <p>Ten levels of ICT questions with instant feedback, from first steps to exam-style.</p>
-      </a>
-      <a class="tile" href="robot/index.html">
-        <span class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="3"/><path d="M12 8V4M9.5 13h.01M14.5 13h.01M3 13v2M21 13v2"/><path d="M9.5 16.5h5"/></svg></span>
-        <span class="tag">Game</span>
-        <h2>Guide the Robot</h2>
-        <p>Program a robot through big mazes. Turn, then move forward, and find the shortest route.</p>
-      </a>
-      <a class="tile" href="cipher/index.html">
-        <span class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 15v2"/></svg></span>
-        <span class="tag">Lab</span>
-        <h2>Enigmatica Cipher Lab</h2>
-        <p>Encrypt, decrypt and crack Caesar and Vigenère ciphers.</p>
-      </a>
-      <a class="tile" href="hanoi/index.html">
-        <span class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M7 20V7M12 20V7M17 20V7"/><rect x="4" y="15" width="6" height="3" rx="1"/><rect x="5" y="12" width="4" height="3" rx="1"/><rect x="14" y="17" width="6" height="3" rx="1"/></svg></span>
-        <span class="tag">Puzzle</span>
-        <h2>Tower of Hanoi</h2>
-        <p>Move the discs from peg to peg. Learn how recursion solves it in the fewest moves.</p>
-      </a>
-      <a class="tile tile--exam" href="exam/index.html" id="exam-link">
-        <span class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/></svg></span>
-        <span class="tag">Test</span>
-        <h2>Exam</h2>
-        <p>Take the test your teacher prepared. Results are shown at the end.</p>
-      </a>
-    </nav>
+    <section id="labs" aria-labelledby="labs-heading">
+      <div class="index-head">
+        <h2 id="labs-heading">Lab index</h2>
+        <p>Pick a lab. Each one opens in this tab and keeps your progress on this device.</p>
+      </div>
 
-    <div class="teacher-row">
-      <a class="btn btn--ghost btn--small" href="exam/builder.html" id="builder-link">Teacher: create an exam</a>
-      <a class="btn btn--ghost btn--small" href="exam/results.html" id="results-link">Teacher: view results</a>
-    </div>
+      <nav class="lab-index" aria-label="EnigmaPath labs">
+        <ol class="lab-list">
+          <li><a class="lab" href="quiz/index.html">
+            <span class="lab__num">01</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.6 2.2c-.7.4-1.1 1-1.1 1.8"/><path d="M12 17h.01"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Practice Quiz <span class="lab__kind">Practice</span></span><span class="lab__desc">Eight subjects with ten levels each, plus an A-Level maths extension.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="robot/index.html">
+            <span class="lab__num">02</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="8" width="14" height="11" rx="3"/><path d="M12 8V4M9.5 13h.01M14.5 13h.01M3 13v2M21 13v2"/><path d="M9.5 16.5h5"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Guide the Robot <span class="lab__kind">Game</span></span><span class="lab__desc">Program a robot through big mazes. Turn, then move forward, and find the shortest route.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="cipher/index.html">
+            <span class="lab__num">03</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 15v2"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Enigmatica Cipher Lab <span class="lab__kind">Lab</span></span><span class="lab__desc">Encrypt, decrypt and crack Caesar and Vigenère ciphers.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="hanoi/index.html">
+            <span class="lab__num">04</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M7 20V7M12 20V7M17 20V7"/><rect x="4" y="15" width="6" height="3" rx="1"/><rect x="5" y="12" width="4" height="3" rx="1"/><rect x="14" y="17" width="6" height="3" rx="1"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Tower of Hanoi <span class="lab__kind">Puzzle</span></span><span class="lab__desc">Move the discs from peg to peg. Learn how recursion solves it in the fewest moves.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="binary-search/index.html">
+            <span class="lab__num">05</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M6 12h12M9 18h6"/><circle cx="12" cy="6" r="1.4" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="12" cy="18" r="1.4" fill="currentColor" stroke="none"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Binary Search Lab <span class="lab__kind">Algorithm</span></span><span class="lab__desc">Race linear and binary search. Watch every comparison, count every check.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="knights-tour/index.html">
+            <span class="lab__num">06</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/><path d="M10 13l2-3 2 3-2 2z" fill="currentColor" stroke="none"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Knight's Tour <span class="lab__kind">Puzzle</span></span><span class="lab__desc">Visit every square once with a knight. Watch a search solve it step by step.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="graph-color/index.html">
+            <span class="lab__num">07</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2.2"/><circle cx="19" cy="7" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M7 6.5l10 0.5M6.2 8l4.6 8M17.6 9l-4.4 7"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Graph Colouring <span class="lab__kind">Maths</span></span><span class="lab__desc">Colour the regions so neighbours differ. Find conflicts and try a solver.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="huffman/index.html">
+            <span class="lab__num">08</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v5M12 9L6 15M12 9l6 6M6 15v3M18 15v3"/><circle cx="12" cy="4" r="1.5"/><circle cx="6" cy="19" r="1.5"/><circle cx="18" cy="19" r="1.5"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Huffman Coding <span class="lab__kind">Data</span></span><span class="lab__desc">Build a frequency tree, create bit codes and measure how much you save.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab" href="codebreaker/index.html">
+            <span class="lab__num">09</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="4"/><path d="M12 12l7 7M16 16l2-2M18 18l2-2"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Guess the Password <span class="lab__kind">Logic</span></span><span class="lab__desc">Crack a secret digit code with bulls and cows. Test 3, 4 or 5 digits.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+
+          <li><a class="lab lab--exam" href="exam/index.html" id="exam-link">
+            <span class="lab__num">10</span>
+            <span class="lab__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/></svg></span>
+            <span class="lab__body"><span class="lab__name">Exam <span class="lab__kind">Test</span></span><span class="lab__desc">Take the test your teacher prepared. Your answers go straight to the teacher.</span></span>
+            <span class="lab__go" aria-hidden="true">↗</span>
+          </a></li>
+        </ol>
+
+        <div class="index-foot">
+          <span>Teacher tools sit behind the password you set when the server starts.</span>
+          <span class="index-foot__links">
+            <a class="btn btn--ghost btn--small" href="exam/login.html" id="builder-link">Create an exam</a>
+            <a class="btn btn--ghost btn--small" href="exam/login.html?next=%2Fexam%2Fresults.html" id="results-link">View results</a>
+          </span>
+        </div>
+      </nav>
+    </section>
+
+    <section class="contact-band" aria-labelledby="contact-heading">
+      <div>
+        <h2 id="contact-heading">Something broken? Something unclear?</h2>
+        <p>Send the page name and what you expected to happen. I read every message and fix what I can.</p>
+      </div>
+      <div class="contact-band__actions">
+        <a class="btn btn--primary contact-mail" href="mailto:lucas.mirija@pm.me">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          lucas.mirija@pm.me
+        </a>
+        <a class="btn" href="https://github.com/lucas-razafimanantsoa/EnigmaPath" target="_blank" rel="noopener noreferrer">Open the repository</a>
+      </div>
+    </section>
   </main>
 
-  <footer class="ep-footer">Lucas M.R 2026, with vibes</footer>
-
+  <script src="shared/footer.js"></script>
+  <script src="shared/fun-facts.js"></script>
+  <script src="shared/hub-bg.js"></script>
   <script>
+    (function () {
+      var F = window.EPFacts;
+      if (!F || !F.count) return;
+      var card = document.getElementById('fact-card');
+      function show(fact) {
+        document.getElementById('fact-topic').textContent = fact.topic;
+        document.getElementById('fact-title').textContent = fact.title;
+        document.getElementById('fact-text').textContent = fact.text;
+        document.getElementById('fact-more').href = 'facts/index.html?n=' + fact.id;
+        card.classList.remove('is-changing');
+        void card.offsetWidth;
+        card.classList.add('is-changing');
+      }
+      show(F.random());
+      document.getElementById('fact-next').addEventListener('click', function () { show(F.random()); });
+    }());
+
     (function () {
       if (location.protocol !== 'file:') return;
       var notice = document.getElementById('exam-notice');

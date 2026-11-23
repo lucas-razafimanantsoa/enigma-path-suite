@@ -14,7 +14,7 @@ table.results { width: 100%; border-collapse: collapse; font-size: 14px; }
 table.results th, table.results td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 table.results th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; position: sticky; top: 0; background: var(--bg-raised); }
 table.results tbody tr.row { cursor: pointer; }
-table.results tbody tr.row:hover { background: rgba(64, 91, 114, 0.25); }
+table.results tbody tr.row:hover { background: rgba(135, 206, 235, 0.25); }
 .pct-good { color: var(--ok); font-weight: 700; }
 .pct-mid { color: var(--warn); font-weight: 700; }
 .pct-bad { color: var(--bad); font-weight: 700; }

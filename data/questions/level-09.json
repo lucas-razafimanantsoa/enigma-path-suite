@@ -2,23 +2,23 @@
  {
   "question_text": "A file is encrypted before it is emailed. What does the receiver need in order to read it?",
   "options": [
+   "A newer web browser",
    "The correct decryption key",
    "A faster internet connection",
-   "A larger mailbox",
-   "A newer web browser"
+   "A larger mailbox"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "A field accepts whole numbers from 1 to 10 only. Which item is ABNORMAL test data for this field?",
   "options": [
+   "ten",
    "1",
    "5",
-   "10",
-   "ten"
+   "10"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -35,23 +35,23 @@
  {
   "question_text": "Which file format keeps text formatting such as bold and italic and can be opened by many different word processors?",
   "options": [
-   "RTF",
-   "TXT",
    "CSV",
-   "MP3"
+   "MP3",
+   "RTF",
+   "TXT"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which is a disadvantage of using observation to research the current system?",
   "options": [
-   "The analyst cannot see how tasks are really carried out",
    "Staff must write down all their answers on paper forms",
    "Workers may behave differently when they know they are watched",
-   "Only the views of customers outside the company are collected"
+   "Only the views of customers outside the company are collected",
+   "The analyst cannot see how tasks are really carried out"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -68,12 +68,12 @@
  {
   "question_text": "A user types the CORRECT web address of their bank but is taken to a fake copy of the site. Which attack is the most likely cause?",
   "options": [
-   "Smishing",
-   "Pharming",
    "Vishing",
-   "A blocked firewall port"
+   "A blocked firewall port",
+   "Smishing",
+   "Pharming"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -90,56 +90,56 @@
  {
   "question_text": "Which information is written in a test plan BEFORE the tests are carried out?",
   "options": [
+   "The cost of replacing the old hardware",
    "The test data and expected result for each test",
    "The actual result found when the test is run",
-   "The comments users made after the system went live",
-   "The cost of replacing the old hardware"
+   "The comments users made after the system went live"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What does a file extension such as .docx tell the computer?",
   "options": [
-   "How much storage space the file takes up on the disk",
-   "Which user account created the file",
    "Which type of file it is and which program opens it",
-   "Which folder on the disk the file is stored in"
+   "Which folder on the disk the file is stored in",
+   "How much storage space the file takes up on the disk",
+   "Which user account created the file"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "A laptop containing encrypted files is stolen. Why is the data still protected?",
   "options": [
+   "Encryption deletes the files if the laptop is moved",
    "Encryption stops the laptop from being switched on again",
    "Encryption makes it impossible to copy the files",
-   "Without the key the thief cannot read the files",
-   "Encryption deletes the files if the laptop is moved"
+   "Without the key the thief cannot read the files"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does resizing an image change?",
   "options": [
-   "The file format of the image",
    "Which parts of the image are visible",
    "The copyright owner of the image",
-   "The overall dimensions of the image"
+   "The overall dimensions of the image",
+   "The file format of the image"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "In double entry, how is data verified?",
   "options": [
-   "A program checks that it is inside a given range",
-   "It is encrypted before it is saved to the disk",
    "It is checked against a stored list of allowed items",
-   "It is typed in twice and the entries are compared"
+   "It is typed in twice and the entries are compared",
+   "A program checks that it is inside a given range",
+   "It is encrypted before it is saved to the disk"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -156,34 +156,34 @@
  {
   "question_text": "Which error is MOST likely to be detected by a check digit?",
   "options": [
-   "Two digits typed in the wrong order",
    "A customer who gave a false name to the shop",
    "A price that is correct but out of date",
-   "A file saved in the wrong folder"
+   "A file saved in the wrong folder",
+   "Two digits typed in the wrong order"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which validation check would reject the letters \"abc\" typed into a field that must hold a quantity?",
   "options": [
-   "Type check",
-   "Range check",
    "Presence check",
-   "Length check"
+   "Length check",
+   "Type check",
+   "Range check"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which is a data protection principle?",
   "options": [
-   "Personal data may be kept for ever in case it is needed later",
    "Personal data may be sold to any company that asks",
    "Personal data must not be kept for longer than necessary",
-   "Personal data does not need to be accurate"
+   "Personal data does not need to be accurate",
+   "Personal data may be kept for ever in case it is needed later"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -222,89 +222,89 @@
  {
   "question_text": "What is the purpose of a requirements specification?",
   "options": [
-   "To record the results of the testing",
-   "To show users how to operate the new system",
    "To list errors found after the system goes live",
-   "To list what the new system must be able to do"
+   "To list what the new system must be able to do",
+   "To record the results of the testing",
+   "To show users how to operate the new system"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "What does a digital certificate do?",
   "options": [
-   "Encrypts files using the same key for every user of the network",
-   "Blocks incoming traffic from unknown computers on the network",
    "Confirms who owns a website and holds its public key",
-   "Counts how many people have visited a website"
+   "Counts how many people have visited a website",
+   "Encrypts files using the same key for every user of the network",
+   "Blocks incoming traffic from unknown computers on the network"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A field must hold a date of birth such as 07/03/2009. Which pair of validation checks is MOST suitable?",
   "options": [
-   "Check digit and lookup check",
-   "Format check and range check",
    "Double entry and visual check",
-   "Length check and check digit"
+   "Length check and check digit",
+   "Check digit and lookup check",
+   "Format check and range check"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which task is carried out during the design stage?",
   "options": [
+   "Judging if the system meets its requirements",
    "Interviewing the users",
    "Designing a data capture form",
-   "Training staff to use the system",
-   "Judging if the system meets its requirements"
+   "Training staff to use the system"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "A mark of 74 is typed as 47. A range check of 0 to 100 accepts it. Which method would help to find this error?",
   "options": [
+   "Range check",
    "Double entry",
    "Presence check",
-   "Type check",
-   "Range check"
+   "Type check"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "In symmetric encryption, which statement is true?",
   "options": [
-   "A public key encrypts and a different private key decrypts",
    "The same key is used to encrypt and to decrypt the data",
    "No key is needed because the data is only compressed",
-   "The key is sent unencrypted along with a digital certificate"
+   "The key is sent unencrypted along with a digital certificate",
+   "A public key encrypts and a different private key decrypts"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which type of website is usually a regularly updated online diary, with the newest posts shown first?",
   "options": [
-   "A blog",
    "A wiki",
    "A search engine",
-   "A forum"
+   "A forum",
+   "A blog"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "A field accepts temperatures from -10 to 40 inclusive. Which pair contains one EXTREME value and one ABNORMAL value?",
   "options": [
+   "0 and 20",
    "-10 and 40",
    "40 and 55",
-   "15 and 25",
-   "0 and 20"
+   "15 and 25"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -321,56 +321,56 @@
  {
   "question_text": "A student copies a photograph from a website into a leaflet and sells the leaflet without permission. Which type of issue is MAINLY involved?",
   "options": [
-   "Technical, because the file format is wrong",
-   "Physical, because the leaflet is printed",
    "Legal, because it may break copyright law",
-   "Cultural, because the photo is a different size"
+   "Cultural, because the photo is a different size",
+   "Technical, because the file format is wrong",
+   "Physical, because the leaflet is printed"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which is the BEST way to judge whether a website is a reliable source?",
   "options": [
-   "Check the author, date and whether other sources agree",
    "Check how colourful and attractive its design is",
    "Check how many adverts appear on each page of the site",
-   "Check that the page loads very quickly on a fast connection"
+   "Check that the page loads very quickly on a fast connection",
+   "Check the author, date and whether other sources agree"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is colour depth?",
   "options": [
-   "The number of pixels in each row of the image",
    "The brightness of the screen",
    "The number of layers in the image",
-   "The number of bits that store each pixel's colour"
+   "The number of bits that store each pixel's colour",
+   "The number of pixels in each row of the image"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which statement about lossy compression is true?",
   "options": [
-   "No data is removed, so the original can be restored exactly",
    "The file always becomes larger after compression takes place",
    "Some data is permanently lost, so the original cannot be restored",
-   "It can only be used with text files"
+   "It can only be used with text files",
+   "No data is removed, so the original can be restored exactly"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A month number must be between 1 and 12. Which validation check rejects the value 13?",
   "options": [
-   "Presence check",
-   "Type check",
    "Range check",
-   "Lookup check"
+   "Lookup check",
+   "Presence check",
+   "Type check"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
@@ -387,23 +387,23 @@
  {
   "question_text": "A 4000 by 3000 pixel photo has its width and height both halved, keeping the aspect ratio. What happens to the total number of pixels?",
   "options": [
-   "It is reduced to one half",
    "It stays exactly the same",
    "It is doubled in size",
-   "It is reduced to one quarter"
+   "It is reduced to one quarter",
+   "It is reduced to one half"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "A student finds a picture on a website and wants to use it in a school magazine that will be sold. What should they do first?",
   "options": [
+   "Resize it so no one recognises it",
    "Check the licence or ask the owner's permission",
    "Use it, because anything on the internet is free",
-   "Crop off the photographer's name",
-   "Resize it so no one recognises it"
+   "Crop off the photographer's name"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -420,89 +420,89 @@
  {
   "question_text": "An email says \"Dear customer, your account will close in 24 hours unless you click this link.\" Which feature suggests it is phishing?",
   "options": [
-   "A generic greeting and an urgent request",
    "It is addressed to you by your full name",
    "It has no attachment of any kind",
-   "It was sent during normal working hours"
+   "It was sent during normal working hours",
+   "A generic greeting and an urgent request"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A field accepts whole numbers from 18 to 65 inclusive. Which set of values is suitable boundary test data?",
   "options": [
-   "17, 18, 65, 66",
-   "25, 35, 45, 55",
    "0, 100, 1000, 10000",
-   "18.5, 30, 64.9, 70"
+   "18.5, 30, 64.9, 70",
+   "17, 18, 65, 66",
+   "25, 35, 45, 55"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is pharming?",
   "options": [
-   "A text message that tricks people into clicking a harmful link",
    "A phone call in which the caller pretends to work for a bank",
    "Code that sends users to a fake website even if they type the right address",
-   "An email that asks users to reply with their password"
+   "An email that asks users to reply with their password",
+   "A text message that tricks people into clicking a harmful link"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which file format is limited to 256 colours but can store a simple animation?",
   "options": [
-   "JPEG",
    "GIF",
    "PNG",
-   "TXT"
+   "TXT",
+   "JPEG"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which password would be the hardest for a hacker to guess?",
   "options": [
-   "football",
-   "T9#kLm!4vQ2x",
    "12345678",
-   "Sunshine1"
+   "Sunshine1",
+   "football",
+   "T9#kLm!4vQ2x"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "A code uses a modulus 11 check digit. The weights 4, 3, 2 are applied to the digits of 526 and the sum is divided by 11. The check digit is 11 minus the remainder. What is the check digit?",
   "options": [
-   "5",
    "3",
    "8",
-   "6"
+   "6",
+   "5"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does the design of a file structure state for each field?",
   "options": [
-   "Its owner and the date it was last backed up",
    "The user who is allowed to delete it",
    "Its name, data type and length",
-   "The test data used to check it"
+   "The test data used to check it",
+   "Its owner and the date it was last backed up"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A 12-digit number 978030640615 is given a check digit. Digits are multiplied by 1, 3, 1, 3 and so on, the products are added, and the check digit makes the total a multiple of 10. What is it?",
   "options": [
-   "3",
    "7",
    "5",
-   "0"
+   "0",
+   "3"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -519,12 +519,12 @@
  {
   "question_text": "Which file format is used to store video, often with its sound?",
   "options": [
-   "TXT",
    "GIF",
    "RTF",
-   "MP4"
+   "MP4",
+   "TXT"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -541,23 +541,23 @@
  {
   "question_text": "A photograph's width is changed to a new value but its height is left unchanged without keeping the aspect ratio. What is the result?",
   "options": [
+   "The image is stretched or distorted",
    "The image is cropped at the edges",
    "The colour depth is changed to a lower value",
-   "The image is saved with lossless compression",
-   "The image is stretched or distorted"
+   "The image is saved with lossless compression"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "An 800 by 600 pixel image uses 24 bits per pixel. What is its uncompressed size in bytes?",
   "options": [
-   "480000",
-   "1440000",
    "11520000",
-   "14400"
+   "14400",
+   "480000",
+   "1440000"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -574,12 +574,12 @@
  {
   "question_text": "A 1200 by 800 pixel image is resized with the aspect ratio locked. The new width is 600 pixels. What is the new height?",
   "options": [
-   "300",
    "200",
    "400",
-   "600"
+   "600",
+   "300"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -596,34 +596,34 @@
  {
   "question_text": "Which file format holds unformatted text with no bold, italic or fonts?",
   "options": [
+   "HTML",
    "RTF",
    "PDF",
-   "TXT",
-   "HTML"
+   "TXT"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What does the use of SSL/TLS between a browser and a website provide?",
   "options": [
+   "All pop-up adverts are blocked",
    "The website is guaranteed to be free from viruses",
    "Data sent between them is encrypted",
-   "The user's computer is protected from hackers",
-   "All pop-up adverts are blocked"
+   "The user's computer is protected from hackers"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "An image has a colour depth of 8 bits per pixel. How many different colours can it show?",
   "options": [
+   "65536",
    "256",
    "8",
-   "64",
-   "65536"
+   "64"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -640,12 +640,12 @@
  {
   "question_text": "What is hacking?",
   "options": [
-   "Sending unwanted emails to many people",
-   "Gaining unauthorised access to a computer system",
    "Making a backup copy of important files",
-   "Installing updates to the operating system"
+   "Installing updates to the operating system",
+   "Sending unwanted emails to many people",
+   "Gaining unauthorised access to a computer system"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -684,67 +684,67 @@
  {
   "question_text": "What is the main job of a firewall?",
   "options": [
-   "To remove viruses that are already stored on the hard disk",
-   "To monitor network traffic and block unwanted traffic",
    "To copy important files to a second storage device",
-   "To scramble data so that it cannot be read by others"
+   "To scramble data so that it cannot be read by others",
+   "To remove viruses that are already stored on the hard disk",
+   "To monitor network traffic and block unwanted traffic"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is a disadvantage of parallel running?",
   "options": [
-   "The old system is lost before the new one has been checked",
    "Only a small part of the organisation ever uses the new system",
    "Errors in the new system can never be found",
-   "Staff do the same work twice, costing more time"
+   "Staff do the same work twice, costing more time",
+   "The old system is lost before the new one has been checked"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which login uses two-factor authentication?",
   "options": [
-   "A password followed by a second, longer password",
-   "A username followed by the same username typed again",
    "A password and a security question on the same page",
-   "A password and then a code sent to the user's phone"
+   "A password and then a code sent to the user's phone",
+   "A password followed by a second, longer password",
+   "A username followed by the same username typed again"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which implementation method runs the old system and the new system together for a period of time?",
   "options": [
-   "Direct changeover",
-   "Phased implementation",
    "Parallel running",
-   "Pilot running"
+   "Pilot running",
+   "Direct changeover",
+   "Phased implementation"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "A 3000 by 2000 pixel image uses 24 bits per pixel. What is its uncompressed size in bytes?",
   "options": [
-   "6000000",
-   "18000000",
    "144000000",
-   "2250000"
+   "2250000",
+   "6000000",
+   "18000000"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which action is SAFEST when using an online chat room?",
   "options": [
-   "Using a nickname instead of your real name",
-   "Telling everyone your home address",
    "Arranging to meet a new online friend alone",
-   "Sending a photo in your school uniform"
+   "Sending a photo in your school uniform",
+   "Using a nickname instead of your real name",
+   "Telling everyone your home address"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -761,12 +761,12 @@
  {
   "question_text": "Which is an advantage of using fingerprints instead of passwords to log in?",
   "options": [
-   "A fingerprint can be changed if it is stolen",
-   "A fingerprint reader works with wet or damaged fingers",
    "A fingerprint cannot be forgotten and is hard to copy",
-   "A fingerprint can be shared with friends in an emergency"
+   "A fingerprint can be shared with friends in an emergency",
+   "A fingerprint can be changed if it is stolen",
+   "A fingerprint reader works with wet or damaged fingers"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -783,67 +783,67 @@
  {
   "question_text": "A presentation is for a class of seven-year-olds. Which is MOST suitable?",
   "options": [
+   "Dark colours and complex diagrams with many labels",
    "Small text with many technical terms and abbreviations",
    "Large text, simple words and bright pictures",
-   "Long paragraphs of text with no pictures at all",
-   "Dark colours and complex diagrams with many labels"
+   "Long paragraphs of text with no pictures at all"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Weights 4, 3, 2 are applied to the first three digits of a code. The sum is divided by 11 and the check digit is 11 minus the remainder. Which code is valid?",
   "options": [
-   "2486",
    "2480",
    "2488",
-   "2489"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "What is the MINIMUM number of bits per pixel needed to store an image that uses 200 different colours?",
-  "options": [
-   "7",
-   "8",
-   "4",
-   "16"
+   "2489",
+   "2486"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
-  "question_text": "A 1000 by 500 pixel image uses 8 bits per pixel. What is its uncompressed size in bytes?",
+  "question_text": "What is the MINIMUM number of bits per pixel needed to store an image that uses 200 different colours?",
   "options": [
-   "500000",
-   "4000000",
-   "62500",
-   "5000000"
+   "8",
+   "4",
+   "16",
+   "7"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
+  "question_text": "A 1000 by 500 pixel image uses 8 bits per pixel. What is its uncompressed size in bytes?",
+  "options": [
+   "4000000",
+   "62500",
+   "5000000",
+   "500000"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
   "question_text": "An analyst needs the views of 500 customers living in different towns, quickly and cheaply. Which method is MOST suitable?",
   "options": [
-   "Questionnaire",
-   "Interview",
    "Observation",
-   "Examining documents"
+   "Examining documents",
+   "Questionnaire",
+   "Interview"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which is an example of good netiquette?",
   "options": [
-   "Typing the whole message in capital letters",
-   "Forwarding private emails to everyone",
    "Replying to every email with the word \"ok\"",
-   "Using a clear subject and polite words"
+   "Using a clear subject and polite words",
+   "Typing the whole message in capital letters",
+   "Forwarding private emails to everyone"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -860,45 +860,45 @@
  {
   "question_text": "Why must anti-virus software be updated regularly?",
   "options": [
+   "Updates remove the need for a firewall",
    "The software stops working after about one month of use",
    "Updates make the computer's processor run much faster",
-   "New viruses appear all the time and must be recognised",
-   "Updates remove the need for a firewall"
+   "New viruses appear all the time and must be recognised"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which item is part of USER documentation?",
   "options": [
-   "A flowchart showing how the program works inside",
    "A list of the system's file structures and fields",
    "The full listing of the program code",
-   "A guide on how to save and print a report"
+   "A guide on how to save and print a report",
+   "A flowchart showing how the program works inside"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is a disadvantage of direct changeover?",
   "options": [
-   "Staff have to enter all of the data twice into both systems",
-   "It takes a very long time before the whole system is in use",
    "Only one department can use the new system at the start",
-   "If the new system fails there is no old system to go back to"
+   "If the new system fails there is no old system to go back to",
+   "Staff have to enter all of the data twice into both systems",
+   "It takes a very long time before the whole system is in use"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A company's files change every day. Which backup plan is BEST?",
   "options": [
+   "Automatic backups every day, with a copy stored off-site",
    "One backup per year, stored on the same server",
    "Manual backups whenever a user remembers, kept in the office",
-   "A single backup made when the system was installed",
-   "Automatic backups every day, with a copy stored off-site"
+   "A single backup made when the system was installed"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -915,89 +915,89 @@
  {
   "question_text": "An email pretending to be from your bank asks you to click a link and type in your login details. What is this attack called?",
   "options": [
+   "Vishing",
    "Pharming",
    "Phishing",
-   "Smishing",
-   "Vishing"
+   "Smishing"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is spam?",
   "options": [
-   "A copy of a message sent to a second person",
-   "A file attached to an email",
    "A message sent only to people in the address book",
-   "Unsolicited junk email sent to many people"
+   "Unsolicited junk email sent to many people",
+   "A copy of a message sent to a second person",
+   "A file attached to an email"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Why might a school save a worksheet in a generic format such as RTF or CSV?",
   "options": [
-   "It always gives the smallest possible file size",
    "It can be opened by many different programs",
    "It cannot be copied or changed by anyone",
-   "It needs the original software to open it"
+   "It needs the original software to open it",
+   "It always gives the smallest possible file size"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A student copies paragraphs from a website into coursework and hands it in as their own work. What is this called?",
   "options": [
-   "Hacking",
-   "Plagiarism",
    "Spamming",
-   "Phishing"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which file format is used to describe the structure of a web page using tags?",
-  "options": [
-   "MP4",
-   "JPEG",
-   "ZIP",
-   "HTML"
+   "Phishing",
+   "Hacking",
+   "Plagiarism"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which file format uses LOSSLESS compression and supports transparent backgrounds?",
+  "question_text": "Which file format is used to describe the structure of a web page using tags?",
   "options": [
    "JPEG",
-   "MP3",
-   "PNG",
+   "ZIP",
+   "HTML",
    "MP4"
   ],
   "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which file format uses LOSSLESS compression and supports transparent backgrounds?",
+  "options": [
+   "MP3",
+   "PNG",
+   "MP4",
+   "JPEG"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A company posts a photograph of a customer on its website without asking. Which issue is MOST relevant?",
   "options": [
-   "Aspect ratio",
-   "Check digits",
    "Privacy and consent",
-   "Backup frequency"
+   "Backup frequency",
+   "Aspect ratio",
+   "Check digits"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does a ZIP file do?",
   "options": [
+   "Changes files into plain text",
    "Removes less important detail from photographs and music",
    "Encrypts files so that no one can ever open them",
-   "Compresses files without losing any data",
-   "Changes files into plain text"
+   "Compresses files without losing any data"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -1014,23 +1014,23 @@
  {
   "question_text": "Which is the BEST file name for a maths homework about fractions, version 2?",
   "options": [
+   "Maths homework: fractions/v2",
    "Maths_Homework_Fractions_v2",
    "homework!!final??",
-   "new file 3",
-   "Maths homework: fractions/v2"
+   "new file 3"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which input PASSES a type check for a whole-number field but FAILS a range check of 1 to 12?",
   "options": [
+   "15",
    "7",
    "seven",
-   "6.5",
-   "15"
+   "6.5"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -1047,12 +1047,12 @@
  {
   "question_text": "A 1600 by 900 pixel image is resized with the aspect ratio locked to a width of 480 pixels. What is the new height in pixels?",
   "options": [
-   "270",
-   "240",
    "300",
-   "360"
+   "360",
+   "270",
+   "240"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -1069,34 +1069,254 @@
  {
   "question_text": "Which file format stores data as plain text with values separated by commas?",
   "options": [
-   "JPEG",
-   "MP3",
    "CSV",
-   "ZIP"
+   "ZIP",
+   "JPEG",
+   "MP3"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "In asymmetric encryption, how is a message for you normally protected?",
   "options": [
-   "The sender encrypts it with your private key and you decrypt it with the same key",
-   "The sender encrypts it with your public key and you decrypt it with your private key",
    "Both people use one secret key that they have agreed in advance",
-   "The sender only compresses it and you unzip it with a password"
+   "The sender only compresses it and you unzip it with a password",
+   "The sender encrypts it with your private key and you decrypt it with the same key",
+   "The sender encrypts it with your public key and you decrypt it with your private key"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "During the evaluation stage, the system is checked against which document?",
   "options": [
+   "The backup schedule",
    "The first copy of the user guide",
    "The original requirements specification",
-   "The list of research questions",
-   "The backup schedule"
+   "The list of research questions"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In CSS, which selector targets the single element with id=\"main\"?",
+  "options": [
+   ".main",
+   "#main",
+   "*main",
+   "main#"
   ],
   "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which CSS selector targets every element with class=\"note\"?",
+  "options": [
+   ".note",
+   "#note",
+   "note {}",
+   "*note"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In the CSS rule p { color: blue; }, what is p called?",
+  "options": [
+   "A declaration",
+   "A property",
+   "A value",
+   "A selector"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which CSS declaration sets the text colour of a paragraph to navy?",
+  "options": [
+   "text-color: navy;",
+   "background-color: navy;",
+   "color: navy;",
+   "font-colour: navy;"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which CSS property controls the space between an element's content and its border?",
+  "options": [
+   "border",
+   "spacing",
+   "margin",
+   "padding"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which CSS property controls the space outside an element's border?",
+  "options": [
+   "gap",
+   "inset",
+   "padding",
+   "margin"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which CSS unit is relative to the font size of the root element?",
+  "options": [
+   "em",
+   "rem",
+   "cm",
+   "px"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How is an external style sheet attached to an HTML page?",
+  "options": [
+   "With a src attribute on <html>",
+   "With a <style> tag inside the body",
+   "With a <link> tag in the head",
+   "With a <script> tag at the end"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which HTML tag inserts a single line break in text?",
+  "options": [
+   "<lb>",
+   "<nl>",
+   "<hr>",
+   "<br>"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which HTML element marks the most important heading on a page?",
+  "options": [
+   "<h6>",
+   "<head>",
+   "<h1>",
+   "<header>"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which HTML attribute is used to give an element a unique identifier?",
+  "options": [
+   "title",
+   "id",
+   "class",
+   "name"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which attribute of <img> provides alternative text when the image cannot be shown?",
+  "options": [
+   "href",
+   "src",
+   "alt",
+   "title"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which HTML element groups inline text without starting a new line?",
+  "options": [
+   "<p>",
+   "<div>",
+   "<span>",
+   "<section>"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which HTML element defines one row in a table?",
+  "options": [
+   "<tbody>",
+   "<td>",
+   "<th>",
+   "<tr>"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which CSS pseudo-class applies styles while the pointer is over a link?",
+  "options": [
+   ":active",
+   ":visited",
+   ":focus",
+   ":hover"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which CSS at-rule can apply different styles on small screens?",
+  "options": [
+   "@keyframes",
+   "@font-face",
+   "@media",
+   "@import"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which HTML attribute connects a <label> to its form input?",
+  "options": [
+   "of",
+   "idref",
+   "for",
+   "to"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which input type displays dots instead of the characters typed?",
+  "options": [
+   "text",
+   "search",
+   "password",
+   "hidden"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does an HTML or CSS validator mainly check?",
+  "options": [
+   "That every image is compressed",
+   "That the site has no broken links",
+   "That the page loads quickly",
+   "That the markup follows the published standards"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which database model shows entities and the relationships between them as a diagram?",
+  "options": [
+   "Entityrelationship model",
+   "Flat-file model",
+   "Spreadsheet model",
+   "Network topology model"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  }
 ]

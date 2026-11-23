@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these is a common measure of a country's development?",
+  "options": [
+   "Length of coastline",
+   "GNI per person",
+   "Number of rivers",
+   "Height of mountains"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does life expectancy measure?",
+  "options": [
+   "The average age people are expected to live",
+   "The number of children in a family",
+   "The size of a city",
+   "The number of hospitals"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which measures does the Human Development Index combine?",
+  "options": [
+   "Farms, factories and shops",
+   "Rainfall, rivers and soil",
+   "Roads, railways and ports",
+   "Health, education and income"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is typical of a low-income country?",
+  "options": [
+   "High income per person",
+   "Universal higher education",
+   "Limited health services",
+   "Very high income per person"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is sustainable development?",
+  "options": [
+   "Stopping all trade between countries",
+   "Meeting today's needs without harming future generations",
+   "Using every resource as quickly as possible",
+   "Building only in cities"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is foreign aid?",
+  "options": [
+   "Money or help given by other countries",
+   "Taxes paid by local people",
+   "Goods made for export",
+   "Goods bought by tourists"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these can help a country develop?",
+  "options": [
+   "Cutting all trade links",
+   "Closing all ports",
+   "Banning tourism",
+   "Building schools and clinics"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why can trade be important for development?",
+  "options": [
+   "It removes the need for farms",
+   "It makes cities smaller",
+   "It creates jobs and income",
+   "It stops all imports"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is mass tourism?",
+  "options": [
+   "Visits with no environmental effects",
+   "Large numbers of visitors to a place",
+   "Travel by only a few wealthy people",
+   "Trips taken only by students"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is ecotourism?",
+  "options": [
+   "Tourism that helps local people and protects nature",
+   "Travel only by aeroplane",
+   "Holidays in crowded cities",
+   "Tourism based on luxury hotels"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an economic benefit of tourism?",
+  "options": [
+   "Higher prices for visitors",
+   "More traffic in resorts",
+   "Damage to coral reefs",
+   "Jobs and income for local people"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the multiplier effect in tourism?",
+  "options": [
+   "The cost of building an airport",
+   "The distance people travel to a resort",
+   "Visitor spending spreading through the local economy",
+   "The number of visitors each year"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is subsistence farming?",
+  "options": [
+   "Keeping animals in cities",
+   "Growing food mainly for the family",
+   "Growing crops only for export",
+   "Farming with machines only"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a cash crop?",
+  "options": [
+   "Coffee grown for sale",
+   "Vegetables grown for home use",
+   "Rice eaten by the farmer",
+   "Wheat grown for a family's own food"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is irrigation?",
+  "options": [
+   "Leaving fields uncultivated",
+   "Planting trees on slopes",
+   "Moving animals between pastures",
+   "Supplying water to crops artificially"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is terracing used on hillsides?",
+  "options": [
+   "To make fields appear larger",
+   "To collect more rainfall in towns",
+   "To reduce soil erosion and create flat land",
+   "To increase the steepness of slopes"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is intensive farming?",
+  "options": [
+   "Leaving fields fallow each year",
+   "High inputs of labour or capital for high yields",
+   "Farming with very few workers",
+   "Growing one crop over a large area"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a renewable energy source?",
+  "options": [
+   "Solar power",
+   "Oil",
+   "Natural gas",
+   "Coal"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which strategy helps manage water scarcity?",
+  "options": [
+   "Stopping all farming",
+   "Building dams in every valley",
+   "Removing all water meters",
+   "Using drip irrigation and recycling water"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How can tourism damage a coastal environment?",
+  "options": [
+   "It keeps beaches cleaner",
+   "It creates more marine parks",
+   "It can pollute water and disturb wildlife",
+   "It reduces the number of visitors"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is food security?",
+  "options": [
+   "Eating only imported food",
+   "Reliable access to enough safe food",
+   "Growing only one type of crop",
+   "Selling all food abroad"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a trade surplus?",
+  "options": [
+   "Exporting more than a country imports",
+   "Importing more than a country exports",
+   "Only trading with neighbouring countries",
+   "Having no trade at all"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How can transnational corporations influence development?",
+  "options": [
+   "By banning all exports",
+   "By stopping all investment",
+   "By closing every local business",
+   "By providing jobs but also creating dependence"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the aim of resource management?",
+  "options": [
+   "To keep every resource unused",
+   "To sell resources to the highest bidder",
+   "To balance use with long-term availability",
+   "To use resources as fast as possible"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

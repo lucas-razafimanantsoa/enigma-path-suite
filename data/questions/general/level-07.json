@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What is a primary source in history?",
+  "options": [
+   "A textbook written years later",
+   "A modern summary of events",
+   "A museum guide's opinion",
+   "A source made at the time of an event"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which event began the French Revolution in 1789?",
+  "options": [
+   "Battle of Waterloo",
+   "Execution of Louis XVI",
+   "Storming of the Bastille",
+   "Reign of Terror"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which trade network linked China with Europe?",
+  "options": [
+   "Amber Road",
+   "Silk Road",
+   "Royal Road",
+   "Incense Route"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who led the Bolshevik Revolution in Russia?",
+  "options": [
+   "Vladimir Lenin",
+   "Joseph Stalin",
+   "Tsar Nicholas II",
+   "Alexander Kerensky"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which agreement ended the Thirty Years' War?",
+  "options": [
+   "Treaty of Versailles",
+   "Treaty of Paris",
+   "Peace of Utrecht",
+   "Peace of Westphalia"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which river was central to the Indus Valley Civilisation?",
+  "options": [
+   "Tigris",
+   "Ganges",
+   "Indus",
+   "Nile"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which war was fought between Russia and the Ottoman Empire in the 1850s?",
+  "options": [
+   "Napoleonic War",
+   "Crimean War",
+   "Boer War",
+   "Russo-Japanese War"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In history, what does 'revolution' usually mean?",
+  "options": [
+   "A sudden, major change",
+   "A type of monarchy",
+   "A peace agreement",
+   "A slow, steady change"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does 'colonialism' mean?",
+  "options": [
+   "A country trading only with neighbours",
+   "A system of electing a king",
+   "A treaty ending a war",
+   "A country settling and ruling other lands"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which 19th-century empire was called 'the empire on which the sun never sets'?",
+  "options": [
+   "Spanish Empire",
+   "Roman Empire",
+   "British Empire",
+   "Mongol Empire"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What was the Atlantic slave trade?",
+  "options": [
+   "A trade in spices across the Atlantic",
+   "The forced transport of Africans to the Americas",
+   "A pact between European kings",
+   "A religious pilgrimage"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which inventor improved the steam engine during the Industrial Revolution?",
+  "options": [
+   "James Watt",
+   "Thomas Edison",
+   "Henry Ford",
+   "Alessandro Volta"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which charter limited the power of the English king in 1215?",
+  "options": [
+   "Bill of Rights",
+   "Domesday Book",
+   "Petition of Right",
+   "Magna Carta"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which protest in 1773 involved dumping tea into Boston Harbour?",
+  "options": [
+   "Lexington uprising",
+   "Boston Massacre",
+   "Boston Tea Party",
+   "Tea Act riot"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which social class grew quickly as factories expanded?",
+  "options": [
+   "The nobility",
+   "The middle class",
+   "The clergy",
+   "The peasantry"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What was the motto of the French Revolution?",
+  "options": [
+   "Liberty, Equality, Fraternity",
+   "God and King",
+   "Peace, Land and Bread",
+   "Blood and Iron"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why might a primary source be biased?",
+  "options": [
+   "It is always a printed book",
+   "It cannot be read today",
+   "It was written long afterwards",
+   "It reflects just one person's view"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which country first gave women the vote in 1893?",
+  "options": [
+   "Finland",
+   "Australia",
+   "New Zealand",
+   "Britain"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What was the main aim of the Marshall Plan?",
+  "options": [
+   "To build a railway across Africa",
+   "To rebuild European economies after WWII",
+   "To colonise new lands",
+   "To end the slave trade"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which policy means staying neutral in conflicts between nations?",
+  "options": [
+   "Non-alignment",
+   "Expansionism",
+   "Containment",
+   "Imperialism"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which trade group did Britain join in 1973?",
+  "options": [
+   "World Trade Organization",
+   "NATO",
+   "OPEC",
+   "European Economic Community"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What was a key effect of enclosure in Britain?",
+  "options": [
+   "Villages became cities",
+   "Land was opened to everyone",
+   "Land was fenced off for private use",
+   "Farms were abolished"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Who wrote 'The Spirit of the Laws'?",
+  "options": [
+   "Locke",
+   "Montesquieu",
+   "Voltaire",
+   "Rousseau"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does source criticism involve?",
+  "options": [
+   "Checking origin, date and reliability",
+   "Memorising events by heart",
+   "Translating every source into English",
+   "Counting how many sources exist"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which city was a major centre of the medieval spice trade?",
+  "options": [
+   "Lisbon",
+   "Antwerp",
+   "Dublin",
+   "Venice"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

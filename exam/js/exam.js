@@ -14,6 +14,7 @@
   var st = null;          // active exam session
   var exams = [];
   var inProgress = false;
+  var serverReady = false;
 
   function show(name) {
     Object.keys(screens).forEach(function (k) { screens[k].hidden = k !== name; });
@@ -30,13 +31,17 @@
     });
   }
 
+  function offline() {
+    serverReady = false;
+    $('server-warning').hidden = false;
+    $('start-form').hidden = true;
+    $('resume-card').hidden = true;
+  }
+
   function loadExams() {
-    if (location.protocol === 'file:') {
-      $('server-warning').hidden = false;
-      $('start-form').hidden = true;
-      return;
-    }
+    if (location.protocol === 'file:') { offline(); return; }
     api('../api/exams').then(function (d) {
+      serverReady = true;
       exams = d.exams;
       var sel = $('exam-select');
       sel.textContent = '';
@@ -55,10 +60,7 @@
         sel.appendChild(o);
       });
       describeExam();
-    }).catch(function () {
-      $('server-warning').hidden = false;
-      $('start-form').hidden = true;
-    });
+    }).catch(offline);
   }
 
   function describeExam() {
@@ -85,6 +87,7 @@
     var name = $('student-name').value.trim().replace(/\s+/g, ' ');
     var grade = Number($('student-grade').value);
     var id = $('exam-select').value;
+    if (!serverReady) { showError(err, 'The server is not reachable. Ask your teacher to start it.'); return; }
     if (!name) { showError(err, 'Please type your name.'); $('student-name').focus(); return; }
     if (!(grade >= 3 && grade <= 12)) { showError(err, 'Please choose your grade.'); $('student-grade').focus(); return; }
     if (!id) { showError(err, 'No exam is available.'); return; }
@@ -211,57 +214,26 @@
       })
     };
     api('../api/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
-      .then(showResult)
+      .then(submitted)
       .catch(function (e) {
         showError($('submit-error'), 'Your answers could not be saved: ' + e.message + ' Tell your teacher, and press Submit again.');
       })
       .then(function () { $('ov-submit').disabled = false; });
   }
 
-  /* ---------------------------------------------------------------- result */
-  function showResult(r) {
+  /* ------------------------------------------------------------ submitted */
+  function submitted() {
     inProgress = false;
+    st = null;
     try { localStorage.removeItem(SESSION_KEY); } catch (e) { /* ignore */ }
-    $('res-title').textContent = st.student + ', here is your result';
-    $('res-score').textContent = r.score + ' / ' + r.total;
-    var pct = r.percent;
-    $('res-percent').textContent = (Number.isInteger(pct) ? pct : pct.toFixed(1)) + '%';
-    var ring = $('res-ring');
-    ring.style.setProperty('--pct', String(pct));
-    ring.style.setProperty('--ring', pct >= 75 ? 'var(--ok)' : pct >= 50 ? 'var(--warn)' : 'var(--bad)');
-    $('res-message').textContent = pct >= 90 ? 'Outstanding work!' : pct >= 75 ? 'Great job!' : pct >= 50 ? 'Good effort.' : 'Keep practising - you will get there.';
-    $('res-saved').textContent = 'Your result was saved.';
-    var box = $('res-review');
-    box.textContent = '';
-    if (r.review && r.review.length) {
-      var h = document.createElement('h2');
-      h.textContent = r.reveal === 'all' ? 'All your answers' : 'Questions to look at again';
-      box.appendChild(h);
-      r.review.forEach(function (a) {
-        var d = document.createElement('article');
-        d.className = 'review-item' + (a.isCorrect ? ' review-item--ok' : '');
-        var q = document.createElement('p'); q.className = 'q';
-        q.textContent = (a.position ? 'Question ' + a.position : 'Question ' + a.n) + ': ' + a.text;
-        d.appendChild(q);
-        if (a.maze) { var m = document.createElement('p'); m.className = 'l'; m.textContent = 'About the maze: ' + a.maze; d.appendChild(m); }
-        var l1 = document.createElement('p'); l1.className = 'l';
-        l1.append('Your answer: ');
-        var b1 = document.createElement('b'); b1.className = a.isCorrect ? 'ok' : 'bad'; b1.textContent = a.chosenText === null ? '(no answer)' : a.chosenText;
-        l1.append(b1); d.appendChild(l1);
-        if (!a.isCorrect) {
-          var l2 = document.createElement('p'); l2.className = 'l';
-          l2.append('Correct answer: ');
-          var b2 = document.createElement('b'); b2.className = 'ok'; b2.textContent = a.correctText;
-          l2.append(b2); d.appendChild(l2);
-        }
-        box.appendChild(d);
-      });
-    }
     show('result');
+    // No score is ever shown to the student: just a short confirmation, then home.
+    window.setTimeout(function () { window.location.replace('../index.html'); }, 1700);
   }
 
   /* -------------------------------------------------------------- resume */
   function checkResume() {
+    if (location.protocol === 'file:') return;
     var raw = null;
     try { raw = localStorage.getItem(SESSION_KEY); } catch (e) { /* ignore */ }
     if (!raw) return;
@@ -279,7 +251,6 @@
   $('btn-overview').addEventListener('click', showOverview);
   $('ov-back').addEventListener('click', function () { show('question'); renderQuestion(); });
   $('ov-submit').addEventListener('click', submit);
-  $('res-done').addEventListener('click', function () { st = null; window.location.reload(); });
   $('resume-btn').addEventListener('click', function () { $('resume-card').hidden = true; enter(); });
   $('discard-btn').addEventListener('click', function () {
     if (!window.confirm('Discard the unfinished exam? Your answers will be lost.')) return;

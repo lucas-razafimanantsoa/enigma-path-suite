@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "A wave has frequency 20 Hz and wavelength 3 m. What is its speed?",
+  "options": [
+   "60 m/s",
+   "60 Hz",
+   "23 m/s",
+   "6.7 m/s"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which type of wave are vibrations at right angles to the direction of travel?",
+  "options": [
+   "Stationary",
+   "Sound",
+   "Longitudinal",
+   "Transverse"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the amplitude of a wave?",
+  "options": [
+   "Distance between two crests",
+   "Number of waves each second",
+   "Maximum displacement from the rest position",
+   "Speed of the wave"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which waves can travel through a vacuum?",
+  "options": [
+   "Seismic waves",
+   "Electromagnetic waves",
+   "Sound waves",
+   "Water waves"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which colour of the visible spectrum has the longest wavelength?",
+  "options": [
+   "Red",
+   "Violet",
+   "Blue",
+   "Green"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the wavelength of a wave?",
+  "options": [
+   "Time for one full cycle",
+   "Number of waves per second",
+   "Height of a crest",
+   "Distance between successive crests"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Frequency is measured in...",
+  "options": [
+   "metres (m)",
+   "seconds (s)",
+   "hertz (Hz)",
+   "joules (J)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of the electromagnetic spectrum is used to cook food?",
+  "options": [
+   "X-rays",
+   "Microwaves",
+   "Radio waves",
+   "Ultraviolet"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Sound is an example of a...",
+  "options": [
+   "longitudinal wave",
+   "transverse wave",
+   "radio wave",
+   "light wave"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A wave travels at 300 m/s with frequency 60 Hz. What is its wavelength?",
+  "options": [
+   "18000 m",
+   "240 m",
+   "5 s",
+   "5 m"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which electromagnetic waves are used to image bones?",
+  "options": [
+   "Infrared",
+   "Radio waves",
+   "X-rays",
+   "Microwaves"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens when light passes from air into glass?",
+  "options": [
+   "Its frequency changes",
+   "It slows down",
+   "It speeds up",
+   "It stops completely"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which heat transfer process involves rising warm air?",
+  "options": [
+   "Convection",
+   "Conduction",
+   "Radiation",
+   "Evaporation"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 1 kg block has c = 400 J/(kg °C). Energy to raise it by 5 °C?",
+  "options": [
+   "80 J",
+   "400 J",
+   "2000 °C",
+   "2000 J"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "At constant temperature, which relation does a gas obey?",
+  "options": [
+   "p / V = constant",
+   "pV² = constant",
+   "pV = constant",
+   "V / T = constant"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement about the electromagnetic spectrum is correct?",
+  "options": [
+   "Light needs a material medium",
+   "All electromagnetic waves travel at the same speed in a vacuum",
+   "Gamma rays travel slowest",
+   "Radio waves have the highest frequency"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Convert 77 °C into kelvin.",
+  "options": [
+   "350 K",
+   "350 °C",
+   "273 K",
+   "197 K"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A gas occupies 2 m³ at 100 kPa. What volume at 250 kPa, same temperature?",
+  "options": [
+   "5 m³",
+   "0.5 m³",
+   "0.8 kPa",
+   "0.8 m³"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "0.5 kg of water (c = 4200 J/(kg °C)) is heated by 10 °C. Energy?",
+  "options": [
+   "21 J",
+   "210 kJ",
+   "21 kJ",
+   "420 kJ"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A wave has a period of 0.02 s. What is its frequency?",
+  "options": [
+   "0.02 Hz",
+   "50 Hz",
+   "50 s",
+   "20 Hz"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does a prism split white light into a spectrum?",
+  "options": [
+   "Different wavelengths refract by different amounts",
+   "Light speeds up inside the prism",
+   "All colours travel at the same speed",
+   "The prism creates new light"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these has the shortest wavelength?",
+  "options": [
+   "Microwaves",
+   "Visible light",
+   "Radio waves",
+   "Gamma rays"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the specific latent heat of fusion?",
+  "options": [
+   "Energy to heat 1 kg by 1 °C",
+   "Energy to boil 1 kg",
+   "Energy to melt 1 kg without changing temperature",
+   "Heat capacity of a solid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A gas is heated at constant volume. What happens to its pressure?",
+  "options": [
+   "It falls to zero",
+   "It rises in proportion to the Kelvin temperature",
+   "It remains constant",
+   "It decreases"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which observation shows that light is a transverse wave?",
+  "options": [
+   "Polarisation",
+   "Reflection",
+   "Refraction",
+   "Diffuse scattering"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

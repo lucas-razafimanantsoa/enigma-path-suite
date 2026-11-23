@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Acid + base → ...",
+  "options": [
+   "salt + water",
+   "salt + hydrogen",
+   "salt + carbon dioxide",
+   "salt only"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Acid + metal → ...",
+  "options": [
+   "salt + oxygen",
+   "salt + carbon dioxide",
+   "salt + water",
+   "salt + hydrogen"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Acid + carbonate → ...",
+  "options": [
+   "salt + water",
+   "salt + oxygen",
+   "salt + water + carbon dioxide",
+   "salt + hydrogen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which metal reacts most vigorously with cold water?",
+  "options": [
+   "Iron",
+   "Potassium",
+   "Zinc",
+   "Copper"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which metal is least reactive?",
+  "options": [
+   "Gold",
+   "Magnesium",
+   "Zinc",
+   "Iron"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Zinc is added to copper(II) sulfate solution. What happens?",
+  "options": [
+   "Zinc sulfate and copper sulfate form",
+   "No reaction occurs",
+   "Copper dissolves and zinc forms",
+   "Zinc displaces copper and copper is deposited"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In the electrolysis of molten lead(II) bromide, what forms at the cathode?",
+  "options": [
+   "Oxygen",
+   "Bromine",
+   "Lead",
+   "Hydrogen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which ions move towards the cathode during electrolysis?",
+  "options": [
+   "Electrons in the wires only",
+   "Positive ions (cations)",
+   "Negative ions (anions)",
+   "Neutrons"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Universal indicator turns red in a...",
+  "options": [
+   "strong acid",
+   "weak acid",
+   "weak base",
+   "neutral solution"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The pH of a neutral solution at 25°C is...",
+  "options": [
+   "0",
+   "14",
+   "1",
+   "7"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Hydrochloric acid reacts with sodium hydroxide. Which salt forms?",
+  "options": [
+   "Sodium nitrate",
+   "Sodium carbonate",
+   "Sodium chloride",
+   "Sodium sulfate"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which gas turns limewater milky?",
+  "options": [
+   "Hydrogen",
+   "Carbon dioxide",
+   "Oxygen",
+   "Chlorine"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Silver nitrate solution is added to sodium chloride solution. What is observed?",
+  "options": [
+   "A white precipitate forms",
+   "No change occurs",
+   "A gas is given off",
+   "A yellow solid dissolves"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Barium chloride solution is added to sodium sulfate solution. The white precipitate is...",
+  "options": [
+   "Sodium chloride",
+   "Barium chloride",
+   "Silver sulfate",
+   "Barium sulfate"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which method is used to prepare a soluble salt from an insoluble base?",
+  "options": [
+   "Burn the base",
+   "Electrolyse the base",
+   "Add the base in excess, filter, then crystallise",
+   "Filter the base, then add water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In the blast furnace, iron(III) oxide is reduced by...",
+  "options": [
+   "oxygen",
+   "carbon monoxide",
+   "carbon dioxide",
+   "nitrogen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Zinc is used to coat iron to prevent rusting. This is called...",
+  "options": [
+   "galvanising",
+   "alloying",
+   "anodising",
+   "electrolysis"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which gas is mainly responsible for acid rain?",
+  "options": [
+   "Carbon dioxide",
+   "Nitrogen",
+   "Oxygen",
+   "Sulfur dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The ionic equation for neutralisation is...",
+  "options": [
+   "Na⁺ + Cl⁻ → NaCl",
+   "H₂ + O₂ → H₂O",
+   "H⁺ + OH⁻ → H₂O",
+   "H⁺ + Cl⁻ → HCl"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In electrolysis, oxidation occurs at the...",
+  "options": [
+   "cathode",
+   "anode",
+   "power supply",
+   "salt bridge"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which compound is an electrolyte when molten?",
+  "options": [
+   "Sodium chloride",
+   "Ethanol",
+   "Sucrose",
+   "Methane"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which metal is extracted by electrolysis of its molten ore?",
+  "options": [
+   "Iron",
+   "Zinc",
+   "Copper",
+   "Aluminium"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In the electrolysis of concentrated sodium chloride solution, which gas forms at the anode?",
+  "options": [
+   "Oxygen",
+   "Sodium vapour",
+   "Chlorine",
+   "Hydrogen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is copper not used to make containers for acidic food?",
+  "options": [
+   "It is too strong",
+   "It reacts with acid",
+   "It is a non-metal",
+   "It has no electrons"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which salt is insoluble in water?",
+  "options": [
+   "Lead(II) sulfate",
+   "Sodium chloride",
+   "Potassium nitrate",
+   "Ammonium chloride"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

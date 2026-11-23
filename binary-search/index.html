@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Binary Search Lab | EnigmaPath</title>
+<link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../shared/theme.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../shared/gate.css">
+</head><body>
+<header class="ep-topbar">
+  <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+    <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+    <span>EnigmaPath<small>Binary Search Lab</small></span>
+  </a>
+  <a class="btn btn--small" href="how-it-works.html">How binary search works</a>
+</header>
+<main class="ep-main">
+
+  <div class="lab-head">
+    <p class="eyebrow">Search algorithms · guessing game</p>
+    <h1>Binary Search Lab</h1>
+    <p class="muted">I have secretly picked a number in the range. Guess it and I will only answer “higher” or “lower” — exactly the information a binary search uses.</p>
+  </div>
+
+  <section class="card setup" aria-labelledby="setup-title">
+    <h2 id="setup-title" class="section-title">1 · Set the range and start</h2>
+    <div class="setup__row">
+      <div class="field range-field">
+        <label for="range-min">Minimum</label>
+        <input type="number" id="range-min" min="1" max="10000" step="1" value="1" inputmode="numeric">
+      </div>
+      <div class="field range-field">
+        <label for="range-max">Maximum</label>
+        <input type="number" id="range-max" min="1" max="10000" step="1" value="100" inputmode="numeric">
+      </div>
+      <button type="button" class="btn btn--primary" id="btn-new">New game</button>
+    </div>
+    <p class="hint">Whole numbers from 1 to 10000; the minimum must be smaller than the maximum. Changing either box starts a fresh game with a new secret. If a range is invalid, guessing pauses until you fix it.</p>
+    <p class="form-error" id="setup-error" role="alert" hidden></p>
+  </section>
+
+  <div class="game-grid">
+
+    <section class="card play" aria-labelledby="play-title">
+      <div class="card__head">
+        <div>
+          <p class="eyebrow">2 · Play</p>
+          <h2 id="play-title" class="section-title">Guess the secret number</h2>
+        </div>
+        <span class="badge" id="round-status">In progress</span>
+      </div>
+
+      <p class="reply" id="reply" role="status" aria-live="polite">I have a secret number. Make your first guess!</p>
+
+      <form class="guess-form" id="guess-form" autocomplete="off">
+        <div class="field guess-field">
+          <label for="guess-input">Your guess</label>
+          <input type="number" id="guess-input" min="1" max="100" step="1" inputmode="numeric" placeholder="e.g. 50">
+        </div>
+        <button type="submit" class="btn btn--primary" id="btn-guess">Guess</button>
+        <button type="button" class="btn btn--danger" id="btn-giveup">Give up</button>
+      </form>
+      <p class="hint">Type a number and press <kbd>Enter</kbd> or the Guess button. Out-of-range guesses are not counted.</p>
+
+      <div class="stats">
+        <div class="stat"><span class="stat__v" id="guess-count">0</span><span class="stat__l">Guesses used</span></div>
+        <div class="stat"><span class="stat__v" id="optimum">7</span><span class="stat__l">Binary search max</span></div>
+        <div class="stat"><span class="stat__v stat__v--small" id="range-label">1–100</span><span class="stat__l">Secret is in here</span></div>
+      </div>
+    </section>
+
+    <section class="card interval" aria-labelledby="interval-title">
+      <div class="card__head">
+        <div>
+          <p class="eyebrow">Live view</p>
+          <h2 id="interval-title" class="section-title">Search interval</h2>
+        </div>
+      </div>
+      <p class="hint" id="interval-text">Possible: 1–100 · midpoint 50</p>
+      <div class="interval__bar" id="interval-bar" aria-hidden="true">
+        <div class="interval__fill" id="interval-fill"></div>
+        <span class="interval__marker interval__marker--low" id="marker-low">L</span>
+        <span class="interval__marker interval__marker--mid" id="marker-mid">M</span>
+        <span class="interval__marker interval__marker--high" id="marker-high">H</span>
+      </div>
+      <div class="interval__scale"><span id="scale-min">1</span><span id="scale-max">100</span></div>
+      <p class="hint">The shaded band shows every number still possible. <b>L</b> and <b>H</b> are its ends; <b>M</b> is the midpoint — the next binary-search guess.</p>
+    </section>
+  </div>
+
+  <section class="card log-card" aria-labelledby="log-title">
+    <div class="card__head">
+      <div>
+        <p class="eyebrow">3 · Track</p>
+        <h2 id="log-title" class="section-title">Your guesses</h2>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="guess-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Guess</th><th scope="col">Reply</th></tr></thead>
+        <tbody id="guess-log"><tr class="empty-row"><td colspan="3">No guesses yet — enter a number above.</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card result" id="result-card" hidden aria-labelledby="result-title" aria-live="polite">
+    <div class="sparks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <p class="eyebrow">Round over</p>
+    <h2 id="result-title">You found it!</h2>
+    <p class="result__reveal">The secret number was <strong class="result__secret" id="result-secret">50</strong></p>
+    <p id="result-text"></p>
+  </section>
+
+  <section class="card solution" aria-labelledby="solution-title">
+    <div class="solution__head">
+      <div>
+        <p class="eyebrow">Teacher tools</p>
+        <h2 id="solution-title">Full solution</h2>
+        <p class="hint">Unlock to see the secret and the exact binary-search sequence that finds it.</p>
+      </div>
+      <button type="button" class="btn btn--small" id="btn-solution">Show solution</button>
+    </div>
+    <div class="solution__panel" id="solution-panel" hidden>
+      <p class="solution__secret">Secret number: <strong id="solution-secret">—</strong></p>
+      <ol class="path-list" id="solution-steps"></ol>
+      <p class="hint" id="solution-summary"></p>
+    </div>
+  </section>
+
+</main>
+<script src="../shared/gate.js"></script>
+<script src="../shared/footer.js"></script>
+<script src="js/app.js"></script>
+</body></html>

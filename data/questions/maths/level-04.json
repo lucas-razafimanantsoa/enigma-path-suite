@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Simplify the ratio 6:9.",
+  "options": [
+   "2:3",
+   "3:4",
+   "2:4",
+   "1:2"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many centimetres are there in 3 metres?",
+  "options": [
+   "3000",
+   "3",
+   "30",
+   "300"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A map uses a scale of 1 cm to 5 km. How far is 3 cm on the map?",
+  "options": [
+   "3 km",
+   "5 km",
+   "15 km",
+   "8 km"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Share 20 sweets between Ali and Ben in the ratio 3:2. How many does Ali get?",
+  "options": [
+   "15",
+   "12",
+   "8",
+   "10"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many grams are there in 2.5 kilograms?",
+  "options": [
+   "2500",
+   "25000",
+   "250",
+   "25"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A car travels 60 km in 1 hour. What is its average speed?",
+  "options": [
+   "1 km/h",
+   "6 km/h",
+   "600 km/h",
+   "60 km/h"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many millimetres are there in 4 cm?",
+  "options": [
+   "400",
+   "0.4",
+   "40",
+   "4"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A recipe for 4 people uses 2 eggs. How many eggs are needed for 8 people?",
+  "options": [
+   "16",
+   "4",
+   "2",
+   "6"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Simplify the ratio 15:25.",
+  "options": [
+   "3:5",
+   "1:3",
+   "5:8",
+   "3:4"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "£60 is shared in the ratio 2:3. What is the larger share?",
+  "options": [
+   "30",
+   "40",
+   "24",
+   "36"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Convert 3.5 litres to millilitres.",
+  "options": [
+   "35",
+   "35000",
+   "3500",
+   "350"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A train travels 180 km in 2 hours. What is its average speed?",
+  "options": [
+   "60 km/h",
+   "90 km/h",
+   "180 km/h",
+   "360 km/h"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A scale drawing has a scale of 1:100. A length of 4 cm on the drawing represents what real length?",
+  "options": [
+   "4 m",
+   "400 m",
+   "0.04 m",
+   "40 m"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "If 5 pens cost £3, how much do 15 pens cost?",
+  "options": [
+   "45",
+   "6",
+   "15",
+   "9"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which unit is most suitable for measuring the mass of a pencil?",
+  "options": [
+   "litres",
+   "tonnes",
+   "grams",
+   "kilometres"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How many minutes are there in 2.5 hours?",
+  "options": [
+   "250",
+   "150",
+   "125",
+   "120"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A car travels 150 km at an average speed of 50 km/h. How long does the journey take?",
+  "options": [
+   "3 hours",
+   "5 hours",
+   "100 hours",
+   "2 hours"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The ratio of red to blue marbles is 3:5. If there are 40 marbles altogether, how many are red?",
+  "options": [
+   "8",
+   "24",
+   "25",
+   "15"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A map scale is 1:50 000. Two towns are 8 cm apart on the map. What is the real distance in km?",
+  "options": [
+   "400 km",
+   "0.4 km",
+   "4 km",
+   "40 km"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "3 workers paint a fence in 8 hours. How long would 6 workers take, working at the same rate?",
+  "options": [
+   "12 hours",
+   "4 hours",
+   "16 hours",
+   "2 hours"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Convert 2.4 kg to grams.",
+  "options": [
+   "2400",
+   "240",
+   "24",
+   "24000"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A cyclist covers 24 km in 1 hour 30 minutes. What is the average speed?",
+  "options": [
+   "24 km/h",
+   "18 km/h",
+   "12 km/h",
+   "16 km/h"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A sum of money is shared between A and B in the ratio 4:5. If A gets £24, how much does B get?",
+  "options": [
+   "24",
+   "6",
+   "30",
+   "20"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A tap fills a 12-litre bucket in 3 minutes. What is the flow rate in litres per minute?",
+  "options": [
+   "3",
+   "4",
+   "9",
+   "36"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

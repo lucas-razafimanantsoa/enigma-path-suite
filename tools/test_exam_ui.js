@@ -9,21 +9,40 @@ const { open, sleep } = require('./cdp');
 
 const PORT = 8300 + Math.floor(Math.random() * 500);
 const BASE = 'http://127.0.0.1:' + PORT;
+const PW = 'Mirija04';
 const data = fs.mkdtempSync(path.join(os.tmpdir(), 'ep-e2e-'));
+let cookie = '';
+
+async function teacherApi(path, options) {
+  options = options || {};
+  options.headers = Object.assign({}, options.headers, { Cookie: cookie });
+  return fetch(BASE + path, options);
+}
+
+// The browser starts on the login page (redirected from a teacher page).
+async function login(page) {
+  await page.type('#password', PW);
+  await page.click('#submit');
+  await page.sleep(500);
+}
 
 (async () => {
-  const srv = spawn('python3', [path.resolve(__dirname, '../server.py'), '--port', String(PORT), '--no-browser', '--data', data], { stdio: 'ignore' });
+  const srv = spawn('python3', [path.resolve(__dirname, '../server.py'), '--port', String(PORT), '--no-browser', '--data', data, '--teacher-password', PW], { stdio: 'ignore' });
   for (let i = 0; i < 40; i++) { try { await fetch(BASE + '/api/exams'); break; } catch (e) { await sleep(150); } }
+  const loginRes = await fetch(BASE + '/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: PW }) });
+  cookie = (loginRes.headers.get('set-cookie') || '').split(';')[0];
   let bad = 0;
   const expect = (name, cond, extra) => { if (!cond) { bad++; console.log('FAIL', name, extra === undefined ? '' : extra); } else console.log('ok  ', name); };
 
   /* ---------------- teacher builds an exam ---------------- */
   const t = await open(BASE + '/exam/builder.html', 1300, 900);
+  expect('builder redirects to login', /login\.html/.test(await t.ev('location.href')));
+  await login(t);
+  expect('login opens the builder', /builder\.html/.test(await t.ev('location.href')));
   expect('builder shows no exams yet', /No exams yet/.test(await t.ev('document.getElementById("list-hint").textContent')));
   await t.click('#btn-new');
   await t.type('#ex-title', 'E2E test exam');
   await t.type('#ex-desc', 'Answer everything.');
-  await t.ev('document.getElementById("ex-reveal").value="all";document.getElementById("ex-reveal").dispatchEvent(new Event("change"))');
   // first (blank) question
   await t.type('#items .item:nth-child(1) textarea', 'What is 2 + 2?');
   const opts = ['3', '4', '5', '22'];
@@ -57,7 +76,7 @@ const data = fs.mkdtempSync(path.join(os.tmpdir(), 'ep-e2e-'));
   expect('saved', /Saved/.test(saveMsg), saveMsg);
   const list = await (await fetch(BASE + '/api/exams')).json();
   expect('exam stored on the server with 5 questions', list.exams.length === 1 && list.exams[0].questions === 5, JSON.stringify(list));
-  const full = await (await fetch(BASE + '/api/exams/' + list.exams[0].id)).json();
+  const full = await (await teacherApi('/api/exams/' + list.exams[0].id)).json();
   const mazeQs = full.items[2].questions;
   expect('stored auto answer = fewest instructions', mazeQs[0].options[mazeQs[0].correct] === String(analysis.fewestInstructions), JSON.stringify(mazeQs[0]));
   expect('stored auto answer = loops', mazeQs[1].options[mazeQs[1].correct] === String(analysis.loops));
@@ -99,21 +118,23 @@ const data = fs.mkdtempSync(path.join(os.tmpdir(), 'ep-e2e-'));
   expect('overview screen', (await s.ev('!document.getElementById("screen-overview").hidden')) === true);
   await s.shot('/tmp/opencode/exam-overview.png');
   await s.click('#ov-submit');
-  await s.sleep(800);
-  expect('result screen', (await s.ev('!document.getElementById("screen-result").hidden')) === true);
-  const score = await s.ev('document.getElementById("res-score").textContent');
-  console.log('     student sees', score, await s.ev('document.getElementById("res-percent").textContent'));
-  expect('reveal=all lists 5 questions', (await s.ev('document.querySelectorAll("#res-review .review-item").length')) === 5);
-  await s.shot('/tmp/opencode/exam-result.png');
+  await s.sleep(600);
+  expect('submitted screen', (await s.ev('!document.getElementById("screen-result").hidden')) === true);
+  const studentText = await s.ev('document.getElementById("screen-result").textContent');
+  expect('no score shown to the student', !/\d+\s*\/\s*\d+|%/.test(studentText), studentText);
+  expect('no review shown to the student', (await s.ev('document.querySelectorAll("#res-review .review-item").length')) === 0);
+  await s.shot('/tmp/opencode/exam-submitted.png');
+  await s.sleep(1600);
+  expect('student returns to the home menu', /index\.html/.test(await s.ev('location.href')), await s.ev('location.href'));
   expect('student errors', s.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, s.logs.join('|'));
   await s.close();
 
   /* ---------------- stored result ---------------- */
-  const res = (await (await fetch(BASE + '/api/results')).json()).results;
-  expect('one result stored', res.length === 1);
+  const res = (await (await teacherApi('/api/results')).json()).results;
+  expect('one result stored', res.length === 1, JSON.stringify(res).slice(0, 200));
   const r = res[0];
   expect('name and grade stored', r.student === 'Test Student' && r.grade === 8);
-  expect('score matches what the student saw', score === r.score + ' / ' + r.total, score + ' vs ' + r.score);
+  expect('score stored for the teacher', typeof r.score === 'number' && r.total === 5, r.score + '/' + r.total);
   const plainOk = r.answers.filter((a) => a.n <= 2 && a.isCorrect).length === 2;
   expect('plain questions graded correct regardless of shuffle', plainOk, JSON.stringify(r.answers.slice(0, 2)));
   const csvPath = path.join(data, 'results', 'results.csv');
@@ -121,6 +142,8 @@ const data = fs.mkdtempSync(path.join(os.tmpdir(), 'ep-e2e-'));
 
   /* ---------------- teacher views results ---------------- */
   const v = await open(BASE + '/exam/results.html', 1300, 900);
+  expect('results page redirects to login', /login\.html/.test(await v.ev('location.href')));
+  await login(v);
   expect('results page lists the attempt', /Test Student/.test(await v.ev('document.getElementById("results-body").textContent')));
   await v.click('#results-body tr.row');
   expect('details expand', (await v.ev('document.querySelectorAll(".detail-item").length')) === 5);

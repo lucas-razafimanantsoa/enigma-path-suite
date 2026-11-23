@@ -2,23 +2,23 @@
  {
   "question_text": "Which statement best describes the role of an operating system?",
   "options": [
-   "It manages the hardware, memory and files and provides a user interface",
    "It stores all of the user's files and programs permanently on a disk",
    "It lets the user draw pictures, edit photographs and produce publications",
-   "It protects the computer from threats by blocking all internet access"
+   "It protects the computer from threats by blocking all internet access",
+   "It manages the hardware, memory and files and provides a user interface"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Why might an experienced network administrator prefer a command-line interface to a graphical one?",
   "options": [
-   "Commands can be typed quickly and repeated without clicking through menus",
-   "It shows every task as an icon that can be selected with a pointer",
    "It needs no knowledge of any command names or their exact spelling",
-   "It can only be used by one person at a time and only when connected"
+   "It can only be used by one person at a time and only when connected",
+   "Commands can be typed quickly and repeated without clicking through menus",
+   "It shows every task as an icon that can be selected with a pointer"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -79,45 +79,45 @@
  {
   "question_text": "A file of 120 MB is downloaded at a steady 8 MB per second. How long does the download take?",
   "options": [
-   "30 seconds",
-   "12 seconds",
    "15 seconds",
-   "960 seconds"
+   "960 seconds",
+   "30 seconds",
+   "12 seconds"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which is an advantage of a hard disk drive over an SSD of the same capacity?",
   "options": [
-   "It always uses less electrical power",
-   "It usually costs less",
    "It has no moving parts to wear out or break",
-   "It has faster access to the data stored on it"
+   "It has faster access to the data stored on it",
+   "It always uses less electrical power",
+   "It usually costs less"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which of these is an example of software?",
   "options": [
-   "A spreadsheet program",
-   "A motherboard inside a computer",
    "A power supply unit in a case",
-   "A graphics card in a slot"
+   "A graphics card in a slot",
+   "A spreadsheet program",
+   "A motherboard inside a computer"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the purpose of a device driver?",
   "options": [
-   "It protects the computer from viruses and spyware",
-   "It checks the spelling and grammar in documents",
    "It increases the amount of RAM that is available",
-   "It lets the operating system communicate with a hardware device"
+   "It lets the operating system communicate with a hardware device",
+   "It protects the computer from viruses and spyware",
+   "It checks the spelling and grammar in documents"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -134,67 +134,67 @@
  {
   "question_text": "How does a barcode reader at a supermarket checkout help with stock control?",
   "options": [
+   "It counts all of the money that is placed in the till",
    "It checks that every customer is old enough to shop there",
    "It orders new shelves for each part of the store",
-   "Each scan can automatically reduce the stock level held for that item",
-   "It counts all of the money that is placed in the till"
+   "Each scan can automatically reduce the stock level held for that item"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which small storage device plugs directly into a USB port?",
   "options": [
-   "Hard disk platter",
    "Magnetic tape cartridge",
    "Blu-ray disc",
-   "USB flash drive"
+   "USB flash drive",
+   "Hard disk platter"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which pair correctly classifies the software?",
   "options": [
-   "Operating system: application software; database: system software",
-   "Anti-virus: application software; device driver: application software",
    "Spreadsheet: system software; word processor: system software",
-   "Anti-virus: system software; spreadsheet: application software"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Which method would be used to read the pencil-marked answers on multiple-choice exam answer sheets?",
-  "options": [
-   "MICR",
-   "OCR",
-   "QR code",
-   "OMR"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Why is a microprocessor in a washing machine usually an embedded system rather than a general-purpose computer?",
-  "options": [
-   "It must store thousands of photographs and videos for the user",
-   "It is built to do one dedicated job at low cost and small size",
-   "It needs a large screen and a keyboard to be operated by the user",
-   "It must run many different applications at the same time as each other"
+   "Anti-virus: system software; spreadsheet: application software",
+   "Operating system: application software; database: system software",
+   "Anti-virus: application software; device driver: application software"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
-  "question_text": "Which output device builds a solid object layer by layer from a digital design?",
+  "question_text": "Which method would be used to read the pencil-marked answers on multiple-choice exam answer sheets?",
   "options": [
-   "3D printer",
-   "Laser printer",
-   "Multimedia projector",
-   "Plotter"
+   "OMR",
+   "MICR",
+   "OCR",
+   "QR code"
   ],
   "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is a microprocessor in a washing machine usually an embedded system rather than a general-purpose computer?",
+  "options": [
+   "It needs a large screen and a keyboard to be operated by the user",
+   "It must run many different applications at the same time as each other",
+   "It must store thousands of photographs and videos for the user",
+   "It is built to do one dedicated job at low cost and small size"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which output device builds a solid object layer by layer from a digital design?",
+  "options": [
+   "Multimedia projector",
+   "Plotter",
+   "3D printer",
+   "Laser printer"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -222,56 +222,56 @@
  {
   "question_text": "A warehouse needs to print on multi-part paper so that carbon copies are produced. Which printer should be used?",
   "options": [
+   "3D printer",
    "Inkjet printer",
    "Laser printer",
-   "Dot-matrix printer",
-   "3D printer"
+   "Dot-matrix printer"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which of these items is internal hardware?",
   "options": [
+   "Flatbed scanner",
    "Mouse",
    "Motherboard",
-   "Projector",
-   "Flatbed scanner"
+   "Projector"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which statement about a QR code is correct?",
   "options": [
+   "It can only be read by a special magnetic ink character reader",
    "It is a two-dimensional pattern that can be read using a camera",
    "It stores less data than a standard barcode of the same size",
-   "It is a stripe pattern that is read only by a laser scanner",
-   "It can only be read by a special magnetic ink character reader"
+   "It is a stripe pattern that is read only by a laser scanner"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which output device is used to show a computer display to a whole classroom on a large screen?",
   "options": [
-   "Laser printer",
    "Multimedia projector",
    "Barcode reader",
-   "Graphics tablet"
+   "Graphics tablet",
+   "Laser printer"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the motherboard?",
   "options": [
-   "A storage device that keeps all of the user's files permanently",
-   "The main circuit board that connects the CPU, memory and other components",
    "A cooling fan that stops the CPU from overheating during use",
-   "A port on the side of the case used to plug in a USB flash drive"
+   "A port on the side of the case used to plug in a USB flash drive",
+   "A storage device that keeps all of the user's files permanently",
+   "The main circuit board that connects the CPU, memory and other components"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -288,45 +288,45 @@
  {
   "question_text": "Which is an advantage of a laptop over a desktop computer?",
   "options": [
+   "It is cheaper for the same processing power",
    "It is portable and has a built-in battery",
    "It has a larger screen and keyboard",
-   "Its parts are easier to upgrade",
-   "It is cheaper for the same processing power"
+   "Its parts are easier to upgrade"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which is a disadvantage of a smartphone compared with a desktop when editing a large spreadsheet?",
   "options": [
+   "The small screen and on-screen keyboard make data entry slower",
    "It cannot run any application software of any kind",
    "It cannot connect to the internet or to any other network",
-   "It needs a separate system unit to be added before it will start",
-   "The small screen and on-screen keyboard make data entry slower"
+   "It needs a separate system unit to be added before it will start"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which feature is typical of a tablet computer?",
   "options": [
+   "A separate tower unit containing the CPU",
    "A command-line interface as the only interface",
    "A mains-only power supply with no battery",
-   "A touch screen used as the main input device",
-   "A separate tower unit containing the CPU"
+   "A touch screen used as the main input device"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A company must back up 100 GB of data to 16 GB USB flash drives. What is the smallest number of drives needed?",
   "options": [
+   "8",
    "16",
    "7",
-   "6",
-   "8"
+   "6"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -343,56 +343,56 @@
  {
   "question_text": "Which storage device has no moving parts?",
   "options": [
-   "Hard disk drive",
    "Solid state drive (SSD)",
    "CD-ROM drive",
-   "Magnetic tape drive"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What does LCD stand for?",
-  "options": [
-   "Liquid crystal display",
-   "Large control device",
-   "Linked computer data",
-   "Light colour display"
+   "Magnetic tape drive",
+   "Hard disk drive"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Why might a home user who prints only occasionally avoid buying a colour laser printer?",
+  "question_text": "What does LCD stand for?",
   "options": [
-   "It cannot print on paper of any size or thickness",
-   "It cannot print any photographs or coloured images",
-   "It is always slower than a dot-matrix printer for text",
-   "It has a high purchase price compared with an inkjet printer"
+   "Large control device",
+   "Linked computer data",
+   "Light colour display",
+   "Liquid crystal display"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why might a home user who prints only occasionally avoid buying a colour laser printer?",
+  "options": [
+   "It cannot print any photographs or coloured images",
+   "It is always slower than a dot-matrix printer for text",
+   "It has a high purchase price compared with an inkjet printer",
+   "It cannot print on paper of any size or thickness"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "In which list are the units in order from smallest to largest?",
   "options": [
-   "Kilobyte, byte, megabyte, gigabyte",
    "Megabyte, byte, gigabyte, kilobyte",
    "Byte, kilobyte, megabyte, gigabyte",
-   "Gigabyte, megabyte, kilobyte, byte"
+   "Gigabyte, megabyte, kilobyte, byte",
+   "Kilobyte, byte, megabyte, gigabyte"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A 16 GB memory card is used to store photos of 8 MB each (1 GB = 1024 MB). How many photos can it hold?",
   "options": [
-   "2000",
-   "128",
    "2048",
-   "1024"
+   "1024",
+   "2000",
+   "128"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -420,133 +420,133 @@
  {
   "question_text": "In an automatic greenhouse, which statement is correct?",
   "options": [
+   "The temperature sensor is an output device and the heater is an input device",
    "The temperature sensor is an input device and the heater is an output device",
    "Both the sensor and the heater are output devices",
-   "Both the sensor and the heater are input devices",
-   "The temperature sensor is an output device and the heater is an input device"
+   "Both the sensor and the heater are input devices"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A new printer is plugged in but the computer cannot use it. Which software most likely needs to be installed?",
   "options": [
+   "A device driver for the printer",
    "A spreadsheet program for numbers",
    "A web browser for the internet",
-   "A compression utility for files",
-   "A device driver for the printer"
+   "A compression utility for files"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which utility software makes files smaller so that they use less storage space?",
   "options": [
-   "Anti-virus software",
-   "File compression software",
    "Disk formatting software",
-   "Backup software"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Using 1 GB = 1024 MB, how many megabytes are there in 3 GB?",
-  "options": [
-   "1024",
-   "3000",
-   "3,145,728",
-   "3072"
+   "Backup software",
+   "Anti-virus software",
+   "File compression software"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
+  "question_text": "Using 1 GB = 1024 MB, how many megabytes are there in 3 GB?",
+  "options": [
+   "3000",
+   "3,145,728",
+   "3072",
+   "1024"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
   "question_text": "Which input device would be best for copying a printed photograph into a computer?",
   "options": [
+   "Projector",
    "Scanner",
    "Speaker",
-   "Plotter",
-   "Projector"
+   "Plotter"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which is a disadvantage of a dot-matrix printer?",
   "options": [
-   "It cannot print text, only graphics and diagrams",
-   "It cannot print on multi-part paper or carbon paper",
    "It is noisy and the print quality is low",
-   "It is very expensive to buy compared with a laser printer"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Which one of these is the only example of application software?",
-  "options": [
-   "Disk formatting utility",
-   "Device driver",
-   "Presentation software",
-   "Operating system"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "What does a sound card do?",
-  "options": [
-   "Draws the images that are shown on the monitor",
-   "Converts digital sound data to signals for speakers",
-   "Controls the clock speed of the CPU and memory",
-   "Stores the start-up instructions for the computer"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Why would an architect use a plotter rather than a laser printer for building plans?",
-  "options": [
-   "A plotter can draw very large, accurate line drawings",
-   "A plotter is always cheaper to buy than a laser printer",
-   "A plotter can print on multi-part carbon paper",
-   "A plotter prints text pages much faster than a laser printer"
+   "It is very expensive to buy compared with a laser printer",
+   "It cannot print text, only graphics and diagrams",
+   "It cannot print on multi-part paper or carbon paper"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
-  "question_text": "Which component carries out the instructions of a program and performs calculations?",
+  "question_text": "Which one of these is the only example of application software?",
   "options": [
-   "Graphics card",
-   "Sound card",
-   "CPU",
-   "Hard disk drive"
+   "Operating system",
+   "Disk formatting utility",
+   "Device driver",
+   "Presentation software"
   ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
  },
  {
-  "question_text": "Why is OMR unsuitable for reading a handwritten letter?",
+  "question_text": "What does a sound card do?",
   "options": [
-   "It can only read characters that were printed by a dot-matrix printer",
-   "It detects the presence of marks in set positions, not the shapes of letters",
-   "It can only read characters printed in magnetic ink",
-   "It needs the paper to be scanned in colour and then printed again"
+   "Stores the start-up instructions for the computer",
+   "Draws the images that are shown on the monitor",
+   "Converts digital sound data to signals for speakers",
+   "Controls the clock speed of the CPU and memory"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why would an architect use a plotter rather than a laser printer for building plans?",
+  "options": [
+   "A plotter prints text pages much faster than a laser printer",
+   "A plotter can draw very large, accurate line drawings",
+   "A plotter is always cheaper to buy than a laser printer",
+   "A plotter can print on multi-part carbon paper"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
+  "question_text": "Which component carries out the instructions of a program and performs calculations?",
+  "options": [
+   "CPU",
+   "Hard disk drive",
+   "Graphics card",
+   "Sound card"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why is OMR unsuitable for reading a handwritten letter?",
+  "options": [
+   "It can only read characters printed in magnetic ink",
+   "It needs the paper to be scanned in colour and then printed again",
+   "It can only read characters that were printed by a dot-matrix printer",
+   "It detects the presence of marks in set positions, not the shapes of letters"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
   "question_text": "Using 1 MB = 1024 KB, how many kilobytes are there in 2 MB?",
   "options": [
+   "2,097,152",
    "2000",
    "2048",
-   "1024",
-   "2,097,152"
+   "1024"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -596,12 +596,12 @@
  {
   "question_text": "Video is recorded at 64 MB per minute. For how many minutes can a 2 GB memory card record (1 GB = 1024 MB)?",
   "options": [
-   "20 minutes",
    "64 minutes",
    "32 minutes",
-   "16 minutes"
+   "16 minutes",
+   "20 minutes"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -618,89 +618,89 @@
  {
   "question_text": "Which of these is a pointing device?",
   "options": [
-   "Scanner",
-   "Trackerball",
    "Webcam",
-   "Microphone"
+   "Microphone",
+   "Scanner",
+   "Trackerball"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the main purpose of backing store in a computer?",
   "options": [
-   "To keep data and programs when the power is off",
-   "To display output to the user",
    "To connect the computer to a network",
-   "To hold only the data currently being processed"
+   "To hold only the data currently being processed",
+   "To keep data and programs when the power is off",
+   "To display output to the user"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which of these is the largest unit of data storage?",
   "options": [
-   "Megabyte",
-   "Gigabyte",
    "Kilobyte",
-   "Terabyte"
+   "Terabyte",
+   "Megabyte",
+   "Gigabyte"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the difference between a CD-R and a CD-RW?",
   "options": [
-   "A CD-R can hold video files; a CD-RW can hold only music files",
-   "A CD-R can only be read; a CD-RW can only be written to once",
    "A CD-R can be written to once; a CD-RW can be erased and rewritten",
-   "A CD-R is a magnetic disc; a CD-RW is a solid state disc"
+   "A CD-R is a magnetic disc; a CD-RW is a solid state disc",
+   "A CD-R can hold video files; a CD-RW can hold only music files",
+   "A CD-R can only be read; a CD-RW can only be written to once"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which input device lets two people see and hear each other during a video call?",
   "options": [
-   "Webcam",
    "Dot-matrix printer",
    "Plotter",
-   "Touch screen"
+   "Touch screen",
+   "Webcam"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "A designer wants to draw freehand sketches directly into a computer using a stylus. Which input device is most suitable?",
   "options": [
+   "Barcode reader",
    "Microphone",
    "Graphics tablet",
-   "Trackerball",
-   "Barcode reader"
+   "Trackerball"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which output device produces a hard copy on paper?",
   "options": [
+   "Monitor",
    "Printer",
    "Projector",
-   "Speaker",
-   "Monitor"
+   "Speaker"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which sensor would a greenhouse system use to check how warm the air is?",
   "options": [
+   "Temperature sensor",
    "Infra-red sensor",
    "Sound sensor",
-   "Pressure sensor",
-   "Temperature sensor"
+   "Pressure sensor"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
@@ -728,34 +728,34 @@
  {
   "question_text": "A 20 MB file is compressed to a quarter of its original size. What is the size of the compressed file?",
   "options": [
-   "80 MB",
-   "15 MB",
    "10 MB",
-   "5 MB"
+   "5 MB",
+   "80 MB",
+   "15 MB"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which input device converts sound into data that a computer can process?",
   "options": [
-   "Speaker",
-   "Webcam",
    "Microphone",
-   "Touchpad"
+   "Touchpad",
+   "Speaker",
+   "Webcam"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which feature does a smartphone usually have that a desktop computer usually does not?",
   "options": [
-   "A built-in connection to the mobile phone network",
    "A separate monitor and a separate system unit",
    "A mains cable that must always be kept connected",
-   "A hard disk drive that is inside a tower case"
+   "A hard disk drive that is inside a tower case",
+   "A built-in connection to the mobile phone network"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -772,34 +772,34 @@
  {
   "question_text": "An image is 1024 pixels wide and 768 pixels high and each pixel needs 1 byte. What is the file size in kilobytes (1 KB = 1024 bytes)?",
   "options": [
-   "786 KB",
    "384 KB",
    "768 KB",
-   "1536 KB"
+   "1536 KB",
+   "786 KB"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "Three files of 1.5 GB, 700 MB and 300 MB must be saved together (1 GB = 1024 MB). Which is the smallest capacity that is enough?",
   "options": [
+   "3 GB",
    "4 GB",
    "2 GB",
-   "8 GB",
-   "3 GB"
+   "8 GB"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A text document has 500 characters and each character is stored in 8 bits. How many bits are needed?",
   "options": [
-   "4000",
    "8000",
    "500",
-   "1000"
+   "1000",
+   "4000"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -816,12 +816,12 @@
  {
   "question_text": "Which statement correctly describes internal and external hardware?",
   "options": [
-   "Internal hardware is used for input only; external hardware is used for output only",
-   "Internal hardware is portable; external hardware must stay fixed in place",
    "Internal hardware is always software; external hardware is always a device",
-   "Internal hardware is inside the casing; external hardware is connected to it"
+   "Internal hardware is inside the casing; external hardware is connected to it",
+   "Internal hardware is used for input only; external hardware is used for output only",
+   "Internal hardware is portable; external hardware must stay fixed in place"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -860,56 +860,56 @@
  {
   "question_text": "What is an actuator?",
   "options": [
-   "A sensor that measures the temperature of the air",
    "A memory chip that stores the programs of the computer",
    "A device that turns control signals from a computer into movement",
-   "A screen that displays images and video to the user"
+   "A screen that displays images and video to the user",
+   "A sensor that measures the temperature of the air"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "How many bits are there in one byte?",
   "options": [
-   "10",
    "8",
    "16",
-   "4"
+   "4",
+   "10"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "A file is 4096 bytes in size. Using 1 KB = 1024 bytes, what is this in kilobytes?",
   "options": [
-   "8 KB",
-   "4 KB",
    "40 KB",
-   "2 KB"
+   "2 KB",
+   "8 KB",
+   "4 KB"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A sales representative who travels by train needs to write reports and use spreadsheets. Which type of computer is most suitable?",
   "options": [
-   "Embedded controller",
    "Desktop computer",
    "Mainframe computer",
-   "Laptop"
+   "Laptop",
+   "Embedded controller"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which type of computer is large and powerful and is used by banks and governments to process huge numbers of transactions?",
   "options": [
-   "Laptop",
    "Smartphone",
    "Mainframe",
-   "Tablet"
+   "Tablet",
+   "Laptop"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -926,23 +926,23 @@
  {
   "question_text": "Which input device is a good choice for a user with limited desk space and limited wrist movement?",
   "options": [
-   "Scanner",
-   "Trackerball",
    "Graphics tablet",
-   "Mouse"
+   "Mouse",
+   "Scanner",
+   "Trackerball"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which of these is a utility program?",
   "options": [
-   "Anti-virus software",
-   "Spreadsheet software",
    "Presentation software",
-   "Web browser"
+   "Web browser",
+   "Anti-virus software",
+   "Spreadsheet software"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -959,23 +959,23 @@
  {
   "question_text": "A user types a long report but has not saved it when there is a power cut. Why is the work lost?",
   "options": [
+   "It was held in RAM, which is volatile",
    "It was held in ROM, which is non-volatile",
    "It was held in the CPU, which cannot be switched off",
-   "It was held in the hard disk, which cannot be written to",
-   "It was held in RAM, which is volatile"
+   "It was held in the hard disk, which cannot be written to"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A temperature sensor sends analogue readings to a computer. What must happen before the computer can process them?",
   "options": [
-   "They must be converted into sound",
-   "They must be converted to digital data",
    "They must be printed on paper",
-   "They must be stored on a CD-ROM"
+   "They must be stored on a CD-ROM",
+   "They must be converted into sound",
+   "They must be converted to digital data"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -992,23 +992,23 @@
  {
   "question_text": "Where is data kept when using cloud storage?",
   "options": [
-   "On the user's own USB flash drive at home",
-   "On a disc that is fixed inside the user's computer",
    "In the read-only memory of the computer",
-   "On remote servers accessed over the internet"
+   "On remote servers accessed over the internet",
+   "On the user's own USB flash drive at home",
+   "On a disc that is fixed inside the user's computer"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "A family wants to print a few colour photographs now and then and has a small budget. Which printer is most suitable?",
   "options": [
+   "Inkjet printer",
    "Colour laser printer",
    "Dot-matrix printer",
-   "Plotter",
-   "Inkjet printer"
+   "Plotter"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -1025,12 +1025,12 @@
  {
   "question_text": "Which of these stores data using magnetism?",
   "options": [
-   "DVD-ROM",
    "Memory card",
    "USB flash drive",
-   "Hard disk drive"
+   "Hard disk drive",
+   "DVD-ROM"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -1047,23 +1047,23 @@
  {
   "question_text": "Which of these is an operating system?",
   "options": [
-   "Google Chrome",
    "Android",
    "Microsoft Excel",
-   "Adobe Reader"
+   "Adobe Reader",
+   "Google Chrome"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which is a disadvantage of cloud storage?",
   "options": [
-   "An internet connection is needed to access files",
    "Files are stored in the computer's RAM when saved",
    "Files can only be opened by one person at a time",
-   "Files cannot be accessed from any other device"
+   "Files cannot be accessed from any other device",
+   "An internet connection is needed to access files"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -1080,12 +1080,12 @@
  {
   "question_text": "Which is a disadvantage of a graphical user interface compared with a command-line interface?",
   "options": [
-   "It can only be operated using a keyboard",
-   "It requires the user to type every command",
    "It cannot display text on the screen",
-   "It needs more memory and processing power"
+   "It needs more memory and processing power",
+   "It can only be operated using a keyboard",
+   "It requires the user to type every command"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {

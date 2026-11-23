@@ -1,0 +1,52 @@
+/* EnigmaPath teacher gate - small password modal for "show solution" buttons. */
+
+.ep-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgba(30, 61, 86, 0.28);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  animation: ep-gate-in 0.18s ease both;
+}
+.ep-gate[hidden] { display: none !important; }
+
+.ep-gate__card {
+  width: min(100%, 380px);
+  padding: 24px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  background: var(--bg-raised);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 12px;
+  animation: ep-gate-pop 0.22s ease both;
+}
+.ep-gate__card h2 { font-size: 19px; }
+.ep-gate__card p { font-size: 13px; color: var(--muted); }
+.ep-gate__card input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--ink);
+}
+.ep-gate__card input:focus { outline: none; border-color: var(--soft); }
+.ep-gate__error { min-height: 18px; font-size: 13px; color: var(--bad); font-weight: 600; }
+.ep-gate__error.shake { animation: ep-gate-shake 0.32s ease; }
+.ep-gate__actions { display: flex; gap: 8px; justify-content: flex-end; }
+
+@keyframes ep-gate-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes ep-gate-pop { from { opacity: 0; transform: translateY(10px) scale(0.97); } to { opacity: 1; transform: none; } }
+@keyframes ep-gate-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ep-gate, .ep-gate__card, .ep-gate__error.shake { animation: none !important; }
+}

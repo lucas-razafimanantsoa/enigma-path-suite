@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these is a force?",
+  "options": [
+   "A colour",
+   "A sound",
+   "A smell",
+   "A push"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What force pulls a dropped ball towards the ground?",
+  "options": [
+   "Friction",
+   "Magnetism",
+   "Gravity",
+   "Air resistance"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A wheelbarrow is an example of which simple machine?",
+  "options": [
+   "An inclined plane",
+   "A lever",
+   "A pulley",
+   "A screw"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is speed?",
+  "options": [
+   "How fast an object moves",
+   "The mass of an object",
+   "The force on an object",
+   "The direction an object faces"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which force slows a sliding box down?",
+  "options": [
+   "Upthrust",
+   "Gravity",
+   "Magnetism",
+   "Friction"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a pulley useful for?",
+  "options": [
+   "Making light brighter",
+   "Measuring temperature",
+   "Lifting heavy loads",
+   "Keeping food cold"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these will make a toy car travel farther on a flat floor?",
+  "options": [
+   "Pushing it more gently",
+   "A bigger push",
+   "Putting it on carpet",
+   "Adding extra weight"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a balanced force situation?",
+  "options": [
+   "A book on a table",
+   "A cyclist speeding up",
+   "A rocket launching",
+   "A ball falling"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a newton used to measure?",
+  "options": [
+   "Mass",
+   "Length",
+   "Time",
+   "Force"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which simple machine is a ramp?",
+  "options": [
+   "A wheel and axle system",
+   "A lever",
+   "An inclined plane",
+   "A pulley"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens to an object's motion if the forces on it are unbalanced?",
+  "options": [
+   "It loses all its mass",
+   "Its motion changes",
+   "It always stops",
+   "It stays perfectly still"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does a swimmer push backwards against the water to move forwards?",
+  "options": [
+   "Water pushes back",
+   "Water has no mass",
+   "Gravity pulls the swimmer down",
+   "The water is warmer than air"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an example of a pull?",
+  "options": [
+   "Kicking a football",
+   "Pushing a trolley",
+   "Throwing a stone",
+   "Opening a drawer"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What produces a turning effect (moment) about a pivot?",
+  "options": [
+   "A force acting exactly at the pivot",
+   "Only the weight of an object",
+   "A force acting away from a pivot",
+   "Only friction between surfaces"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the unit of speed when distance is in metres and time in seconds?",
+  "options": [
+   "Metres",
+   "Metres per second",
+   "Seconds",
+   "Newtons"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these reduces friction?",
+  "options": [
+   "Smooth oil",
+   "Rough sandpaper",
+   "More weight",
+   "A rough surface"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A see-saw is balanced when both children...",
+  "options": [
+   "have the same shoe size",
+   "sit on the same end",
+   "jump at the same time",
+   "match their moments"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a vacuum, a feather and a stone are dropped together. What happens?",
+  "options": [
+   "The feather lands first",
+   "Neither one falls",
+   "They land together",
+   "The stone lands first"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does a force do to an object?",
+  "options": [
+   "It always makes it hotter",
+   "It can change its motion",
+   "It always makes it lighter",
+   "It changes its colour"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is not a simple machine?",
+  "options": [
+   "A battery",
+   "A screw",
+   "A lever",
+   "A pulley wheel"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is air resistance?",
+  "options": [
+   "A type of gravity",
+   "A unit of pressure",
+   "A force that pulls objects upwards",
+   "A force opposing motion in air"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a wheel and axle?",
+  "options": [
+   "A knife",
+   "A staircase",
+   "A doorknob",
+   "A hammer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A car travels 100 metres in 20 seconds. What is its average speed?",
+  "options": [
+   "2,000 metres per second",
+   "5 metres per second",
+   "20 metres per second",
+   "100 metres per second"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do mountain climbers use ropes and pulleys?",
+  "options": [
+   "To lift loads easily",
+   "To make the mountain shorter",
+   "To increase gravity",
+   "To make the air warmer"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

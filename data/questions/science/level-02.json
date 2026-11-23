@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What do plants absorb from the soil?",
+  "options": [
+   "Warmth",
+   "Sunlight",
+   "Water",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of a plant makes food using sunlight?",
+  "options": [
+   "The seed",
+   "The leaf",
+   "The root",
+   "The flower"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these animals is a bird?",
+  "options": [
+   "A penguin",
+   "A crocodile",
+   "A bat",
+   "A butterfly"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a habitat?",
+  "options": [
+   "The food an animal eats",
+   "The way an animal moves",
+   "The sound an animal makes",
+   "Where an animal lives"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a need of all animals?",
+  "options": [
+   "A garden",
+   "A bicycle",
+   "Clean water",
+   "A television"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which group of animals has feathers?",
+  "options": [
+   "Fish",
+   "Birds",
+   "Reptiles",
+   "Mammals"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the young of a frog called?",
+  "options": [
+   "A tadpole",
+   "A young kitten",
+   "A baby chick",
+   "A calf"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a mammal?",
+  "options": [
+   "A green snake",
+   "A shark",
+   "A frog",
+   "A whale"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of a flower protects the bud before it opens?",
+  "options": [
+   "The stamen",
+   "The stigma",
+   "The sepal",
+   "The petal"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the process by which a seed begins to grow?",
+  "options": [
+   "Digestion",
+   "Germination",
+   "Reproduction",
+   "Pollination"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a carnivore?",
+  "options": [
+   "A lion",
+   "A cow",
+   "A rabbit",
+   "A horse"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do some birds migrate in winter?",
+  "options": [
+   "To escape from hungry farmers",
+   "To look for new colours",
+   "To practise long-distance flying",
+   "To find warmth and food"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an amphibian?",
+  "options": [
+   "A dolphin",
+   "A pigeon",
+   "A frog",
+   "A lizard"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main job of roots?",
+  "options": [
+   "To make food from sunlight",
+   "To absorb water",
+   "To make seeds",
+   "To catch insects"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a herbivore?",
+  "options": [
+   "A sheep",
+   "A red fox",
+   "A hawk",
+   "A grey wolf"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is not a characteristic of living things?",
+  "options": [
+   "They respond to the environment",
+   "They grow",
+   "They reproduce",
+   "They never change"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a fish?",
+  "options": [
+   "A dolphin",
+   "A whale",
+   "A salmon",
+   "A seal"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What do we call an animal that eats both plants and animals?",
+  "options": [
+   "A decomposer",
+   "An omnivore",
+   "A carnivore",
+   "A herbivore"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a reptile?",
+  "options": [
+   "A tortoise",
+   "A newt",
+   "A toad",
+   "A saltwater salmon"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which adaptation helps a camel survive in hot deserts?",
+  "options": [
+   "Gills for breathing under water",
+   "Long claws for climbing tall trees",
+   "A thick layer of blubber",
+   "Broad feet for walking on sand"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a producer in a food chain?",
+  "options": [
+   "A rabbit",
+   "A fox",
+   "Grass",
+   "A mushroom"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the name of the powdery substance that bees carry between flowers?",
+  "options": [
+   "Sweet nectar",
+   "Pollen",
+   "Sap",
+   "Dew"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these helps a plant stand upright and carry water to the leaves?",
+  "options": [
+   "The stem",
+   "The petals",
+   "The roots",
+   "The seeds"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are bright colours and scents useful to flowers?",
+  "options": [
+   "To keep the plant cool",
+   "To help the plant take up water",
+   "To protect the plant from rain",
+   "To attract pollinating insects"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

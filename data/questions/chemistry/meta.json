@@ -1,0 +1,47 @@
+{
+ "name": "Chemistry",
+ "blurb": "From everyday materials to organic chemistry",
+ "icon": "🧪",
+ "levels": [
+  {
+   "title": "Everyday materials",
+   "blurb": "Solids, liquids, gases and common substances"
+  },
+  {
+   "title": "States and changes",
+   "blurb": "Melting, boiling, dissolving and mixtures"
+  },
+  {
+   "title": "Atoms and elements",
+   "blurb": "The periodic table and simple atomic ideas"
+  },
+  {
+   "title": "Simple chemical changes",
+   "blurb": "Burning, rusting and making new substances"
+  },
+  {
+   "title": "Mixtures and separation",
+   "blurb": "Filtering, evaporation, distillation and chromatography"
+  },
+  {
+   "title": "Bonding basics",
+   "blurb": "Ionic and covalent bonding, simple formulas"
+  },
+  {
+   "title": "IGCSE structure and amounts",
+   "blurb": "Atomic structure, bonding, moles and concentration"
+  },
+  {
+   "title": "IGCSE reactions",
+   "blurb": "Acids, electrolysis, metals and precipitation"
+  },
+  {
+   "title": "IGCSE rates and equilibrium",
+   "blurb": "Rates, reversible reactions and the Haber process"
+  },
+  {
+   "title": "IB higher chemistry",
+   "blurb": "Organic chemistry, energetics and equilibrium calculations"
+  }
+ ]
+}

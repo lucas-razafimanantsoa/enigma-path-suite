@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "A car travels 100 m in 5 s. What is its average speed?",
+  "options": [
+   "500 m/s",
+   "20 s",
+   "105 m/s",
+   "20 m/s"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which equation links average speed, distance and time?",
+  "options": [
+   "speed = distance + time",
+   "speed = time / distance",
+   "speed = distance / time",
+   "speed = distance × time"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the unit of force?",
+  "options": [
+   "watt (W)",
+   "newton (N)",
+   "pascal (Pa)",
+   "joule (J)"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Weight is best described as...",
+  "options": [
+   "the force of gravity on a mass",
+   "the amount of matter in a body",
+   "the space a body takes up",
+   "how dense a body is"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the resultant force on a body moving at constant velocity?",
+  "options": [
+   "Equal to its weight",
+   "Equal to its speed",
+   "Twice its weight",
+   "Zero"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The moment of a force about a pivot is...",
+  "options": [
+   "mass × speed",
+   "force ÷ distance from the pivot",
+   "force × distance from the pivot",
+   "force × time taken"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which instrument measures the temperature of a liquid?",
+  "options": [
+   "Ammeter",
+   "Thermometer",
+   "Voltmeter",
+   "Hydrometer"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Ohm's law says that, for a fixed resistor, current is...",
+  "options": [
+   "proportional to potential difference",
+   "inversely proportional to potential difference",
+   "equal to the resistance",
+   "independent of voltage"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Resistance is measured in...",
+  "options": [
+   "volts (V)",
+   "amperes (A)",
+   "joules (J)",
+   "ohms (ohm)"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A 6 V supply drives 2 A through a resistor. What is the resistance?",
+  "options": [
+   "0.33 ohm",
+   "12 ohm",
+   "3 ohm",
+   "3 A"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 12 V battery is connected to a 4 ohm resistor. What current flows?",
+  "options": [
+   "3 V",
+   "3 A",
+   "0.33 A",
+   "48 A"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A force of 20 N moves an object 5 m. How much work is done?",
+  "options": [
+   "100 J",
+   "100 N",
+   "4 J",
+   "25 J"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 2 kg mass is lifted 3 m. Taking g = 10 N/kg, what is the gain in potential energy?",
+  "options": [
+   "6 J",
+   "60 W",
+   "5 J",
+   "60 J"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 4 N force acts 0.5 m from a pivot. What force balances it at 0.2 m?",
+  "options": [
+   "0.4 N",
+   "10 J",
+   "10 N",
+   "1.6 N"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a series circuit, which quantity is the same everywhere?",
+  "options": [
+   "Resistance",
+   "Current",
+   "Power",
+   "Potential difference"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Two 10 ohm resistors connected in series have a total resistance of...",
+  "options": [
+   "20 ohm",
+   "20 A",
+   "5 ohm",
+   "100 ohm"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 1000 kg car accelerates at 2 m/s². What resultant force is needed?",
+  "options": [
+   "2000 kg",
+   "500 N",
+   "200 N",
+   "2000 N"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 0.5 kg ball is kicked from rest to 8 m/s. What is its kinetic energy?",
+  "options": [
+   "2 J",
+   "16 W",
+   "16 J",
+   "32 J"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Resistors of 6 ohm and 3 ohm in parallel have a combined resistance of...",
+  "options": [
+   "4.5 ohm",
+   "2 ohm",
+   "18 ohm",
+   "9 ohm"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "An object weighs 50 N. Taking g = 10 N/kg, what is its mass?",
+  "options": [
+   "5 kg",
+   "500 kg",
+   "5 N",
+   "40 kg"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 240 V heater draws 10 A. What is its power?",
+  "options": [
+   "24 W",
+   "2400 V",
+   "24 000 W",
+   "2400 W"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 30 N force at 60° to the motion pulls an object 4 m. Work done?",
+  "options": [
+   "104 J",
+   "120 J",
+   "60.000000000000014 J",
+   "60 W"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about a body in equilibrium is correct?",
+  "options": [
+   "Only the moments must balance",
+   "Resultant force and moment are both zero",
+   "The body must be stationary",
+   "Only the forces must balance"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 5 A current flows through a 12 ohm resistor for 10 s. Energy transferred?",
+  "options": [
+   "3000 J",
+   "3000 W",
+   "600 J",
+   "60 J"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Where is the centre of gravity of a uniform rod?",
+  "options": [
+   "At one end",
+   "One quarter along",
+   "Outside the rod",
+   "At its midpoint"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

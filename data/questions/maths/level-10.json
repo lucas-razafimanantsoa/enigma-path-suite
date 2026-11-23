@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "If f(x) = x² + 1, what is f(3)?",
+  "options": [
+   "4",
+   "9",
+   "10",
+   "7"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the domain of f(x) = 1/(x - 2)?",
+  "options": [
+   "x > 2",
+   "all real numbers except 2",
+   "x ≥ 2",
+   "all real numbers"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Differentiate x³ with respect to x.",
+  "options": [
+   "3x²",
+   "3x",
+   "3x³",
+   "x²"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the gradient function of y = 5x?",
+  "options": [
+   "x",
+   "5x",
+   "0",
+   "5"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A vector has components (3, 4). What is its magnitude?",
+  "options": [
+   "12",
+   "25",
+   "5.0",
+   "7"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "If f(x) = 2x, what is the inverse function f⁻¹(x)?",
+  "options": [
+   "-2x",
+   "x/2",
+   "2x",
+   "x - 2"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Find ∫ 2x dx.",
+  "options": [
+   "x² + c",
+   "2",
+   "x²",
+   "2x² + c"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "For a quadratic y = ax² + bx + c, what does the discriminant b² - 4ac tell you?",
+  "options": [
+   "the gradient at the vertex",
+   "the y-intercept",
+   "the axis of symmetry",
+   "the number of real roots"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "If f(x) = x + 3 and g(x) = 2x, what is f(g(x))?",
+  "options": [
+   "2x + 6",
+   "2(x + 3)",
+   "2x + 3",
+   "x + 6"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Differentiate 3x² - 4x + 1.",
+  "options": [
+   "6x + 1",
+   "6x - 4",
+   "6x² - 4",
+   "3x - 4"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Find the coordinates of the vertex of y = x² - 4x + 5.",
+  "options": [
+   "(2, 1)",
+   "(4, 5)",
+   "(2, 5)",
+   "(-2, 1)"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A particle's displacement is s = t². What is its velocity at t = 3?",
+  "options": [
+   "3",
+   "9",
+   "t",
+   "6"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Vectors a = (1, 2) and b = (3, -1). Find the scalar product a · b.",
+  "options": [
+   "7",
+   "5",
+   "1",
+   "-1"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "If f(x) = x² for x ≥ 0, what is f⁻¹(9)?",
+  "options": [
+   "-3",
+   "3.0",
+   "9",
+   "81"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Find ∫ (3x² + 2) dx.",
+  "options": [
+   "x³ + 2x + c",
+   "x² + 2x + c",
+   "x³ + 2",
+   "3x³ + 2x + c"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which function has a vertical asymptote at x = 0?",
+  "options": [
+   "f(x) = x²",
+   "f(x) = eˣ",
+   "f(x) = √x",
+   "f(x) = 1/x"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The velocity of a particle is v = 3t². Find the displacement from t = 0 to t = 2.",
+  "options": [
+   "4",
+   "24",
+   "8",
+   "12"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Find the equation of the tangent to y = x² at x = 2.",
+  "options": [
+   "y = x² + 4",
+   "y = 4x - 4",
+   "y = 2x - 4",
+   "y = 4x + 4"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Differentiate e^(2x) with respect to x.",
+  "options": [
+   "2e^(2x)",
+   "e^(2x)",
+   "2xe^(2x)",
+   "e^(x²)"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Vectors p = (2, 1, -1) and q = (1, -2, 3). Find p · q.",
+  "options": [
+   "-1",
+   "5",
+   "3",
+   "-3"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Solve 2^x = 32 for x.",
+  "options": [
+   "6",
+   "4",
+   "5",
+   "16"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A curve has dy/dx = 6x - 3 and passes through (1, 2). Find y when x = 2.",
+  "options": [
+   "4",
+   "8",
+   "10",
+   "6"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many terms are there in the binomial expansion of (1 + x)^4?",
+  "options": [
+   "5",
+   "4",
+   "6",
+   "3"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Find the range of f(x) = x² + 1 for all real x.",
+  "options": [
+   "all real numbers",
+   "y ≥ 0",
+   "y > 1",
+   "y ≥ 1"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

@@ -1,0 +1,47 @@
+{
+ "name": "Physics",
+ "blurb": "From pushes and pulls to fields and circuits",
+ "icon": "⚡",
+ "levels": [
+  {
+   "title": "Everyday forces",
+   "blurb": "Pushes, pulls, friction and gravity"
+  },
+  {
+   "title": "Motion and measurement",
+   "blurb": "Distance, time, speed and units"
+  },
+  {
+   "title": "Energy basics",
+   "blurb": "Stores, transfers and efficiency ideas"
+  },
+  {
+   "title": "Light and sound",
+   "blurb": "Sources, reflection, hearing and pitch"
+  },
+  {
+   "title": "Electricity basics",
+   "blurb": "Circuits, cells, current and simple components"
+  },
+  {
+   "title": "Heat and states",
+   "blurb": "Temperature, melting, boiling and particle ideas"
+  },
+  {
+   "title": "IGCSE mechanics and electricity",
+   "blurb": "Forces, moments, current, voltage and resistance"
+  },
+  {
+   "title": "IGCSE waves and thermal physics",
+   "blurb": "Waves, the EM spectrum, specific heat and gas laws"
+  },
+  {
+   "title": "IGCSE magnetism and radiation",
+   "blurb": "Fields, generators, radioactivity and space physics"
+  },
+  {
+   "title": "IB higher physics",
+   "blurb": "Kinematics, fields, oscillations and circuit analysis"
+  }
+ ]
+}

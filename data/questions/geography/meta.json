@@ -1,0 +1,47 @@
+{
+ "name": "Geography",
+ "blurb": "From maps and weather to global issues",
+ "icon": "🌍",
+ "levels": [
+  {
+   "title": "Maps and places",
+   "blurb": "Directions, symbols and finding places"
+  },
+  {
+   "title": "Weather and seasons",
+   "blurb": "Clouds, rain, temperature and daylight"
+  },
+  {
+   "title": "Landforms and water",
+   "blurb": "Rivers, coasts, mountains and the water cycle"
+  },
+  {
+   "title": "Settlements and communities",
+   "blurb": "Villages, towns, cities and jobs"
+  },
+  {
+   "title": "Continents and oceans",
+   "blurb": "World map basics and climate zones"
+  },
+  {
+   "title": "Resources and map skills",
+   "blurb": "Grid references, scale and using resources"
+  },
+  {
+   "title": "IGCSE population and settlement",
+   "blurb": "Population change, migration and urban issues"
+  },
+  {
+   "title": "IGCSE natural environment",
+   "blurb": "River and coastal landscapes, weather hazards"
+  },
+  {
+   "title": "IGCSE human environment",
+   "blurb": "Development, tourism, farming and resource management"
+  },
+  {
+   "title": "IB higher geography",
+   "blurb": "Globalisation, climate change, GIS and sustainability"
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "How many sides does a hexagon have?",
+  "options": [
+   "8",
+   "5",
+   "6",
+   "7"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The angles on a straight line add up to what?",
+  "options": [
+   "270°",
+   "180°",
+   "90°",
+   "360°"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the area of a rectangle measuring 8 cm by 3 cm?",
+  "options": [
+   "24 cm²",
+   "11 cm²",
+   "22 cm²",
+   "24 cm"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many degrees are there in a right angle?",
+  "options": [
+   "180",
+   "360",
+   "45",
+   "90"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the name of a triangle with two equal sides?",
+  "options": [
+   "scalene",
+   "equilateral",
+   "isosceles",
+   "right-angled"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many faces does a cube have?",
+  "options": [
+   "8",
+   "6",
+   "12",
+   "4"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the perimeter of a square with side 5 cm?",
+  "options": [
+   "20 cm",
+   "10 cm",
+   "25 cm",
+   "15 cm"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which shape has exactly one pair of parallel sides?",
+  "options": [
+   "rectangle",
+   "rhombus",
+   "parallelogram",
+   "trapezium"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The three interior angles of a triangle add up to what?",
+  "options": [
+   "360°",
+   "240°",
+   "180°",
+   "90°"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Two angles of a triangle are 50° and 60°. What is the third angle?",
+  "options": [
+   "90",
+   "70",
+   "60",
+   "80"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the area of a triangle with base 10 cm and perpendicular height 6 cm?",
+  "options": [
+   "30 cm²",
+   "60 cm²",
+   "16 cm²",
+   "30 cm"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A regular quadrilateral is also known as a...",
+  "options": [
+   "rectangle",
+   "rhombus",
+   "kite",
+   "square"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How many edges does a cuboid have?",
+  "options": [
+   "8",
+   "6",
+   "12",
+   "10"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The interior angles of a quadrilateral add up to...",
+  "options": [
+   "90°",
+   "360°",
+   "540°",
+   "180°"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the area of a parallelogram with base 7 cm and perpendicular height 4 cm?",
+  "options": [
+   "28 cm²",
+   "22 cm²",
+   "28 cm",
+   "14 cm²"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Each interior angle of an equilateral triangle is...",
+  "options": [
+   "90°",
+   "45°",
+   "120°",
+   "60°"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "An exterior angle of a regular polygon is 40°. How many sides does it have?",
+  "options": [
+   "12",
+   "8",
+   "9",
+   "10"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A triangle has angles x, 2x and 3x. What is the value of x?",
+  "options": [
+   "90",
+   "30",
+   "45",
+   "60"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The area of a trapezium is ½(a + b)h. Find the area when a = 6, b = 10 and h = 4.",
+  "options": [
+   "32",
+   "64",
+   "16",
+   "20"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A circle has radius 5 cm. Taking π as 3.14, what is its area?",
+  "options": [
+   "31.4 cm²",
+   "15.7 cm²",
+   "78.5 cm",
+   "78.5 cm²"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In an isosceles triangle, one of the equal angles is 65°. What is the third angle?",
+  "options": [
+   "65",
+   "115",
+   "50",
+   "25"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many lines of symmetry does a regular pentagon have?",
+  "options": [
+   "4",
+   "5",
+   "10",
+   "1"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A rectangle has area 48 cm² and length 8 cm. What is its width?",
+  "options": [
+   "6 cm",
+   "16 cm",
+   "12 cm",
+   "40 cm"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A prism has a triangle as its cross-section. What is it called?",
+  "options": [
+   "cuboid",
+   "square pyramid",
+   "cylinder",
+   "triangular prism"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

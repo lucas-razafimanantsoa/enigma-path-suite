@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What is the IUPAC name of CH₃CH₂CH₂OH?",
+  "options": [
+   "Propan-2-ol",
+   "Methanol",
+   "Propan-1-ol",
+   "Propanoic acid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The general formula of alkanes is...",
+  "options": [
+   "CₙH₂ₙ₊₁OH",
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ",
+   "CₙH₂ₙ₋₂"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which functional group is found in carboxylic acids?",
+  "options": [
+   "–COOH",
+   "–OH",
+   "–CHO",
+   "–CO–"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Ethene reacts with steam in the presence of a catalyst to form...",
+  "options": [
+   "ethanoic acid",
+   "ethyl ethanoate",
+   "ethane",
+   "ethanol"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The oxidation of ethanol with acidified potassium dichromate produces...",
+  "options": [
+   "ethene",
+   "ethane",
+   "ethanoic acid",
+   "ethyl ethanoate"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Ethanoic acid reacts with ethanol to form...",
+  "options": [
+   "ethanol only",
+   "ethyl ethanoate and water",
+   "ethane",
+   "ethene"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The polymer formed from ethene is...",
+  "options": [
+   "poly(ethene)",
+   "poly(propene)",
+   "poly(chloroethene)",
+   "poly(ester)"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Alkanes react with chlorine in the presence of UV light by...",
+  "options": [
+   "esterification",
+   "polymerisation",
+   "addition",
+   "substitution"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which test distinguishes an alkene from an alkane?",
+  "options": [
+   "Add sodium",
+   "Burn in oxygen",
+   "Add bromine water; an alkene decolourises it",
+   "Add water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The standard enthalpy of combustion is the enthalpy change when one mole of a substance...",
+  "options": [
+   "melts completely",
+   "burns completely in oxygen under standard conditions",
+   "dissolves in water",
+   "is formed from its elements"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Hess's law states that the enthalpy change of a reaction...",
+  "options": [
+   "is independent of the route taken",
+   "always equals zero",
+   "depends on the rate of reaction",
+   "depends on the catalyst used"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "For H₂(g) + Cl₂(g) → 2HCl(g), use bond enthalpies: H–H 436, Cl–Cl 243, H–Cl 431 kJ mol⁻¹. What is ΔH?",
+  "options": [
+   "+183 kJ mol⁻¹",
+   "−862 kJ mol⁻¹",
+   "+679 kJ mol⁻¹",
+   "−183 kJ mol⁻¹"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In an exothermic reaction...",
+  "options": [
+   "ΔH is zero",
+   "the products have more energy than the reactants",
+   "ΔH is negative and the surroundings warm up",
+   "ΔH is positive and the mixture cools"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A calorimetry experiment heats 100 g of water by 10.0°C. (c = 4.18 J g⁻¹ °C⁻¹) The energy transferred is...",
+  "options": [
+   "418 J",
+   "4180 J",
+   "41.8 J",
+   "41800 J"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The standard enthalpy of formation of an element in its standard state is...",
+  "options": [
+   "zero",
+   "equal to its bond enthalpy",
+   "always negative",
+   "always positive"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which equation represents the enthalpy of neutralisation?",
+  "options": [
+   "H₂(g) + ½O₂(g) → H₂O(l)",
+   "HCl(g) → H⁺(aq) + Cl⁻(aq)",
+   "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)",
+   "H⁺(aq) + OH⁻(aq) → H₂O(l)"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The equilibrium constant Kc for aA + bB ⇌ cC + dD is...",
+  "options": [
+   "[C][D] − [A][B]",
+   "[A]^a[B]^b / [C]^c[D]^d",
+   "[C]^c[D]^d / [A]^a[B]^b",
+   "[A][B] / [C][D]"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A large value of Kc indicates that...",
+  "options": [
+   "the reaction has stopped",
+   "products are favoured at equilibrium",
+   "the reaction is very slow",
+   "reactants are favoured"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "For H₂(g) + I₂(g) ⇌ 2HI(g), a mixture at equilibrium has [H₂] = 0.10, [I₂] = 0.10 and [HI] = 0.70 mol dm⁻³. What is Kc?",
+  "options": [
+   "49",
+   "0.020",
+   "0.49",
+   "7.0"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "For an exothermic reaction, increasing the temperature...",
+  "options": [
+   "increases Kc",
+   "leaves Kc unchanged",
+   "makes Kc equal to zero",
+   "decreases Kc"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The rate-determining step of a reaction is...",
+  "options": [
+   "the step with the lowest activation energy",
+   "always the last step",
+   "the slowest step",
+   "the fastest step"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Doubling the concentration of A doubles the rate. The reaction is...",
+  "options": [
+   "zero order with respect to A",
+   "first order with respect to A",
+   "second order with respect to A",
+   "third order with respect to A"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The units of the rate constant for a first-order reaction are...",
+  "options": [
+   "s⁻¹",
+   "mol dm⁻³ s⁻¹",
+   "mol dm⁻³",
+   "mol⁻¹ dm³ s⁻¹"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which molecule is chiral?",
+  "options": [
+   "Propan-1-ol",
+   "Ethanol",
+   "Methane",
+   "Butan-2-ol"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A solution has [H⁺] = 1.0 × 10⁻³ mol dm⁻³. Its pH is...",
+  "options": [
+   "1",
+   "11",
+   "3",
+   "−3"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

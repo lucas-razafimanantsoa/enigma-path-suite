@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which gas is needed for burning?",
+  "options": [
+   "Oxygen",
+   "Nitrogen",
+   "Hydrogen",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which gas is made when wood burns completely?",
+  "options": [
+   "Hydrogen",
+   "Oxygen",
+   "Nitrogen",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Rusting happens to which metal?",
+  "options": [
+   "Silver",
+   "Gold",
+   "Iron",
+   "Copper"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does iron need in order to rust?",
+  "options": [
+   "Heat alone",
+   "Water and oxygen",
+   "Only water",
+   "Only oxygen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a new substance?",
+  "options": [
+   "Ash from burnt wood",
+   "Melted ice",
+   "Cut paper",
+   "Dissolved sugar"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a change that makes a new substance called?",
+  "options": [
+   "A state change",
+   "A shape change",
+   "A physical change",
+   "A chemical change"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Burning is an example of a...",
+  "options": [
+   "Physical change",
+   "Change of state",
+   "Chemical change",
+   "Mixture"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which item is used to smother a small fire safely?",
+  "options": [
+   "Cooking oil",
+   "A fire blanket",
+   "More oxygen",
+   "A paper sheet"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these changes can be reversed?",
+  "options": [
+   "Melting chocolate",
+   "Rusting a nail",
+   "Baking a cake",
+   "Burning toast"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Vinegar and bicarbonate of soda release which gas?",
+  "options": [
+   "Oxygen",
+   "Hydrogen",
+   "Nitrogen",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which gas forms when an acid reacts with a metal?",
+  "options": [
+   "Carbon dioxide",
+   "Nitrogen",
+   "Hydrogen",
+   "Oxygen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a substance that speeds up a reaction without being used up?",
+  "options": [
+   "A fuel",
+   "A catalyst",
+   "An indicator",
+   "A solvent"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The white ash formed when magnesium burns is...",
+  "options": [
+   "Magnesium oxide",
+   "Water",
+   "Magnesium",
+   "Carbon"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which nail will rust the fastest?",
+  "options": [
+   "A dry iron nail",
+   "A painted iron nail",
+   "A gold ring",
+   "An iron nail in damp air"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is corrosion?",
+  "options": [
+   "The filtering of a liquid",
+   "The mixing of gases",
+   "Slow destruction by chemical reaction",
+   "The melting of a metal"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Fizzing when liquids are mixed shows that...",
+  "options": [
+   "Heat is removed",
+   "A gas is produced",
+   "A solid melted",
+   "Nothing changed"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does painting an iron gate prevent rust?",
+  "options": [
+   "It keeps out water and oxygen",
+   "It makes iron softer",
+   "It adds oxygen",
+   "It makes iron magnetic"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which observation is evidence of a chemical reaction?",
+  "options": [
+   "A shape changes",
+   "A solid melts",
+   "A liquid freezes",
+   "A gas is given off"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a closed container, the total mass during a reaction...",
+  "options": [
+   "Doubles",
+   "Increases",
+   "Stays the same",
+   "Decreases"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which reaction gives out heat to the surroundings?",
+  "options": [
+   "Photosynthesis",
+   "Burning fuel",
+   "Melting ice",
+   "Evaporating water"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the reaction between an acid and a base called?",
+  "options": [
+   "Neutralisation",
+   "Distillation",
+   "Evaporation",
+   "Condensation"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is oil put on a bicycle chain?",
+  "options": [
+   "To add oxygen",
+   "To dissolve the metal",
+   "To make the chain heavier",
+   "To prevent rust and reduce friction"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Rust is mainly made of...",
+  "options": [
+   "Iron metal",
+   "Carbon",
+   "Iron oxide",
+   "Water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which pair is least likely to react under normal conditions?",
+  "options": [
+   "Iron and oxygen",
+   "Gold and water",
+   "Sodium and water",
+   "Magnesium and acid"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A cloudy solid forming when two liquids mix is a...",
+  "options": [
+   "Precipitate",
+   "Solution",
+   "Catalyst",
+   "Solvent"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

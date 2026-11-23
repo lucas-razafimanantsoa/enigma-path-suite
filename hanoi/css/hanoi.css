@@ -44,7 +44,7 @@ kbd {
   border-radius: var(--radius-md);
   border: 1px solid var(--line);
   background:
-    radial-gradient(ellipse at 50% 0%, rgba(113, 137, 155, 0.14), transparent 70%),
+    radial-gradient(ellipse at 50% 0%, rgba(70, 130, 180, 0.14), transparent 70%),
     var(--bg-deep);
 }
 
@@ -78,7 +78,7 @@ kbd {
   cursor: pointer;
   transition: background 0.15s;
 }
-.peg:hover { background: rgba(178, 193, 197, 0.06); }
+.peg:hover { background: rgba(70, 130, 180, 0.06); }
 .peg:focus-visible { outline: 2px solid var(--soft); outline-offset: -3px; }
 
 /* the pole */
@@ -104,11 +104,11 @@ kbd {
 }
 .peg__label kbd { background: var(--bg-deep); color: var(--soft); border-color: var(--line); }
 
-.peg.is-held { background: rgba(178, 193, 197, 0.1); }
-.peg.is-over { background: rgba(178, 193, 197, 0.14); box-shadow: inset 0 0 0 2px var(--soft); }
-.peg.is-hint-from { box-shadow: inset 0 0 0 2px var(--warn); background: rgba(230, 194, 122, 0.08); }
-.peg.is-hint-to { box-shadow: inset 0 0 0 2px var(--ok); background: rgba(127, 200, 160, 0.08); }
-.peg.is-error { background: rgba(229, 138, 138, 0.14); }
+.peg.is-held { background: rgba(70, 130, 180, 0.1); }
+.peg.is-over { background: rgba(70, 130, 180, 0.14); box-shadow: inset 0 0 0 2px var(--soft); }
+.peg.is-hint-from { box-shadow: inset 0 0 0 2px var(--warn); background: rgba(150, 100, 23, 0.08); }
+.peg.is-hint-to { box-shadow: inset 0 0 0 2px var(--ok); background: rgba(44, 117, 98, 0.08); }
+.peg.is-error { background: rgba(169, 74, 90, 0.14); }
 
 .peg__tag {
   position: absolute;
@@ -137,12 +137,13 @@ kbd {
   bottom: calc(var(--base) + var(--level) * var(--dh) + 1.5px);
   height: calc(var(--dh) - 3px);
   background: var(--c);
+  border: 1px solid rgba(70, 130, 180, 0.38);
   border-radius: 999px;
   transform: translate(calc(-50% + var(--dx, 0px)), var(--dy, 0px));
   box-shadow:
     inset 0 2px 0 rgba(255, 255, 255, 0.22),
-    inset 0 -3px 0 rgba(8, 13, 20, 0.22),
-    0 2px 6px rgba(8, 13, 20, 0.45);
+    inset 0 -3px 0 rgba(30, 61, 86, 0.22),
+    0 2px 6px rgba(30, 61, 86, 0.45);
   transition:
     left var(--move-ms) ease,
     bottom var(--move-ms) ease,
@@ -154,7 +155,7 @@ kbd {
 .disc.is-selected {
   box-shadow:
     0 0 0 2px var(--ink),
-    0 0 18px rgba(232, 233, 226, 0.45),
+    0 0 18px rgba(30, 61, 86, 0.45),
     inset 0 2px 0 rgba(255, 255, 255, 0.22);
 }
 .disc.is-dragging {
@@ -163,7 +164,7 @@ kbd {
   transition: box-shadow 0.15s;
   box-shadow:
     0 0 0 2px var(--ink),
-    0 12px 22px rgba(8, 13, 20, 0.6),
+    0 12px 22px rgba(30, 61, 86, 0.6),
     inset 0 2px 0 rgba(255, 255, 255, 0.22);
 }
 
@@ -257,7 +258,7 @@ kbd {
 .moves-table thead th { background: var(--bg-deep); color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
 .moves-table tbody tr:last-child td { border-bottom: 0; }
 .moves-table td { font-family: var(--font-mono); color: var(--ink); }
-.moves-table tbody tr.is-current td { background: rgba(113, 137, 155, 0.2); }
+.moves-table tbody tr.is-current td { background: rgba(70, 130, 180, 0.2); }
 
 /* ---- Win dialog ---- */
 .win { text-align: center; justify-items: center; }
@@ -281,4 +282,23 @@ kbd {
   .controls { flex-direction: column; align-items: stretch; }
   .controls__group { justify-content: center; }
   .board { --base: 26px; }
+}
+
+@media (max-width: 560px) {
+  .board-frame { padding: 8px; }
+  .controls__group {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    gap: 8px;
+  }
+  .controls__group .btn { width: 100%; }
+  .field--inline { justify-content: space-between; }
+  .field--inline select { flex: 1; max-width: 120px; }
+  .controls__group--auto .field--inline { grid-column: 1 / -1; }
+  .field--inline input[type="range"] { flex: 1; width: 100%; max-width: 150px; }
+  .code { white-space: pre-wrap; word-break: break-word; }
+  .stats { gap: 6px; }
+  .stat { padding: 8px; }
+  .controls-hint { font-size: 12px; }
 }

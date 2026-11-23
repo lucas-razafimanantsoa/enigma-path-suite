@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is globalisation?",
+  "options": [
+   "The decline of international travel",
+   "The spread of single-crop farming",
+   "The increasing interconnectedness of countries",
+   "The growth of only local trade"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a transnational corporation?",
+  "options": [
+   "A government trade department",
+   "A company that operates in several countries",
+   "A local family business",
+   "An international charity"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is foreign direct investment?",
+  "options": [
+   "Investment by a company in another country",
+   "Tax collected at national borders",
+   "Money given as emergency aid",
+   "Tourist spending in another country"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is outsourcing?",
+  "options": [
+   "Expanding a factory at home",
+   "Selling goods only locally",
+   "Hiring only permanent staff",
+   "Moving production to another country or firm"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does 'spatial interaction' describe?",
+  "options": [
+   "The number of people in a city",
+   "The price of exported goods",
+   "Movement and links between places",
+   "The height of landforms"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a global supply chain?",
+  "options": [
+   "A chain of shops in one city",
+   "The stages of production spread across countries",
+   "A road linking two ports",
+   "A river system crossing national borders"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is often a benefit of globalisation?",
+  "options": [
+   "Access to wider markets and investment",
+   "Fewer choices for consumers",
+   "The loss of all local industries",
+   "Equal outcomes in every country"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is glocalisation?",
+  "options": [
+   "Selling products only in one country",
+   "Removing all local customs",
+   "Producing only for export",
+   "Adapting global products to local markets"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which gas is the largest human-produced contributor to the enhanced greenhouse effect?",
+  "options": [
+   "Nitrogen",
+   "Helium",
+   "Carbon dioxide",
+   "Oxygen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is mitigation in climate policy?",
+  "options": [
+   "Moving people away from flood zones",
+   "Actions that reduce greenhouse gas emissions",
+   "Building higher sea walls",
+   "Insuring coastal property"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is adaptation to climate change?",
+  "options": [
+   "Adjusting to current or expected climate impacts",
+   "Ending all use of fossil fuels",
+   "Cutting greenhouse gas emissions",
+   "Planting forests only"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a carbon sink?",
+  "options": [
+   "A factory that emits carbon",
+   "A type of fossil fuel",
+   "A tax on carbon emissions",
+   "A store that absorbs more carbon than it releases"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a geographic information system (GIS)?",
+  "options": [
+   "A method of measuring earthquakes",
+   "A global trade agreement",
+   "A system for storing, analysing and mapping spatial data",
+   "A type of weather satellite"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a GIS, what is a 'layer'?",
+  "options": [
+   "A transparent sheet placed over a map",
+   "A set of spatial data on one theme",
+   "A scale bar",
+   "A type of satellite image"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the difference between raster and vector data?",
+  "options": [
+   "Raster uses pixels; vector uses points, lines and polygons",
+   "Vector data can only show roads",
+   "Raster uses text and vector uses numbers",
+   "Raster is older and vector is newer only"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is remote sensing?",
+  "options": [
+   "Measuring distance with a tape",
+   "Drawing maps by hand",
+   "Interviewing local residents",
+   "Collecting data from satellites or aircraft"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main temperature goal of the Paris Agreement?",
+  "options": [
+   "Banning all air travel",
+   "Doubling fossil fuel output",
+   "Holding warming well below two degrees Celsius",
+   "Ending all international trade"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do many small island states face high climate risk?",
+  "options": [
+   "They emit the most carbon",
+   "They have low-lying land and limited capacity to adapt",
+   "They are all at high altitude",
+   "They have no coastlines"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does the idea of planetary boundaries describe?",
+  "options": [
+   "Safe operating limits for Earth's life-support systems",
+   "Rules for fair global trade",
+   "Limits on international migration",
+   "Political borders between countries"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does environmental justice focus on?",
+  "options": [
+   "Only building more nature reserves",
+   "Removing all laws on pollution",
+   "Giving priority to industry",
+   "Fair distribution of environmental benefits and burdens"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which tool tries to measure progress beyond GDP?",
+  "options": [
+   "Total exports alone",
+   "The size of the capital city",
+   "Indices such as the Human Development Index",
+   "The number of factories in a country"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a feedback loop in the climate system?",
+  "options": [
+   "A meeting of climate scientists",
+   "A process that amplifies or dampens an initial change",
+   "A type of weather map",
+   "A law designed to cut emissions"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why can climate change contribute to migration?",
+  "options": [
+   "It can damage livelihoods and homes",
+   "It ends competition for resources",
+   "It creates new jobs everywhere",
+   "It opens all national borders"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the precautionary principle?",
+  "options": [
+   "Waiting for full proof before acting",
+   "Ignoring scientific uncertainty",
+   "Only acting after a disaster",
+   "Taking preventive action when there is a risk of serious harm"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

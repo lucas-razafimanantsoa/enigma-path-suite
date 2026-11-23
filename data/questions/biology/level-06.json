@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these is a gamete?",
+  "options": [
+   "A nerve cell",
+   "A red blood cell",
+   "An egg cell",
+   "A skin cell"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is fertilisation?",
+  "options": [
+   "The splitting of a cell",
+   "The fusion of gametes",
+   "The growth of a seed",
+   "The loss of water"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of a flower produces pollen?",
+  "options": [
+   "The anther",
+   "The ovary",
+   "The stigma",
+   "The petal"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What develops from a fertilised egg?",
+  "options": [
+   "A pollen grain",
+   "A seed leaf",
+   "A root hair",
+   "An embryo"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is an example of asexual reproduction?",
+  "options": [
+   "A flower being pollinated",
+   "A human baby developing",
+   "A potato growing from a tuber",
+   "A bird laying eggs"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a life cycle?",
+  "options": [
+   "A type of food chain",
+   "The stages from birth to death of an organism",
+   "A daily routine",
+   "The movement of blood"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which young animal looks most like its parent?",
+  "options": [
+   "A kitten from a cat",
+   "A moth from a larva",
+   "A butterfly from a caterpillar",
+   "A frog from a tadpole"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where does human fertilisation usually take place?",
+  "options": [
+   "In the uterus",
+   "In the vagina",
+   "In the ovary",
+   "In the oviduct"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which hormone triggers the release of a mature egg from the ovary?",
+  "options": [
+   "Progesterone",
+   "FSH",
+   "LH",
+   "Insulin"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens during menstruation?",
+  "options": [
+   "The uterine lining is shed",
+   "A foetus is born",
+   "Ovulation occurs",
+   "An egg is fertilised"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the function of the placenta?",
+  "options": [
+   "To exchange materials between mother and foetus",
+   "To produce urine",
+   "To digest food for the foetus",
+   "To protect the mother from illness"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How is a developing baby supplied with food before birth?",
+  "options": [
+   "By drinking milk",
+   "By eating food in the uterus",
+   "Through the lungs",
+   "Through the placenta and umbilical cord"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an inherited characteristic?",
+  "options": [
+   "A haircut",
+   "A scar",
+   "Eye colour",
+   "A learned language"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How many chromosomes are in a human body cell?",
+  "options": [
+   "22",
+   "46",
+   "92",
+   "23"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which conditions are needed for a seed to germinate?",
+  "options": [
+   "Water, warmth and oxygen",
+   "Only sunlight",
+   "Soil and fertiliser",
+   "Darkness and cold"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a method of asexual reproduction in plants?",
+  "options": [
+   "Pollination",
+   "Fertilisation",
+   "Seed formation",
+   "Cuttings"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do offspring from sexual reproduction vary?",
+  "options": [
+   "They have identical parents",
+   "They only inherit from the mother",
+   "They receive a mixture of genes from two parents",
+   "They are produced by mitosis only"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which type of cell division produces gametes?",
+  "options": [
+   "Diffusion",
+   "Meiosis",
+   "Mitosis",
+   "Photosynthesis"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a main advantage of asexual reproduction?",
+  "options": [
+   "One parent can produce offspring quickly",
+   "It always increases variation",
+   "It needs pollen",
+   "It needs two parents"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about chromosomes is correct?",
+  "options": [
+   "They are made of protein only",
+   "They disappear after birth",
+   "They are found only in sperm cells",
+   "They carry genes made of DNA"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the role of the uterus?",
+  "options": [
+   "To make eggs",
+   "To carry urine",
+   "To hold and nourish the developing foetus",
+   "To produce sperm"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these could cause an inherited disorder?",
+  "options": [
+   "Not enough exercise",
+   "A mutation in a gene",
+   "Eating too much sugar",
+   "A missing vitamin in the diet"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What happens at puberty?",
+  "options": [
+   "The reproductive organs mature",
+   "A baby is born",
+   "A gamete is produced by mitosis",
+   "Growth permanently stops"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which description best defines growth?",
+  "options": [
+   "The loss of water from cells",
+   "The breaking down of food only",
+   "A temporary change in shape",
+   "A permanent increase in size and dry mass"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

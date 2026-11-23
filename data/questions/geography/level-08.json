@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is the discharge of a river?",
+  "options": [
+   "The volume of water passing a point per second",
+   "The depth of the river bed",
+   "The width of the flood plain",
+   "The height of the source"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which process wears away a river bank by the force of water?",
+  "options": [
+   "Saltation",
+   "Suspension",
+   "Deposition",
+   "Hydraulic action"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a meander?",
+  "options": [
+   "A steep waterfall",
+   "A river delta",
+   "A bend in a river",
+   "A dry valley"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an aquifer?",
+  "options": [
+   "A mountain ridge",
+   "An underground store of water in rock",
+   "A steep cliff",
+   "A river source"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which process drops sediment when a river slows down?",
+  "options": [
+   "Deposition",
+   "Erosion",
+   "Evaporation",
+   "Condensation"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a levee?",
+  "options": [
+   "A sandy coastal spit",
+   "A mountain lake",
+   "A deep river channel",
+   "A natural or artificial bank beside a river"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a gorge?",
+  "options": [
+   "A sandy beach",
+   "A river mouth",
+   "A narrow, steep-sided valley",
+   "A wide flat plain"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a tributary?",
+  "options": [
+   "A coastal dune",
+   "A stream that joins a larger river",
+   "The main river channel",
+   "A flood defence wall"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is longshore drift?",
+  "options": [
+   "The movement of sediment along a coast",
+   "The flow of a river downhill",
+   "The rise and fall of tides",
+   "The erosion of a cliff top"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which type of wave is most likely to build up a beach?",
+  "options": [
+   "A storm wave",
+   "A tidal wave",
+   "A destructive wave",
+   "A constructive wave"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which landform forms when a wave cuts through a headland?",
+  "options": [
+   "A spit",
+   "A dune",
+   "An arch",
+   "A delta"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a wave-cut platform?",
+  "options": [
+   "A dune behind a beach",
+   "A flat rock surface left by cliff erosion",
+   "A sandy beach at high tide",
+   "A sea wall built by people"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is hard engineering on a coast?",
+  "options": [
+   "Building sea walls and groynes",
+   "Planting grass on dunes",
+   "Banning construction near cliffs",
+   "Rebuilding beaches naturally"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is soft engineering?",
+  "options": [
+   "Building dams upstream",
+   "Draining a flood plain",
+   "Constructing concrete walls",
+   "Beach nourishment and dune stabilisation"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Where do tropical storms usually form?",
+  "options": [
+   "Over cold polar seas",
+   "Over high mountain peaks",
+   "Over warm tropical oceans",
+   "In dry desert interiors"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a storm surge?",
+  "options": [
+   "A period of heavy snow",
+   "A rise in sea level driven by strong winds",
+   "A sudden drop in temperature",
+   "A type of river flood"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the focus of an earthquake?",
+  "options": [
+   "The point underground where it starts",
+   "The point directly above it on the surface",
+   "The edge of the tectonic plate",
+   "The deepest ocean trench"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which plate boundary is linked to many powerful earthquakes?",
+  "options": [
+   "A conservative boundary",
+   "A passive boundary",
+   "A constructive boundary",
+   "A destructive boundary"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a volcano?",
+  "options": [
+   "A deep ocean trench",
+   "A very high mountain made of rock",
+   "An opening where magma reaches the surface",
+   "A large river delta"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do earthquakes happen at plate boundaries?",
+  "options": [
+   "Because the sea is deep there",
+   "Because plates move and stress builds up",
+   "Because the ground is flat there",
+   "Because plates are very thin there"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which measure can reduce flood risk in a river valley?",
+  "options": [
+   "Building flood walls and storing water upstream",
+   "Removing all vegetation",
+   "Paving the whole flood plain",
+   "Straightening every meander"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a tropical storm called in the western North Pacific?",
+  "options": [
+   "A cyclone",
+   "A monsoon",
+   "A hurricane",
+   "A typhoon"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How can deforestation increase river flooding?",
+  "options": [
+   "It makes rain fall more often",
+   "It deepens the river bed",
+   "It reduces interception and increases runoff",
+   "It increases evaporation"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a hazard's vulnerability?",
+  "options": [
+   "The distance from the coast",
+   "The degree to which people are harmed by it",
+   "How strong the hazard is",
+   "The time of year it happens"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

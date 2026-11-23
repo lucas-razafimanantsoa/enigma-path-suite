@@ -1,0 +1,47 @@
+{
+ "name": "ICT",
+ "blurb": "From computer basics to HTML/CSS and databases",
+ "icon": "💻",
+ "levels": [
+  {
+   "title": "Computer basics",
+   "blurb": "Parts of a computer, keyboard and mouse, simple Office skills"
+  },
+  {
+   "title": "Office and internet skills",
+   "blurb": "Files, email, safe browsing, simple ciphers"
+  },
+  {
+   "title": "Spreadsheets and security",
+   "blurb": "Formulas, documents, passwords, networks intro"
+  },
+  {
+   "title": "Digital foundations",
+   "blurb": "Hardware, storage, files, presentations, first algorithms"
+  },
+  {
+   "title": "Data, networks and algorithms",
+   "blurb": "Binary, networks, spreadsheets, databases, flowcharts"
+  },
+  {
+   "title": "Protocols, web and code",
+   "blurb": "Validation, topologies, HTML, security threats, programming"
+  },
+  {
+   "title": "Systems and devices",
+   "blurb": "Computer systems, input and output devices, storage media"
+  },
+  {
+   "title": "Networks and ICT in society",
+   "blurb": "Networking, effects of ICT, real-world applications"
+  },
+  {
+   "title": "Life cycle and security",
+   "blurb": "Systems life cycle, safety and security, communication, files"
+  },
+  {
+   "title": "Documents, data and the web",
+   "blurb": "Layout, databases, HTML/CSS, spreadsheets, web authoring"
+  }
+ ]
+}

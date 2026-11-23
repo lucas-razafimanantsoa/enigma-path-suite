@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these materials is transparent?",
+  "options": [
+   "Cardboard",
+   "Glass",
+   "Wood",
+   "Brick"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense organ do you use to detect the smell of baking bread?",
+  "options": [
+   "The nose",
+   "The tongue",
+   "The eyes",
+   "The ears"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What happens to most materials when they are heated?",
+  "options": [
+   "They disappear",
+   "They become heavier",
+   "They freeze",
+   "They expand"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a living thing?",
+  "options": [
+   "A flowing river",
+   "A fluffy white cloud",
+   "An oak tree",
+   "A granite boulder"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which material would be best for making a waterproof raincoat?",
+  "options": [
+   "Sponge",
+   "Plastic",
+   "Cotton wool",
+   "Paper"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which property describes how a material feels when you touch it?",
+  "options": [
+   "Its texture",
+   "Its volume",
+   "Its temperature",
+   "Its mass"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A metal spoon is left in a hot cup of tea. What happens to the handle?",
+  "options": [
+   "It gets colder",
+   "It turns into glass",
+   "It starts to melt",
+   "It becomes warm"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a non-living thing that was never alive?",
+  "options": [
+   "A leaf",
+   "A feather",
+   "A stone",
+   "A bone"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense organ helps you tell whether a surface is rough or smooth?",
+  "options": [
+   "The nose",
+   "The skin",
+   "The ears",
+   "The fingertips"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a good conductor of heat?",
+  "options": [
+   "Metal",
+   "Wood",
+   "Plastic",
+   "Rubber"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these changes is reversible?",
+  "options": [
+   "Burning a piece of paper",
+   "Baking a cake",
+   "Rusting iron",
+   "Melting ice into water"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "You see steam rising from a kettle. What is steam?",
+  "options": [
+   "A solid",
+   "A liquid",
+   "A gas",
+   "A type of light"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "On a cold morning, which surface usually feels coldest to touch?",
+  "options": [
+   "A stone wall",
+   "A metal gate",
+   "A wooden bench",
+   "A grass lawn"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is not a sense?",
+  "options": [
+   "Growth",
+   "Taste",
+   "Sight",
+   "Hearing"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do swimmers wear goggles?",
+  "options": [
+   "To swim much faster",
+   "To stay warm",
+   "To keep their ears dry",
+   "To see under water"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these materials is attracted to a magnet?",
+  "options": [
+   "A plastic ruler",
+   "A rubber band",
+   "An iron nail",
+   "A glass marble"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens to water when it is cooled below 0 °C?",
+  "options": [
+   "It evaporates",
+   "It freezes",
+   "It burns",
+   "It boils"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a good insulator?",
+  "options": [
+   "Wood",
+   "Copper",
+   "Aluminium",
+   "Iron"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A window is covered with mist on a cold day. Where does the mist come from?",
+  "options": [
+   "Smoke from outside",
+   "Dust from the glass",
+   "Paint on the window frame",
+   "Water vapour in the air"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these objects is opaque?",
+  "options": [
+   "Thin plastic film",
+   "Clear glass",
+   "A wooden door",
+   "Clean water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about living things is true?",
+  "options": [
+   "All living things live in water",
+   "All living things need food or sunlight",
+   "All living things move from place to place",
+   "All living things are green"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which tool would you use to measure the temperature of water?",
+  "options": [
+   "A thermometer",
+   "A ruler",
+   "A measuring jug",
+   "A balance"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is an example of a gas?",
+  "options": [
+   "Dry sand",
+   "Solid ice",
+   "A glass of milk",
+   "Oxygen"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is a metal pan handle often made of plastic?",
+  "options": [
+   "Plastic is a good conductor of heat",
+   "Plastic is heavier than metal",
+   "Plastic conducts heat poorly",
+   "Plastic is stronger than metal"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

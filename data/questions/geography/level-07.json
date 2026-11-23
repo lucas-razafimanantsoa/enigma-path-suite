@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is natural population change?",
+  "options": [
+   "People arriving minus people leaving",
+   "The total number of people in a city",
+   "The number of jobs available",
+   "Births minus deaths"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a country's birth rate measure?",
+  "options": [
+   "The number of families",
+   "Deaths per thousand people",
+   "Live births per thousand people per year",
+   "The average age of its people"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a population pyramid show?",
+  "options": [
+   "The number of towns",
+   "The age and sex structure of a population",
+   "The location of rivers",
+   "The height of mountains"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is migration?",
+  "options": [
+   "The movement of people from one place to another",
+   "A rise in the number of births",
+   "The growth of a city's buildings",
+   "A fall in death rates"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a push factor for migration?",
+  "options": [
+   "Better jobs elsewhere",
+   "Good schools nearby",
+   "A pleasant climate",
+   "Lack of jobs at home"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a pull factor for migration?",
+  "options": [
+   "Overcrowded housing at home",
+   "A drought at home",
+   "Higher wages in another country",
+   "War in the home country"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the dependency ratio?",
+  "options": [
+   "The number of people working in farming",
+   "The proportion of non-working to working-age people",
+   "The cost of housing in a city",
+   "The number of children per family"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an ageing population?",
+  "options": [
+   "A population with fewer young people and more older people",
+   "A population growing very quickly",
+   "A population with equal numbers of all ages",
+   "A population living only in cities"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which statement best defines urbanisation?",
+  "options": [
+   "A fall in the number of city dwellers",
+   "The movement of city people to villages",
+   "The rapid growth of rural populations",
+   "An increasing share of people living in towns and cities"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why might people migrate from rural areas to cities?",
+  "options": [
+   "Lower house prices in cities",
+   "Cleaner air in cities",
+   "Better services and job chances",
+   "More space in cities"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a squatter settlement?",
+  "options": [
+   "A government-built apartment block",
+   "An unplanned area of informal housing",
+   "A rural village with new roads",
+   "A planned luxury housing estate"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which problem is common in rapidly growing cities?",
+  "options": [
+   "Inadequate sanitation and housing",
+   "Too much farmland",
+   "Too few migrants",
+   "Falling demand for transport"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a megacity?",
+  "options": [
+   "A small market town",
+   "A village that has grown",
+   "A city with only farms",
+   "A very large city with millions of people"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is rural-to-urban migration?",
+  "options": [
+   "People moving within a single city",
+   "People moving from cities to the countryside",
+   "People moving from the countryside to cities",
+   "People moving between countries"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a settlement's site?",
+  "options": [
+   "The services it offers",
+   "The physical place where it was built",
+   "Its total population size",
+   "The jobs people do there"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a settlement's situation?",
+  "options": [
+   "Its location relative to surrounding places",
+   "The height of its tallest building",
+   "The colour of its houses",
+   "The number of its schools"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which factor encourages dense population in a river valley?",
+  "options": [
+   "Steep slopes and little rain",
+   "High altitude and cold",
+   "A remote location",
+   "Fertile soil and a water supply"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does a near-stationary population pyramid suggest?",
+  "options": [
+   "A very young population",
+   "Rapid population growth",
+   "Little overall change in population size",
+   "A falling population only"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the main impact of a high youth dependency ratio?",
+  "options": [
+   "An ageing workforce",
+   "More pressure on schools and child services",
+   "Fewer young families",
+   "More pension spending"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why might a government encourage immigration?",
+  "options": [
+   "To fill labour shortages",
+   "To reduce the workforce",
+   "To lower city populations",
+   "To close schools"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a high-order service?",
+  "options": [
+   "A corner shop",
+   "A village post box",
+   "A small primary school",
+   "A specialist hospital"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a threshold population?",
+  "options": [
+   "The count of new births each year",
+   "The minimum number of people needed to support a service",
+   "The maximum permitted size of a city",
+   "The number of people in a village"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What can result from a country having a very low birth rate?",
+  "options": [
+   "A much younger population",
+   "An ageing population",
+   "More children in schools",
+   "Rapid natural increase"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are low-order services found in many small settlements?",
+  "options": [
+   "They need few customers and are used often",
+   "They need large shopping centres",
+   "They are only found in capitals",
+   "They are paid for by other countries"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

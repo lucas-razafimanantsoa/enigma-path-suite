@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which part of a cell controls its activities and contains genetic material?",
+  "options": [
+   "Cytoplasm",
+   "Cell membrane",
+   "Vacuole",
+   "Nucleus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which cell structure releases energy during aerobic respiration?",
+  "options": [
+   "Chloroplast (site of photosynthesis)",
+   "Nucleus",
+   "Mitochondrion",
+   "Ribosome"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which structure is present in plant cells but absent in animal cells?",
+  "options": [
+   "Mitochondrion",
+   "Chloroplast",
+   "Cell membrane",
+   "Cytoplasm"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Red blood cells have no nucleus. Why is this useful?",
+  "options": [
+   "More room to carry oxygen",
+   "They live longer than other cells",
+   "They can divide faster",
+   "They can photosynthesise"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Diffusion is the net movement of particles from...",
+  "options": [
+   "cold to warm regions",
+   "from low to high concentration",
+   "one cell to another",
+   "high to low concentration"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Osmosis is the movement of water through...",
+  "options": [
+   "an electric circuit",
+   "a membrane that is fully permeable",
+   "a partially permeable membrane",
+   "a solid metal sheet"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which process requires energy from respiration?",
+  "options": [
+   "Evaporation from a leaf surface",
+   "Active transport",
+   "Diffusion",
+   "Osmosis"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an enzyme?",
+  "options": [
+   "A biological catalyst",
+   "A type of sugar",
+   "A building block of protein",
+   "A hormone made by glands"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How are particles arranged in a gas?",
+  "options": [
+   "Regularly spaced and still",
+   "Closely packed in a lattice",
+   "In fixed layers that can slide over each other",
+   "Far apart and randomly arranged"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The change from solid directly to gas is called...",
+  "options": [
+   "fusion",
+   "deposition",
+   "sublimation",
+   "condensation"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which particle in an atom has a positive charge?",
+  "options": [
+   "Ion",
+   "Proton",
+   "Neutron",
+   "Electron"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Isotopes of an element have the same number of protons but different numbers of...",
+  "options": [
+   "neutrons",
+   "electrons",
+   "shells",
+   "bonds"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "An ionic bond forms when electrons are...",
+  "options": [
+   "destroyed completely",
+   "moved to the nucleus",
+   "shared equally between atoms",
+   "transferred between atoms"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A covalent bond involves...",
+  "options": [
+   "magnetic forces only",
+   "transferred between atoms",
+   "shared electron pairs",
+   "attraction of ions"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which method separates an insoluble solid from a liquid?",
+  "options": [
+   "Evaporation",
+   "Filtration",
+   "Distillation",
+   "Chromatography"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Simple distillation separates a solvent from a solution by...",
+  "options": [
+   "boiling and then condensing it",
+   "freezing the mixture solid",
+   "filtering it through filter paper",
+   "adding an acid to it"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Speed is calculated using...",
+  "options": [
+   "force × distance",
+   "mass × acceleration",
+   "time ÷ distance",
+   "distance ÷ time"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "An object with no resultant force acting on it will...",
+  "options": [
+   "always slow down",
+   "always accelerate",
+   "stay at rest or move at constant velocity",
+   "change direction constantly without a force"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Weight is calculated as...",
+  "options": [
+   "force × distance moved in its direction",
+   "mass × gravitational field strength",
+   "mass × speed",
+   "mass ÷ volume"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Forces of 10 N right and 4 N left act on an object. The resultant force is...",
+  "options": [
+   "6 N to the right",
+   "40 N to the right",
+   "14 N to the right",
+   "6 N to the left"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which formula gives kinetic energy?",
+  "options": [
+   "mass × gravity × height",
+   "force × distance moved",
+   "mass × acceleration",
+   "½ × mass × speed²"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Gravitational potential energy is calculated as...",
+  "options": [
+   "force ÷ area",
+   "current × voltage",
+   "mass × g × height",
+   "½ × mass × (speed)²"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "As a ball falls, which energy transfer occurs?",
+  "options": [
+   "Elastic to nuclear",
+   "Gravitational potential to kinetic",
+   "Kinetic to gravitational potential",
+   "Thermal energy to elastic potential energy"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Energy is conserved because...",
+  "options": [
+   "it is transferred, not created or destroyed",
+   "it disappears as heat",
+   "it can be created by a generator when needed",
+   "it is used up completely"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

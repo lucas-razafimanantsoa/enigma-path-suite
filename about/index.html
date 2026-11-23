@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#EAF9FC">
+  <meta name="description" content="About EnigmaPath: a small learning suite for ICT, maths and algorithms. What is inside, how it works, what it cannot do, and how to send feedback.">
+  <title>About the app | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+      <span>EnigmaPath<small>About</small></span>
+    </a>
+    <nav class="ep-topbar__right" aria-label="Site links">
+      <a class="ep-topbar__link" href="../index.html">Back to the labs</a>
+      <a class="ep-topbar__link" href="mailto:lucas.mirija@pm.me">Contact</a>
+    </nav>
+  </header>
+
+  <main class="ep-main about">
+    <section class="about-hero">
+      <div class="about-hero__copy">
+        <p class="eyebrow">About the app</p>
+        <h1>A quiet place to practise big ideas.</h1>
+        <p class="about-lede">EnigmaPath is a small learning suite for ICT, maths and algorithms. Try a lab, make a guess, and see what happens. When you want the reasoning, the explanation is one click away.</p>
+        <div class="about-hero__actions">
+          <a class="btn btn--primary" href="../index.html">Explore the labs</a>
+          <a class="btn" href="mailto:lucas.mirija@pm.me">Send feedback</a>
+        </div>
+      </div>
+
+      <aside class="card about-facts" aria-label="The short version">
+        <p class="about-facts__label">The short version</p>
+        <dl>
+          <div><dt>Built for</dt><dd>Learning and practice</dd></div>
+          <div><dt>Runs</dt><dd>In the browser, offline</dd></div>
+          <div><dt>Exams</dt><dd>Need the small EnigmaPath server</dd></div>
+          <div><dt>Contact</dt><dd><a href="mailto:lucas.mirija@pm.me">lucas.mirija@pm.me</a></dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="about-section" aria-labelledby="features-heading">
+      <div class="about-section__head">
+        <p class="eyebrow">What is inside</p>
+        <h2 id="features-heading">Ten labs, one quiet workspace.</h2>
+        <p class="muted">Each app is small on purpose. Pick one, play with it, and follow the explanation when you want the maths behind it.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-group">
+          <h3>Practise</h3>
+          <p>Check what you know, then fill the gaps.</p>
+          <ul>
+            <li><a href="../quiz/index.html">Practice Quiz</a> — eight subjects, ten levels each, plus an A-Level maths extension.</li>
+            <li><a href="../exam/index.html">Exam</a> — take the test your teacher prepared. Answers go straight to the teacher.</li>
+          </ul>
+        </article>
+
+        <article class="about-group">
+          <h3>Play</h3>
+          <p>Small games with a real idea underneath.</p>
+          <ul>
+            <li><a href="../robot/index.html">Guide the Robot</a> — program a route through a maze.</li>
+            <li><a href="../hanoi/index.html">Tower of Hanoi</a> — move the discs and see recursion at work.</li>
+            <li><a href="../binary-search/index.html">Binary Search</a> — guess the number and watch the search space shrink.</li>
+            <li><a href="../knights-tour/index.html">Knight's Tour</a> — visit every square once with a knight.</li>
+            <li><a href="../graph-color/index.html">Graph Colouring</a> — colour the map so neighbours differ.</li>
+            <li><a href="../codebreaker/index.html">Guess the Password</a> — crack a digit code with bulls and cows.</li>
+          </ul>
+        </article>
+
+        <article class="about-group">
+          <h3>Understand</h3>
+          <p>Follow the trail from the result to the reason.</p>
+          <ul>
+            <li><a href="../cipher/index.html">Enigmatica Cipher Lab</a> — encrypt, decrypt and break Caesar and Vigenère.</li>
+            <li><a href="../huffman/index.html">Huffman Coding</a> — build a real frequency tree and measure the saving.</li>
+            <li><a href="../facts/index.html">Fun Facts</a> — a bank of stories from maths, computing and logic.</li>
+          </ul>
+        </article>
+
+        <article class="about-group">
+          <h3>Teach</h3>
+          <p>Set the work, then see how it went.</p>
+          <ul>
+            <li><a href="../exam/login.html">Exam builder</a> — choose questions, set a time and publish a test.</li>
+            <li><a href="../exam/login.html?next=%2Fexam%2Fresults.html">Results</a> — see who submitted and how they scored.</li>
+            <li><strong>Teacher password</strong> — the server asks for it when it starts, so students cannot open the builder.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-split" aria-labelledby="how-heading">
+      <div class="about-split__copy">
+        <p class="eyebrow">How it works</p>
+        <h2 id="how-heading">Simple on purpose.</h2>
+        <p>Every lab is a static page: plain HTML, CSS and JavaScript. There is no account, no tracking and no build step. The quiz and games run in your browser.</p>
+        <p>The only part that needs a server is the exam. A small Python server saves each student's answers to a file on the teacher's computer. That is why the exam asks for a connection.</p>
+        <p class="about-start">If you only want the labs, open <code>index.html</code>. For exams, run <code>start.sh</code> on Linux/macOS or <code>start.bat</code> on Windows.</p>
+      </div>
+
+      <dl class="about-spec card">
+        <div><dt>Pages</dt><dd>Plain HTML, CSS and JavaScript</dd></div>
+        <div><dt>Storage</dt><dd>Best scores stay in this browser</dd></div>
+        <div><dt>Exams</dt><dd>A small Python server writes results to disk</dd></div>
+        <div><dt>Teacher access</dt><dd>Password prompt at server start</dd></div>
+        <div><dt>Privacy</dt><dd>No accounts, no analytics</dd></div>
+        <div><dt>Palette</dt><dd>Tranquil light blue, chosen for long study sessions</dd></div>
+      </dl>
+    </section>
+
+    <section class="card about-limits" aria-labelledby="limits-heading">
+      <p class="eyebrow">Limits, honestly</p>
+      <h2 id="limits-heading">This is a learning tool, not an exam board.</h2>
+      <ul>
+        <li>It is made for learning and practice. Do not use it for official assessment.</li>
+        <li>The quiz bank was checked by AI. Mistakes can still slip through; ask your teacher if an answer looks wrong.</li>
+        <li>The games are simplified models. They show the idea, not production code.</li>
+        <li>The exam is not a secure online exam platform. It needs the server, and the teacher password protects the builder, not the whole network.</li>
+        <li>Best scores live in this browser. Clearing site data removes them.</li>
+        <li>This is a small project. If something breaks, tell me.</li>
+      </ul>
+    </section>
+
+    <section class="about-contact" aria-labelledby="feedback-heading">
+      <div>
+        <p class="eyebrow">Feedback</p>
+        <h2 id="feedback-heading">Tell me what worked and what did not.</h2>
+        <p>Found a bug, a confusing instruction or a question that looks wrong? Send the page name and what you expected to happen. I read every message.</p>
+      </div>
+      <div class="about-contact__actions">
+        <a class="btn btn--primary" href="mailto:lucas.mirija@pm.me">Email lucas.mirija@pm.me</a>
+        <a class="btn" href="https://github.com/lucas-razafimanantsoa/EnigmaPath" target="_blank" rel="noopener noreferrer">Open an issue on GitHub</a>
+      </div>
+    </section>
+
+    <p class="about-sign">Made by Lucas M.R, 2026, with vibes.</p>
+  </main>
+
+  <script src="../shared/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which river was central to ancient Egyptian civilisation?",
+  "options": [
+   "Nile",
+   "Tigris",
+   "Euphrates",
+   "Indus"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What were the kings of ancient Egypt called?",
+  "options": [
+   "Emperors",
+   "Sultans",
+   "Caesars",
+   "Pharaohs"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which two Greek city-states were fierce rivals?",
+  "options": [
+   "Sparta and Argos",
+   "Rome and Carthage",
+   "Athens and Sparta",
+   "Thebes and Corinth"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who was the chief god of the ancient Greeks?",
+  "options": [
+   "Ares",
+   "Zeus",
+   "Hades",
+   "Poseidon"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which civilisation had cities at Harappa and Mohenjo-daro?",
+  "options": [
+   "Indus Valley",
+   "Ancient Egypt",
+   "Sumeria",
+   "Babylonia"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which language were ancient Roman laws written?",
+  "options": [
+   "Hebrew",
+   "Sanskrit",
+   "Greek",
+   "Latin"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which Roman leader was killed on the Ides of March?",
+  "options": [
+   "Pompey",
+   "Cicero",
+   "Julius Caesar",
+   "Mark Antony"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which was the main river valley of ancient Sumer?",
+  "options": [
+   "Nile Valley",
+   "Tigris and Euphrates",
+   "Indus Valley",
+   "Yellow River"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which pharaoh built the Great Pyramid at Giza?",
+  "options": [
+   "Khufu",
+   "Khafre",
+   "Menkaure",
+   "Ramses II"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What was the Greek word for a city-state?",
+  "options": [
+   "Acropolis",
+   "Demes",
+   "Agora",
+   "Polis"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which emperor had a wall built across northern Britain?",
+  "options": [
+   "Tiberius",
+   "Trajan",
+   "Hadrian",
+   "Augustus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which Greek scientist discovered the principle of buoyancy?",
+  "options": [
+   "Pythagoras",
+   "Archimedes",
+   "Hippocrates",
+   "Euclid"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What kind of writing did the ancient Egyptians use?",
+  "options": [
+   "Hieroglyphics",
+   "Cuneiform",
+   "Linear B",
+   "Runes"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which Chinese thinker taught respect for elders and rulers?",
+  "options": [
+   "Laozi",
+   "Sun Tzu",
+   "Han Feizi",
+   "Confucius"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which civilisation carved a famous code of laws on stone?",
+  "options": [
+   "Romans",
+   "Egyptians",
+   "Babylonians",
+   "Greeks"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which emperor moved Rome's capital to Byzantium?",
+  "options": [
+   "Diocletian",
+   "Constantine",
+   "Nero",
+   "Vespasian"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the name of the ancient Egyptian collection of spells for the dead?",
+  "options": [
+   "Book of the Dead",
+   "Code of Hammurabi",
+   "Dead Sea Scrolls",
+   "Greek Anthology"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which Greek philosopher wrote 'The Republic'?",
+  "options": [
+   "Socrates",
+   "Zeno",
+   "Aristotle",
+   "Plato"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "At which battle did Hannibal defeat Rome?",
+  "options": [
+   "Philippi",
+   "Zama",
+   "Cannae",
+   "Actium"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which dynasty built the Terracotta Army?",
+  "options": [
+   "Tang",
+   "Qin",
+   "Ming",
+   "Han"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which temple on the Acropolis was dedicated to Athena?",
+  "options": [
+   "Parthenon",
+   "Colosseum",
+   "Pantheon",
+   "Temple of Zeus"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which road was the most important in ancient Italy?",
+  "options": [
+   "Silk Road",
+   "Via Maris",
+   "Royal Road",
+   "Appian Way"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What creature has a lion's body and a human head in Egyptian art?",
+  "options": [
+   "Scarab",
+   "Obelisk",
+   "Sphinx",
+   "Mummy"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which mountain was thought to be the home of the Greek gods?",
+  "options": [
+   "Mount Sinai",
+   "Mount Olympus",
+   "Mount Everest",
+   "Mount Vesuvius"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which people built the ancient city of Petra?",
+  "options": [
+   "Nabataeans",
+   "Phoenicians",
+   "Romans",
+   "Egyptians"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

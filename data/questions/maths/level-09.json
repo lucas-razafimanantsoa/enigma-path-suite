@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "In a right-angled triangle, sin θ is which ratio?",
+  "options": [
+   "hypotenuse / opposite",
+   "opposite / hypotenuse",
+   "adjacent / hypotenuse",
+   "opposite / adjacent"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the probability of rolling an even number on a fair six-sided die?",
+  "options": [
+   "1/2",
+   "1/6",
+   "1/3",
+   "2/3"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Find the mean of 4, 6, 8 and 10.",
+  "options": [
+   "8",
+   "28",
+   "6",
+   "7.0"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the mode of 3, 5, 5, 7 and 9?",
+  "options": [
+   "7",
+   "9",
+   "5",
+   "3"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a right-angled triangle, what is the longest side called?",
+  "options": [
+   "base",
+   "hypotenuse",
+   "opposite",
+   "adjacent"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the range of the data 12, 18, 7 and 21?",
+  "options": [
+   "14",
+   "12",
+   "7",
+   "21"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A fair coin is tossed once. What is the probability of heads?",
+  "options": [
+   "1",
+   "1/4",
+   "0",
+   "1/2"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which average is most affected by one extreme value?",
+  "options": [
+   "mode",
+   "range",
+   "mean",
+   "median"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A ladder of length 5 m leans against a wall with its foot 3 m from the wall. How high does it reach?",
+  "options": [
+   "2",
+   "4",
+   "5",
+   "3"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a right-angled triangle, what is tan θ?",
+  "options": [
+   "opposite / adjacent",
+   "opposite / hypotenuse",
+   "adjacent / hypotenuse",
+   "adjacent / opposite"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The probability of rain tomorrow is 0.3. What is the probability that it does not rain?",
+  "options": [
+   "0.3",
+   "0.03",
+   "1.3",
+   "0.7"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Find the median of 3, 7, 9, 12 and 15.",
+  "options": [
+   "10",
+   "12",
+   "9",
+   "7"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A bag contains 4 red and 6 blue balls. What is the probability of drawing a red ball?",
+  "options": [
+   "2/3",
+   "2/5",
+   "1/2",
+   "3/5"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a pie chart, what angle represents 25% of the data?",
+  "options": [
+   "90.0",
+   "45",
+   "180",
+   "25"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A die is rolled 60 times and lands on 6 twelve times. What is the relative frequency of a 6?",
+  "options": [
+   "0.25",
+   "0.12",
+   "0.6",
+   "0.2"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which chart best shows how a total is divided into categories?",
+  "options": [
+   "bar chart",
+   "line graph",
+   "pie chart",
+   "scatter graph"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In triangle ABC, AB = 8 cm, AC = 6 cm and angle A = 90°. Find BC.",
+  "options": [
+   "7",
+   "10",
+   "14",
+   "48"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the probability of at least one head when two fair coins are tossed?",
+  "options": [
+   "3/4",
+   "1/2",
+   "1/4",
+   "2/3"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A bag has 5 red and 3 green balls. Two are drawn without replacement. What is P(both red)?",
+  "options": [
+   "25/64",
+   "5/8",
+   "10/14",
+   "5/14"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The mean of 5 numbers is 8. Four of them are 6, 7, 9 and 10. What is the fifth number?",
+  "options": [
+   "10",
+   "12",
+   "8",
+   "6"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a survey of 120 students, 30 walk to school. What angle should the 'walk' sector be in a pie chart?",
+  "options": [
+   "30",
+   "90.0",
+   "120",
+   "60"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Events A and B are independent with P(A) = 0.4 and P(B) = 0.5. What is P(A and B)?",
+  "options": [
+   "0.2",
+   "0.1",
+   "0.9",
+   "0.45"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In the sine rule, a/sin A is equal to which of these?",
+  "options": [
+   "sin B/b",
+   "a/sin B",
+   "b/sin A",
+   "b/sin B"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A data set has mean 10 and standard deviation 2. If every value is doubled, what is the new mean?",
+  "options": [
+   "5",
+   "10",
+   "20",
+   "12"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

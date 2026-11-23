@@ -1418,21 +1418,21 @@
       wheel.innerHTML = `
         <defs>
           <marker id="wheel-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" fill="#f9e2af"></path>
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#966417"></path>
           </marker>
         </defs>
-        <circle cx="200" cy="200" r="188" fill="none" stroke="rgba(205,214,244,0.08)" stroke-width="1"></circle>
-        <circle cx="200" cy="200" r="184" fill="none" stroke="rgba(137,180,250,0.22)" stroke-width="1" stroke-dasharray="2 6"></circle>
-        <circle cx="200" cy="200" r="148" fill="none" stroke="rgba(203,166,247,0.16)" stroke-width="1"></circle>
-        <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(148,226,213,0.14)" stroke-width="1"></circle>
+        <circle cx="200" cy="200" r="188" fill="none" stroke="rgba(70,130,180,0.08)" stroke-width="1"></circle>
+        <circle cx="200" cy="200" r="184" fill="none" stroke="rgba(70,130,180,0.22)" stroke-width="1" stroke-dasharray="2 6"></circle>
+        <circle cx="200" cy="200" r="148" fill="none" stroke="rgba(70,130,180,0.16)" stroke-width="1"></circle>
+        <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(44,117,98,0.14)" stroke-width="1"></circle>
         <g id="wheel-ticks"></g>
-        <circle id="outer-hl" cx="200" cy="30" r="12" fill="rgba(249,226,175,0.12)" stroke="#f9e2af" stroke-width="1"></circle>
-        <circle id="inner-hl" cx="200" cy="68" r="12" fill="rgba(249,226,175,0.12)" stroke="#f9e2af" stroke-width="1"></circle>
-        <line id="wheel-link" x1="200" y1="43" x2="200" y2="55" stroke="#f9e2af" stroke-width="1" stroke-dasharray="2 2" marker-end="url(#wheel-arrow)"></line>
+        <circle id="outer-hl" cx="200" cy="30" r="12" fill="rgba(150,100,23,0.12)" stroke="#966417" stroke-width="1"></circle>
+        <circle id="inner-hl" cx="200" cy="68" r="12" fill="rgba(150,100,23,0.12)" stroke="#966417" stroke-width="1"></circle>
+        <line id="wheel-link" x1="200" y1="43" x2="200" y2="55" stroke="#966417" stroke-width="1" stroke-dasharray="2 2" marker-end="url(#wheel-arrow)"></line>
         <g id="wheel-outer"></g>
         <g id="wheel-inner"></g>
-        <text id="wheel-center-a" x="200" y="194" text-anchor="middle" fill="#cdd6f4" font-size="20" font-weight="700">A → D</text>
-        <text id="wheel-center-b" x="200" y="216" text-anchor="middle" fill="#7f849c" font-size="9">shift k = 3</text>
+        <text id="wheel-center-a" x="200" y="194" text-anchor="middle" fill="#1E3D56" font-size="20" font-weight="700">A → D</text>
+        <text id="wheel-center-b" x="200" y="216" text-anchor="middle" fill="#456C85" font-size="9">shift k = 3</text>
       `;
 
       const ticks = wheel.querySelector("#wheel-ticks");
@@ -1447,7 +1447,7 @@
         tick.setAttribute("y1", y1.toFixed(2));
         tick.setAttribute("x2", x2.toFixed(2));
         tick.setAttribute("y2", y2.toFixed(2));
-        tick.setAttribute("stroke", i % 5 === 0 ? "rgba(180,190,254,0.45)" : "rgba(180,190,254,0.18)");
+        tick.setAttribute("stroke", i % 5 === 0 ? "rgba(70,130,180,0.45)" : "rgba(70,130,180,0.18)");
         tick.setAttribute("stroke-width", "1");
         ticks.appendChild(tick);
       }
@@ -1464,7 +1464,7 @@
         outerText.setAttribute("text-anchor", "middle");
         outerText.setAttribute("dominant-baseline", "middle");
         outerText.setAttribute("font-size", "11");
-        outerText.setAttribute("fill", i === 0 ? "#f9e2af" : "#b4befe");
+        outerText.setAttribute("fill", i === 0 ? "#966417" : "#3A6F99");
         outerText.setAttribute("font-weight", i === 0 ? "700" : "400");
         outerText.textContent = ALPHABET[i];
         outer.appendChild(outerText);
@@ -1490,7 +1490,7 @@
           text.textContent = ALPHABET[letterIndex];
           text.setAttribute("x", (200 + Math.cos(angle) * innerRadius).toFixed(2));
           text.setAttribute("y", (200 + Math.sin(angle) * innerRadius).toFixed(2));
-          text.setAttribute("fill", letterIndex === n ? "#f9e2af" : "#94e2d5");
+          text.setAttribute("fill", letterIndex === n ? "#966417" : "#2C7562");
           text.setAttribute("font-weight", letterIndex === n ? "700" : "400");
         }
         innerHl.setAttribute("cy", String(200 - innerRadius));
@@ -1739,8 +1739,8 @@
      ========================================================================== */
   function aboutPage() {
     const palette = [
-      ["midnight", "#141e2b"], ["deep slate", "#26394d"], ["steel", "#405b72"],
-      ["mist", "#71899b"], ["fog", "#b2c1c5"], ["paper", "#e8e9e2"]
+      ["light blue", "#ADD8E6"], ["sky blue", "#87CEEB"], ["powder blue", "#B0E0E6"],
+      ["light cyan", "#E0FFFF"], ["steel blue", "#4682B4"], ["ink", "#1E3D56"]
     ].map(function (entry) {
       return '<div class="swatch"><i style="background:' + entry[1] + '"></i><div><b>' + entry[0] + "</b>" + entry[1] + "</div></div>";
     }).join("");

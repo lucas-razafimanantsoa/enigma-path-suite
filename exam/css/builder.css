@@ -29,7 +29,7 @@
 .q-block .legend { font-size: 12px; color: var(--muted); }
 .tag { font-size: 11px; padding: 1px 8px; border-radius: 999px; background: var(--surface); color: var(--soft); margin-left: 6px; }
 .maze-card { border-color: var(--surface-2); }
-.maze-sub { display: grid; gap: 12px; padding: 14px; border-radius: var(--radius-md); background: rgba(14, 22, 32, 0.5); border: 1px dashed var(--line-strong); }
+.maze-sub { display: grid; gap: 12px; padding: 14px; border-radius: var(--radius-md); background: rgba(217, 241, 247, 0.5); border: 1px dashed var(--line-strong); }
 .maze-sub h4 { margin: 0; font-size: 15px; color: var(--soft); }
 .auto-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .auto-row select { width: auto; max-width: 100%; }
@@ -38,7 +38,7 @@
 .add-row { display: flex; gap: 10px; flex-wrap: wrap; }
 .savebar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: flex; justify-content: flex-end; align-items: center; gap: 10px;
-  padding: 10px clamp(14px, 3vw, 32px); background: rgba(14, 22, 32, 0.92); border-top: 1px solid var(--line-strong); backdrop-filter: blur(6px);
+  padding: 10px clamp(14px, 3vw, 32px); background: rgba(217, 241, 247, 0.92); border-top: 1px solid var(--line-strong); backdrop-filter: blur(6px);
 }
 .savebar[hidden] { display: none; }
 .save-msg { margin-right: auto; font-size: 14px; color: var(--soft); }

@@ -452,26 +452,26 @@
     var cs = opts.cell || 18;
     var W = maze.cols * cs, H = maze.rows * cs;
     var out = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ' + W + ' ' + H + '" width="' + (opts.width || W) + '" role="img" aria-label="' + (opts.label || 'Maze') + '">'];
-    out.push('<rect width="' + W + '" height="' + H + '" fill="#26394d"/>');
+    out.push('<rect width="' + W + '" height="' + H + '" fill="#4682B4"/>');
     for (var r = 0; r < maze.rows; r++) {
       for (var c = 0; c < maze.cols; c++) {
-        if (maze.open[r][c]) out.push('<rect x="' + c * cs + '" y="' + r * cs + '" width="' + cs + '" height="' + cs + '" fill="#b2c1c5" stroke="#9fb1ba" stroke-width="0.5"/>');
-        else out.push('<rect x="' + c * cs + '" y="' + r * cs + '" width="' + cs + '" height="' + cs + '" fill="#2c4258"/>');
+        if (maze.open[r][c]) out.push('<rect x="' + c * cs + '" y="' + r * cs + '" width="' + cs + '" height="' + cs + '" fill="#E0FFFF" stroke="#4682B4" stroke-width="0.5"/>');
+        else out.push('<rect x="' + c * cs + '" y="' + r * cs + '" width="' + cs + '" height="' + cs + '" fill="#B0E0E6"/>');
       }
     }
     if (opts.path && opts.path.length) {
       var pts = opts.path.map(function (p) { return (p.c * cs + cs / 2) + ',' + (p.r * cs + cs / 2); }).join(' ');
-      out.push('<polyline points="' + pts + '" fill="none" stroke="#405b72" stroke-width="' + Math.max(2, cs / 5) + '" stroke-linecap="round" stroke-linejoin="round"/>');
+      out.push('<polyline points="' + pts + '" fill="none" stroke="#87CEEB" stroke-width="' + Math.max(2, cs / 5) + '" stroke-linecap="round" stroke-linejoin="round"/>');
     }
     var gx = maze.goal.c * cs, gy = maze.goal.r * cs;
-    out.push('<rect x="' + (gx + cs * 0.15) + '" y="' + (gy + cs * 0.15) + '" width="' + cs * 0.7 + '" height="' + cs * 0.7 + '" rx="' + cs * 0.15 + '" fill="#e6c27a" stroke="#141e2b" stroke-width="1"/>');
-    out.push('<text x="' + (gx + cs / 2) + '" y="' + (gy + cs * 0.7) + '" font-size="' + cs * 0.55 + '" text-anchor="middle" font-family="sans-serif" font-weight="700" fill="#141e2b">G</text>');
+    out.push('<rect x="' + (gx + cs * 0.15) + '" y="' + (gy + cs * 0.15) + '" width="' + cs * 0.7 + '" height="' + cs * 0.7 + '" rx="' + cs * 0.15 + '" fill="#E0FFFF" stroke="#1E3D56" stroke-width="1"/>');
+    out.push('<text x="' + (gx + cs / 2) + '" y="' + (gy + cs * 0.7) + '" font-size="' + cs * 0.55 + '" text-anchor="middle" font-family="sans-serif" font-weight="700" fill="#1E3D56">G</text>');
     if (opts.robot !== false) {
       var cx = maze.start.c * cs + cs / 2, cy = maze.start.r * cs + cs / 2;
       var rot = [0, 90, 180, 270][maze.dir];
       out.push('<g transform="translate(' + cx + ' ' + cy + ') rotate(' + rot + ')">' +
-        '<circle r="' + cs * 0.38 + '" fill="#141e2b"/>' +
-        '<polygon points="0,' + -cs * 0.3 + ' ' + cs * 0.22 + ',' + cs * 0.2 + ' ' + -cs * 0.22 + ',' + cs * 0.2 + '" fill="#7fc8a0"/></g>');
+        '<circle r="' + cs * 0.38 + '" fill="#1E3D56"/>' +
+        '<polygon points="0,' + -cs * 0.32 + ' ' + cs * 0.2 + ',' + cs * 0.08 + ' ' + -cs * 0.2 + ',' + cs * 0.08 + '" fill="#E0FFFF"/></g>');
     }
     out.push('</svg>');
     return out.join('');

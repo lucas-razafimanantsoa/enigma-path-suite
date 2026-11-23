@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Simplify 4a + 3a.",
+  "options": [
+   "a",
+   "7a",
+   "7a²",
+   "12a"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the value of 3x + 2 when x = 4?",
+  "options": [
+   "14",
+   "12",
+   "18",
+   "10"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Solve x + 7 = 12.",
+  "options": [
+   "4",
+   "6",
+   "19",
+   "5"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Write an expression for '5 more than n'.",
+  "options": [
+   "5n",
+   "n - 5",
+   "n + 5",
+   "5 - n"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the next term in the sequence 2, 5, 8, 11, ...?",
+  "options": [
+   "17",
+   "14",
+   "13",
+   "15"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Simplify 6b - 2b.",
+  "options": [
+   "4b",
+   "8b",
+   "3b",
+   "4"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Solve 3x = 18.",
+  "options": [
+   "15",
+   "21",
+   "9",
+   "6"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the coefficient of x in 7x - 4?",
+  "options": [
+   "3",
+   "-4",
+   "7",
+   "4"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Simplify 3a + 2b + 5a - b.",
+  "options": [
+   "8a - b",
+   "8a + b",
+   "8a + 3b",
+   "9a + b"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Find the value of 2x² + 1 when x = 3.",
+  "options": [
+   "19",
+   "18",
+   "13",
+   "7"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Solve 2x + 5 = 17.",
+  "options": [
+   "11",
+   "4",
+   "8",
+   "6"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the nth term of the sequence 3, 6, 9, 12, ...?",
+  "options": [
+   "6n",
+   "n + 3",
+   "3n",
+   "3n + 1"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Expand 3(x + 4).",
+  "options": [
+   "3x + 7",
+   "3x + 12",
+   "3x + 4",
+   "x + 12"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Solve x/4 = 5.",
+  "options": [
+   "20",
+   "9",
+   "1.25",
+   "15"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A number n is doubled and then 3 is added. Write an expression for the result.",
+  "options": [
+   "2(n + 3)",
+   "n + 6",
+   "2n - 3",
+   "2n + 3"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an equation rather than an expression?",
+  "options": [
+   "3y - 4",
+   "5a + 2b",
+   "2x + 1 = 7",
+   "2x + 1"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Solve 4x - 3 = 2x + 9.",
+  "options": [
+   "12",
+   "6",
+   "9",
+   "3"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Find x if 5x - 2 = 3x + 8.",
+  "options": [
+   "5",
+   "10",
+   "3",
+   "6"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The nth term of a sequence is 4n - 1. What is the 10th term?",
+  "options": [
+   "41",
+   "36",
+   "40",
+   "39"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Expand and simplify (x + 2)(x + 3).",
+  "options": [
+   "x² + 5x + 5",
+   "2x + 6",
+   "x² + 5x + 6",
+   "x² + 6x + 5"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Solve 2(x - 3) = x + 5.",
+  "options": [
+   "4",
+   "11",
+   "8",
+   "2"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Make x the subject of y = x + 5.",
+  "options": [
+   "x = y - 5",
+   "x = 5y",
+   "x = y + 5",
+   "x = 5 - y"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The nth term of a sequence is n² + 2. What is the 5th term?",
+  "options": [
+   "7",
+   "10",
+   "25",
+   "27"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "I think of a number, subtract 4 and then multiply by 3. The result is 21. What is my number?",
+  "options": [
+   "15",
+   "7",
+   "11",
+   "10"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

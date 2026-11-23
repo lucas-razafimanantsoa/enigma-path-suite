@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which organ pumps blood around the body?",
+  "options": [
+   "The liver",
+   "The stomach",
+   "The kidney",
+   "The heart"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense organ detects light?",
+  "options": [
+   "The tongue",
+   "The ear",
+   "The eye",
+   "The skin"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where does digestion of food begin?",
+  "options": [
+   "In the small intestine",
+   "In the mouth",
+   "In the large intestine",
+   "In the stomach"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which tooth is used for cutting food?",
+  "options": [
+   "Incisor",
+   "Molar",
+   "Premolar",
+   "Canine"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many incisors are usually present in an adult human mouth?",
+  "options": [
+   "4",
+   "2",
+   "12",
+   "8"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main function of the skeleton?",
+  "options": [
+   "To store urine",
+   "To digest food",
+   "To support and protect the body",
+   "To produce oxygen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense organ detects smells?",
+  "options": [
+   "The skin",
+   "The nose",
+   "The ear",
+   "The eye"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which organ stores urine before it leaves the body?",
+  "options": [
+   "The bladder",
+   "The kidney",
+   "The liver",
+   "The stomach"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which type of tooth is used for tearing food?",
+  "options": [
+   "Molar",
+   "Premolar",
+   "Incisor",
+   "Canine"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the function of saliva?",
+  "options": [
+   "To make teeth stronger",
+   "To kill all germs in food",
+   "To moisten food and start digestion",
+   "To store food in the mouth"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which organ produces bile?",
+  "options": [
+   "The small intestine",
+   "The liver",
+   "The stomach",
+   "The pancreas"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of the brain controls balance and coordination?",
+  "options": [
+   "The cerebellum",
+   "The heart",
+   "The liver",
+   "The spinal cord"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What do muscles do when they contract?",
+  "options": [
+   "They turn into bone",
+   "They stop all movement",
+   "They relax and lengthen",
+   "They shorten and pull"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which food group builds and repairs body tissues?",
+  "options": [
+   "Carbohydrates",
+   "Fats",
+   "Proteins",
+   "Vitamins"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a balanced diet?",
+  "options": [
+   "Drinking only water",
+   "Eating the right amounts of different foods",
+   "Eating only fruit",
+   "Eating one meal a day"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which vitamin prevents scurvy?",
+  "options": [
+   "Vitamin C",
+   "Vitamin A",
+   "Vitamin B",
+   "Vitamin D"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is fibre important in the diet?",
+  "options": [
+   "It is used to make blood",
+   "It builds muscles",
+   "It gives most energy",
+   "It helps food move through the intestine"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which part of the digestive system absorbs most nutrients?",
+  "options": [
+   "The stomach",
+   "The large intestine",
+   "The small intestine",
+   "The oesophagus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What happens to food in the stomach?",
+  "options": [
+   "It becomes urine",
+   "It is churned and mixed with acid and enzymes",
+   "It turns into blood",
+   "It loses all its water"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How does the skin help protect the body?",
+  "options": [
+   "It acts as a barrier against germs",
+   "It pumps blood",
+   "It makes oxygen",
+   "It produces food"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about teeth is correct?",
+  "options": [
+   "Premolars only cut food",
+   "Canines grind food",
+   "Incisors tear food",
+   "Molars crush and grind food"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does the body need vitamin D?",
+  "options": [
+   "To digest starch",
+   "To prevent bleeding",
+   "To help bones absorb calcium",
+   "To make glucose"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the role of the large intestine?",
+  "options": [
+   "To digest starch",
+   "To absorb water from undigested food",
+   "To make bile",
+   "To pump blood"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a sign of a healthy lifestyle?",
+  "options": [
+   "Regular exercise and balanced meals",
+   "Eating only sweets",
+   "Sleeping only two hours each night",
+   "Never drinking water"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

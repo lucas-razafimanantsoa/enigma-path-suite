@@ -1,0 +1,47 @@
+{
+ "name": "Biology",
+ "blurb": "From living things to genetics and ecology",
+ "icon": "🧬",
+ "levels": [
+  {
+   "title": "Living things around us",
+   "blurb": "Plants, animals and their needs"
+  },
+  {
+   "title": "Plants and photosynthesis",
+   "blurb": "Leaves, roots and how plants make food"
+  },
+  {
+   "title": "The human body",
+   "blurb": "Senses, teeth, digestion and the skeleton"
+  },
+  {
+   "title": "Habitats and food chains",
+   "blurb": "Where living things live and what they eat"
+  },
+  {
+   "title": "Cells and organisation",
+   "blurb": "Cell parts, tissues, organs and systems"
+  },
+  {
+   "title": "Growth and reproduction",
+   "blurb": "Life cycles and basic inheritance"
+  },
+  {
+   "title": "IGCSE nutrition and transport",
+   "blurb": "Diet, enzymes, blood and the heart"
+  },
+  {
+   "title": "IGCSE respiration and control",
+   "blurb": "Breathing, respiration, nerves and hormones"
+  },
+  {
+   "title": "IGCSE genetics and evolution",
+   "blurb": "DNA, inheritance, natural selection and classification"
+  },
+  {
+   "title": "IB higher biology",
+   "blurb": "Gene expression, physiology, ecology and homeostasis"
+  }
+ ]
+}

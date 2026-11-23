@@ -1,0 +1,194 @@
+/* Binary Search Lab — playable guessing game styles.
+   Palette: "Tranquil Light Blue Serenity" (#ADD8E6 #87CEEB #B0E0E6 #E0FFFF #4682B4). */
+
+.lab-head { margin-bottom: 22px; animation: rise 0.4s ease both; }
+.lab-head h1 { font-size: clamp(26px, 4vw, 38px); margin: 6px 0 8px; }
+.lab-head .muted { max-width: 72ch; }
+
+.card { background: var(--glass, rgba(246, 253, 255, 0.68)); }
+.section-title { font-size: 17px; margin-bottom: 14px; }
+.card__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+
+/* ---- Setup ---- */
+.setup { margin-bottom: 20px; animation: rise 0.45s ease both; }
+.setup__row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; }
+.range-field { width: 150px; }
+.setup .hint { margin-top: 12px; }
+.form-error { margin-top: 8px; color: var(--bad, #A94A5A); font-size: 13px; font-weight: 600; }
+kbd {
+  font-family: var(--font-mono, monospace); font-size: 12px;
+  padding: 1px 6px; border: 1px solid var(--line-strong, #b6d8e8);
+  border-radius: 5px; background: var(--bg-deep, #D9F1F7); color: var(--ink, #1E3D56);
+}
+
+.badge--ok { background: rgba(44, 117, 98, 0.14); border-color: var(--ok, #2C7562); color: var(--ok, #2C7562); }
+.badge--warn { background: rgba(150, 100, 23, 0.12); border-color: var(--warn, #966417); color: var(--warn, #966417); }
+
+/* ---- Game + interval grid ---- */
+.game-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 20px;
+}
+.play { animation: rise 0.5s ease both; }
+.interval { animation: rise 0.5s 0.08s ease both; }
+.play .card__head, .interval .card__head { margin-bottom: 12px; }
+
+/* ---- Reply + guess form ---- */
+.reply {
+  min-height: 46px; padding: 10px 12px; margin-bottom: 14px;
+  font-size: 14px; line-height: 1.45;
+  background: var(--bg-deep, #D9F1F7);
+  border: 1px solid var(--line, #c7e6f1);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm, 10px);
+  color: var(--ink, #1E3D56);
+}
+.reply--higher, .reply--lower { border-left-color: var(--accent); }
+.reply--range { border-left-color: var(--warn, #966417); color: var(--warn, #966417); }
+.reply--win { border-left-color: var(--ok, #2C7562); color: var(--ok, #2C7562); font-weight: 700; }
+.reply--giveup { border-left-color: var(--soft, #3A6F99); }
+
+.guess-form { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; }
+.guess-field { flex: 1 1 180px; max-width: 260px; }
+.guess-form .btn { flex: 0 0 auto; }
+.play > .hint { margin-top: 10px; }
+
+/* ---- Stats ---- */
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 18px; }
+.stat {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 10px 4px; text-align: center;
+  background: var(--bg-deep, #D9F1F7);
+  border: 1px solid var(--line, #c7e6f1);
+  border-radius: var(--radius-sm, 10px);
+}
+.stat__v {
+  font-family: var(--font-mono, monospace); font-size: 19px; font-weight: 700;
+  color: var(--ink, #1E3D56); font-variant-numeric: tabular-nums;
+}
+.stat__v--small { font-size: 16px; }
+.stat__l { font-size: 11px; color: var(--muted, #456C85); }
+
+/* ---- Live search interval (one bar, no per-number nodes) ---- */
+.interval__bar {
+  position: relative; height: 26px; margin: 22px 12px 0;
+  background: var(--bg-deep, #D9F1F7);
+  border: 1px solid var(--line-strong, #b6d8e8);
+  border-radius: 7px;
+}
+.interval__fill {
+  position: absolute; top: 0; bottom: 0; left: 0; width: 100%;
+  background: rgba(70, 130, 180, 0.30);
+  border-radius: 6px;
+  transition: left 0.32s ease, width 0.32s ease;
+}
+.interval__bar--over .interval__fill { background: rgba(44, 117, 98, 0.32); }
+.interval__marker {
+  position: absolute; top: -10px; left: 0;
+  width: 20px; height: 20px; margin-left: -10px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-mono, monospace); font-size: 10px; font-weight: 700;
+  color: #fff; background: var(--soft, #3A6F99);
+  border: 2px solid var(--bg-raised, #F6FDFF);
+  box-shadow: 0 1px 4px rgba(30, 61, 86, 0.25);
+  transition: left 0.32s ease;
+}
+.interval__marker--mid { top: 5px; background: var(--accent); z-index: 2; }
+.interval__marker--mid.is-pulse { animation: pop 0.4s ease; }
+.interval__scale {
+  display: flex; justify-content: space-between; margin: 10px 12px 0;
+  font-size: 11px; color: var(--muted, #456C85); font-family: var(--font-mono, monospace);
+}
+.interval > .hint { margin-top: 14px; }
+
+/* ---- Guess log ---- */
+.log-card { margin-top: 20px; }
+.table-wrap { overflow-x: auto; }
+.guess-table { width: 100%; min-width: 420px; border-collapse: collapse; font-size: 14px; }
+.guess-table th, .guess-table td { padding: 9px 12px; border-bottom: 1px solid var(--line); text-align: left; }
+.guess-table th {
+  font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--soft, #3A6F99); white-space: nowrap;
+}
+.guess-table tbody tr:nth-child(even) { background: var(--bg-deep, #D9F1F7); }
+.guess-table td:first-child, .guess-table td:nth-child(2) {
+  font-family: var(--font-mono, monospace); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.guess-table .empty-row td { color: var(--muted, #456C85); font-style: italic; }
+.guess-table .row--win td { color: var(--ok, #2C7562); font-weight: 700; }
+
+/* ---- Result / celebration ---- */
+.result {
+  position: relative; overflow: hidden; margin-top: 20px;
+  border-color: var(--ok, #2C7562);
+  animation: rise 0.35s ease both;
+}
+.result--giveup { border-color: var(--warn, #966417); }
+.result--win { animation: rise 0.35s ease both, win-glow 0.8s ease 0.12s both; }
+.result h2 { margin: 6px 0 10px; font-size: 21px; }
+.result__reveal { color: var(--muted, #456C85); }
+.result__secret {
+  display: inline-block; margin-left: 4px; padding: 0 10px;
+  font-family: var(--font-mono, monospace); font-size: 22px;
+  color: var(--accent); background: var(--bg-deep, #D9F1F7);
+  border: 1px solid var(--line-strong, #b6d8e8); border-radius: var(--radius-sm, 10px);
+}
+.result--win .result__secret { animation: pop 0.5s ease 0.15s both; }
+.result #result-text { margin-top: 10px; }
+.sparks { position: absolute; inset: 0; pointer-events: none; }
+.sparks i {
+  position: absolute; top: 30px; width: 7px; height: 7px; border-radius: 2px;
+  background: var(--surface-2, #87CEEB); opacity: 0;
+}
+.sparks i:nth-child(1) { left: 12%; }
+.sparks i:nth-child(2) { left: 27%; background: var(--surface, #ADD8E6); }
+.sparks i:nth-child(3) { left: 43%; background: var(--ok, #2C7562); }
+.sparks i:nth-child(4) { left: 59%; }
+.sparks i:nth-child(5) { left: 74%; background: var(--surface, #ADD8E6); }
+.sparks i:nth-child(6) { left: 88%; background: var(--ok, #2C7562); }
+.result--win .sparks i { animation: confetti 1.05s ease-out both; }
+.result--win .sparks i:nth-child(2) { animation-delay: 0.08s; }
+.result--win .sparks i:nth-child(3) { animation-delay: 0.16s; }
+.result--win .sparks i:nth-child(4) { animation-delay: 0.24s; }
+.result--win .sparks i:nth-child(5) { animation-delay: 0.32s; }
+.result--win .sparks i:nth-child(6) { animation-delay: 0.4s; }
+
+/* ---- Solution ---- */
+.solution { margin-top: 20px; }
+.solution__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.solution__head h2 { margin: 5px 0 4px; font-size: 19px; }
+.solution__panel { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line, #c7e6f1); animation: fade 0.35s ease both; }
+.solution__secret { font-weight: 600; }
+.solution__secret strong { font-family: var(--font-mono, monospace); font-size: 18px; color: var(--accent); }
+.path-list {
+  margin: 12px 0; padding-left: 24px; max-height: 340px; overflow: auto;
+  font-family: var(--font-mono, monospace); font-size: 12px; line-height: 1.7;
+  color: var(--ink, #1E3D56);
+}
+.path-list li { padding: 2px 4px; }
+.path-list li:nth-child(odd) { background: var(--bg-deep, #D9F1F7); }
+
+/* ---- Animations ---- */
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { 0% { transform: scale(1); } 45% { transform: scale(1.28); } 100% { transform: scale(1); } }
+@keyframes win-glow { 0%, 100% { box-shadow: var(--shadow-soft, 0 8px 22px rgba(70, 130, 180, 0.13)); } 45% { box-shadow: 0 0 20px rgba(44, 117, 98, 0.35); } }
+@keyframes confetti { 0% { opacity: 0; transform: translateY(8px) rotate(0deg); } 20% { opacity: 1; } 100% { opacity: 0; transform: translateY(-38px) rotate(160deg); } }
+
+@media (max-width: 900px) {
+  .game-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 500px) {
+  .stats { grid-template-columns: repeat(3, 1fr); gap: 5px; }
+  .stat__v { font-size: 16px; }
+  .stat__v--small { font-size: 13px; }
+  .range-field { width: 100%; }
+  .guess-field { max-width: none; }
+  .guess-form .btn { flex: 1 1 auto; }
+  .setup__row .btn { flex: 1 1 100%; }
+  .card__head { flex-wrap: wrap; }
+  .interval__marker { width: 18px; height: 18px; margin-left: -9px; }
+}

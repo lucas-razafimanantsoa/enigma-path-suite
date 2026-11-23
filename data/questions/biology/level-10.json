@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is transcription?",
+  "options": [
+   "The removal of introns from a protein",
+   "The synthesis of a polypeptide chain from mRNA",
+   "The synthesis of mRNA from a DNA template",
+   "The replication of DNA before mitosis"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which enzyme catalyses transcription?",
+  "options": [
+   "Peptidyl transferase",
+   "RNA polymerase",
+   "DNA ligase",
+   "Restriction endonuclease"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where does transcription occur in a eukaryotic cell?",
+  "options": [
+   "Nucleus",
+   "Ribosome",
+   "Golgi apparatus",
+   "Cytoplasm"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a codon?",
+  "options": [
+   "A bond between two amino acids",
+   "A sequence of three DNA bases that codes for a protein",
+   "A protein that regulates gene expression",
+   "A sequence of three mRNA bases that codes for an amino acid"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where does translation take place?",
+  "options": [
+   "In a lysosome",
+   "In the nucleus",
+   "On a ribosome",
+   "In the Golgi apparatus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the role of transfer RNA (tRNA) in translation?",
+  "options": [
+   "It carries the genetic code out of the nucleus",
+   "It carries amino acids to the ribosome",
+   "It forms the peptide bond between amino acids",
+   "It copies the entire DNA double helix"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an operon?",
+  "options": [
+   "A cluster of genes controlled together",
+   "A section of mRNA that is spliced out",
+   "A type of chromosome found only in bacteria",
+   "A single protein made of many amino acids"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is epigenetics?",
+  "options": [
+   "Changes in the DNA base sequence that are inherited",
+   "The process of transcription and translation",
+   "The random assortment of chromosomes during meiosis",
+   "Heritable changes in gene expression without changing the DNA sequence"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main role of the loop of Henle?",
+  "options": [
+   "Secreting insulin into the blood",
+   "Reabsorbing all glucose from the filtrate",
+   "Creating a concentration gradient for water reabsorption",
+   "Filtering blood plasma at the glomerulus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "By which process does water leave the descending limb of the loop of Henle?",
+  "options": [
+   "Phagocytosis",
+   "Osmosis",
+   "Exocytosis",
+   "Active transport"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main function of the sinoatrial node?",
+  "options": [
+   "Setting the basic rhythm of the heartbeat",
+   "Carrying oxygen to the heart muscle",
+   "Preventing backflow into the atria",
+   "Raising blood pressure during vigorous exercise"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which hormone raises blood glucose concentration?",
+  "options": [
+   "Insulin",
+   "ADH",
+   "Aldosterone",
+   "Glucagon"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the role of aldosterone?",
+  "options": [
+   "Increasing water loss in the kidney",
+   "Lowering blood glucose concentration",
+   "Increasing sodium reabsorption in the kidney",
+   "Stimulating milk production"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the Bohr effect?",
+  "options": [
+   "Oxygen is transported mainly in the plasma",
+   "Haemoglobin releases oxygen more readily at low pH",
+   "Haemoglobin binds oxygen much more tightly at low pH",
+   "Carbon dioxide binds permanently to haemoglobin"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of the nephron filters blood plasma?",
+  "options": [
+   "Glomerulus",
+   "Collecting duct",
+   "Loop of Henle",
+   "Proximal tubule"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is osmoregulation?",
+  "options": [
+   "Control of carbon dioxide levels in the blood",
+   "Control of blood glucose concentration",
+   "Control of body temperature",
+   "Control of water and solute balance in the body"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is an ecological niche?",
+  "options": [
+   "The total number of species in a habitat",
+   "The food chain of a single organism",
+   "The role of a species in its ecosystem",
+   "The physical area where a species lives"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the main source of energy for most ecosystems?",
+  "options": [
+   "Organic matter in soil",
+   "Sunlight",
+   "Chemical energy in rocks",
+   "Geothermal heat"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is competitive exclusion?",
+  "options": [
+   "One species outcompetes another for the same niche",
+   "Two species share a niche equally",
+   "A predator eliminates all its prey",
+   "A species moves to a new habitat"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which type of selection favours both extremes of a phenotype?",
+  "options": [
+   "Directional selection",
+   "Stabilising selection",
+   "Artificial selection",
+   "Disruptive selection"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a keystone species?",
+  "options": [
+   "A species that is the most abundant in a habitat",
+   "A species that has no natural predators",
+   "A species with a disproportionately large effect on its ecosystem",
+   "A species introduced from another region"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is allopatric speciation?",
+  "options": [
+   "Speciation without geographic separation",
+   "Speciation after geographical separation of populations",
+   "Speciation caused only by polyploidy",
+   "Speciation caused by hybridisation in one habitat"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does the Hardy-Weinberg principle estimate?",
+  "options": [
+   "Allele frequencies within a population",
+   "The mutation rate of a gene",
+   "The number of species in a habitat",
+   "The rate of transcription inside a living cell"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is an indicator species?",
+  "options": [
+   "A species that eats only one kind of food",
+   "A species that has been genetically modified",
+   "A species that lives only in captivity",
+   "A species whose presence reveals environmental conditions"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

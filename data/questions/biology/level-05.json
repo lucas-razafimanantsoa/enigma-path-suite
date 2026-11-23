@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is the smallest unit of a living organism?",
+  "options": [
+   "A system",
+   "A cell",
+   "A tissue",
+   "An organ"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of a cell controls its activities?",
+  "options": [
+   "The nucleus",
+   "The cytoplasm",
+   "The vacuole",
+   "The membrane"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which structure is found in plant cells but not animal cells?",
+  "options": [
+   "Cell membrane",
+   "Nucleus",
+   "Mitochondrion",
+   "Cell wall"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of a cell releases energy by respiration?",
+  "options": [
+   "Nucleus",
+   "Cell wall",
+   "Mitochondrion",
+   "Ribosome"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a group of similar cells working together called?",
+  "options": [
+   "An organ system",
+   "A tissue",
+   "An organism",
+   "A population"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which instrument is used to look at cells?",
+  "options": [
+   "A microscope",
+   "A thermometer",
+   "A stethoscope",
+   "A telescope"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where is genetic material mainly stored in an animal cell?",
+  "options": [
+   "In the vacuole",
+   "In the cytoplasm",
+   "In the membrane",
+   "In the nucleus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which cell part controls what enters and leaves the cell?",
+  "options": [
+   "The ribosome",
+   "The mitochondrion",
+   "The cell membrane",
+   "The nucleus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which order shows increasing complexity?",
+  "options": [
+   "Organ → tissue → cell → system",
+   "Cell → tissue → organ → organ system",
+   "System → organ → cell → tissue",
+   "Tissue → cell → organ → system"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the function of ribosomes?",
+  "options": [
+   "Making proteins",
+   "Controlling the cell",
+   "Storing water",
+   "Making glucose"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which specialised cell carries oxygen in the blood?",
+  "options": [
+   "White blood cell",
+   "Neurone",
+   "Root hair cell",
+   "Red blood cell"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the function of a neurone?",
+  "options": [
+   "Absorbing water",
+   "Producing mucus",
+   "Carrying electrical impulses",
+   "Transporting oxygen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an organ?",
+  "options": [
+   "A nerve cell",
+   "The heart",
+   "Blood",
+   "Muscle tissue"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do root hair cells have a large surface area?",
+  "options": [
+   "To absorb more water and ions",
+   "To protect the root",
+   "To make more chlorophyll",
+   "To store starch"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which structure is found in bacteria but not in plant cells?",
+  "options": [
+   "Mitochondrion",
+   "Nucleus",
+   "Chloroplast",
+   "Plasmid"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the job of cilia in the trachea?",
+  "options": [
+   "Pumping blood",
+   "Storing energy",
+   "Moving mucus upwards",
+   "Absorbing nutrients"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement about plant and animal cells is correct?",
+  "options": [
+   "Neither has a nucleus",
+   "Both have mitochondria and a membrane",
+   "Animal cells have chloroplasts",
+   "Both have a cell wall"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is diffusion?",
+  "options": [
+   "Net movement from high to low concentration",
+   "Movement of water only",
+   "Movement against a gradient using energy",
+   "The making of proteins"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What happens to a plant cell placed in pure water?",
+  "options": [
+   "It shrinks and plasmolyses",
+   "It loses all its cytoplasm",
+   "It stops respiring",
+   "It becomes turgid"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which process moves mineral ions into root hairs against a concentration gradient?",
+  "options": [
+   "Evaporation",
+   "Diffusion",
+   "Active transport",
+   "Osmosis"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a specialised cell?",
+  "options": [
+   "A yeast cell",
+   "A palisade mesophyll cell",
+   "An amoeba",
+   "A bacterial cell"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which level of organisation is a stomach?",
+  "options": [
+   "Organ",
+   "Cell",
+   "Tissue",
+   "Organism"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are cells usually small rather than large?",
+  "options": [
+   "They contain no DNA",
+   "They cannot divide",
+   "They need less oxygen",
+   "A large surface area to volume ratio aids exchange"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is osmosis?",
+  "options": [
+   "The division of the nucleus",
+   "The movement of salt particles",
+   "The net movement of water through a partially permeable membrane",
+   "The release of energy from glucose"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

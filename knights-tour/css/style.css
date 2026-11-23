@@ -1,0 +1,207 @@
+/* Knight's Tour — flat, light board for the playable puzzle */
+
+.kt-head { margin-bottom: 22px; }
+.kt-head h1 { font-size: clamp(26px, 4vw, 38px); margin: 4px 0 8px; }
+.kt-head p.muted { max-width: 760px; }
+
+.kt-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: clamp(16px, 3vw, 28px);
+  align-items: start;
+}
+@media (max-width: 860px) {
+  .kt-layout { grid-template-columns: 1fr; }
+}
+
+.kt-board-card { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.kt-board-wrap { width: min(100%, 540px); }
+
+.board {
+  --kt-n: 8;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: grid;
+  grid-template-columns: repeat(var(--kt-n), 1fr);
+  grid-template-rows: repeat(var(--kt-n), 1fr);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--bg-raised);
+  touch-action: manipulation;
+}
+
+.square {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(70, 130, 180, 0.14);
+  transition: background 0.18s ease, box-shadow 0.18s ease;
+  cursor: pointer;
+}
+.square:hover { box-shadow: inset 0 0 0 2px var(--soft); }
+.square--light { background: #EAF9FC; }
+.square--dark { background: #C5E6F0; }
+.square.is-visited { background: #B0E0E6; }
+.square.is-start { box-shadow: inset 0 0 0 3px var(--accent); }
+.square.is-current { box-shadow: inset 0 0 0 3px var(--soft); }
+
+/* Legal next hops */
+.square.is-reachable::after {
+  content: "";
+  position: absolute;
+  width: 18%;
+  height: 18%;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.7;
+  animation: kt-pop 0.18s ease both;
+}
+.square.is-reachable:hover::after { background: var(--soft); opacity: 1; }
+
+/* One suggested hop from the Hint button */
+.square.is-hint::after {
+  width: 32%;
+  height: 32%;
+  background: transparent;
+  border: 2px solid var(--soft);
+  opacity: 1;
+  animation: kt-pulse 1s ease-in-out infinite;
+}
+
+/* Illegal click feedback */
+.square.is-shake {
+  box-shadow: inset 0 0 0 3px var(--bad);
+  animation: kt-shake 0.32s ease;
+}
+
+.sq-num {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  display: grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  box-shadow: 0 1px 3px rgba(30, 61, 86, 0.25);
+  animation: kt-pop 0.22s ease both;
+}
+
+.knight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% / var(--kt-n));
+  height: calc(100% / var(--kt-n));
+  display: grid;
+  place-items: center;
+  font-size: clamp(20px, 5vw, 38px);
+  line-height: 1;
+  color: var(--ink);
+  z-index: 2;
+  pointer-events: none;
+  transition: transform var(--kt-move, 0.18s) ease-in-out;
+  filter: drop-shadow(0 2px 2px rgba(30, 61, 86, 0.35));
+}
+.knight::before {
+  content: "";
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  background: var(--bg-raised);
+  border: 1px solid var(--accent);
+  z-index: -1;
+}
+.knight.is-hidden { opacity: 0; }
+
+.kt-start-label { text-align: center; }
+.kt-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.kt-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.kt-key { width: 12px; height: 12px; border-radius: 4px; border: 1px solid var(--line-strong); display: inline-block; }
+.kt-key--current { background: var(--bg-raised); box-shadow: inset 0 0 0 2px var(--soft); }
+.kt-key--move { background: #EAF9FC; position: relative; }
+.kt-key--move::after { content: ""; position: absolute; inset: 35%; border-radius: 50%; background: var(--accent); }
+.kt-key--visited { background: #B0E0E6; }
+
+/* --- Side panel --- */
+.kt-side { display: flex; flex-direction: column; gap: 16px; }
+.kt-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 4px;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+.stat__v { font-size: 22px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.stat__l { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+
+.kt-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.kt-buttons .btn { width: 100%; }
+.kt-buttons #btn-hint { grid-column: 1 / -1; }
+
+.kt-speed { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: var(--soft); }
+.kt-speed input[type="range"] { flex: 1; min-width: 0; }
+
+.kt-msg {
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  font-size: 13px;
+  color: var(--muted);
+}
+.kt-msg.is-ok { border-color: var(--ok); color: var(--ok); }
+.kt-msg.is-bad { border-color: var(--bad); color: var(--bad); }
+.kt-solution { align-self: flex-start; }
+
+@keyframes kt-pop {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes kt-pulse {
+  0%, 100% { transform: scale(0.85); opacity: 0.55; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+@keyframes kt-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .knight, .square, .sq-num, .square.is-reachable::after, .square.is-hint::after { transition: none !important; animation: none !important; }
+}
+
+@media (max-width: 520px) {
+  .card { padding: 14px; }
+  .kt-buttons .btn, .kt-solution { min-height: 44px; }
+  .kt-buttons .btn { padding: 10px 8px; font-size: 13px; }
+  .kt-stats { gap: 6px; }
+  .kt-stats .stat { padding: 8px 4px; }
+  .kt-msg { font-size: 12px; }
+}
+@media (max-width: 380px) {
+  .kt-buttons .btn { font-size: 12px; padding: 8px 4px; }
+  .kt-head p.muted { font-size: 14px; }
+}

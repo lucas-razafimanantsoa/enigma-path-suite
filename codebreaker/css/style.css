@@ -1,0 +1,132 @@
+/* Guess the Password — bulls and cows game. Light palette from shared/theme.css. */
+
+.cb-head { margin-bottom: 22px; }
+.cb-head h1 { font-size: clamp(28px, 4vw, 40px); margin: 4px 0 8px; }
+.cb-head .muted { max-width: 70ch; }
+
+.cb-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; margin-bottom: 14px; }
+.cb-length { display: flex; flex-wrap: wrap; gap: 8px; }
+.cb-length .btn { min-width: 92px; }
+.cb-length .btn.is-active { background: var(--surface); border-color: var(--soft); box-shadow: inset 0 0 0 1px var(--soft); }
+.cb-controls__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.cb-controls .hint { margin-left: auto; }
+
+.cb-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 14px; }
+.cb-stats .stat {
+  display: grid; gap: 2px; padding: 12px 14px; border: 1px solid var(--line);
+  border-radius: var(--radius-md); background: var(--bg-raised);
+}
+.cb-stats .stat b { font-family: var(--font-mono); font-size: clamp(20px, 3vw, 28px); color: var(--ink); line-height: 1.1; }
+.cb-stats .stat span { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+
+.cb-info { margin-bottom: 16px; border-left: 4px solid var(--soft); }
+.cb-info__line { font-size: 14px; color: var(--ink); }
+.cb-info__line b { color: var(--soft); }
+
+.cb-play { display: grid; gap: 18px; }
+.cb-input-row { display: flex; gap: 10px; align-items: stretch; }
+.cb-input-row input {
+  flex: 1; min-width: 0; font-family: var(--font-mono); font-size: 22px; font-weight: 700;
+  letter-spacing: 0.35em; text-align: center; padding: 12px;
+}
+.cb-input-row input::placeholder {
+  letter-spacing: 0.02em; font-size: 16px; font-weight: 500; color: #6F93A9;
+}
+.cb-input-row .btn { min-width: 110px; }
+.cb-error { color: var(--bad); font-size: 14px; font-weight: 600; }
+
+.cb-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.cb-legend__item {
+  display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px;
+  border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--bg-deep);
+}
+.cb-legend__item b { font-size: 14px; }
+.cb-legend__item p { font-size: 13px; color: var(--muted); line-height: 1.5; }
+.cb-mark { flex: none; width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; font-size: 15px; }
+.cb-mark--bull { background: var(--soft); color: #FFFFFF; }
+.cb-mark--cow { background: transparent; border: 2px solid var(--soft); color: var(--soft); }
+
+.cb-feedback {
+  min-height: 54px; padding: 12px 14px; border-radius: var(--radius-md);
+  background: var(--bg-deep); border-left: 4px solid var(--muted);
+  font-size: 15px; line-height: 1.55;
+}
+.cb-feedback.is-win { border-left-color: var(--ok); }
+.cb-feedback.is-close { border-left-color: var(--warn); }
+
+.cb-history-wrap { overflow-x: auto; }
+.cb-history { width: 100%; border-collapse: collapse; font-size: 14px; }
+.cb-history th, .cb-history td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: center; }
+.cb-history th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; }
+.cb-history th:nth-child(2), .cb-history td:nth-child(2) { text-align: left; font-family: var(--font-mono); letter-spacing: 0.12em; }
+.cb-history tbody tr:last-child td { border-bottom: 0; }
+.cb-history tbody tr.is-latest { background: var(--surface); }
+.cb-history .bull-cell { color: var(--ok); font-weight: 800; }
+.cb-history .cow-cell { color: var(--warn); font-weight: 800; }
+
+.cb-result {
+  padding: 18px; border: 1px solid var(--ok); border-radius: var(--radius-md);
+  background: var(--bg-raised); display: grid; gap: 8px; animation: cb-pop 0.35s ease both;
+}
+.cb-result h2 { font-size: 22px; }
+.cb-result p { color: var(--muted); font-size: 14px; }
+.cb-result__actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+@keyframes cb-pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* ---- More about the game ---- */
+.theory { max-width: 940px; }
+.theory-card { margin-bottom: 16px; display: grid; gap: 10px; }
+.theory-card h2 { font-size: clamp(20px, 3vw, 26px); }
+.theory-card p, .theory-card li { font-size: 15px; color: var(--muted); line-height: 1.7; }
+.theory-card b, .theory-card strong { color: var(--ink); }
+.theory-card ul, .theory-card ol { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+.theory-card code {
+  background: var(--bg-deep); border: 1px solid var(--line); border-radius: 6px;
+  padding: 1px 6px; font-family: var(--font-mono); font-size: 0.92em; color: var(--soft);
+  white-space: nowrap;
+}
+.formula-box {
+  padding: 14px 16px; border: 1px solid var(--line-strong); border-radius: var(--radius-md);
+  background: var(--bg-deep); font-family: var(--font-mono); font-size: 15px;
+  line-height: 1.8; color: var(--soft);
+}
+.formula-box b { color: var(--ink); }
+.theory-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.theory-table th, .theory-table td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.theory-table th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; }
+.theory-table tbody tr:last-child td { border-bottom: 0; }
+.table-wrap { overflow-x: auto; }
+.strategy-list { counter-reset: strategy; list-style: none; padding-left: 0 !important; }
+.strategy-list li {
+  position: relative; padding: 10px 12px 10px 46px; border: 1px solid var(--line);
+  border-radius: var(--radius-sm); background: var(--bg-deep); counter-increment: strategy;
+}
+.strategy-list li::before {
+  content: counter(strategy); position: absolute; left: 12px; top: 11px;
+  width: 23px; height: 23px; display: grid; place-items: center; border-radius: 50%;
+  background: var(--surface); color: var(--soft); font-size: 12px; font-weight: 800;
+}
+.source-list { padding-left: 20px !important; }
+.source-list a { color: var(--soft); font-weight: 600; }
+.theory-back { margin: 22px 0 8px; text-align: center; }
+
+@media (max-width: 640px) {
+  .theory-table { font-size: 12px; }
+  .theory-table th, .theory-table td { padding: 7px 6px; }
+  .formula-box { font-size: 13px; }
+  .theory-card p, .theory-card li { font-size: 14px; }
+
+  .cb-controls { align-items: flex-start; }
+  .cb-controls .hint { margin-left: 0; width: 100%; }
+  .cb-controls__actions { width: 100%; }
+  .cb-controls__actions .btn { flex: 1; }
+  .cb-length { width: 100%; }
+  .cb-length .btn { flex: 1; min-width: 0; }
+  .cb-stats { gap: 6px; }
+  .cb-stats .stat { padding: 10px; }
+  .cb-legend { grid-template-columns: 1fr; }
+  .cb-input-row { flex-direction: column; }
+  .cb-input-row .btn { width: 100%; }
+  .cb-input-row input { font-size: 20px; }
+  .cb-result__actions .btn { width: 100%; }
+}

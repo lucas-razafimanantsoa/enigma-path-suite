@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What is the capital city of Japan?",
+  "options": [
+   "Seoul",
+   "Tokyo",
+   "Kyoto",
+   "Osaka"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which colour do you get by mixing red and white?",
+  "options": [
+   "Pink",
+   "Purple",
+   "Orange",
+   "Green"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many days are there in one week?",
+  "options": [
+   "Eight",
+   "Five",
+   "Six",
+   "Seven"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which season comes after winter?",
+  "options": [
+   "Autumn",
+   "Winter",
+   "Spring",
+   "Summer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the largest ocean on Earth?",
+  "options": [
+   "Arctic Ocean",
+   "Pacific Ocean",
+   "Atlantic Ocean",
+   "Indian Ocean"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do bees make?",
+  "options": [
+   "Honey",
+   "Wool",
+   "Silk",
+   "Milk"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many legs does a spider have?",
+  "options": [
+   "Ten",
+   "Four",
+   "Six",
+   "Eight"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a baby frog called?",
+  "options": [
+   "Kitten",
+   "Cub",
+   "Tadpole",
+   "Chick"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the capital city of France?",
+  "options": [
+   "Marseille",
+   "Paris",
+   "Lyon",
+   "Nice"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which instrument measures temperature?",
+  "options": [
+   "Thermometer",
+   "Compass",
+   "Scale",
+   "Ruler"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which gas do plants absorb from the air to make food?",
+  "options": [
+   "Hydrogen",
+   "Oxygen",
+   "Nitrogen",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is the largest continent?",
+  "options": [
+   "Europe",
+   "Australia",
+   "Asia",
+   "Africa"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which planet is closest to the Sun?",
+  "options": [
+   "Mars",
+   "Mercury",
+   "Venus",
+   "Earth"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of your body do you use to smell?",
+  "options": [
+   "Nose",
+   "Eye",
+   "Skin",
+   "Ear"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a young cow called?",
+  "options": [
+   "Kid",
+   "Foal",
+   "Calf",
+   "Lamb"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a fruit?",
+  "options": [
+   "Potato",
+   "Onion",
+   "Banana",
+   "Carrot"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which planet is second in order from the Sun?",
+  "options": [
+   "Mars",
+   "Venus",
+   "Mercury",
+   "Earth"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "If today is Monday, what day will it be in two days?",
+  "options": [
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Tuesday"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which flat shape has no corners?",
+  "options": [
+   "Rectangle",
+   "Square",
+   "Triangle",
+   "Circle"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "If you have ten apples and give away three, how many are left?",
+  "options": [
+   "Eight",
+   "Nine",
+   "Seven",
+   "Six"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many sides does a hexagon have?",
+  "options": [
+   "Eight",
+   "Six",
+   "Four",
+   "Five"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which instrument measures how much rain falls?",
+  "options": [
+   "Rain gauge",
+   "Barometer",
+   "Compass",
+   "Thermometer"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What do we call a scientist who studies the stars?",
+  "options": [
+   "Chemist",
+   "Biologist",
+   "Geologist",
+   "Astronomer"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these animals gives birth to live young?",
+  "options": [
+   "Frog",
+   "Duck",
+   "Dog",
+   "Hen"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many minutes are there in one hour?",
+  "options": [
+   "Fifty",
+   "Sixty",
+   "Thirty",
+   "Twenty"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

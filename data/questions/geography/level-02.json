@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What do we call water that falls from clouds?",
+  "options": [
+   "Sunshine",
+   "Fog",
+   "Rain",
+   "Wind"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the weather usually like on a sunny day?",
+  "options": [
+   "Cloudy and wet",
+   "Bright and warm",
+   "Cold and snowy",
+   "Dark and stormy"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which season comes after winter?",
+  "options": [
+   "Spring",
+   "Winter",
+   "Autumn",
+   "Summer"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What are clouds mainly made of?",
+  "options": [
+   "Dust from roads",
+   "Small drops of water",
+   "Smoke from fires",
+   "Dry sand"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which instrument measures temperature?",
+  "options": [
+   "Compass",
+   "Clock",
+   "Thermometer",
+   "Ruler"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a type of precipitation?",
+  "options": [
+   "Breeze",
+   "Snow",
+   "Shadow",
+   "Rainbow"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which season are days usually longest in the northern hemisphere?",
+  "options": [
+   "Summer",
+   "Winter",
+   "Spring",
+   "Autumn"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do people usually wear in hot weather?",
+  "options": [
+   "A thick coat",
+   "A woolly hat",
+   "Gloves and scarf",
+   "Light clothing"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What causes wind?",
+  "options": [
+   "The Earth spinning like a top",
+   "The Moon pulling on the sea",
+   "Air moving from place to place",
+   "Clouds turning into rain"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens to water when it is heated by the Sun?",
+  "options": [
+   "It turns into ice",
+   "It evaporates",
+   "It becomes heavier",
+   "It disappears forever"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a weather forecast?",
+  "options": [
+   "A prediction of what the weather will be",
+   "A type of cloud",
+   "A map of the sea",
+   "A story about weather"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which cloud is most likely to bring steady rain?",
+  "options": [
+   "A thin high cloud",
+   "A fluffy white cloud",
+   "A dark layered cloud",
+   "A sky with no clouds"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do days get shorter in autumn in the northern hemisphere?",
+  "options": [
+   "The Earth stops moving",
+   "Clouds cover the Sun",
+   "The nights become longer",
+   "The Sun is switched off"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does humidity measure?",
+  "options": [
+   "How strong the wind is",
+   "How much water vapour is in the air",
+   "How hot the ground is",
+   "How many clouds you can see"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does a rain gauge measure?",
+  "options": [
+   "The amount of rain",
+   "The temperature",
+   "Wind speed",
+   "Air pressure"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which weather condition reduces visibility most?",
+  "options": [
+   "Sunny skies",
+   "A light breeze",
+   "Dry air",
+   "Fog"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which season follows autumn?",
+  "options": [
+   "Spring",
+   "Autumn",
+   "Winter",
+   "Summer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is it generally warmer near the equator than near the poles?",
+  "options": [
+   "There are more clouds there",
+   "The Sun's rays are more direct",
+   "The ground is higher there",
+   "The nights are longer there"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the water cycle?",
+  "options": [
+   "The continuous movement of water",
+   "A type of weather map",
+   "A game played in the rain",
+   "A route taken by rivers"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What happens to most water that evaporates from the sea?",
+  "options": [
+   "It sinks into the sea floor",
+   "It turns into salt",
+   "It stays in the air forever",
+   "It eventually falls back as rain"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a storm?",
+  "options": [
+   "A sunny afternoon",
+   "A tool for measuring rain",
+   "A period of wild weather",
+   "A type of cloud"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do mornings often feel cooler than afternoons?",
+  "options": [
+   "The ground has cooled overnight",
+   "The Sun is stronger at dawn",
+   "Rain always falls at dawn",
+   "Wind always stops at night"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these helps a farmer decide when to harvest?",
+  "options": [
+   "The weather forecast",
+   "The shape of the clouds",
+   "The colour of the sky at night",
+   "The number of birds overhead"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the main difference between weather and climate?",
+  "options": [
+   "Weather is always hotter",
+   "Climate is only about rain",
+   "Weather never changes",
+   "Climate describes average weather over time"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

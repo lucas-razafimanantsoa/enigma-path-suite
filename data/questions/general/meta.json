@@ -1,0 +1,47 @@
+{
+ "name": "General Knowledge",
+ "blurb": "From everyday facts to global awareness",
+ "icon": "📜",
+ "levels": [
+  {
+   "title": "Everyday knowledge",
+   "blurb": "Common facts about the world and daily life"
+  },
+  {
+   "title": "Famous people and places",
+   "blurb": "Well-known figures, landmarks and inventions"
+  },
+  {
+   "title": "World history basics",
+   "blurb": "Ancient stories and important events"
+  },
+  {
+   "title": "Ancient civilisations",
+   "blurb": "Egypt, Greece, Rome, Asia and early societies"
+  },
+  {
+   "title": "Modern history",
+   "blurb": "The last two centuries and major world events"
+  },
+  {
+   "title": "Culture and discovery",
+   "blurb": "Art, music, science stories and exploration"
+  },
+  {
+   "title": "IGCSE-style history themes",
+   "blurb": "Change, conflict, trade and society through sources"
+  },
+  {
+   "title": "World organisations",
+   "blurb": "The UN, WHO, WTO and how the world cooperates"
+  },
+  {
+   "title": "Contemporary world",
+   "blurb": "Stable current-affairs facts, global issues and media literacy"
+  },
+  {
+   "title": "IB global awareness",
+   "blurb": "Global questions, reasoning and interconnected issues"
+  }
+ ]
+}

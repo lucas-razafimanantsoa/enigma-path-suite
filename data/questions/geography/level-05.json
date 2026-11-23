@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these is a continent?",
+  "options": [
+   "Pacific",
+   "Africa",
+   "Thames",
+   "Everest"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is the largest ocean?",
+  "options": [
+   "Pacific",
+   "Indian",
+   "Arctic",
+   "Atlantic"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which ocean lies between Europe and North America?",
+  "options": [
+   "Arctic",
+   "Indian",
+   "Southern",
+   "Atlantic"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which continent is home to the Sahara Desert?",
+  "options": [
+   "Australia",
+   "Europe",
+   "Africa",
+   "Asia"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is an ocean?",
+  "options": [
+   "Congo",
+   "Indian",
+   "Amazon",
+   "Nile"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which continent lies directly south of Europe?",
+  "options": [
+   "Africa",
+   "America",
+   "Australia",
+   "Asia"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which ocean surrounds Antarctica?",
+  "options": [
+   "Pacific",
+   "Arctic",
+   "Atlantic",
+   "Southern"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which continent contains the Amazon rainforest?",
+  "options": [
+   "Asia",
+   "Europe",
+   "South America",
+   "Africa"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which line divides the Earth into northern and southern halves?",
+  "options": [
+   "A pole",
+   "The equator",
+   "The prime meridian",
+   "A tropic"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which place has a hot desert climate?",
+  "options": [
+   "The Sahara",
+   "Antarctica",
+   "Northern Canada",
+   "The Arctic"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement about tropical climates is generally true?",
+  "options": [
+   "They have snow all year",
+   "They are covered in ice",
+   "They are always dry",
+   "Many are hot and wet for much of the year"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which continent lies entirely in the southern hemisphere?",
+  "options": [
+   "Asia",
+   "North America",
+   "Antarctica",
+   "Europe"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which ocean borders the eastern coast of Australia?",
+  "options": [
+   "Indian",
+   "Pacific",
+   "Atlantic",
+   "Arctic"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these describes a temperate climate?",
+  "options": [
+   "Warm summers and cool winters",
+   "Always frozen",
+   "Always dry",
+   "Extremely hot all year"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which continent is both a country and a continent?",
+  "options": [
+   "Europe",
+   "Asia",
+   "Africa",
+   "Australia"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does a climate zone describe?",
+  "options": [
+   "The height of mountains",
+   "The number of cities",
+   "Areas with similar weather patterns",
+   "The language people speak"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which ocean separates South America from Africa?",
+  "options": [
+   "Arctic",
+   "Atlantic",
+   "Pacific",
+   "Indian"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is Antarctica very cold?",
+  "options": [
+   "It is high and far from the equator",
+   "It is surrounded by deserts",
+   "It is close to the equator",
+   "It has too many rivers"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do tropical rainforest climates have heavy rainfall all year?",
+  "options": [
+   "They have cold ocean currents",
+   "They are far from the sea",
+   "They are covered in ice",
+   "They are near the equator where air rises"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these countries lies in the northern hemisphere?",
+  "options": [
+   "Chile",
+   "South Africa",
+   "Canada",
+   "Australia"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which oceans would a ship cross sailing from Europe to India through the Suez Canal?",
+  "options": [
+   "Southern and Atlantic",
+   "Atlantic and Indian",
+   "Pacific and Atlantic",
+   "Arctic and Pacific"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the main reason hot deserts are dry?",
+  "options": [
+   "Air sinks and holds little moisture",
+   "Strong currents bring heavy rain",
+   "Dense forests block the sunlight",
+   "They receive rain every day"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which continent contains the largest tropical rainforest?",
+  "options": [
+   "Australia",
+   "Africa",
+   "Asia",
+   "South America"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How does latitude generally affect climate?",
+  "options": [
+   "Lower latitudes are usually colder",
+   "Latitude has no effect on climate",
+   "Places near the equator are usually warmer",
+   "Higher latitudes are usually warmer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

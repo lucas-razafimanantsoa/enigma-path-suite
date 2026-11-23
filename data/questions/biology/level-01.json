@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which of these is a living organism?",
+  "options": [
+   "A plastic cup",
+   "A goldfish",
+   "A wooden table",
+   "A rubber ball"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of a plant takes in water from the soil?",
+  "options": [
+   "The roots",
+   "The leaf",
+   "The stem",
+   "The flower"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these do all animals need to stay alive?",
+  "options": [
+   "Rocks",
+   "Sunlight",
+   "Soil",
+   "Water"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense do you use to tell that a lemon smells strong?",
+  "options": [
+   "Hearing",
+   "Touch",
+   "Smell",
+   "Sight"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a young plant?",
+  "options": [
+   "A chick",
+   "A seedling",
+   "An egg",
+   "A kitten"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which animal is a mammal?",
+  "options": [
+   "A rabbit",
+   "A frog",
+   "A goldfish",
+   "A parrot"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do plants use sunlight for?",
+  "options": [
+   "To drink water",
+   "To breathe air",
+   "To make soil",
+   "To make their own food"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is part of a flower?",
+  "options": [
+   "A trunk",
+   "A scale",
+   "A petal",
+   "A root"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which group do mushrooms belong to?",
+  "options": [
+   "Plants",
+   "Fungi",
+   "Animals",
+   "Bacteria"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which feature shows that something is alive?",
+  "options": [
+   "It grows and reproduces",
+   "It is shiny",
+   "It is green",
+   "It is hard"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main function of a plant's stem?",
+  "options": [
+   "To make nectar",
+   "To store seeds",
+   "To attract bees",
+   "To support the plant and carry water"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these animals is a herbivore?",
+  "options": [
+   "A hawk",
+   "A shark",
+   "A cow",
+   "A lion"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of your body do you use to see?",
+  "options": [
+   "Ear",
+   "Eye",
+   "Nose",
+   "Skin"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is released by green plants during photosynthesis?",
+  "options": [
+   "Oxygen",
+   "Mud",
+   "Carbon dioxide",
+   "Nitrogen"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these pets is a reptile?",
+  "options": [
+   "A hamster",
+   "A rabbit",
+   "A canary",
+   "A tortoise"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part helps a plant stay upright?",
+  "options": [
+   "Its seeds",
+   "Its fruit",
+   "Its stem",
+   "Its petals"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does a plant wilt when it has no water?",
+  "options": [
+   "It makes too much food",
+   "Its cells lose water and it droops",
+   "It becomes too cold",
+   "It grows too fast"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement compares plants and animals correctly?",
+  "options": [
+   "Plants make food; animals eat other organisms",
+   "Plants eat animals; animals make food",
+   "Both make their own food",
+   "Neither needs air"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which feature helps a cactus survive in a dry habitat?",
+  "options": [
+   "Thin leaves for cooling",
+   "Gills for breathing",
+   "Extra roots for floating",
+   "Stored water in its stem"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these shows an organism responding to a change?",
+  "options": [
+   "A river flowing to the sea",
+   "A shadow getting longer",
+   "A plant bending towards light",
+   "A stone rolling downhill"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the difference between a habitat and an organism?",
+  "options": [
+   "An organism is a place with no life",
+   "A habitat is where an organism lives",
+   "An organism is a type of habitat",
+   "A habitat is a kind of animal"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How can animals help flowering plants?",
+  "options": [
+   "By carrying pollen between flowers",
+   "By digging up the young roots",
+   "By eating every green leaf",
+   "By keeping the plant in shade"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about living things is correct?",
+  "options": [
+   "Only animals can move",
+   "Only plants can grow",
+   "Living things never change",
+   "All living things need energy"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A plant is kept in a dark cupboard for a week. What is most likely to happen?",
+  "options": [
+   "It doubles in height",
+   "It grows greener",
+   "Its leaves turn yellow and it wilts",
+   "It produces more flowers"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

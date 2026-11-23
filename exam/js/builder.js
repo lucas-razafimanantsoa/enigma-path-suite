@@ -78,7 +78,7 @@
   function newExam() {
     if (!confirmLeave()) return;
     var q = blankQuestion(); q.type = 'question';
-    st.exam = { id: '', title: '', description: '', reveal: 'wrong', items: [q] };
+    st.exam = { id: '', title: '', description: '', items: [q] };
     st.dirty = false;
     openEditor();
     setMsg('New exam, not saved yet', '');
@@ -103,7 +103,6 @@
     $('savebar').hidden = false;
     $('ex-title').value = st.exam.title;
     $('ex-desc').value = st.exam.description || '';
-    $('ex-reveal').value = st.exam.reveal || 'wrong';
     renderItems();
     window.scrollTo(0, 0);
   }
@@ -365,7 +364,6 @@
         if (!confirmLeave()) return;
         var taken = st.list.map(function (x) { return x.id; });
         if (!e.id || taken.indexOf(e.id) >= 0) e.id = '';
-        e.reveal = e.reveal || 'wrong';
         e.description = e.description || '';
         st.exam = e;
         openEditor();
@@ -422,7 +420,6 @@
   $('file-import').addEventListener('change', function (e) { if (e.target.files[0]) importFile(e.target.files[0]); e.target.value = ''; });
   $('ex-title').addEventListener('input', function (e) { st.exam.title = e.target.value; setDirty(true); });
   $('ex-desc').addEventListener('input', function (e) { st.exam.description = e.target.value; setDirty(true); });
-  $('ex-reveal').addEventListener('change', function (e) { st.exam.reveal = e.target.value; setDirty(true); });
   $('add-q').addEventListener('click', function () { var q = blankQuestion(); q.type = 'question'; st.exam.items.push(q); setDirty(true); renderItems(); });
   $('add-maze').addEventListener('click', function () { st.exam.items.push(blankMaze()); setDirty(true); renderItems(); });
   $('add-bank').addEventListener('click', openBank);

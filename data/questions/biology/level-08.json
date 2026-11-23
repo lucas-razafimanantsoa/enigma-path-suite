@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Where in the lungs does gas exchange occur?",
+  "options": [
+   "Alveoli",
+   "Pleural cavity",
+   "Bronchi",
+   "Trachea"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which gas diffuses from the blood into the alveoli?",
+  "options": [
+   "Nitrogen",
+   "Hydrogen",
+   "Oxygen",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which feature of alveoli increases the rate of gas exchange?",
+  "options": [
+   "A poor blood supply",
+   "A small number of alveoli",
+   "A very large total surface area",
+   "Thick, muscular walls"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which word equation represents aerobic respiration?",
+  "options": [
+   "glucose -> ethanol + carbon dioxide",
+   "glucose + oxygen -> carbon dioxide + water",
+   "glucose -> lactic acid",
+   "carbon dioxide + water -> glucose + oxygen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Where does most aerobic respiration take place in a eukaryotic cell?",
+  "options": [
+   "Mitochondria",
+   "Nucleus",
+   "Ribosomes",
+   "Golgi apparatus"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which process produces lactic acid in human muscles during strenuous exercise?",
+  "options": [
+   "Transpiration",
+   "Aerobic respiration",
+   "Photosynthesis",
+   "Anaerobic respiration"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which products are formed when yeast respires anaerobically?",
+  "options": [
+   "Oxygen and glucose",
+   "Carbon dioxide and water",
+   "Ethanol and carbon dioxide",
+   "Lactic acid and water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why does the breathing rate increase during exercise?",
+  "options": [
+   "To produce more lactic acid in the blood",
+   "To supply more oxygen and remove carbon dioxide",
+   "To cool the body by sweating",
+   "To reduce blood flow to the muscles"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which specialised cells transmit electrical impulses in the nervous system?",
+  "options": [
+   "Neurones",
+   "Hormone cells",
+   "Red blood cells",
+   "Platelets"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a reflex action?",
+  "options": [
+   "A behaviour that must be learned",
+   "A slow, conscious decision",
+   "A response controlled only by hormones",
+   "A rapid, automatic response to a stimulus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of a neurone receives impulses from other cells?",
+  "options": [
+   "Myelin sheath",
+   "Synaptic knob",
+   "Dendrites",
+   "Axon"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the junction between two neurones called?",
+  "options": [
+   "Reflex arc",
+   "Synapse",
+   "Receptor",
+   "Effector"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a reflex arc, which structure detects the stimulus?",
+  "options": [
+   "Receptor",
+   "Relay neurone",
+   "Motor neurone",
+   "Effector"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which neurone carries impulses from the central nervous system to a muscle?",
+  "options": [
+   "Sensory neurone",
+   "Relay neurone",
+   "Receptor cell",
+   "Motor neurone"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why are reflex actions important for survival?",
+  "options": [
+   "They store long-term memories",
+   "They control slow growth changes",
+   "They produce fast protective responses to harm",
+   "They allow detailed conscious thought"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of the brain coordinates balance and smooth muscle movement?",
+  "options": [
+   "Hypothalamus",
+   "Cerebellum",
+   "Cerebrum",
+   "Medulla"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which hormone lowers blood glucose concentration?",
+  "options": [
+   "Insulin",
+   "Adrenaline",
+   "Thyroxine",
+   "Glucagon"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which gland secretes insulin?",
+  "options": [
+   "Liver",
+   "Adrenal gland",
+   "Thyroid gland",
+   "Pancreas"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is homeostasis?",
+  "options": [
+   "The response of a plant to light",
+   "The breakdown of glucose to release energy",
+   "Maintenance of a stable internal environment",
+   "The growth of an organism over time"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which hormone prepares the body for fight or flight?",
+  "options": [
+   "Oestrogen hormone",
+   "Adrenaline",
+   "Thyroxine",
+   "Insulin"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How does the body respond to a rise in core temperature?",
+  "options": [
+   "Sweating and vasodilation",
+   "Shivering and vasoconstriction",
+   "Reduced sweating and vasoconstriction",
+   "Increased shivering and hair erection"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which part of the brain monitors blood temperature and controls thermoregulation?",
+  "options": [
+   "Medulla",
+   "Cerebrum",
+   "Cerebellum",
+   "Hypothalamus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is negative feedback?",
+  "options": [
+   "A permanent change to the set point",
+   "A response that increases the original change",
+   "A response that reverses a change from the set point",
+   "A response that has no effect on the set point"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which hormone increases water reabsorption in the kidneys?",
+  "options": [
+   "Insulin",
+   "ADH",
+   "Adrenaline",
+   "Thyroxine"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

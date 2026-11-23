@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "In a fair test, which variable does the experimenter deliberately change?",
+  "options": [
+   "Continuous variable",
+   "Dependent variable being measured",
+   "Independent variable",
+   "Control variable"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the dependent variable in an experiment?",
+  "options": [
+   "The variable that is deliberately changed",
+   "The variable that is measured",
+   "The variable kept constant",
+   "The variable that is ignored"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which type of variable is kept the same in every trial of a fair test?",
+  "options": [
+   "Control variable",
+   "Categorical variable",
+   "Independent variable",
+   "Dependent variable"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A student measures how light intensity affects the rate of photosynthesis. What is the dependent variable?",
+  "options": [
+   "Light intensity",
+   "Temperature of the water",
+   "Volume of the test tube",
+   "Rate of photosynthesis"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why is a control group included in an experiment?",
+  "options": [
+   "To increase the sample size",
+   "To make the results much more precise",
+   "To give a baseline for comparison",
+   "To remove the need for repeats"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a hypothesis?",
+  "options": [
+   "An opinion that cannot possibly be tested",
+   "A testable prediction based on evidence",
+   "A final conclusion drawn from all the data",
+   "A list of safety precautions"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which instrument measures 25 cm³ of liquid most accurately?",
+  "options": [
+   "Measuring cylinder",
+   "A small glass beaker",
+   "Conical flask",
+   "Test tube"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "When reading a measuring cylinder, where should the eye be?",
+  "options": [
+   "Slightly above the meniscus",
+   "Slightly below the meniscus",
+   "At the top of the scale",
+   "Level with the meniscus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many millimetres are in 4.5 centimetres?",
+  "options": [
+   "0.45 mm",
+   "450 mm",
+   "45 mm",
+   "4 500 mm"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which SI unit is used for mass?",
+  "options": [
+   "Litre (L)",
+   "Kilogram (kg)",
+   "Newton, the unit of force",
+   "Joule (J)"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A distance of 2 500 m is equal to...",
+  "options": [
+   "2.5 km",
+   "250 km",
+   "0.25 km",
+   "25 km"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which measurement shows the greatest precision?",
+  "options": [
+   "12.5 cm",
+   "13 cm (nearest cm)",
+   "12 cm",
+   "12.45 cm"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A set of readings is accurate when the values...",
+  "options": [
+   "show a clear pattern",
+   "are all very close to each other",
+   "are close to the true value",
+   "are all very precise"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How can random error be reduced?",
+  "options": [
+   "Record only the very first result",
+   "Repeat readings and average them",
+   "Use a larger beaker",
+   "Read the scale from above"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A balance reads 0.5 g when empty. What type of error is this?",
+  "options": [
+   "A systematic error",
+   "A random error caused by chance",
+   "A parallax error",
+   "A human error"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "One result is much higher than all the others. What should be done first?",
+  "options": [
+   "Ignore it without checking",
+   "Change the hypothesis",
+   "Delete the whole data set",
+   "Repeat that measurement"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why are repeat measurements useful?",
+  "options": [
+   "They change the dependent variable",
+   "They remove all systematic error completely",
+   "They reduce the effect of random error",
+   "They make the experiment fairer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which graph is best for showing how temperature changes over time?",
+  "options": [
+   "Tally chart",
+   "Line graph",
+   "Pie chart",
+   "Bar chart"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which graph is most suitable for comparing favourite subjects in a class?",
+  "options": [
+   "Bar chart",
+   "Line graph",
+   "Scatter graph",
+   "Conversion graph"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A line of best fit on a scatter graph is used to...",
+  "options": [
+   "hide anomalous points",
+   "prove that one variable causes the other",
+   "join every data point",
+   "show the overall trend"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The results 4.2, 4.4 and 4.3 have a mean of...",
+  "options": [
+   "4.25",
+   "4.2",
+   "4.3",
+   "4.4"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which piece of safety equipment is needed when heating a liquid?",
+  "options": [
+   "A stopwatch and timer",
+   "Safety goggles",
+   "A thermometer",
+   "A ruler"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A graph shows the rate rising, then levelling off. How should this be described?",
+  "options": [
+   "It increases then plateaus",
+   "It stays constant throughout",
+   "It decreases steadily",
+   "It increases without limit"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Enzyme activity is highest at 37 °C. Which conclusion does this support?",
+  "options": [
+   "Enzymes work at any temperature at all",
+   "Activity rises with every 10 °C",
+   "The enzyme is completely destroyed at 37 °C",
+   "37 °C is the optimum temperature"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

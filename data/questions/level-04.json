@@ -2,78 +2,78 @@
  {
   "question_text": "Which of these is a piece of software?",
   "options": [
-   "A keyboard",
    "A web browser",
    "A power supply",
-   "A hard disk"
+   "A hard disk",
+   "A keyboard"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "What do we call the physical parts of a computer that you can touch?",
   "options": [
-   "Software",
-   "Hardware",
    "Data",
-   "Programs"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which part is often called the 'brain' of the computer because it carries out instructions?",
-  "options": [
-   "The keyboard",
-   "The monitor",
-   "The speakers",
-   "The CPU"
+   "Programs",
+   "Software",
+   "Hardware"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
+  "question_text": "Which part is often called the 'brain' of the computer because it carries out instructions?",
+  "options": [
+   "The monitor",
+   "The speakers",
+   "The CPU",
+   "The keyboard"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
   "question_text": "Which statement about RAM is correct?",
   "options": [
+   "It keeps your saved files safely for many years to come",
    "It holds current work and is cleared when power is off",
    "It controls the brightness and colour of the screen itself",
-   "It sends data to the printer one page at a time, in turn",
-   "It keeps your saved files safely for many years to come"
+   "It sends data to the printer one page at a time, in turn"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which component joins the CPU, memory and other parts together so they can communicate?",
   "options": [
-   "The webcam",
-   "The power cable",
    "The motherboard",
-   "The monitor"
+   "The monitor",
+   "The webcam",
+   "The power cable"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is the job of the power supply unit inside a desktop computer?",
   "options": [
-   "To store the files that you have saved on the computer",
-   "To change mains electricity into voltages the parts can use",
    "To connect the computer to the school network cables",
-   "To cool the processor by blowing air across the parts"
+   "To cool the processor by blowing air across the parts",
+   "To store the files that you have saved on the computer",
+   "To change mains electricity into voltages the parts can use"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A computer slows down badly when many programs are open at once. Which upgrade would most likely help?",
   "options": [
+   "Using a better mouse",
    "Buying a larger monitor",
    "Adding more RAM",
-   "Fitting louder speakers",
-   "Using a better mouse"
+   "Fitting louder speakers"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -90,23 +90,23 @@
  {
   "question_text": "Why does a computer need storage as well as RAM?",
   "options": [
-   "Storage is only needed so the computer can reach the internet",
-   "Storage is faster than RAM, so the CPU always uses it first",
    "RAM is temporary, but storage keeps files after power-off",
-   "RAM can only hold text files and can never hold pictures"
+   "RAM can only hold text files and can never hold pictures",
+   "Storage is only needed so the computer can reach the internet",
+   "Storage is faster than RAM, so the CPU always uses it first"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A pupil wants to turn a picture in a book into a digital image. Which device should be used?",
   "options": [
-   "Monitor",
-   "Scanner",
    "Printer",
-   "Speakers"
+   "Speakers",
+   "Monitor",
+   "Scanner"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -123,45 +123,45 @@
  {
   "question_text": "Which device puts a copy of a document onto paper?",
   "options": [
+   "Scanner",
    "Printer",
    "Mouse",
-   "Keyboard",
-   "Scanner"
+   "Keyboard"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which device lets you enter data by touching and also displays the results?",
   "options": [
-   "Projector",
    "Touchscreen",
    "Mouse",
-   "Keyboard"
+   "Keyboard",
+   "Projector"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "A designer wants to draw directly onto the computer with a pen. Which input device suits this best?",
   "options": [
-   "A barcode reader",
-   "A graphics tablet",
    "A flatbed scanner",
-   "A set of speakers"
+   "A set of speakers",
+   "A barcode reader",
+   "A graphics tablet"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A teacher wants a whole class to see a computer's display on the wall. Which output device is best?",
   "options": [
-   "A projector",
-   "A joystick",
    "A webcam",
-   "A microphone"
+   "A microphone",
+   "A projector",
+   "A joystick"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -178,111 +178,111 @@
  {
   "question_text": "A pupil cannot type easily but can speak clearly. Which input method would help most?",
   "options": [
-   "A scanner with an automatic document feeder tray",
-   "A projector with a long power cable lead",
    "A microphone with speech-recognition software",
-   "Speakers with a large volume control dial"
+   "Speakers with a large volume control dial",
+   "A scanner with an automatic document feeder tray",
+   "A projector with a long power cable lead"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which is the smallest unit of data in a computer?",
   "options": [
-   "A bit",
    "A megabyte",
    "A kilobyte",
-   "A byte"
+   "A byte",
+   "A bit"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which of these units can store the most data?",
   "options": [
-   "Terabyte (TB)",
-   "Kilobyte (KB)",
    "Megabyte (MB)",
-   "Gigabyte (GB)"
+   "Gigabyte (GB)",
+   "Terabyte (TB)",
+   "Kilobyte (KB)"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which storage device is small enough to carry in a pocket and plugs into a USB port?",
   "options": [
-   "A desktop hard disk",
-   "A server cabinet",
    "A network router",
-   "A USB flash drive"
+   "A USB flash drive",
+   "A desktop hard disk",
+   "A server cabinet"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "A byte is made up of how many bits?",
   "options": [
+   "8",
    "4",
    "16",
-   "10",
-   "8"
+   "10"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which list shows the units in order from smallest to largest?",
   "options": [
+   "MB, KB, TB, GB",
    "GB, MB, KB, TB",
    "TB, GB, KB, MB",
-   "KB, MB, GB, TB",
-   "MB, KB, TB, GB"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "A memory card holds 32 GB. Each video is 2 GB. How many videos fit on the card?",
-  "options": [
-   "32",
-   "64",
-   "8",
-   "16"
+   "KB, MB, GB, TB"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
-  "question_text": "Which of these is the greatest amount of storage space?",
+  "question_text": "A memory card holds 32 GB. Each video is 2 GB. How many videos fit on the card?",
   "options": [
-   "1 GB",
-   "0.5 GB",
-   "1200 MB",
-   "900 MB"
+   "64",
+   "8",
+   "16",
+   "32"
   ],
   "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is the greatest amount of storage space?",
+  "options": [
+   "0.5 GB",
+   "1200 MB",
+   "900 MB",
+   "1 GB"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is cloud storage?",
   "options": [
-   "Copying files onto discs that are kept in a school cupboard",
-   "Saving files only in the temporary RAM chips inside a PC",
    "Keeping files on remote servers reached over the internet",
-   "Storing files in the memory chips inside the keyboard"
+   "Storing files in the memory chips inside the keyboard",
+   "Copying files onto discs that are kept in a school cupboard",
+   "Saving files only in the temporary RAM chips inside a PC"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Why is an SSD usually less likely than a hard disk drive to be damaged if a laptop is knocked?",
   "options": [
-   "It has no moving parts inside",
    "It holds less data than a hard disk",
    "It is kept cool by a larger fan",
-   "It is always stored in the cloud"
+   "It is always stored in the cloud",
+   "It has no moving parts inside"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -299,12 +299,12 @@
  {
   "question_text": "What is the main job of an operating system?",
   "options": [
+   "To search the whole internet for the best answers",
    "To manage the hardware and let programs run",
    "To make printed copies of every document you write",
-   "To protect the building from power cuts and surges",
-   "To search the whole internet for the best answers"
+   "To protect the building from power cuts and surges"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -321,23 +321,23 @@
  {
   "question_text": "What is the benefit of a graphical user interface (GUI)?",
   "options": [
+   "It lets the computer work without electricity",
    "It makes the computer physically smaller",
    "It stops programs from needing any memory",
-   "You can use icons and menus instead of typing commands",
-   "It lets the computer work without electricity"
+   "You can use icons and menus instead of typing commands"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which file extension is normally used for a photograph?",
   "options": [
+   ".xlsx",
    ".mp3",
    ".jpg",
-   ".docx",
-   ".xlsx"
+   ".docx"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -354,12 +354,12 @@
  {
   "question_text": "What is the difference between copying and moving a file?",
   "options": [
-   "Moving keeps the original, copying takes it from the old place",
-   "Copying works only on USB drives, but moving works only on discs",
    "Copying keeps the original, moving takes it from the old place",
-   "Copying makes the file smaller, but moving makes it bigger"
+   "Copying makes the file smaller, but moving makes it bigger",
+   "Moving keeps the original, copying takes it from the old place",
+   "Copying works only on USB drives, but moving works only on discs"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -376,34 +376,34 @@
  {
   "question_text": "Which is the best name for a file holding Mia's maths homework from 12 March?",
   "options": [
-   "Maths_Homework_Mia_12-March",
-   "my stuff for school",
    "homework_final_final2",
-   "Document1 - Copy (3)"
+   "Document1 - Copy (3)",
+   "Maths_Homework_Mia_12-March",
+   "my stuff for school"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Mia renames photo.png to photo.docx, hoping to turn it into a text document. What happens?",
   "options": [
-   "The picture is automatically turned into editable text",
    "The computer converts it into a spreadsheet file",
    "The contents do not change, so it may not open properly",
-   "The file becomes smaller and opens a lot faster"
+   "The file becomes smaller and opens a lot faster",
+   "The picture is automatically turned into editable text"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A file is stored at C:\\School\\Maths\\Test.docx. Which folder directly contains Test.docx?",
   "options": [
-   "C",
-   "docx",
    "Maths",
-   "Test"
+   "Test",
+   "C",
+   "docx"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -420,12 +420,12 @@
  {
   "question_text": "Which formatting makes text look thicker and darker?",
   "options": [
+   "Underline",
    "Strikethrough",
    "Bold",
-   "Italic",
-   "Underline"
+   "Italic"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -475,56 +475,56 @@
  {
   "question_text": "A spell checker finds no errors in the sentence 'Their going to the park.' Why?",
   "options": [
+   "The spell checker cannot check words that start with capitals",
    "Every word is spelt correctly, even though 'Their' is wrong",
    "The word 'park' is always accepted without being checked",
-   "The spell checker only works on very short sentences",
-   "The spell checker cannot check words that start with capitals"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Why is it better to use a heading style than to just make a title big and bold?",
-  "options": [
-   "Styles automatically add pictures to the pages of the file",
-   "Styles make the whole document print out a lot faster",
-   "Styles stop other people from being able to open the file",
-   "Headings can be changed together and used for a contents list"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "You spelt a name wrongly twenty times in a long essay. What is the quickest way to correct all of them?",
-  "options": [
-   "Use the undo button twenty times",
-   "Use find and replace",
-   "Change the font size of the name",
-   "Retype the whole essay"
+   "The spell checker only works on very short sentences"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
-  "question_text": "In a spreadsheet, what is a cell?",
+  "question_text": "Why is it better to use a heading style than to just make a title big and bold?",
   "options": [
-   "A whole row of boxes across the sheet",
-   "A whole sheet of data in the workbook",
-   "A kind of chart made from the data",
-   "The box where one row and one column meet"
+   "Headings can be changed together and used for a contents list",
+   "Styles automatically add pictures to the pages of the file",
+   "Styles make the whole document print out a lot faster",
+   "Styles stop other people from being able to open the file"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "You spelt a name wrongly twenty times in a long essay. What is the quickest way to correct all of them?",
+  "options": [
+   "Change the font size of the name",
+   "Retype the whole essay",
+   "Use the undo button twenty times",
+   "Use find and replace"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a spreadsheet, what is a cell?",
+  "options": [
+   "A whole sheet of data in the workbook",
+   "A kind of chart made from the data",
+   "The box where one row and one column meet",
+   "A whole row of boxes across the sheet"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "How are the columns and rows of a spreadsheet usually labelled?",
   "options": [
-   "Both by colours",
-   "Both by letters only",
    "Columns by numbers and rows by letters",
-   "Columns by letters and rows by numbers"
+   "Columns by letters and rows by numbers",
+   "Both by colours",
+   "Both by letters only"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -541,45 +541,45 @@
  {
   "question_text": "What does the range A1:A5 mean?",
   "options": [
+   "The five cells in row 1, from A to E",
    "The single number 15 written in a cell",
    "Only the two cells A1 and A5",
-   "The cells A1, A2, A3, A4 and A5",
-   "The five cells in row 1, from A to E"
+   "The cells A1, A2, A3, A4 and A5"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Cell A1 contains 4 and cell B1 contains 6. What does =A1+B1 show?",
   "options": [
+   "46",
    "2",
    "10",
-   "24",
-   "46"
+   "24"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Cells B2 to B5 contain 3, 5, 7 and 9. What does =SUM(B2:B5) show?",
   "options": [
-   "6",
    "15",
    "24",
-   "4"
+   "4",
+   "6"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Cells A1 to A4 contain 10, 20, 30 and 40. What does =AVERAGE(A1:A4) show?",
   "options": [
-   "100",
-   "30",
    "25",
-   "40"
+   "40",
+   "100",
+   "30"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -596,23 +596,23 @@
  {
   "question_text": "Why should a chart have a title and axis labels?",
   "options": [
-   "So readers know what the chart shows and its units",
-   "So the numbers in the chart add up automatically",
    "So the spreadsheet file can be saved safely",
-   "So the chart can be printed in full colour"
+   "So the chart can be printed in full colour",
+   "So readers know what the chart shows and its units",
+   "So the numbers in the chart add up automatically"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "A1 holds 7, B1 holds 8 and C1 holds =A1*B1. You change B1 to 10. What does C1 now show?",
   "options": [
+   "710",
    "70",
    "56",
-   "17",
-   "710"
+   "17"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -640,100 +640,100 @@
  {
   "question_text": "What is a slide transition?",
   "options": [
-   "A setting that prints several slides on one page",
    "The list of notes written for the presenter's use",
    "The title text that is written on the first slide",
-   "The effect shown as one slide changes to the next"
+   "The effect shown as one slide changes to the next",
+   "A setting that prints several slides on one page"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "On which slide do the title of the talk and the presenter's name usually appear?",
   "options": [
+   "The last slide",
    "The first slide",
    "The middle slide",
-   "Only the speaker notes",
-   "The last slide"
+   "Only the speaker notes"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which choice gives the best contrast and so is easiest to read on a slide?",
   "options": [
+   "Dark text on a light background",
    "Yellow text on a white background",
    "Light grey text on a white background",
-   "Dark blue text on a black background",
-   "Dark text on a light background"
+   "Dark blue text on a black background"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "What are speaker notes for?",
   "options": [
-   "Reminders for the presenter that the audience cannot see",
    "A record of every slide that has been deleted so far",
    "Large text that is shown on every slide for all to see",
-   "The music that plays while the slides change over"
+   "The music that plays while the slides change over",
+   "Reminders for the presenter that the audience cannot see"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which slide is the best design for a presentation?",
   "options": [
-   "A whole paragraph of text set in a very small font",
    "Twelve different pictures that all overlap each other",
    "A busy, patterned background behind a lot of text",
-   "A short title, three brief bullets and one clear picture"
+   "A short title, three brief bullets and one clear picture",
+   "A whole paragraph of text set in a very small font"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which advice about animations and transitions is best?",
   "options": [
-   "Use a different loud effect on every single slide you make",
-   "Add as many effects as you can to impress everyone",
    "Apply an animation to every word and every picture",
-   "Use a few simple effects so the message stays clear"
+   "Use a few simple effects so the message stays clear",
+   "Use a different loud effect on every single slide you make",
+   "Add as many effects as you can to impress everyone"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A slide holds 80 words in a tiny font. What is the best way to improve it?",
   "options": [
+   "Split it into several slides with key points on each",
    "Read the slide silently to yourself without speaking",
    "Remove the title so that there is more room for text",
-   "Make the font even smaller so that it all fits",
-   "Split it into several slides with key points on each"
+   "Make the font even smaller so that it all fits"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Why is it good to use the same theme, fonts and colours on every slide?",
   "options": [
+   "It makes the file much smaller than with any other design",
    "It makes the slides change over automatically in time",
    "It stops the audience from reading ahead of the speaker",
-   "It makes the slides look consistent and easy to follow",
-   "It makes the file much smaller than with any other design"
+   "It makes the slides look consistent and easy to follow"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is a web browser?",
   "options": [
-   "A program used to view web pages",
-   "A device that prints web pages",
    "A tool for sending text messages",
-   "A cable that connects to the internet"
+   "A cable that connects to the internet",
+   "A program used to view web pages",
+   "A device that prints web pages"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -750,23 +750,23 @@
  {
   "question_text": "How can you send a photo to a friend inside an email message?",
   "options": [
-   "Type the photo into the subject line",
    "Add the photo as an attachment",
    "Paste the photo into the To box",
-   "Save the photo in the spam folder"
+   "Save the photo in the spam folder",
+   "Type the photo into the subject line"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is a URL?",
   "options": [
-   "A program for editing photos",
-   "The address of a web page",
    "A type of search engine",
-   "A kind of computer virus"
+   "A kind of computer virus",
+   "A program for editing photos",
+   "The address of a web page"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -783,56 +783,56 @@
  {
   "question_text": "What does downloading mean?",
   "options": [
-   "Printing a web page out on a sheet of paper",
-   "Sending a file from your own device to the internet",
    "Deleting a web page from the internet for good",
-   "Copying a file from the internet to your own device"
+   "Copying a file from the internet to your own device",
+   "Printing a web page out on a sheet of paper",
+   "Sending a file from your own device to the internet"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "In the URL https://www.example.org/news, which part is the domain name?",
   "options": [
-   "https://www",
    "www.example.org",
    "/news",
-   "https://"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "You email the whole class but do not want them to see each other's addresses. Which field should you use?",
-  "options": [
-   "Cc",
-   "Bcc",
-   "Subject",
-   "To"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "Which search is likely to give the most useful results about why volcanoes erupt?",
-  "options": [
-   "why do volcanoes erupt",
-   "erupt",
-   "volcano!!! now now now",
-   "tell me everything about things"
+   "https://",
+   "https://www"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
-  "question_text": "Why should you download files only from trusted websites?",
+  "question_text": "You email the whole class but do not want them to see each other's addresses. Which field should you use?",
   "options": [
-   "Trusted sites always make the files smaller",
-   "Downloads from trusted sites are always free of cost",
-   "Unknown sites cannot be opened by any browser",
-   "Files from unknown sites may contain malware"
+   "Subject",
+   "To",
+   "Cc",
+   "Bcc"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which search is likely to give the most useful results about why volcanoes erupt?",
+  "options": [
+   "volcano!!! now now now",
+   "tell me everything about things",
+   "why do volcanoes erupt",
+   "erupt"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why should you download files only from trusted websites?",
+  "options": [
+   "Unknown sites cannot be opened by any browser",
+   "Files from unknown sites may contain malware",
+   "Trusted sites always make the files smaller",
+   "Downloads from trusted sites are always free of cost"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -849,12 +849,12 @@
  {
   "question_text": "A friend asks for your school login to check your homework. What is the best response?",
   "options": [
-   "Give it, but only for one day",
-   "Politely refuse and keep the password private",
    "Share it if they promise not to tell",
-   "Write it on a note and pass it over"
+   "Write it on a note and pass it over",
+   "Give it, but only for one day",
+   "Politely refuse and keep the password private"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -871,45 +871,45 @@
  {
   "question_text": "Which situation is an example of cyberbullying?",
   "options": [
-   "Playing a friendly online quiz with classmates",
    "Sending a polite email to your teacher",
    "Repeatedly posting unkind comments about a classmate online",
-   "Arguing about a film with a friend face to face"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "You receive cruel messages online. What should you do?",
-  "options": [
-   "Forward them to all of your friends for a laugh",
-   "Keep the evidence, do not reply and tell an adult",
-   "Delete everything and say nothing to anybody",
-   "Reply straight away with equally cruel messages"
+   "Arguing about a film with a friend face to face",
+   "Playing a friendly online quiz with classmates"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
+  "question_text": "You receive cruel messages online. What should you do?",
+  "options": [
+   "Keep the evidence, do not reply and tell an adult",
+   "Delete everything and say nothing to anybody",
+   "Reply straight away with equally cruel messages",
+   "Forward them to all of your friends for a laugh"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
   "question_text": "Which message is most likely to be a phishing attempt?",
   "options": [
+   "A newsletter from a school club that you joined",
    "A text from a friend about a football match",
    "A reminder from your teacher that homework is due",
-   "An email saying your account is locked unless you enter your password",
-   "A newsletter from a school club that you joined"
+   "An email saying your account is locked unless you enter your password"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Why should you not simply copy another person's work from the internet and call it your own?",
   "options": [
-   "It breaks copyright and is dishonest",
-   "It makes the file too big to save",
    "It always damages the computer",
-   "Websites do not allow pictures to be copied"
+   "Websites do not allow pictures to be copied",
+   "It breaks copyright and is dishonest",
+   "It makes the file too big to save"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -926,12 +926,12 @@
  {
   "question_text": "Which of these actions adds to your digital footprint?",
   "options": [
+   "Posting a comment on a public website",
    "Thinking about a post but never sending it",
    "Writing a note on paper at home",
-   "Switching your computer off at night",
-   "Posting a comment on a public website"
+   "Switching your computer off at night"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -948,23 +948,23 @@
  {
   "question_text": "What do privacy settings on a social media account let you do?",
   "options": [
-   "Choose who can see your posts and information",
-   "Change who owns your photos",
    "Make your posts load faster",
-   "Hide the account from the company that runs it"
+   "Hide the account from the company that runs it",
+   "Choose who can see your posts and information",
+   "Change who owns your photos"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is an algorithm?",
   "options": [
-   "A harmful type of virus that spreads by email",
-   "A kind of mistake made when spelling a word",
    "A small electronic part found inside a keyboard",
-   "Step-by-step instructions that solve a problem"
+   "Step-by-step instructions that solve a problem",
+   "A harmful type of virus that spreads by email",
+   "A kind of mistake made when spelling a word"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -1003,12 +1003,12 @@
  {
   "question_text": "What is selection in programming?",
   "options": [
-   "Putting all of the steps in alphabetical order",
    "Repeating the same set of steps ten times",
    "Choosing what to do depending on a condition",
-   "Copying the whole program into a new file"
+   "Copying the whole program into a new file",
+   "Putting all of the steps in alphabetical order"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -1025,67 +1025,67 @@
  {
   "question_text": "What is debugging?",
   "options": [
-   "Finding and fixing mistakes in a program",
    "Deleting a program that you no longer need",
    "Copying a program onto a USB flash drive",
-   "Writing a whole program for the first time"
+   "Writing a whole program for the first time",
+   "Finding and fixing mistakes in a program"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Why use a loop instead of writing the same block ten times?",
   "options": [
+   "The program runs on any computer without changes",
    "The program uses no memory at all",
    "The program is shorter and easier to change",
-   "The computer then never makes mistakes",
-   "The program runs on any computer without changes"
+   "The computer then never makes mistakes"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "A robot is told: repeat 4 times { move forward 3 steps }. How many steps forward does it move in total?",
   "options": [
-   "4",
    "7",
    "12",
-   "16"
+   "16",
+   "4"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "x = 2. Then repeat 3 times: x = x * 2. What is the value of x at the end?",
   "options": [
+   "16",
    "8",
    "6",
-   "32",
-   "16"
+   "32"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "x = 7. If x > 10, say 'High'. Otherwise, if x > 5, say 'Medium'. Otherwise say 'Low'. What is said?",
   "options": [
+   "Nothing is said",
    "High",
    "Low",
-   "Medium",
-   "Nothing is said"
+   "Medium"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which block program makes a sprite draw a square with sides of 100 steps?",
   "options": [
-   "Repeat 3 times: move 100 steps, turn 90 degrees",
    "Repeat 4 times: move 90 steps, turn 100 degrees",
    "Repeat 4 times: move 100 steps, turn 45 degrees",
-   "Repeat 4 times: move 100 steps, turn 90 degrees"
+   "Repeat 4 times: move 100 steps, turn 90 degrees",
+   "Repeat 3 times: move 100 steps, turn 90 degrees"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {

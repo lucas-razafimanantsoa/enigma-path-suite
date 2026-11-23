@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "In the Bible, who built an ark to survive a great flood?",
+  "options": [
+   "Moses",
+   "Abraham",
+   "David",
+   "Noah"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which people built the pyramids at Giza?",
+  "options": [
+   "Persians",
+   "Greeks",
+   "Egyptians",
+   "Romans"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which legendary king is linked to the Round Table?",
+  "options": [
+   "King John",
+   "King Arthur",
+   "King Harold",
+   "King Alfred"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which city was at the centre of the Trojan War?",
+  "options": [
+   "Troy",
+   "Sparta",
+   "Athens",
+   "Corinth"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who taught Alexander the Great?",
+  "options": [
+   "Plato",
+   "Socrates",
+   "Diogenes",
+   "Aristotle"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which legendary hero performed twelve labours?",
+  "options": [
+   "Theseus",
+   "Perseus",
+   "Hercules",
+   "Achilles"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who was the first emperor of Rome?",
+  "options": [
+   "Nero",
+   "Augustus",
+   "Trajan",
+   "Hadrian"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which ancient city was the Colosseum built?",
+  "options": [
+   "Rome",
+   "Carthage",
+   "Athens",
+   "Alexandria"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which empire did Genghis Khan rule?",
+  "options": [
+   "Roman Empire",
+   "Ottoman Empire",
+   "Persian Empire",
+   "Mongol Empire"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which famous library was destroyed by fire in ancient Alexandria?",
+  "options": [
+   "The Bodleian",
+   "The Vatican Library",
+   "Library of Alexandria",
+   "The Louvre"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which civilisation developed cuneiform writing?",
+  "options": [
+   "Egyptians",
+   "Sumerians",
+   "Greeks",
+   "Incas"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which pharaoh is famous for a golden death mask?",
+  "options": [
+   "Tutankhamun",
+   "Khufu",
+   "Ramses II",
+   "Akhenaten"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which Greek city-state was famous for democracy?",
+  "options": [
+   "Sparta",
+   "Thebes",
+   "Corinth",
+   "Athens"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which sea did the ancient Phoenicians trade across?",
+  "options": [
+   "Red Sea",
+   "Baltic Sea",
+   "Mediterranean Sea",
+   "Black Sea"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which storyteller is famous for ancient Greek fables?",
+  "options": [
+   "Pindar",
+   "Aesop",
+   "Homer",
+   "Hesiod"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which civilisation built the city of Machu Picchu?",
+  "options": [
+   "Inca",
+   "Maya",
+   "Olmec",
+   "Aztec"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which Roman general defeated Hannibal at the Battle of Zama?",
+  "options": [
+   "Julius Caesar",
+   "Pompey",
+   "Mark Antony",
+   "Scipio Africanus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which emperor split the Roman Empire into two administrative halves?",
+  "options": [
+   "Caligula",
+   "Nero",
+   "Diocletian",
+   "Tiberius"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which ancient Greek mathematician wrote 'Elements'?",
+  "options": [
+   "Pythagoras",
+   "Euclid",
+   "Archimedes",
+   "Thales"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which pharaoh was a woman who ruled Egypt in the 15th century BCE?",
+  "options": [
+   "Hatshepsut",
+   "Nefertiti",
+   "Cleopatra",
+   "Nefertari"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which city was famous for its Hanging Gardens?",
+  "options": [
+   "Nineveh",
+   "Ur",
+   "Memphis",
+   "Babylon"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which philosopher was sentenced to drink hemlock?",
+  "options": [
+   "Epicurus",
+   "Plato",
+   "Socrates",
+   "Aristotle"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which Roman emperor built the Colosseum?",
+  "options": [
+   "Augustus",
+   "Vespasian",
+   "Nero",
+   "Trajan"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What was the name of the giant statue on the island of Rhodes?",
+  "options": [
+   "Colossus of Rhodes",
+   "Great Sphinx",
+   "Parthenon",
+   "Obelisk"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which battle in 480 BCE saw a small Greek force hold a mountain pass?",
+  "options": [
+   "Salamis",
+   "Plataea",
+   "Marathon",
+   "Thermopylae"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

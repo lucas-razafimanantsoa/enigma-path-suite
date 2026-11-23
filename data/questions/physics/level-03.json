@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "In which unit is energy measured?",
+  "options": [
+   "newtons (N)",
+   "watts (W)",
+   "metres (m)",
+   "joules (J)"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a store of energy?",
+  "options": [
+   "A painted wall",
+   "A dark shadow",
+   "A stretched spring",
+   "A quiet sound"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What type of energy does a moving car have?",
+  "options": [
+   "nuclear energy",
+   "kinetic energy",
+   "elastic energy",
+   "chemical energy"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which energy store is found in food?",
+  "options": [
+   "chemical",
+   "kinetic",
+   "thermal",
+   "magnetic"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Energy cannot be created or destroyed. What is this called?",
+  "options": [
+   "energy transfer",
+   "energy efficiency",
+   "energy dissipation",
+   "conservation of energy"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which process transfers energy from the Sun to Earth?",
+  "options": [
+   "magnetism",
+   "conduction",
+   "radiation",
+   "convection"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the energy store of something high above the ground?",
+  "options": [
+   "elastic",
+   "gravitational potential",
+   "chemical",
+   "kinetic"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which device changes chemical energy into light and heat?",
+  "options": [
+   "A candle",
+   "A mirror",
+   "A lens",
+   "A ruler"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "When a ball is dropped, gravitational energy changes mainly into...",
+  "options": [
+   "chemical energy",
+   "nuclear energy",
+   "elastic energy",
+   "kinetic energy"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A battery lights a bulb. Which energy transfers happen?",
+  "options": [
+   "heat to magnetic to sound",
+   "light to chemical to heat",
+   "chemical to electrical to light",
+   "kinetic to nuclear to light"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does the efficiency of a device describe?",
+  "options": [
+   "How quickly the device runs",
+   "Useful output compared with total input",
+   "How much the device costs",
+   "How heavy the device is"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is no machine completely efficient?",
+  "options": [
+   "Some energy is dissipated",
+   "Energy is destroyed inside it",
+   "Machines create extra energy",
+   "Machines are too small"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is wasted energy from a car engine?",
+  "options": [
+   "Movement of the car",
+   "Light from the lamps",
+   "Motion of the wheels",
+   "Heat to the surroundings"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "An old filament bulb wastes much of its energy as...",
+  "options": [
+   "radiation",
+   "sound",
+   "heat",
+   "electricity"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In which unit is power measured?",
+  "options": [
+   "newtons (N)",
+   "watts (W)",
+   "volts (V)",
+   "joules (J)"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which energy store does a stretched rubber band have?",
+  "options": [
+   "elastic potential",
+   "chemical",
+   "nuclear",
+   "gravitational"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A 60 W lamp runs for 2 hours. How much energy is transferred?",
+  "options": [
+   "120 kJ",
+   "720 kJ",
+   "4320 kJ",
+   "432 kJ"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A motor has 500 J input and wastes 100 J. What is its efficiency?",
+  "options": [
+   "60%",
+   "20%",
+   "80 %",
+   "100%"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A device has 200 J input and 150 J useful output. How much is dissipated?",
+  "options": [
+   "150 J",
+   "50 J",
+   "100 J",
+   "350 J"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about energy is correct?",
+  "options": [
+   "Total energy is always conserved",
+   "Machines can create energy",
+   "Energy vanishes when used",
+   "Wasted energy is destroyed"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A ball bounces lower each time. What happens to the lost energy?",
+  "options": [
+   "It is completely destroyed",
+   "It is stored as chemical energy",
+   "It turns into matter",
+   "It transfers to the surroundings as heat and sound"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which has the most gravitational potential energy?",
+  "options": [
+   "A light box on a low step",
+   "A light box on the floor",
+   "A heavy box on a high shelf",
+   "A heavy box on the floor"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does a perpetual motion machine not work?",
+  "options": [
+   "Machines are too heavy",
+   "Energy is always dissipated",
+   "Gravity is too weak",
+   "Energy can be created from nothing"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the useful energy output of a television?",
+  "options": [
+   "light and sound",
+   "heat only",
+   "kinetic energy",
+   "chemical energy"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Power is defined as...",
+  "options": [
+   "the total energy stored",
+   "a type of force",
+   "a measure of temperature",
+   "the rate of transferring energy"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

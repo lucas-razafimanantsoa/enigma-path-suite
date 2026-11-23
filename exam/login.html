@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher login | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <style>
+    .login-wrap { max-width: 430px; margin: clamp(24px, 8vh, 80px) auto; }
+    .login-card { display: grid; gap: 16px; text-align: center; }
+    .login-card .lock {
+      width: 56px; height: 56px; margin: 0 auto 4px; display: grid; place-items: center;
+      border-radius: 16px; background: var(--surface); color: var(--soft);
+      animation: login-pop 0.4s ease both;
+    }
+    .login-card .lock svg { width: 28px; height: 28px; }
+    .login-card form { display: grid; gap: 12px; text-align: left; }
+    .login-card input { text-align: center; letter-spacing: 0.08em; }
+    .login-error { color: var(--bad); font-weight: 600; font-size: 14px; min-height: 20px; text-align: center; }
+    .login-error.shake { animation: login-shake 0.32s ease; }
+    .login-note { font-size: 13px; color: var(--muted); }
+    .login-note a { font-weight: 700; }
+    @keyframes login-pop { from { transform: scale(0.8); opacity: 0; } to { transform: none; opacity: 1; } }
+    @keyframes login-shake { 0%,100% { transform: translateX(0); } 25%,75% { transform: translateX(-5px); } 50% { transform: translateX(5px); } }
+    @media (prefers-reduced-motion: reduce) { .login-card .lock, .login-error.shake { animation: none; } }
+  </style>
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+      <span>EnigmaPath<small>Teacher area</small></span>
+    </a>
+  </header>
+
+  <main class="ep-main login-wrap">
+    <section class="card login-card">
+      <div class="lock" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M12 15v2"/></svg>
+      </div>
+      <div>
+        <p class="eyebrow">Teacher area</p>
+        <h1 class="page-title">Teacher login</h1>
+      </div>
+      <p class="muted">The exam builder and the results page are for the teacher only. Enter the password that was used to start the server.</p>
+      <form id="login-form" novalidate>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" autocomplete="current-password" spellcheck="false" placeholder="Teacher password">
+        </div>
+        <p class="login-error" id="error" role="alert"></p>
+        <button class="btn btn--primary btn--large" type="submit" id="submit">Unlock teacher area</button>
+      </form>
+      <p class="login-note">Taking an exam? <a href="index.html">Go to the student exam</a> — no password needed.</p>
+    </section>
+  </main>
+
+  <script src="../shared/footer.js"></script>
+  <script>
+    (function () {
+      'use strict';
+      var $ = function (id) { return document.getElementById(id); };
+      var next = new URLSearchParams(location.search).get('next') || 'builder.html';
+      if (next.charAt(0) !== '/' || next.slice(0, 2) === '//') next = 'builder.html';
+
+      fetch('../api/login-status').then(function (r) { return r.json(); }).then(function (d) {
+        if (d.teacher) location.replace(next);
+      }).catch(function () { /* no server: the form will show the error */ });
+
+      $('login-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var err = $('error');
+        err.classList.remove('shake');
+        $('submit').disabled = true;
+        fetch('../api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password: $('password').value })
+        }).then(function (r) {
+          return r.json().then(function (d) {
+            if (!r.ok) throw new Error(d.error || 'Could not log in.');
+            return d;
+          });
+        }).then(function () {
+          location.replace(next);
+        }).catch(function (ex) {
+          err.textContent = ex.message;
+          void err.offsetWidth;
+          err.classList.add('shake');
+          $('password').focus();
+          $('submit').disabled = false;
+        });
+      });
+    }());
+  </script>
+</body>
+</html>

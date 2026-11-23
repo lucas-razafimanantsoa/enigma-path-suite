@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which of these is a source of light?",
+  "options": [
+   "The Sun",
+   "The Moon",
+   "A mirror",
+   "A still lake"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What travels from a lamp to your eye so that you can see?",
+  "options": [
+   "Gravity",
+   "Electricity",
+   "Sound",
+   "Light"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which material is transparent?",
+  "options": [
+   "Wood",
+   "Steel",
+   "Clear glass",
+   "Brick"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Sound is produced when something...",
+  "options": [
+   "is in darkness",
+   "vibrates",
+   "is completely still",
+   "is very cold"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense detects light?",
+  "options": [
+   "Sight",
+   "Hearing",
+   "Taste",
+   "Smell"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a plane mirror do to light?",
+  "options": [
+   "Creates it",
+   "Destroys it",
+   "Absorbs it",
+   "Reflects it"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a source of sound?",
+  "options": [
+   "A silent room",
+   "A shadow",
+   "A ringing bell",
+   "A photograph"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Light travels in straight lines until it...",
+  "options": [
+   "starts vibrating",
+   "meets another material",
+   "turns into sound",
+   "runs out of energy"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Shadows form because light...",
+  "options": [
+   "cannot pass through opaque objects",
+   "bends around all corners",
+   "is absorbed by the air",
+   "travels very slowly"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why do you see yourself in a mirror?",
+  "options": [
+   "Sound bounces back at you",
+   "The mirror glows in the dark",
+   "The mirror makes its own light",
+   "Light reflects back to your eyes"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What mainly determines the pitch of a sound?",
+  "options": [
+   "Its amplitude",
+   "Its colour",
+   "Its frequency",
+   "Its speed"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A sound becomes louder when the vibrations have a bigger...",
+  "options": [
+   "period",
+   "amplitude",
+   "frequency",
+   "wavelength"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which travels much faster through air?",
+  "options": [
+   "Light",
+   "Sound",
+   "Both travel at the same speed",
+   "Neither can travel in air"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is an echo?",
+  "options": [
+   "A reflection of light",
+   "A completely silent sound",
+   "A very high note",
+   "A reflected sound"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which colour of visible light has the highest frequency?",
+  "options": [
+   "Red",
+   "Green",
+   "Violet",
+   "Yellow"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "White light can be split into...",
+  "options": [
+   "green light only",
+   "the colours of the spectrum",
+   "red and blue only",
+   "black and white"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A guitar string is shortened. What happens to the pitch?",
+  "options": [
+   "It becomes higher",
+   "It becomes lower",
+   "It stays the same",
+   "It becomes much quieter"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why can you hear around a corner but not see around it?",
+  "options": [
+   "Sound never travels in straight lines",
+   "Light cannot bend at all",
+   "Light is louder than sound",
+   "Sound diffracts more than light"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the unit of frequency?",
+  "options": [
+   "newton (N)",
+   "joule (J)",
+   "hertz (Hz)",
+   "watt (W)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A wave has a frequency of 50 Hz. How many vibrations in 2 s?",
+  "options": [
+   "52 times",
+   "100 times",
+   "25 times",
+   "100 s"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A drum is struck harder. Which property of the sound changes?",
+  "options": [
+   "Amplitude",
+   "Frequency",
+   "Wavelength",
+   "Speed"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does thunder arrive after the lightning flash?",
+  "options": [
+   "The thunder is made later",
+   "Thunder has no source",
+   "Sound travels faster than light",
+   "Light travels faster than sound"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What happens when light enters glass at an angle?",
+  "options": [
+   "It stops moving",
+   "It becomes brighter",
+   "It bends (refracts)",
+   "It doubles its speed"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these sounds has the highest frequency?",
+  "options": [
+   "A distant rumble",
+   "A shrill whistle",
+   "A low drum",
+   "A deep bass note"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Ultrasound is sound with a frequency...",
+  "options": [
+   "above human hearing",
+   "below human hearing",
+   "equal to that of light",
+   "too low to vibrate"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

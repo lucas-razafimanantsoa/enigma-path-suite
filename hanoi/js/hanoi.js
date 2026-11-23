@@ -13,7 +13,7 @@
   var MAX_DISCS = 8;
   var DRAG_THRESHOLD = 6;     // px of pointer travel before a press becomes a drag
   var DEFAULT_MOVE_MS = 220;  // disc travel time (CSS transition)
-  var DISC_STOPS = ['#405b72', '#71899b', '#b2c1c5', '#e8e9e2']; // palette, dark to light
+  var DISC_STOPS = ['#4682B4', '#87CEEB', '#B0E0E6', '#E0FFFF']; // palette, dark to light
 
   // ---------------------------------------------------------------- DOM
   function $(id) { return document.getElementById(id); }

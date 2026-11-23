@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Which nutrient is the body's main source of quick energy?",
+  "options": [
+   "Minerals",
+   "Proteins",
+   "Vitamins",
+   "Carbohydrates"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which reagent is used to test for reducing sugars?",
+  "options": [
+   "Biuret solution",
+   "Ethanol",
+   "Benedict's solution",
+   "Iodine solution"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which enzyme catalyses the breakdown of starch into maltose?",
+  "options": [
+   "Catalase",
+   "Amylase",
+   "Protease",
+   "Lipase"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main function of the large intestine?",
+  "options": [
+   "Absorbing water from undigested food",
+   "Digesting proteins into amino acids",
+   "Producing bile in the liver",
+   "Absorbing glucose into the blood"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the function of bile in digestion?",
+  "options": [
+   "Breaking down starch into sugars",
+   "Absorbing amino acids into the blood",
+   "Producing hydrochloric acid in the stomach",
+   "Emulsifying fats into small droplets"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which part of the digestive system secretes hydrochloric acid?",
+  "options": [
+   "Pancreas",
+   "Ileum",
+   "Stomach",
+   "Liver"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is peristalsis?",
+  "options": [
+   "Release of bile from the gall bladder",
+   "Waves of muscle contraction that move food along the gut",
+   "Enzymatic breakdown of food in the stomach",
+   "Absorption of nutrients through villi"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which vitamin is produced in the skin when exposed to sunlight?",
+  "options": [
+   "Vitamin D",
+   "Vitamin C",
+   "Vitamin B12",
+   "Vitamin A"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which blood cells transport oxygen around the body?",
+  "options": [
+   "Platelets",
+   "White blood cells",
+   "Plasma cells",
+   "Red blood cells"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which heart chamber pumps deoxygenated blood to the lungs?",
+  "options": [
+   "Left atrium",
+   "Right atrium",
+   "Right ventricle",
+   "Left ventricle"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which type of blood vessel carries blood away from the heart?",
+  "options": [
+   "Capillary",
+   "Artery",
+   "Venule",
+   "Vein"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the function of valves in the heart?",
+  "options": [
+   "Preventing the backflow of blood",
+   "Speeding up the flow of blood",
+   "Producing red blood cells",
+   "Filtering waste products from the blood"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which component of the blood is essential for clotting?",
+  "options": [
+   "White blood cells",
+   "Plasma",
+   "Red blood cells",
+   "Platelets"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which blood vessels have walls one cell thick to allow exchange of substances?",
+  "options": [
+   "Aorta",
+   "Arteries",
+   "Capillaries",
+   "Veins"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main function of the left ventricle?",
+  "options": [
+   "Pumping deoxygenated blood to the lungs",
+   "Pumping oxygenated blood to the body",
+   "Receiving oxygenated blood from the lungs",
+   "Receiving deoxygenated blood from the body"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which pigment in red blood cells binds oxygen?",
+  "options": [
+   "Haemoglobin",
+   "Fibrin",
+   "Chlorophyll",
+   "Melanin pigment"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which plant tissue transports water and mineral ions from the roots?",
+  "options": [
+   "Phloem",
+   "Cambium",
+   "Epidermis",
+   "Xylem"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which process is the main driver of water movement up the xylem?",
+  "options": [
+   "Respiration",
+   "Photosynthesis",
+   "Transpiration",
+   "Translocation"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the main function of phloem tissue?",
+  "options": [
+   "Absorbing light for photosynthesis",
+   "Transporting dissolved sugars and amino acids",
+   "Transporting water and mineral ions",
+   "Providing structural support"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which condition increases the rate of transpiration?",
+  "options": [
+   "Windy air",
+   "High humidity",
+   "Still air",
+   "Darkness"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Through which leaf structures does most water vapour escape?",
+  "options": [
+   "Xylem vessels",
+   "Cuticle",
+   "Root hairs",
+   "Stomata"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is translocation?",
+  "options": [
+   "The uptake of minerals by root hairs",
+   "The movement of water through the xylem",
+   "The movement of sugars through the phloem",
+   "The loss of water vapour from leaves"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which cells control the opening and closing of stomata?",
+  "options": [
+   "Root hair cells",
+   "Guard cells",
+   "Xylem vessel cells",
+   "Palisade cells"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does a plant wilt when it loses water faster than it absorbs it?",
+  "options": [
+   "Its cells lose turgor pressure",
+   "Its roots stop growing",
+   "Its leaves make more chlorophyll",
+   "Its xylem vessels become wider"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

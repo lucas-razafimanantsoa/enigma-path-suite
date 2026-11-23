@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Who was the first President of the United States?",
+  "options": [
+   "Thomas Jefferson",
+   "James Madison",
+   "George Washington",
+   "John Adams"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which tall iron tower stands in Paris?",
+  "options": [
+   "Colosseum",
+   "Eiffel Tower",
+   "Big Ben",
+   "Tower of Pisa"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who wrote the play 'Romeo and Juliet'?",
+  "options": [
+   "William Shakespeare",
+   "Mark Twain",
+   "Charles Dickens",
+   "Jane Austen"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who developed the theory of relativity?",
+  "options": [
+   "Charles Darwin",
+   "Galileo Galilei",
+   "Isaac Newton",
+   "Albert Einstein"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which city would you find the Statue of Liberty?",
+  "options": [
+   "Chicago",
+   "Washington",
+   "New York",
+   "Boston"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who painted the Mona Lisa?",
+  "options": [
+   "Raphael",
+   "Leonardo da Vinci",
+   "Donatello",
+   "Michelangelo"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which country is the Taj Mahal?",
+  "options": [
+   "India",
+   "Nepal",
+   "Pakistan",
+   "Bangladesh"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which ancient wonder is a great pyramid in Egypt?",
+  "options": [
+   "Colossus of Rhodes",
+   "Lighthouse of Alexandria",
+   "Hanging Gardens",
+   "Great Pyramid of Giza"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Whose expedition was the first to sail around the world?",
+  "options": [
+   "Vasco da Gama",
+   "Marco Polo",
+   "Ferdinand Magellan",
+   "Christopher Columbus"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who is credited with inventing the telephone?",
+  "options": [
+   "Nikola Tesla",
+   "Alexander Graham Bell",
+   "Samuel Morse",
+   "Thomas Edison"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which famous opera house is in Sydney?",
+  "options": [
+   "Sydney Opera House",
+   "Bolshoi Theatre",
+   "Royal Opera House",
+   "La Scala"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who is credited with writing the Iliad and the Odyssey?",
+  "options": [
+   "Sophocles",
+   "Aesop",
+   "Euripides",
+   "Homer"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which scientist discovered radium?",
+  "options": [
+   "Ada Lovelace",
+   "Jane Goodall",
+   "Marie Curie",
+   "Rosalind Franklin"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which ancient stone circle stands in Wiltshire, England?",
+  "options": [
+   "The Great Wall",
+   "Stonehenge",
+   "The Parthenon",
+   "The Colosseum"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who was the first person to walk on the Moon?",
+  "options": [
+   "Neil Armstrong",
+   "Michael Collins",
+   "Buzz Aldrin",
+   "Yuri Gagarin"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In which country is the Great Wall found?",
+  "options": [
+   "Japan",
+   "Korea",
+   "Mongolia",
+   "China"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who painted the ceiling of the Sistine Chapel?",
+  "options": [
+   "Botticelli",
+   "Titian",
+   "Michelangelo",
+   "Raphael"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Who wrote 'The Jungle Book'?",
+  "options": [
+   "A. A. Milne",
+   "Rudyard Kipling",
+   "J. R. R. Tolkien",
+   "C. S. Lewis"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which city is nicknamed 'The Eternal City'?",
+  "options": [
+   "Rome",
+   "Cairo",
+   "Athens",
+   "Paris"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Who founded the International Committee of the Red Cross?",
+  "options": [
+   "Florence Nightingale",
+   "Clara Barton",
+   "Elizabeth Fry",
+   "Henry Dunant"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which inventor is linked to the first practical light bulb?",
+  "options": [
+   "Guglielmo Marconi",
+   "Samuel Morse",
+   "Thomas Edison",
+   "Alexander Graham Bell"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which city was buried by Mount Vesuvius in 79 CE?",
+  "options": [
+   "Carthage",
+   "Pompeii",
+   "Rome",
+   "Athens"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which Egyptian queen was the last ruler of the Ptolemaic dynasty?",
+  "options": [
+   "Cleopatra VII",
+   "Nefertiti",
+   "Hatshepsut",
+   "Boudica"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which mountain is the highest above sea level?",
+  "options": [
+   "Kilimanjaro",
+   "Mount Fuji",
+   "K2",
+   "Mount Everest"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Who wrote the 'Harry Potter' books?",
+  "options": [
+   "C. S. Lewis",
+   "Philip Pullman",
+   "J. K. Rowling",
+   "J. R. R. Tolkien"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

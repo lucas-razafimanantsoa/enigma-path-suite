@@ -2,56 +2,56 @@
  {
   "question_text": "Which is the proper way to turn off a computer?",
   "options": [
-   "Close all the open windows",
    "Switch off the monitor only",
    "Choose Shut down from the menu",
-   "Pull the plug out of the wall socket"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "How do you type a capital letter?",
-  "options": [
-   "Press the letter key two times quickly",
-   "Hold Ctrl and press the letter",
-   "Hold Shift and press the letter",
-   "Press Tab and then the letter"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What is the Caps Lock key used for?",
-  "options": [
-   "Typing capitals without holding Shift",
-   "Moving the cursor to the end of the line",
-   "Making the screen brighter",
-   "Opening a new program window"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which key do you press to start a new line in a document?",
-  "options": [
-   "Space bar",
-   "Enter",
-   "Tab",
-   "Shift"
+   "Pull the plug out of the wall socket",
+   "Close all the open windows"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which key deletes the letter just before the cursor?",
+  "question_text": "How do you type a capital letter?",
   "options": [
-   "Backspace",
-   "Caps Lock key",
-   "Left arrow key",
-   "Delete"
+   "Hold Shift and press the letter",
+   "Press Tab and then the letter",
+   "Press the letter key two times quickly",
+   "Hold Ctrl and press the letter"
   ],
   "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the Caps Lock key used for?",
+  "options": [
+   "Moving the cursor to the end of the line",
+   "Making the screen brighter",
+   "Opening a new program window",
+   "Typing capitals without holding Shift"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which key do you press to start a new line in a document?",
+  "options": [
+   "Shift",
+   "Space bar",
+   "Enter",
+   "Tab"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which key deletes the letter just before the cursor?",
+  "options": [
+   "Delete",
+   "Backspace",
+   "Caps Lock key",
+   "Left arrow key"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -68,265 +68,265 @@
  {
   "question_text": "Which key makes a space between two words?",
   "options": [
-   "Space bar",
    "Caps Lock key",
    "Escape key",
-   "Shift key"
+   "Shift key",
+   "Space bar"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which keys move the cursor up, down, left and right?",
   "options": [
+   "Number keys",
    "Shift keys",
    "Arrow keys",
-   "Function keys",
-   "Number keys"
+   "Function keys"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "In Word, which button makes the selected text bold?",
   "options": [
-   "A",
    "U",
    "B",
-   "I"
+   "I",
+   "A"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "In Word, what does the I button do to the selected text?",
   "options": [
-   "Draws a line under it",
-   "Changes its colour",
    "Makes it slanted",
-   "Makes it thick and dark"
+   "Makes it thick and dark",
+   "Draws a line under it",
+   "Changes its colour"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "In Word, what does the U button do to the selected text?",
   "options": [
-   "Underlines it",
    "Makes it bold",
    "Makes it bigger",
-   "Makes it italic"
+   "Makes it italic",
+   "Underlines it"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What do you call the blinking line that shows where your typing will appear?",
   "options": [
-   "Scroll bar",
    "Margin",
    "Ruler",
-   "Cursor"
+   "Cursor",
+   "Scroll bar"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which part of the computer works out and processes information?",
   "options": [
-   "Scanner",
-   "Webcam",
    "Monitor",
-   "CPU"
+   "CPU",
+   "Scanner",
+   "Webcam"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which device do you use to type letters and numbers?",
   "options": [
-   "Mouse",
-   "Loudspeakers",
    "Keyboard",
-   "Webcam"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which device shows pictures and words on a screen?",
-  "options": [
-   "Speaker",
+   "Webcam",
    "Mouse",
-   "Monitor",
-   "Keyboard"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which device plays the sound from a computer so a class can hear it?",
-  "options": [
-   "Speakers",
-   "Monitor",
-   "Scanner",
-   "Microphone"
+   "Loudspeakers"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which device prints your work onto paper?",
+  "question_text": "Which device shows pictures and words on a screen?",
+  "options": [
+   "Keyboard",
+   "Speaker",
+   "Mouse",
+   "Monitor"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which device plays the sound from a computer so a class can hear it?",
   "options": [
    "Scanner",
-   "Monitor",
-   "Printer",
-   "Keyboard"
+   "Microphone",
+   "Speakers",
+   "Monitor"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
+  "question_text": "Which device prints your work onto paper?",
+  "options": [
+   "Monitor",
+   "Printer",
+   "Keyboard",
+   "Scanner"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
   "question_text": "Which of these is an input device, used to put information into a computer?",
   "options": [
-   "Monitor",
    "Keyboard",
    "Data projector",
-   "Speakers"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which device do you move with your hand to point at things on the screen?",
-  "options": [
-   "Monitor",
-   "Mouse",
-   "Speaker",
-   "Printer"
-  ],
-  "correct_answer_index": 1,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which kind of computer can you carry around, with its screen and keyboard joined together?",
-  "options": [
-   "Laptop",
-   "Printer",
-   "Router",
+   "Speakers",
    "Monitor"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
-  "question_text": "What do we call a small picture on the screen that stands for a program or file?",
+  "question_text": "Which device do you move with your hand to point at things on the screen?",
   "options": [
-   "Cursor",
-   "Title bar",
-   "Menu",
-   "Icon"
+   "Speaker",
+   "Printer",
+   "Monitor",
+   "Mouse"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
-  "question_text": "What do you call a place on a computer where files are kept together?",
+  "question_text": "Which kind of computer can you carry around, with its screen and keyboard joined together?",
   "options": [
-   "Cursor",
-   "Speaker",
-   "Folder",
-   "Slide"
+   "Router",
+   "Monitor",
+   "Laptop",
+   "Printer"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
-  "question_text": "What do you do if you press the left mouse button twice very quickly?",
+  "question_text": "What do we call a small picture on the screen that stands for a program or file?",
   "options": [
-   "Double-click",
-   "Hover",
-   "Scroll",
-   "Drag and drop"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which of these should you never tell a stranger online?",
-  "options": [
-   "Your favourite animal",
-   "Your home address",
-   "Your favourite colour",
-   "Your favourite cartoon"
+   "Menu",
+   "Icon",
+   "Cursor",
+   "Title bar"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which password is the hardest for other people to guess?",
+  "question_text": "What do you call a place on a computer where files are kept together?",
   "options": [
-   "blu3Fr0g#82",
-   "my_birthday_2016",
-   "password",
-   "12345"
+   "Folder",
+   "Slide",
+   "Cursor",
+   "Speaker"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Whose instructions should you follow in the computer lab?",
+  "question_text": "What do you do if you press the left mouse button twice very quickly?",
   "options": [
-   "Your best friend's",
-   "Nobody's, you choose",
-   "The loudest student's",
-   "Your teacher's"
+   "Hover",
+   "Scroll",
+   "Drag and drop",
+   "Double-click"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these should you never tell a stranger online?",
+  "options": [
+   "Your favourite cartoon",
+   "Your favourite animal",
+   "Your home address",
+   "Your favourite colour"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which password is the hardest for other people to guess?",
+  "options": [
+   "12345",
+   "blu3Fr0g#82",
+   "my_birthday_2016",
+   "password"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Whose instructions should you follow in the computer lab?",
+  "options": [
+   "Your teacher's",
+   "Your best friend's",
+   "Nobody's, you choose",
+   "The loudest student's"
+  ],
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Where should food and drink go in the computer lab?",
   "options": [
+   "On top of the monitor",
    "Right next to the keyboard",
    "Beside the mouse",
-   "Away from computers",
-   "On top of the monitor"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which program would you use to write a letter or a story?",
-  "options": [
-   "Microsoft Excel",
-   "Microsoft PowerPoint",
-   "Paint",
-   "Microsoft Word"
+   "Away from computers"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which program would you use to make a show with slides?",
+  "question_text": "Which program would you use to write a letter or a story?",
   "options": [
-   "Microsoft Excel",
-   "Notepad",
-   "PowerPoint",
-   "Microsoft Word"
+   "Microsoft PowerPoint",
+   "Paint",
+   "Microsoft Word",
+   "Microsoft Excel"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
+  "question_text": "Which program would you use to make a show with slides?",
+  "options": [
+   "Notepad",
+   "PowerPoint",
+   "Microsoft Word",
+   "Microsoft Excel"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
   "question_text": "Which program is best for adding up a table of numbers?",
   "options": [
-   "Microsoft Word",
-   "Paint",
    "Microsoft Excel",
-   "Microsoft PowerPoint"
+   "Microsoft PowerPoint",
+   "Microsoft Word",
+   "Paint"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
@@ -343,34 +343,34 @@
  {
   "question_text": "Which type of program do you use to draw a picture with colours and brushes?",
   "options": [
+   "Notepad",
    "Media player",
    "Paint",
-   "Calculator",
-   "Notepad"
+   "Calculator"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which command starts a brand new, empty document?",
   "options": [
+   "Save",
    "New",
    "Open",
-   "Print",
-   "Save"
+   "Print"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "On a Windows computer, which shortcut closes the program window you are using?",
   "options": [
-   "Ctrl + V",
    "Alt + F4",
    "Alt + Tab",
-   "Ctrl + C"
+   "Ctrl + C",
+   "Ctrl + V"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -387,23 +387,23 @@
  {
   "question_text": "Which shortcut copies the selected text?",
   "options": [
-   "Ctrl + C",
-   "Ctrl + Z",
    "Ctrl + V",
-   "Ctrl + X"
+   "Ctrl + X",
+   "Ctrl + C",
+   "Ctrl + Z"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which shortcut pastes the text you copied?",
   "options": [
-   "Ctrl + Z",
    "Ctrl + X",
    "Ctrl + V",
-   "Ctrl + C"
+   "Ctrl + C",
+   "Ctrl + Z"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -420,12 +420,12 @@
  {
   "question_text": "Which symbol means multiplication in an Excel formula?",
   "options": [
-   "^ (caret)",
-   "* (asterisk)",
    "% (percent sign)",
-   "x (letter x)"
+   "x (letter x)",
+   "^ (caret)",
+   "* (asterisk)"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -453,298 +453,298 @@
  {
   "question_text": "What does CPU stand for?",
   "options": [
+   "Central Processing Unit",
    "Computer Personal Unit",
    "Computer Processing Unit",
-   "Central Program Unit",
-   "Central Processing Unit"
+   "Central Program Unit"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which device lets a computer take photos or show you on a video call?",
   "options": [
-   "Speaker",
-   "Webcam",
    "Monitor",
-   "Printer"
+   "Printer",
+   "Speaker",
+   "Webcam"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which device turns a paper photo into a picture file on the computer?",
   "options": [
+   "Loudspeaker",
    "Printer",
    "Scanner",
-   "Data projector",
-   "Loudspeaker"
+   "Data projector"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which device connects the computers in a home to the internet?",
   "options": [
+   "Monitor",
    "Router",
    "Printer",
-   "Keyboard",
-   "Monitor"
+   "Keyboard"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "In Word, which alignment puts text in the middle of the line?",
   "options": [
+   "Centre",
    "Left",
    "Justified",
-   "Right",
-   "Centre"
+   "Right"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which tool changes the colour of the letters you have typed?",
   "options": [
+   "Line spacing",
    "Zoom",
    "Page border",
-   "Font colour",
-   "Line spacing"
+   "Font colour"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "What do we call a list in Word where each item starts with a dot?",
   "options": [
-   "Text box",
    "Heading style",
    "Table",
-   "Bullet list"
+   "Bullet list",
+   "Text box"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "In Word, which tab do you use to add a picture to your page?",
   "options": [
-   "Home",
-   "References",
    "View",
-   "Insert"
+   "Insert",
+   "Home",
+   "References"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What do you add to a Word page to show information in rows and columns?",
   "options": [
-   "A heading",
    "A table",
    "A footer",
-   "A bullet"
+   "A bullet",
+   "A heading"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "What do we call the parts of a computer that you can touch?",
   "options": [
-   "Hardware",
    "Files",
    "Passwords",
-   "Software"
+   "Software",
+   "Hardware"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "What do we call the programs that tell a computer what to do?",
   "options": [
-   "Keyboards",
    "Cables",
    "Hardware",
-   "Software"
+   "Software",
+   "Keyboards"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Why do you save your work?",
   "options": [
+   "So the printer works faster",
    "So you can open it again later",
    "So the keyboard stays clean",
-   "So the screen becomes brighter",
-   "So the printer works faster"
+   "So the screen becomes brighter"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is a USB flash drive useful for?",
   "options": [
-   "Listening to music loudly",
-   "Connecting to the internet",
    "Carrying files between computers",
-   "Printing your pages"
+   "Printing your pages",
+   "Listening to music loudly",
+   "Connecting to the internet"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which way of sitting is best when you use a computer?",
   "options": [
-   "Slouching close to the screen",
-   "Back straight, feet on the floor",
    "Lying down on the floor",
-   "Sitting with feet on the desk"
+   "Sitting with feet on the desk",
+   "Slouching close to the screen",
+   "Back straight, feet on the floor"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Why should you take short breaks from the screen?",
   "options": [
-   "To make files smaller",
    "To make the internet faster",
    "To make the computer cooler",
-   "To rest your eyes and hands"
+   "To rest your eyes and hands",
+   "To make files smaller"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which download is the riskiest for your computer?",
   "options": [
-   "A game from your school's website",
    "A reading app from a trusted library",
    "A free game from a site you do not know",
-   "A learning app your teacher chose"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "A pop-up says 'You have won a prize! Click here!' What should you do?",
-  "options": [
-   "Click it to claim the prize",
-   "Type in your address",
-   "Send it to all your friends",
-   "Close it and tell an adult"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "A website asks you to type your home address. What should you do?",
-  "options": [
-   "Ask a trusted adult first",
-   "Type in a friend's address",
-   "Type it in straight away",
-   "Post it where everyone can see"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Which link is safest to click?",
-  "options": [
-   "One your teacher gave you",
-   "A pop-up saying you won",
-   "One from an unknown sender",
-   "One inside a spam email"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "You see something online that makes you feel upset or uncomfortable. What should you do?",
-  "options": [
-   "Tell a teacher or parent",
-   "Keep it a secret",
-   "Click on it again",
-   "Show it to younger children"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Why should you never meet someone you only know from the internet?",
-  "options": [
-   "They will not want to meet you",
-   "They might not be who they say they are",
-   "They will always be much older than you",
-   "They are always too far away to travel to"
+   "A learning app your teacher chose",
+   "A game from your school's website"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
-  "question_text": "What should you do before using a school computer?",
+  "question_text": "A pop-up says 'You have won a prize! Click here!' What should you do?",
   "options": [
-   "Ask your teacher first",
-   "Ask a friend to log in for you",
-   "Change the settings first",
-   "Start using it straight away"
+   "Close it and tell an adult",
+   "Click it to claim the prize",
+   "Type in your address",
+   "Send it to all your friends"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
-  "question_text": "The school computer stops working. What should you do?",
+  "question_text": "A website asks you to type your home address. What should you do?",
   "options": [
-   "Hit the screen gently",
-   "Open it up and look inside",
-   "Pull out all the cables",
-   "Tell your teacher"
+   "Type in a friend's address",
+   "Type it in straight away",
+   "Post it where everyone can see",
+   "Ask a trusted adult first"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
-  "question_text": "What should you do before you leave a shared computer?",
+  "question_text": "Which link is safest to click?",
   "options": [
-   "Switch off the speakers only",
-   "Leave your files open on screen",
-   "Unplug the mouse",
-   "Save your work and log out"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Who is allowed to know your password?",
-  "options": [
-   "Any friend who promises to keep it safe",
-   "Everyone in your class",
-   "Your best friend",
-   "Only you and a trusted adult"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Which program do you use to open and look at websites?",
-  "options": [
-   "A spreadsheet",
-   "A word processor",
-   "A web browser",
-   "A slide show"
+   "One from an unknown sender",
+   "One inside a spam email",
+   "One your teacher gave you",
+   "A pop-up saying you won"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
-  "question_text": "Which type of program plays a video on the computer?",
+  "question_text": "You see something online that makes you feel upset or uncomfortable. What should you do?",
   "options": [
-   "Notepad",
-   "Calculator",
-   "Spreadsheet program",
-   "Media player"
+   "Show it to younger children",
+   "Tell a teacher or parent",
+   "Keep it a secret",
+   "Click on it again"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why should you never meet someone you only know from the internet?",
+  "options": [
+   "They might not be who they say they are",
+   "They will always be much older than you",
+   "They are always too far away to travel to",
+   "They will not want to meet you"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What should you do before using a school computer?",
+  "options": [
+   "Ask a friend to log in for you",
+   "Change the settings first",
+   "Start using it straight away",
+   "Ask your teacher first"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The school computer stops working. What should you do?",
+  "options": [
+   "Open it up and look inside",
+   "Pull out all the cables",
+   "Tell your teacher",
+   "Hit the screen gently"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What should you do before you leave a shared computer?",
+  "options": [
+   "Unplug the mouse",
+   "Save your work and log out",
+   "Switch off the speakers only",
+   "Leave your files open on screen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who is allowed to know your password?",
+  "options": [
+   "Only you and a trusted adult",
+   "Any friend who promises to keep it safe",
+   "Everyone in your class",
+   "Your best friend"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which program do you use to open and look at websites?",
+  "options": [
+   "A slide show",
+   "A spreadsheet",
+   "A word processor",
+   "A web browser"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which type of program plays a video on the computer?",
+  "options": [
+   "Calculator",
+   "Spreadsheet program",
+   "Media player",
+   "Notepad"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -761,23 +761,23 @@
  {
   "question_text": "Which shortcut undoes your last action?",
   "options": [
-   "Ctrl + R",
    "Ctrl + Z",
    "Ctrl + U",
-   "Ctrl + Y"
+   "Ctrl + Y",
+   "Ctrl + R"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which Word feature helps you find spelling mistakes?",
   "options": [
-   "Zoom",
-   "Spell check",
    "Page numbering",
-   "Bullets"
+   "Bullets",
+   "Zoom",
+   "Spell check"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -794,45 +794,45 @@
  {
   "question_text": "Which setting would you change to make the letters in a document bigger?",
   "options": [
-   "Line spacing",
-   "Text alignment",
    "Page orientation",
-   "Font size"
+   "Font size",
+   "Line spacing",
+   "Text alignment"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which formula adds the numbers in cells A1 and B1?",
   "options": [
-   "=A1/B1",
    "=A1+B1",
    "=A1-B1",
-   "=A1*B1"
+   "=A1*B1",
+   "=A1/B1"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "How do you select a group of cells in Excel?",
   "options": [
-   "Double-click one cell",
-   "Click and drag over them",
    "Right-click one cell",
-   "Click once on a single cell"
+   "Click once on a single cell",
+   "Double-click one cell",
+   "Click and drag over them"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What do you click at the bottom of Excel to move to another worksheet?",
   "options": [
+   "The formula bar",
    "The ruler",
    "A sheet tab",
-   "The title bar",
-   "The formula bar"
+   "The title bar"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -849,67 +849,67 @@
  {
   "question_text": "What do you add in PowerPoint to make a picture or text move on a slide?",
   "options": [
-   "Slide numbers",
-   "Theme",
    "Animation",
-   "Layout"
+   "Layout",
+   "Slide numbers",
+   "Theme"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A Caesar cipher turns A into D. What is the shift?",
   "options": [
-   "A shift of 3",
    "A shift of 2",
    "A shift of 1",
-   "A shift of 14"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "In a Caesar cipher with a shift of 2, which letter does B become?",
-  "options": [
-   "C",
-   "A",
-   "E",
-   "D"
+   "A shift of 14",
+   "A shift of 3"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
-  "question_text": "Using a Caesar shift of 1, what does CAT become?",
+  "question_text": "In a Caesar cipher with a shift of 2, which letter does B become?",
   "options": [
-   "DBU",
-   "BZS",
-   "ECV",
-   "FDW"
+   "A",
+   "E",
+   "D",
+   "C"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
-  "question_text": "What does RAM stand for?",
+  "question_text": "Using a Caesar shift of 1, what does CAT become?",
   "options": [
-   "Rapid Access Memory",
-   "Random Access Memory",
-   "Read Access Memory",
-   "Real Access Memory"
+   "FDW",
+   "DBU",
+   "BZS",
+   "ECV"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
+  "question_text": "What does RAM stand for?",
+  "options": [
+   "Random Access Memory",
+   "Read Access Memory",
+   "Real Access Memory",
+   "Rapid Access Memory"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
   "question_text": "Which part of a computer forgets what it holds when the power is switched off?",
   "options": [
+   "USB flash drive",
    "DVD disc",
    "Hard drive",
-   "RAM",
-   "USB flash drive"
+   "RAM"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -937,111 +937,111 @@
  {
   "question_text": "How are the columns in an Excel sheet labelled?",
   "options": [
-   "With symbols",
-   "With coloured shapes",
    "With letters",
-   "With numbers"
+   "With numbers",
+   "With symbols",
+   "With coloured shapes"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which cell is where column B and row 3 meet?",
   "options": [
-   "B3",
    "3B",
    "C2",
-   "B+3"
+   "B+3",
+   "B3"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does the AutoSum button (the sigma sign) do in Excel?",
   "options": [
+   "Colours the cells",
    "Draws a chart",
    "Adds up numbers",
-   "Sorts names in order",
-   "Colours the cells"
+   "Sorts names in order"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "A cell contains =4+6. What number does the cell show?",
   "options": [
-   "24",
-   "46",
    "=4+6",
-   "10"
+   "10",
+   "24",
+   "46"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "The cell B2 holds 7. A cell contains =B2*2. What does it show?",
   "options": [
+   "14",
    "72",
    "=B2*2",
-   "9",
-   "14"
+   "9"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which shortcut sends a document to the printer?",
   "options": [
-   "Ctrl + P",
    "Ctrl + N",
    "Ctrl + O",
-   "Ctrl + S"
+   "Ctrl + S",
+   "Ctrl + P"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "On a Windows computer, where do deleted files usually wait before they are removed for good?",
   "options": [
-   "Desktop",
    "Taskbar",
    "Documents folder",
-   "Recycle Bin"
+   "Recycle Bin",
+   "Desktop"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "When you touch-type, which keys do your fingers rest on?",
   "options": [
+   "The F1 to F12 keys",
    "A S D F and J K L ;",
    "Z X C V and N M , .",
-   "1 2 3 4 and 7 8 9 0 keys",
-   "The F1 to F12 keys"
+   "1 2 3 4 and 7 8 9 0 keys"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is cyberbullying?",
   "options": [
+   "Using devices to be unkind to someone",
    "Playing a game with a friend online",
    "Sending a birthday email to a cousin",
-   "Having a long chat with family on a video call",
-   "Using devices to be unkind to someone"
+   "Having a long chat with family on a video call"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Someone sends you unkind messages online. What should you do?",
   "options": [
+   "Say nothing and hope it stops",
    "Send unkind messages back",
    "Keep it a secret",
-   "Tell a trusted adult",
-   "Say nothing and hope it stops"
+   "Tell a trusted adult"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -1058,12 +1058,12 @@
  {
   "question_text": "What does online privacy mean?",
   "options": [
+   "Telling everyone where you live",
    "Keeping your personal details safe online",
    "Posting every photo you take on the internet",
-   "Sharing your passwords with friends",
-   "Telling everyone where you live"
+   "Sharing your passwords with friends"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -1080,12 +1080,12 @@
  {
   "question_text": "What is the rule about changing the settings of a school computer?",
   "options": [
-   "Change them if a friend asks",
-   "Change them only with permission",
    "Change them to look cool",
-   "Change them whenever you feel bored with them"
+   "Change them whenever you feel bored with them",
+   "Change them if a friend asks",
+   "Change them only with permission"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -1102,23 +1102,23 @@
  {
   "question_text": "You get an email with an attachment from someone you do not know. What should you do?",
   "options": [
-   "Forward it to your friends",
-   "Reply with your full name",
    "Open it to see what it is",
-   "Do not open it and tell an adult"
+   "Do not open it and tell an adult",
+   "Forward it to your friends",
+   "Reply with your full name"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is the internet?",
   "options": [
-   "A kind of computer game",
-   "A program for writing letters and stories",
    "A worldwide network of computers",
-   "A device that prints pages"
+   "A device that prints pages",
+   "A kind of computer game",
+   "A program for writing letters and stories"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -1135,12 +1135,12 @@
  {
   "question_text": "Which type of program helps you practise typing faster?",
   "options": [
+   "A web browser",
    "A spreadsheet",
    "A typing tutor",
-   "A drawing program",
-   "A web browser"
+   "A drawing program"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  }
 ]

@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "An ionic bond is formed when...",
+  "options": [
+   "two metals share protons",
+   "a nucleus splits into two parts",
+   "electrons are transferred from a metal to a non-metal",
+   "electrons are shared equally between two non-metal atoms"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A covalent bond is formed by...",
+  "options": [
+   "losing protons from the nucleus",
+   "sharing a pair of electrons between atoms",
+   "gaining neutrons",
+   "transferring electrons from one atom to another"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which pair of elements will form an ionic compound?",
+  "options": [
+   "Potassium and bromine",
+   "Carbon and oxygen",
+   "Hydrogen and chlorine gas",
+   "Nitrogen and oxygen"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these compounds is covalent?",
+  "options": [
+   "Magnesium oxide",
+   "Calcium chloride",
+   "Sodium chloride",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an ion?",
+  "options": [
+   "An atom that contains one extra neutron in its nucleus",
+   "A molecule with no bonds",
+   "A charged particle formed by losing or gaining electrons",
+   "A mixture of two elements"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Group 1 metals form ions with a charge of...",
+  "options": [
+   "−2",
+   "+1",
+   "−1",
+   "+2"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Group 7 elements form ions with a charge of...",
+  "options": [
+   "−1",
+   "+1",
+   "+7",
+   "−7"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What holds the ions together in sodium chloride?",
+  "options": [
+   "Weak intermolecular forces between neighbouring molecules",
+   "A magnetic field",
+   "Shared electrons",
+   "Strong electrostatic attraction between opposite charges"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why do ionic compounds conduct electricity when molten?",
+  "options": [
+   "They contain free protons in the nucleus",
+   "Their particles are neutral",
+   "Their ions are free to move",
+   "Their electrons are shared"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is a typical property of a simple molecular covalent substance?",
+  "options": [
+   "High melting point",
+   "Low melting point",
+   "Conducts electricity when solid",
+   "Forms a giant lattice of ions"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the formula of magnesium chloride?",
+  "options": [
+   "MgCl₂",
+   "Mg₂Cl₂",
+   "MgCl",
+   "Mg₂Cl"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a molecule?",
+  "options": [
+   "A charged particle",
+   "A giant three-dimensional lattice containing many ions",
+   "A single proton",
+   "A group of atoms held together by covalent bonds"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a diatomic element?",
+  "options": [
+   "NaCl",
+   "H₂O",
+   "O₂",
+   "CO₂"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How many electrons are shared between the two hydrogen atoms in H₂?",
+  "options": [
+   "Four",
+   "Two",
+   "One",
+   "Three"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement about covalent bonding is correct?",
+  "options": [
+   "It involves sharing electrons between non-metal atoms",
+   "It only occurs between metals",
+   "It involves the transfer of protons",
+   "It always produces electrically charged particles called ions"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does solid sodium chloride not conduct electricity?",
+  "options": [
+   "It contains only molecules",
+   "It has no ions",
+   "Its ions are too small to carry an electric charge",
+   "Its ions are fixed in a lattice and cannot move"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does magnesium oxide have a very high melting point?",
+  "options": [
+   "It contains shared electrons only",
+   "It is a simple molecule",
+   "Strong electrostatic forces between Mg²⁺ and O²⁻ ions",
+   "Weak attractive forces between the molecules in the lattice"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the formula of calcium carbonate?",
+  "options": [
+   "CaCO₂",
+   "CaCO₃",
+   "Ca₂CO₃",
+   "CaC₂O₃"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "When a sodium atom loses one electron, it becomes...",
+  "options": [
+   "Na⁺",
+   "Na⁻",
+   "Na²⁺",
+   "Na"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do simple molecular substances not conduct electricity?",
+  "options": [
+   "They contain metal atoms",
+   "They contain ions that are fixed in place",
+   "They are too cold",
+   "They have no free charged particles"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which property is typical of ionic compounds?",
+  "options": [
+   "They conduct electricity when solid or molten",
+   "They are gases at room temperature",
+   "They form crystals with high melting points",
+   "They never dissolve in water"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which particles are free to move in a solution of sodium chloride?",
+  "options": [
+   "Only protons",
+   "Na⁺ and Cl⁻ ions",
+   "Only electrons",
+   "Only neutrons"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How many electrons does a chloride ion (Cl⁻) contain?",
+  "options": [
+   "18",
+   "17",
+   "16",
+   "19"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is the correct formula for aluminium oxide?",
+  "options": [
+   "AlO₃",
+   "AlO",
+   "Al₃O₂",
+   "Al₂O₃"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which compound contains both ionic and covalent bonds?",
+  "options": [
+   "Methane",
+   "Carbon dioxide",
+   "Sodium hydroxide",
+   "Solid sodium chloride"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

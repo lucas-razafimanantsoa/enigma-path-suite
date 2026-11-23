@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "Three out of eight equal parts of a shape are shaded. What fraction is shaded?",
+  "options": [
+   "5/8",
+   "8/3",
+   "3/5",
+   "3/8"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is 1/2 of 12?",
+  "options": [
+   "24",
+   "10",
+   "6",
+   "4"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which fraction is equivalent to 1/2?",
+  "options": [
+   "3/4",
+   "2/4",
+   "1/3",
+   "2/3"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In the decimal 0.47, what is the value of the digit 4?",
+  "options": [
+   "4 tenths",
+   "4 hundredths",
+   "4 ones",
+   "40 tenths"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is 50% of 20?",
+  "options": [
+   "50",
+   "5",
+   "15",
+   "10"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Write 1/4 as a decimal.",
+  "options": [
+   "2.5",
+   "0.4",
+   "0.25",
+   "0.14"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is 0.5 written as a fraction in its simplest form?",
+  "options": [
+   "1/5",
+   "1/2",
+   "2/5",
+   "1/4"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these numbers is the largest: 0.7, 0.07, 0.17, 0.71?",
+  "options": [
+   "0.71",
+   "0.07",
+   "0.17",
+   "0.7"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is 3/5 of 30?",
+  "options": [
+   "10",
+   "15",
+   "24",
+   "18"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Write 0.75 as a fraction in its simplest form.",
+  "options": [
+   "1/2",
+   "3/5",
+   "3/4",
+   "75/10"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is 25% of 48?",
+  "options": [
+   "24",
+   "12",
+   "16",
+   "10"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which fraction is bigger: 2/3 or 3/5?",
+  "options": [
+   "2/3",
+   "3/5",
+   "They are equal",
+   "Cannot tell"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is 1/10 as a decimal?",
+  "options": [
+   "0.01",
+   "1.0",
+   "10.0",
+   "0.1"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A shirt costs £20 and is reduced by 10%. What is the new price?",
+  "options": [
+   "19",
+   "22",
+   "18",
+   "10"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is 3/8 + 2/8?",
+  "options": [
+   "5/16",
+   "5/8",
+   "6/8",
+   "1/8"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Express 0.2 as a percentage.",
+  "options": [
+   "20%",
+   "2%",
+   "200%",
+   "0.2%"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is 2/3 of 45?",
+  "options": [
+   "27",
+   "90",
+   "15",
+   "30"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Write 3/5 as a percentage.",
+  "options": [
+   "50%",
+   "30%",
+   "60%",
+   "35%"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is 15% of 80?",
+  "options": [
+   "10",
+   "12",
+   "15",
+   "24"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is greatest: 0.6, 2/3 or 65%?",
+  "options": [
+   "2/3",
+   "0.6",
+   "65%",
+   "All three are equal"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A jacket is reduced by 25% from £60. What is the sale price?",
+  "options": [
+   "40",
+   "50",
+   "15",
+   "45"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Work out 1/4 + 1/2.",
+  "options": [
+   "2/6",
+   "1/6",
+   "3/4",
+   "2/3"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A recipe needs 3/4 of a cup of flour. How much is needed for half the recipe?",
+  "options": [
+   "1/8 of a cup",
+   "3/8 of a cup",
+   "3/2 cups",
+   "1/4 of a cup"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Write 7/20 as a decimal.",
+  "options": [
+   "0.35",
+   "0.7",
+   "0.27",
+   "3.5"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ }
+]

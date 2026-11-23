@@ -2,34 +2,34 @@
  {
   "question_text": "Which feature sets the amount of blank space between the text area and the edges of the page?",
   "options": [
-   "Tab stops",
    "Text wrapping",
    "Line spacing",
-   "Page margins"
+   "Page margins",
+   "Tab stops"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "A school wants its name to appear at the top of every page of a document. Where should the name be placed?",
   "options": [
+   "In the footer",
    "In the header",
    "In a footnote",
-   "In a text box on page 1 only",
-   "In the footer"
+   "In a text box on page 1 only"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "A table has ten columns and does not fit across a portrait page. Which page orientation is most likely to solve this?",
   "options": [
+   "Landscape",
    "Mirrored margins",
    "Justified text",
-   "Portrait",
-   "Landscape"
+   "Portrait"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
@@ -46,12 +46,12 @@
  {
   "question_text": "An image must sit behind a paragraph so that the text is printed over it. Which text wrapping setting should be chosen?",
   "options": [
-   "Behind text",
-   "Top and bottom",
    "In front of text",
-   "In line with text"
+   "In line with text",
+   "Behind text",
+   "Top and bottom"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -68,12 +68,12 @@
  {
   "question_text": "A price list needs every price lined up on the decimal point. Which type of tab stop should be set?",
   "options": [
-   "Left tab stop",
    "Decimal tab stop",
    "Centre tab stop",
-   "Right tab stop"
+   "Right tab stop",
+   "Left tab stop"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -101,12 +101,12 @@
  {
   "question_text": "A designer deliberately leaves extra white space around blocks of text on a flyer. What is the main benefit?",
   "options": [
-   "The text is automatically validated when typed",
    "The spell checker runs faster on the whole page",
    "The page looks less crowded and is easier to read",
-   "The document uses much less memory when saved"
+   "The document uses much less memory when saved",
+   "The text is automatically validated when typed"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -134,12 +134,12 @@
  {
   "question_text": "Why do organisations use a corporate house style?",
   "options": [
-   "So that its documents look consistent and are easily recognised",
-   "So that its files take up less storage space on the server",
    "So that only managers are allowed to edit the documents",
-   "So that its documents contain no spelling or grammar errors"
+   "So that its documents contain no spelling or grammar errors",
+   "So that its documents look consistent and are easily recognised",
+   "So that its files take up less storage space on the server"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -167,78 +167,78 @@
  {
   "question_text": "A company logo must appear in the same place on every slide of a presentation. Where should it be inserted?",
   "options": [
+   "In the speaker notes",
    "In the animation pane",
    "On the first slide only",
-   "On the slide master",
-   "In the speaker notes"
+   "On the slide master"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which item would be included in an organisation's house style?",
   "options": [
-   "Router settings and IP addresses of the computers",
    "The staff login names and their passwords",
    "The server backup schedule and storage locations",
-   "Heading font, colour palette and logo position"
+   "Heading font, colour palette and logo position",
+   "Router settings and IP addresses of the computers"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "A manager asks for every heading in a long report to change from one font to another. What is the quickest consistent method?",
   "options": [
-   "Retype the whole report again using the new font and layout",
-   "Use find and replace to delete the old headings",
    "Select each heading and change the font by hand",
-   "Modify the heading style so that all headings update"
+   "Modify the heading style so that all headings update",
+   "Retype the whole report again using the new font and layout",
+   "Use find and replace to delete the old headings"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A company wants all new documents created by staff to follow its house style. Which is the best approach?",
   "options": [
-   "Ask staff to copy the layout of any old document",
-   "Print the rules and pin them on the wall",
    "Provide a template with the styles already defined",
-   "Email the house style rules and let each member of staff set fonts manually"
+   "Email the house style rules and let each member of staff set fonts manually",
+   "Ask staff to copy the layout of any old document",
+   "Print the rules and pin them on the wall"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "On one slide the title was coloured red by hand. The title colour on the slide master is later changed to green. What is the most likely result for that slide?",
   "options": [
+   "The title becomes green automatically as it is on the master",
    "The title is hidden until the slide is next saved",
    "The whole slide is deleted from the presentation",
-   "The title stays red because of the manual formatting",
-   "The title becomes green automatically as it is on the master"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "All pages of a website link to one external CSS style sheet. The heading colour in that sheet is changed. What happens?",
-  "options": [
-   "No page changes until each page is saved as a new file",
-   "Only the home page changes",
-   "Only the page being edited changes",
-   "Headings on every linked page use the new colour"
+   "The title stays red because of the manual formatting"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
-  "question_text": "A student types 'form' when she meant 'from'. Why does the spell checker not report this?",
+  "question_text": "All pages of a website link to one external CSS style sheet. The heading colour in that sheet is changed. What happens?",
   "options": [
-   "The spell checker never checks short words like these",
-   "The spell checker only checks the first page of a file",
-   "Both are correct words that exist in the dictionary",
-   "The spell checker cannot check words of four letters"
+   "Only the home page changes",
+   "Only the page being edited changes",
+   "Headings on every linked page use the new colour",
+   "No page changes until each page is saved as a new file"
   ],
   "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A student types 'form' when she meant 'from'. Why does the spell checker not report this?",
+  "options": [
+   "The spell checker only checks the first page of a file",
+   "Both are correct words that exist in the dictionary",
+   "The spell checker cannot check words of four letters",
+   "The spell checker never checks short words like these"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -255,67 +255,67 @@
  {
   "question_text": "What does verification check during data entry?",
   "options": [
+   "That the data is stored on a secure server",
    "That the data is typed in capital letters",
    "That the data is sensible and within allowed limits",
-   "That the data entered matches the original source",
-   "That the data is stored on a secure server"
+   "That the data entered matches the original source"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the purpose of validation?",
   "options": [
-   "To make a backup copy of the data as it is typed",
    "To prove that the data entered is definitely correct",
    "To compare the data entered with the original source",
-   "To check automatically that data is sensible and follows rules"
+   "To check automatically that data is sensible and follows rules",
+   "To make a backup copy of the data as it is typed"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "A form must not be saved if the 'Surname' box is left empty. Which validation check does this?",
   "options": [
-   "Range check",
    "Format check",
    "Presence check",
-   "Check digit calculation"
+   "Check digit calculation",
+   "Range check"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "A student mark must be between 0 and 100 inclusive. Which validation check is used?",
   "options": [
-   "Length check",
-   "Check digit",
    "Range check",
-   "Presence check"
+   "Presence check",
+   "Length check",
+   "Check digit"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which of these errors would a spell checker fail to detect?",
   "options": [
-   "Typing 'teh' instead of 'the' at the start of every sentence",
-   "Typing 'principle' instead of 'principal' for the head of a school",
    "Typing 'recieve' instead of 'receive' in the first line of a letter",
-   "Typing 'accomodation' instead of 'accommodation' in a heading"
+   "Typing 'accomodation' instead of 'accommodation' in a heading",
+   "Typing 'teh' instead of 'the' at the start of every sentence",
+   "Typing 'principle' instead of 'principal' for the head of a school"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "A clerk must enter the age 71 but types 17. The age field has a range check of 0 to 120. What happens?",
   "options": [
-   "It is stored as text instead of as a number",
    "It is rejected because it fails the range check",
    "It is corrected automatically to 71 by the software",
-   "It passes validation, but the data is still wrong"
+   "It passes validation, but the data is still wrong",
+   "It is stored as text instead of as a number"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -332,67 +332,67 @@
  {
   "question_text": "Which two checks together make sure a 'day of month' entry is a whole number from 1 to 31?",
   "options": [
-   "Check digit and parity check",
    "Type check and range check",
    "Presence check and length check",
-   "Double entry and proofreading"
+   "Double entry and proofreading",
+   "Check digit and parity check"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which type of chart is best for showing each category's share of a whole, such as how a budget is divided?",
   "options": [
-   "Line graph",
-   "Pie chart",
    "Scatter graph",
-   "Histogram of file sizes"
+   "Histogram of file sizes",
+   "Line graph",
+   "Pie chart"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which chart is most suitable for showing how the temperature in a room changed every hour during one day?",
   "options": [
-   "Bar chart of room names",
    "Pie chart",
    "Scatter plot with no axes",
-   "Line graph"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What is the purpose of axis titles on a chart?",
-  "options": [
-   "To make the chart open faster on the screen",
-   "To show which colour is used for each data series",
-   "To list the source and date of the data used",
-   "To show what each axis measures and its units"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What does the legend of a chart with three data series show?",
-  "options": [
-   "The date and time that the chart was created",
-   "The name of the person who created the chart file",
-   "Which colour or pattern represents each series",
-   "The total of all the data values in the chart"
+   "Line graph",
+   "Bar chart of room names"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
-  "question_text": "A teacher wants to see whether students who revise longer tend to score higher marks. Which chart is best?",
+  "question_text": "What is the purpose of axis titles on a chart?",
   "options": [
-   "Scatter graph",
-   "Pie chart",
-   "Column chart of student names",
-   "Line graph of the student ID numbers"
+   "To list the source and date of the data used",
+   "To show what each axis measures and its units",
+   "To make the chart open faster on the screen",
+   "To show which colour is used for each data series"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the legend of a chart with three data series show?",
+  "options": [
+   "Which colour or pattern represents each series",
+   "The total of all the data values in the chart",
+   "The date and time that the chart was created",
+   "The name of the person who created the chart file"
   ],
   "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A teacher wants to see whether students who revise longer tend to score higher marks. Which chart is best?",
+  "options": [
+   "Pie chart",
+   "Column chart of student names",
+   "Line graph of the student ID numbers",
+   "Scatter graph"
+  ],
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -409,12 +409,12 @@
  {
   "question_text": "A chart shows monthly rainfall in millimetres and average temperature in degrees Celsius for the same months. Which feature helps readers read both series?",
   "options": [
+   "A larger legend",
    "A secondary axis",
    "A second chart title",
-   "A thicker border",
-   "A larger legend"
+   "A thicker border"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -431,34 +431,34 @@
  {
   "question_text": "In a survey of 150 students, 40 chose Sport. In a pie chart of the results, what angle should the Sport sector have?",
   "options": [
+   "40 degrees",
    "144 degrees",
    "60 degrees",
-   "96 degrees",
-   "40 degrees"
+   "96 degrees"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "A column chart compares two values, 96 and 100, but its vertical axis starts at 95. Why can this be misleading?",
   "options": [
-   "The small difference looks much bigger than it really is",
-   "The two columns can no longer be given different colours",
    "The legend cannot be displayed when an axis is changed",
-   "The chart title has to be removed from the chart"
+   "The chart title has to be removed from the chart",
+   "The small difference looks much bigger than it really is",
+   "The two columns can no longer be given different colours"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Monthly sales of three shops over 12 months are to be compared to show trends. Which is the best choice?",
   "options": [
-   "A column chart that shows only one data series",
    "A scatter graph that has no axis titles at all",
    "A line graph with one line per shop and a legend",
-   "A single pie chart showing all 36 of the values"
+   "A single pie chart showing all 36 of the values",
+   "A column chart that shows only one data series"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -475,23 +475,23 @@
  {
   "question_text": "In a mail merge, which file holds the standard text of the letter and the places where the personal details go?",
   "options": [
-   "The master document",
    "The output printer",
    "The data source file",
-   "The spell checker"
+   "The spell checker",
+   "The master document"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "In a mail merge, what is the data source?",
   "options": [
-   "The queue of finished letters waiting at the printer",
    "The letter template containing the fixed standard text",
    "The page layout, margins and fonts of the letter",
-   "A spreadsheet or database file holding the names and addresses"
+   "A spreadsheet or database file holding the names and addresses",
+   "The queue of finished letters waiting at the printer"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -508,78 +508,78 @@
  {
   "question_text": "A data source has 120 records and 34 of them have Town = \"Leeds\". The merge is filtered to Town = \"Leeds\". How many letters are produced?",
   "options": [
+   "34",
    "1",
    "86",
-   "120",
-   "34"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Which feature is typical of a newsletter?",
-  "options": [
-   "A masthead, columns, headlines and captioned pictures",
-   "One long page of continuous text with no pictures",
-   "A contents page, index and a list of references",
-   "A single large word and a telephone number only"
+   "120"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
+  "question_text": "Which feature is typical of a newsletter?",
+  "options": [
+   "One long page of continuous text with no pictures",
+   "A contents page, index and a list of references",
+   "A single large word and a telephone number only",
+   "A masthead, columns, headlines and captioned pictures"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
   "question_text": "Which feature is typical of a flyer?",
   "options": [
+   "Many pages of continuous text and no pictures",
    "Dozens of footnotes and several pages of tables",
    "A bold heading, a striking image and contact details",
-   "A bibliography, an index and a contents page",
-   "Many pages of continuous text and no pictures"
+   "A bibliography, an index and a contents page"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "How should the data source for a mail merge be arranged?",
   "options": [
-   "Several data tables merged into one single cell",
-   "One field per row with all of the records in one column",
    "Only the surnames, typed one after another in a paragraph",
-   "One record in each row, with field names heading the columns"
+   "One record in each row, with field names heading the columns",
+   "Several data tables merged into one single cell",
+   "One field per row with all of the records in one column"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A user wants the title of a table to span three columns in the first row. Which table feature is used?",
   "options": [
-   "Sort ascending",
    "Merge cells",
    "Split table",
-   "Mail merge"
+   "Mail merge",
+   "Sort ascending"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "A merged letter begins 'Dear <<Title>> <<Surname>>'. Where does the text 'Dear' come from?",
   "options": [
+   "The merge field names, so it changes in every letter",
    "The data source, so it is different in every letter",
    "The printer settings, so it depends on the printer",
-   "The master document, so it is the same every time",
-   "The merge field names, so it changes in every letter"
+   "The master document, so it is the same every time"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Table (Item, Category, Stock): Mouse, Elec, 30; Headset, Elec, 15; Keyboard, Elec, 8; Pen, Stat, 150. Which records match Category = \"Elec\" AND Stock < 20?",
   "options": [
+   "No records",
    "Mouse, Headset and Keyboard",
    "Headset and Keyboard",
-   "Mouse and Pen",
-   "No records"
+   "Mouse and Pen"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -596,45 +596,45 @@
  {
   "question_text": "Table (Item, Category): Pen, Stat; Mouse, Elec; Satchel, Bags; Stapler, Stat; Headset, Elec. Which records does the criterion NOT Category = \"Stat\" return?",
   "options": [
-   "Pen and Stapler",
-   "Pen, Mouse, Satchel and Stapler",
    "Mouse, Satchel and Headset",
-   "Mouse and Headset"
+   "Mouse and Headset",
+   "Pen and Stapler",
+   "Pen, Mouse, Satchel and Stapler"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A query uses the criterion Item = \"*er\" where * stands for any characters. The Item values are Stapler, Ruler, Keyboard, Folder and Mouse. Which are returned?",
   "options": [
+   "No records",
    "Keyboard, Folder and Mouse",
    "Stapler, Ruler, Keyboard, Folder and Mouse",
-   "Stapler, Ruler and Folder",
-   "No records"
+   "Stapler, Ruler and Folder"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Table (Item, Category, Price): Mouse, Elec, 12.50; Headset, Elec, 24.99; Satchel, Bags, 29.00; Pencil case, Bags, 5.75; Keyboard, Elec, 19.99. Sorted by Category A-Z, then Price high to low, which is third?",
   "options": [
-   "Headset",
-   "Keyboard",
    "Mouse",
-   "Satchel"
+   "Satchel",
+   "Headset",
+   "Keyboard"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "A calculated field Value = Price * Stock is added. Items (Price, Stock): Mouse 12.50, 30; Headset 24.99, 15; Pen 1.20, 150; Satchel 29.00, 6. Which item has the highest Value?",
   "options": [
+   "Pen",
    "Mouse",
    "Satchel",
-   "Headset",
-   "Pen"
+   "Headset"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -673,23 +673,23 @@
  {
   "question_text": "What is a foreign key in a relational database?",
   "options": [
+   "A key used only for sorting records in a table",
    "A field that matches the primary key of another table",
    "A field that has been encrypted for extra security",
-   "The last field that is created in every table",
-   "A key used only for sorting records in a table"
+   "The last field that is created in every table"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is the difference between a form and a report in a database?",
   "options": [
+   "A form enters or shows records; a report is output for reading or printing",
    "A form stores all of the data; a report is only used to delete records",
    "A form is always printed on paper; a report is only used on a screen",
-   "A form must be based on a query; a report can never use a query",
-   "A form enters or shows records; a report is output for reading or printing"
+   "A form must be based on a query; a report can never use a query"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -706,56 +706,56 @@
  {
   "question_text": "Table Students(StudentID, Name, ClassID) is linked to Classes(ClassID, Teacher, Room). Which field is the foreign key?",
   "options": [
-   "ClassID in the Students table",
-   "StudentID in the Students table",
    "Teacher in the Classes table",
-   "Name in the Students table"
+   "Name in the Students table",
+   "ClassID in the Students table",
+   "StudentID in the Students table"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "A presenter sets a 'Fade' effect to play as slide 3 changes to slide 4. What type of effect is this?",
   "options": [
-   "An object animation",
    "A slide master",
    "A slide transition",
-   "A speaker note"
+   "A speaker note",
+   "An object animation"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is an animation in a presentation?",
   "options": [
-   "A template that sets the colours for all of the slides",
-   "The effect shown when the presentation moves between two slides",
    "An effect that makes text or an image appear, move or change",
-   "A list of the sources used to make the presentation"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "What are speaker notes used for?",
-  "options": [
-   "Reminders for the presenter that the audience cannot see",
-   "A list of the transition effects used on each of the slides",
-   "The settings that control the layout of each slide shown",
-   "Text that appears in the footer area of every slide shown"
+   "A list of the sources used to make the presentation",
+   "A template that sets the colours for all of the slides",
+   "The effect shown when the presentation moves between two slides"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
-  "question_text": "A presenter changes the title font on the slide master. What is the effect?",
+  "question_text": "What are speaker notes used for?",
   "options": [
-   "Only the first slide in the presentation changes its font",
-   "All of the speaker notes are deleted from the file",
-   "The slides are all saved as pictures instead of text",
-   "Titles on all slides using that master get the new font"
+   "A list of the transition effects used on each of the slides",
+   "The settings that control the layout of each slide shown",
+   "Text that appears in the footer area of every slide shown",
+   "Reminders for the presenter that the audience cannot see"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A presenter changes the title font on the slide master. What is the effect?",
+  "options": [
+   "All of the speaker notes are deleted from the file",
+   "The slides are all saved as pictures instead of text",
+   "Titles on all slides using that master get the new font",
+   "Only the first slide in the presentation changes its font"
+  ],
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -772,12 +772,12 @@
  {
   "question_text": "Why should a presenter avoid using many different transitions and animations?",
   "options": [
+   "They distract the audience from the content",
    "They stop the slides being printed",
    "They remove the speaker notes",
-   "They make the file unreadable on any computer",
-   "They distract the audience from the content"
+   "They make the file unreadable on any computer"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -794,111 +794,111 @@
  {
   "question_text": "A teacher wants to give the audience paper copies of the slides with room to write notes. What should be printed?",
   "options": [
-   "Handouts",
-   "The transition list",
    "The slide master",
-   "Speaker notes pages only"
+   "Speaker notes pages only",
+   "Handouts",
+   "The transition list"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which text and background colour combination is the easiest to read when projected in a classroom?",
   "options": [
-   "Yellow text on a white background",
    "Light grey text on a white background",
    "Dark blue text on a white background",
-   "Red text on a green background"
+   "Red text on a green background",
+   "Yellow text on a white background"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A video that played correctly on the author's computer does not play on a school computer. Which is the most likely cause?",
   "options": [
-   "The slide master was changed after the video was added",
    "The video was linked and the file was not copied across",
    "The video was embedded in the presentation file itself",
-   "The speaker notes were longer than the slide text"
+   "The speaker notes were longer than the slide text",
+   "The slide master was changed after the video was added"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Cells B2:B6 contain 12, 18, 7, 25 and 18. What is the result of =SUM(B2:B6)?",
   "options": [
+   "16",
    "62",
    "25",
-   "80",
-   "16"
+   "80"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "A VAT rate is stored in F1 and each price in column B is multiplied by it in column C. Which formula in C2 is correct to copy down?",
   "options": [
-   "=B2*$F1",
    "=$B$2*F1",
    "=B2*F1",
-   "=B2*$F$1"
+   "=B2*$F$1",
+   "=B2*$F1"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Cells B2:B7 contain 45, 72, 50, 38, 91 and 50. What is the result of =COUNTIF(B2:B7,\">=50\")?",
   "options": [
-   "3",
    "2",
    "4",
-   "6"
+   "6",
+   "3"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "A2:A7 holds North, South, North, East, South, North and B2:B7 holds 120, 80, 45, 200, 60, 35. What does =SUMIF(A2:A7,\"North\",B2:B7) return?",
   "options": [
-   "140",
    "200",
    "3",
-   "540"
+   "540",
+   "140"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "B2 holds 65 and C2 holds 38. What does =IF(AND(B2>=40,C2>=40),\"Pass\",\"Fail\") display?",
   "options": [
-   "Fail",
    "TRUE",
    "Pass",
-   "FALSE"
+   "FALSE",
+   "Fail"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is the result of =ROUND(1254.678,-1)?",
   "options": [
-   "1250",
-   "1300",
    "1255",
-   "1254.7"
+   "1254.7",
+   "1250",
+   "1300"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
   "question_text": "A2 holds \"Ann\" and B2 holds \"Lee\". What does =A2&\" \"&B2 display?",
   "options": [
-   "AnnLee",
-   "Ann + Lee",
    "Ann&Lee",
-   "Ann Lee"
+   "Ann Lee",
+   "AnnLee",
+   "Ann + Lee"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
@@ -915,23 +915,23 @@
  {
   "question_text": "Which feature automatically changes a cell's colour when its value is below 50?",
   "options": [
-   "A mail merge field",
-   "Conditional formatting",
    "Data validation rules",
-   "The fill handle tool"
+   "The fill handle tool",
+   "A mail merge field",
+   "Conditional formatting"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A user changes the interest rate in one cell and watches the total in other cells update. What is this called?",
   "options": [
-   "What-if modelling",
-   "Mail merging",
    "Data verification",
-   "Data encryption"
+   "Data encryption",
+   "What-if modelling",
+   "Mail merging"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
@@ -992,78 +992,78 @@
  {
   "question_text": "Which HTML creates a hyperlink to the page contact.html with the link text Contact us?",
   "options": [
-   "<link href=\"contact.html\">Contact us</link>",
    "<a href=\"contact.html\">Contact us</a>",
    "<a src=\"contact.html\">Contact us</a>",
-   "<a name=\"contact.html\">Contact us</a>"
+   "<a name=\"contact.html\">Contact us</a>",
+   "<link href=\"contact.html\">Contact us</link>"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "What must be done to a finished website so that other people can view it on the internet?",
   "options": [
+   "Compress the images to zero bytes",
    "Save the files on a USB drive",
    "Print all of the pages",
-   "Upload the files to a web server",
-   "Compress the images to zero bytes"
+   "Upload the files to a web server"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which is the correct HTML to display the image logo.png with alternative text?",
   "options": [
-   "<image src=\"logo.png\" alt=\"School logo\">",
    "<img=\"logo.png\" alt=\"School logo\">",
    "<img href=\"logo.png\" alt=\"School logo\">",
-   "<img src=\"logo.png\" alt=\"School logo\">"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Which is a relative link to a file in a folder inside the website's own folder?",
-  "options": [
-   "<a href=\"C:\\Users\\Sam\\map.html\">Map</a>",
-   "<a href=\"https://www.example.com/images/map.html\">Map</a>",
-   "<a href=\"images/map.html\">Map</a>",
-   "<a href=\"mailto:map@example.com\">Map</a>"
+   "<img src=\"logo.png\" alt=\"School logo\">",
+   "<image src=\"logo.png\" alt=\"School logo\">"
   ],
   "correct_answer_index": 2,
   "term_category": "Term 2"
  },
  {
-  "question_text": "Which CSS rule changes the text colour of only the element with id=\"menu\"?",
+  "question_text": "Which is a relative link to a file in a folder inside the website's own folder?",
   "options": [
-   ".menu { color: red; }",
-   "#menu { color: red; }",
-   "*menu { color: red; }",
-   "menu { color: red; }"
+   "<a href=\"https://www.example.com/images/map.html\">Map</a>",
+   "<a href=\"images/map.html\">Map</a>",
+   "<a href=\"mailto:map@example.com\">Map</a>",
+   "<a href=\"C:\\Users\\Sam\\map.html\">Map</a>"
   ],
   "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which CSS rule changes the text colour of only the element with id=\"menu\"?",
+  "options": [
+   "#menu { color: red; }",
+   "*menu { color: red; }",
+   "menu { color: red; }",
+   ".menu { color: red; }"
+  ],
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which CSS rule applies to all elements that have class=\"note\"?",
   "options": [
-   "note { font-size: 14px; }",
-   ".note { font-size: 14px; }",
    "#note { font-size: 14px; }",
-   "note: font-size 14px;"
+   "note: font-size 14px;",
+   "note { font-size: 14px; }",
+   ".note { font-size: 14px; }"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "In an HTML table, which tag marks a header cell within a row?",
   "options": [
+   "<tr>",
    "<table>",
    "<th>",
-   "<td>",
-   "<tr>"
+   "<td>"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -1080,23 +1080,243 @@
  {
   "question_text": "In CSS, what is the difference between padding and margin for a box?",
   "options": [
-   "Padding is used for images only and margin for text only",
    "Padding is inside the border; margin is outside the border",
    "Padding changes the font colour; margin changes the font size",
-   "Padding is outside the border; margin is inside the border"
+   "Padding is outside the border; margin is inside the border",
+   "Padding is used for images only and margin for text only"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which CSS feature applies different styles depending on the width of the screen, helping responsive design?",
   "options": [
-   "A table row",
-   "A media query",
    "A hyperlink",
-   "An alt attribute"
+   "An alt attribute",
+   "A table row",
+   "A media query"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In an entityrelationship diagram, what does 1:M mean?",
+  "options": [
+   "No records can be related",
+   "One record in A relates to many in B",
+   "Many records in A relate to many in B",
+   "Exactly one record in each table"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which structure is used to resolve a many-to-many relationship?",
+  "options": [
+   "A validation rule",
+   "A duplicate primary key",
+   "A junction (associative) table",
+   "A second foreign key in the same row"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does first normal form (1NF) require?",
+  "options": [
+   "No transitive dependencies",
+   "No foreign keys at all",
+   "Atomic values and no repeating groups",
+   "No partial dependencies"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does second normal form (2NF) require?",
+  "options": [
+   "3NF and a surrogate key",
+   "Only one field in the primary key",
+   "1NF and no partial dependency on part of a composite key",
+   "1NF and no transitive dependencies"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does third normal form (3NF) require?",
+  "options": [
+   "A foreign key in every table",
+   "No primary key",
+   "2NF and no transitive dependencies",
+   "1NF and all fields atomic"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main aim of normalisation?",
+  "options": [
+   "To make queries slower",
+   "To reduce duplication and update anomalies",
+   "To increase the number of tables only",
+   "To remove all foreign keys"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a composite primary key?",
+  "options": [
+   "A key used only in a query",
+   "A key that can be left empty",
+   "A key made only of text",
+   "A key made from two or more fields"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does referential integrity enforce?",
+  "options": [
+   "All primary keys are numeric",
+   "No two records share a field value",
+   "Every table has the same number of fields",
+   "Foreign key values match a primary key or are null"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In SQL, which clause filters rows before any grouping happens?",
+  "options": [
+   "WHERE",
+   "ORDER BY",
+   "GROUP BY",
+   "HAVING"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In SQL, which clause filters the result of GROUP BY?",
+  "options": [
+   "SELECT",
+   "WHERE",
+   "HAVING",
+   "LIMIT"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which SQL join returns only rows that have a match in both tables?",
+  "options": [
+   "INNER JOIN",
+   "CROSS JOIN",
+   "FULL OUTER JOIN",
+   "LEFT JOIN"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which SQL clause sorts the rows returned by a query?",
+  "options": [
+   "ARRANGE BY",
+   "SORT BY",
+   "ORDER BY",
+   "GROUP BY"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is stored in a data dictionary?",
+  "options": [
+   "The backup copies of the database",
+   "The design of the user interface",
+   "Only the data values in each record",
+   "Definitions of tables, fields, types and constraints"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Orders(CustomerID, OrderID, Total) links to Customers(CustomerID, Name). Which field in Orders is the foreign key?",
+  "options": [
+   "CustomerID",
+   "Name",
+   "OrderID",
+   "Total"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "StudentID determines Town, and Town determines Postcode. Why is Postcode a transitive dependency?",
+  "options": [
+   "It never changes value",
+   "It is stored in another table",
+   "It depends on a non-key field that depends on the key",
+   "It is part of the primary key"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In CSS, what does the cascade decide?",
+  "options": [
+   "Which images are cached",
+   "How many selectors a rule may contain",
+   "Which declaration wins when several rules apply",
+   "How fast the page downloads"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which selector has the highest specificity?",
+  "options": [
+   "#main",
+   "*",
+   "p",
+   ".note"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which CSS property changes how width and height are calculated for padding and borders?",
+  "options": [
+   "box-sizing",
+   "display",
+   "position",
+   "overflow"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which HTML5 element is intended for a self-contained piece of content such as a blog post?",
+  "options": [
+   "<span>",
+   "<div>",
+   "<article>",
+   "<aside>"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why add lang=\"en\" to the <html> element?",
+  "options": [
+   "It enables CSS automatically",
+   "It sets the page width",
+   "It tells assistive technology and search engines the page language",
+   "It makes all links absolute"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
  }
 ]

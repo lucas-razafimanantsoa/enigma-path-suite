@@ -1,0 +1,47 @@
+{
+ "name": "General Science",
+ "blurb": "From everyday observations to integrated science",
+ "icon": "🔭",
+ "levels": [
+  {
+   "title": "Everyday science",
+   "blurb": "Materials, senses and simple observations"
+  },
+  {
+   "title": "Plants and animals",
+   "blurb": "Needs, growth and basic classification"
+  },
+  {
+   "title": "Forces and motion",
+   "blurb": "Pushes, pulls, speed and simple machines"
+  },
+  {
+   "title": "Energy, light and sound",
+   "blurb": "Forms of energy and how we detect them"
+  },
+  {
+   "title": "Earth, weather and space",
+   "blurb": "Seasons, rocks, the planet and the Solar System"
+  },
+  {
+   "title": "Working scientifically",
+   "blurb": "Fair tests, measurement and recording results"
+  },
+  {
+   "title": "IGCSE foundations",
+   "blurb": "Cells, particles, forces and energy ideas"
+  },
+  {
+   "title": "IGCSE energy and matter",
+   "blurb": "Reactions, electricity, waves and thermal physics"
+  },
+  {
+   "title": "IGCSE living world",
+   "blurb": "Organisms, ecosystems, health and the environment"
+  },
+  {
+   "title": "IB integrated science",
+   "blurb": "Systems, models, evidence and global science issues"
+  }
+ ]
+}

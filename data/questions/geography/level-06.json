@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is a four-figure grid reference used for?",
+  "options": [
+   "Showing the direction of the wind",
+   "Counting roads in a town",
+   "Locating a square on a map",
+   "Measuring the height of hills"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a standard grid reference, which number is given first?",
+  "options": [
+   "The northings",
+   "The eastings",
+   "The height",
+   "The distance"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a map's scale tell you?",
+  "options": [
+   "How much real distance a map distance represents",
+   "Who made the map",
+   "The price of the map",
+   "The colours used"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a contour line?",
+  "options": [
+   "A border between countries",
+   "A road shown on a map",
+   "A line of latitude",
+   "A line joining places of equal height"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a renewable resource?",
+  "options": [
+   "Oil",
+   "Natural gas",
+   "Wind",
+   "Coal"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a non-renewable resource?",
+  "options": [
+   "Solar energy",
+   "Coal",
+   "Timber",
+   "Wind power"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the purpose of a north arrow on a map?",
+  "options": [
+   "To show which way is north",
+   "To mark the scale",
+   "To show the way up the page",
+   "To point to the nearest town"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does 'sustainable use of resources' mean?",
+  "options": [
+   "Using as much as possible now",
+   "Using resources without any planning",
+   "Only using imported goods",
+   "Using resources so they last into the future"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "If a map scale is one centimetre to one kilometre, how far is five centimetres?",
+  "options": [
+   "Half a kilometre",
+   "Five metres",
+   "Five kilometres",
+   "Fifty kilometres"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a natural resource?",
+  "options": [
+   "Something made in a factory",
+   "Something from nature that people can use",
+   "A type of map symbol",
+   "A road in a city"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a finite resource?",
+  "options": [
+   "Petroleum",
+   "Rainfall",
+   "Sunlight",
+   "Wind"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is water often described as a renewable resource?",
+  "options": [
+   "It is always clean",
+   "It is found only in rivers",
+   "It cannot be used up",
+   "It is replenished by the water cycle"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does a six-figure grid reference provide?",
+  "options": [
+   "The height of a mountain",
+   "The area of a lake",
+   "A more precise location than four figures",
+   "The name of a country"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these helps measure distance on a map?",
+  "options": [
+   "A compass",
+   "A ruler and the scale",
+   "A thermometer",
+   "A rain gauge"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is interception in the water cycle?",
+  "options": [
+   "Rain caught by plant leaves",
+   "Water flowing underground",
+   "Rain falling on the sea",
+   "Water boiling in the Sun"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a human-made resource?",
+  "options": [
+   "A river",
+   "A forest",
+   "A mineral deposit",
+   "A canal"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why can contour lines never cross one another?",
+  "options": [
+   "Because they are drawn in blue",
+   "Because they mark country borders",
+   "One point cannot have two different heights",
+   "Because they always show rivers"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which map would be most useful for planning a hill walk?",
+  "options": [
+   "A world map",
+   "A topographic map",
+   "An ocean current map",
+   "A climate zone map"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does recycling aluminium save energy?",
+  "options": [
+   "It uses less energy than making new metal",
+   "It ends the need for all mining",
+   "It makes the metal heavier",
+   "It creates more waste"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why might a country import resources?",
+  "options": [
+   "It has too much of them",
+   "It wants to store them",
+   "It has no need for them",
+   "It lacks the resources it needs"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a bearing on a map?",
+  "options": [
+   "The width of a river",
+   "A type of map key",
+   "A direction measured in degrees from north",
+   "The height of a hill"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a likely consequence of overfishing?",
+  "options": [
+   "More fish in the sea",
+   "Fish stocks collapsing",
+   "Cleaner oceans",
+   "Fewer boats needed"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does conservation of resources mean?",
+  "options": [
+   "Protecting and managing them wisely",
+   "Building on all wild land",
+   "Using every resource quickly",
+   "Selling all resources abroad"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do maps use symbols instead of detailed drawings?",
+  "options": [
+   "To make the map heavier",
+   "To hide important places",
+   "To use more colours",
+   "To save space and show information clearly"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

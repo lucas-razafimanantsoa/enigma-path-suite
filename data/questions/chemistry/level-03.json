@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What is the smallest particle of an element that keeps its properties?",
+  "options": [
+   "Molecule",
+   "Compound",
+   "Mixture",
+   "Atom"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is an element?",
+  "options": [
+   "Water",
+   "Salt",
+   "Oxygen",
+   "Sand"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the chemical symbol for oxygen?",
+  "options": [
+   "Ox",
+   "O",
+   "O2",
+   "Om"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the chemical symbol for hydrogen?",
+  "options": [
+   "H",
+   "Hy",
+   "H2",
+   "He"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which element has the symbol Fe?",
+  "options": [
+   "Fluorine",
+   "Phosphorus",
+   "Francium",
+   "Iron"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which element has the symbol Na?",
+  "options": [
+   "Nickel",
+   "Nitrogen",
+   "Sodium",
+   "Neon"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the chemical symbol for carbon?",
+  "options": [
+   "Cl",
+   "C",
+   "Cu",
+   "Ca"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "About how many elements are known?",
+  "options": [
+   "About 100",
+   "About 10",
+   "About 1000",
+   "About 10 000"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Elements in the periodic table are ordered by increasing...",
+  "options": [
+   "Size",
+   "Colour",
+   "Mass only",
+   "Atomic number"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Elements in the same vertical column form a...",
+  "options": [
+   "Row",
+   "Series",
+   "Group",
+   "Period"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these elements is a metal?",
+  "options": [
+   "Carbon",
+   "Copper",
+   "Sulphur",
+   "Oxygen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these elements is a non-metal?",
+  "options": [
+   "Sulphur",
+   "Zinc",
+   "Iron",
+   "Aluminium"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the centre of an atom called?",
+  "options": [
+   "Core",
+   "Electron shell",
+   "Orbit",
+   "Nucleus"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which particles in an atom have a negative charge?",
+  "options": [
+   "Neutrons",
+   "Nuclei",
+   "Electrons",
+   "Protons"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which particles in an atom have a positive charge?",
+  "options": [
+   "Nuclei",
+   "Protons",
+   "Electrons",
+   "Neutrons"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is an atom electrically neutral?",
+  "options": [
+   "Protons and electrons balance",
+   "It has no electrons",
+   "Neutrons are positive",
+   "Protons and neutrons balance"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "An atomic number tells you the number of...",
+  "options": [
+   "Neutrons",
+   "Protons plus neutrons",
+   "Electron shells",
+   "Protons"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "An atom has 6 protons and 6 neutrons. What is its mass number?",
+  "options": [
+   "6",
+   "18",
+   "12",
+   "0"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Where are electrons found in an atom?",
+  "options": [
+   "Inside the nucleus",
+   "In shells around the nucleus",
+   "Between protons",
+   "Outside the atom"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a compound?",
+  "options": [
+   "Water",
+   "Oxygen",
+   "Hydrogen",
+   "Iron"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A substance made of only one kind of atom is an...",
+  "options": [
+   "Compound",
+   "Mixture",
+   "Solution",
+   "Element"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which element has 8 protons?",
+  "options": [
+   "Neon",
+   "Nitrogen",
+   "Oxygen",
+   "Carbon"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What do elements in the same group usually share?",
+  "options": [
+   "The same number of shells",
+   "Similar chemical properties",
+   "The same colour",
+   "The same mass"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these elements is a liquid at room temperature?",
+  "options": [
+   "Mercury",
+   "Iron",
+   "Copper",
+   "Gold"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Diamond and graphite are forms of the element...",
+  "options": [
+   "Silicon",
+   "Iron",
+   "Oxygen",
+   "Carbon"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which international agreement, adopted in 2015, aims to limit global warming?",
+  "options": [
+   "The Kyoto Protocol",
+   "The Paris Agreement",
+   "The Montreal Protocol",
+   "The Copenhagen Accord"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the 1.5°C target in climate policy refer to?",
+  "options": [
+   "A limit on warming above pre-industrial levels",
+   "The maximum average summer temperature in Europe",
+   "A cap on annual carbon emissions per person",
+   "The temperature at which polar ice will vanish"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which greenhouse gas is the main driver of recent warming from burning fossil fuels?",
+  "options": [
+   "Water vapour in the atmosphere",
+   "Ozone",
+   "Methane",
+   "Carbon dioxide"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main cause of ocean acidification?",
+  "options": [
+   "Oil spills spreading across the ocean surface",
+   "Rising levels of dissolved oxygen in water",
+   "Carbon dioxide dissolving into seawater",
+   "Plastic waste breaking down into microplastics"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which body publishes the major scientific assessment reports on climate change?",
+  "options": [
+   "The International Energy Agency",
+   "The Intergovernmental Panel on Climate Change",
+   "The World Meteorological Organization",
+   "The United Nations Framework Convention on Climate Change"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the term 'net zero' mean in climate policy?",
+  "options": [
+   "Balancing emissions released and removed",
+   "Eliminating every greenhouse gas emission",
+   "Reducing emissions to zero immediately",
+   "Offsetting emissions only by planting trees"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which 1987 agreement phased out chemicals that damage the ozone layer?",
+  "options": [
+   "The Basel Convention",
+   "The Convention on Biological Diversity",
+   "The Kyoto Protocol",
+   "The Montreal Protocol"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "By what year are the UN Sustainable Development Goals intended to be achieved?",
+  "options": [
+   "2040",
+   "2025",
+   "2030",
+   "2035"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Under the 1951 Refugee Convention, who qualifies as a refugee?",
+  "options": [
+   "Anyone who lacks a valid passport or visa",
+   "A person outside their country who fears persecution",
+   "A person displaced inside their own country by disaster",
+   "Anyone who moves abroad to find better-paid work"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which UN agency is mandated to protect refugees?",
+  "options": [
+   "The UN Refugee Agency",
+   "The World Food Programme",
+   "The International Organization for Migration",
+   "The UN Children's Fund"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What are 'remittances' in the context of migration?",
+  "options": [
+   "Fees charged by recruitment agencies abroad",
+   "Taxes paid by migrants when crossing borders",
+   "Payments made by governments to resettle refugees",
+   "Money migrants send back to their home country"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does 'brain drain' describe?",
+  "options": [
+   "The loss of jobs caused by automation",
+   "A decline in a country's birth rate",
+   "The emigration of highly skilled workers",
+   "A shortage of workers caused by an ageing population"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a tariff?",
+  "options": [
+   "A ban on trade with another country",
+   "A tax on imported goods",
+   "A limit on the number of imports allowed",
+   "A subsidy paid to domestic farmers"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which economic theory explains gains from specialising at lower opportunity cost?",
+  "options": [
+   "Comparative advantage",
+   "Market equilibrium",
+   "Absolute advantage",
+   "The Heckscher-Ohlin model"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which three dimensions does the Human Development Index measure?",
+  "options": [
+   "Exports, imports and currency reserves",
+   "Trade, aid and investment flows",
+   "Population, land area and resources",
+   "Health, education and income"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is 'inflation'?",
+  "options": [
+   "A fall in the total level of employment",
+   "A tax added to imported products",
+   "A sustained rise in the general level of prices",
+   "A rise in the international value of a currency"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does the 'digital divide' refer to?",
+  "options": [
+   "The gap between hardware and software costs",
+   "Unequal access to digital technology and the internet",
+   "Differences in typing speed between office workers",
+   "Competition between large technology companies"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is 'net neutrality'?",
+  "options": [
+   "The principle that all internet traffic is treated equally",
+   "A rule requiring websites to register with the government",
+   "A ban on paid advertising on social media",
+   "A system that blocks harmful websites"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which description best fits 'disinformation'?",
+  "options": [
+   "Advertising presented as a news article",
+   "False content shared by people without intent to deceive",
+   "Satire that imitates the style of real news",
+   "Deliberately false content spread to mislead people"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is a 'filter bubble'?",
+  "options": [
+   "A rule limiting how platforms collect personal data",
+   "A group of users who report false posts",
+   "Isolation caused by personalised content recommendations",
+   "A software tool that blocks offensive or harmful websites"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is 'lateral reading' when checking a claim?",
+  "options": [
+   "Reading an article from start to finish without leaving it",
+   "Leaving the page to see what other sources say",
+   "Scanning a page for its most common keywords",
+   "Comparing two paragraphs within one article"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which practice best helps verify an image shared online?",
+  "options": [
+   "Running a reverse image search",
+   "Counting the number of likes it received",
+   "Checking whether the caption is emotional",
+   "Sharing it with friends to ask if it is real"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is 'clickbait'?",
+  "options": [
+   "A link that leads to a broken website",
+   "A paid advertisement designed to look like a news article",
+   "A correction issued after a factual error",
+   "A sensational headline designed to attract clicks"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is a random sample important in opinion polling?",
+  "options": [
+   "It makes a survey cheaper to conduct",
+   "It removes the need for a margin of error",
+   "It helps the sample represent the wider population",
+   "It guarantees that the poll will reflect public opinion exactly"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does 'confirmation bias' mean?",
+  "options": [
+   "Preferring news written in one's first language",
+   "Favouring information that supports existing beliefs",
+   "Trusting official sources more than stories on social media",
+   "Changing one's view after seeing new evidence"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

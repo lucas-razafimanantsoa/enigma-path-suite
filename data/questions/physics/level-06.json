@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which instrument is used to measure temperature?",
+  "options": [
+   "Ammeter",
+   "Micrometer",
+   "Thermometer",
+   "Barometer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Temperature is commonly measured in...",
+  "options": [
+   "newtons (N)",
+   "degrees Celsius (°C)",
+   "joules (J)",
+   "watts (W)"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which state has both a fixed shape and a fixed volume?",
+  "options": [
+   "Solid",
+   "Vapour",
+   "Liquid",
+   "Gas"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Ice turning into water is called...",
+  "options": [
+   "freezing",
+   "boiling",
+   "condensing",
+   "melting"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In which state are the particles packed closest together?",
+  "options": [
+   "Gas",
+   "Vapour",
+   "Solid",
+   "Liquid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is boiling?",
+  "options": [
+   "Slow evaporation at the surface",
+   "Rapid vaporisation throughout a liquid",
+   "Freezing of a liquid",
+   "Melting of a solid"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Water boils at about 100 °C at...",
+  "options": [
+   "normal atmospheric pressure",
+   "the top of a mountain only",
+   "any pressure at all",
+   "very high pressure only"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A liquid slowly changing into a gas at its surface is called...",
+  "options": [
+   "boiling",
+   "condensation",
+   "melting",
+   "evaporation"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Gas changing into a liquid is called...",
+  "options": [
+   "melting",
+   "freezing",
+   "condensation",
+   "evaporation"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What happens to particles when a substance is heated?",
+  "options": [
+   "They stop moving",
+   "They move faster",
+   "They become smaller",
+   "They disappear"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "While a pure substance melts, its temperature...",
+  "options": [
+   "stays constant",
+   "doubles",
+   "rises steadily",
+   "falls quickly"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these has the highest melting point?",
+  "options": [
+   "Ice",
+   "Butter",
+   "Wax",
+   "Iron"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Heat travels along a metal rod mainly by...",
+  "options": [
+   "radiation",
+   "evaporation",
+   "conduction",
+   "convection"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Warm air rises because it is...",
+  "options": [
+   "more dense than the air around it",
+   "less dense than the air around it",
+   "heavier than cold air",
+   "able to glow"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is absolute zero?",
+  "options": [
+   "0 K, about −273 °C",
+   "−100 °C",
+   "0 °C",
+   "100 °C"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these transfers heat without needing any particles?",
+  "options": [
+   "Conduction",
+   "Convection",
+   "Evaporation",
+   "Radiation"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Convert 25 °C into kelvin.",
+  "options": [
+   "273 K",
+   "323 K",
+   "298 K",
+   "248 K"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 2 kg block is heated from 20 °C to 30 °C. c = 500 J/(kg °C). Energy?",
+  "options": [
+   "1 kJ",
+   "10 kJ",
+   "100 kJ",
+   "20 kJ"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "During a change of state, the energy supplied...",
+  "options": [
+   "changes the potential energy of particles",
+   "stops all particle motion",
+   "always raises the temperature",
+   "is destroyed"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are gases much easier to compress than liquids?",
+  "options": [
+   "Their particles are touching",
+   "Their particles have no mass",
+   "Their particles are fixed",
+   "Their particles are far apart"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A gas in a sealed container is heated. What happens to its pressure?",
+  "options": [
+   "It becomes zero",
+   "It is unchanged",
+   "It increases",
+   "It decreases"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why does a wet cloth cool your skin as it dries?",
+  "options": [
+   "The cloth reflects all sunlight",
+   "Evaporation takes heat from the skin",
+   "Water becomes heavier as it dries",
+   "It stops air from moving"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement best explains why a liquid has fixed volume but no fixed shape?",
+  "options": [
+   "Particles are close but can slide past one another",
+   "Particles do not move at all",
+   "Particles are held rigidly in place",
+   "Particles are very far apart"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "As the temperature of a gas rises, the average kinetic energy of its particles...",
+  "options": [
+   "decreases",
+   "stays the same",
+   "becomes zero",
+   "increases"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which change takes place when a solid is heated enough?",
+  "options": [
+   "It freezes into a solid",
+   "It stays solid forever",
+   "It melts into a liquid",
+   "It condenses into a liquid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

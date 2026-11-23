@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What is produced around a wire carrying an electric current?",
+  "options": [
+   "A sound wave",
+   "A magnetic field",
+   "An electric field",
+   "A gravitational field"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which rule relates the directions of force, field and current in a motor?",
+  "options": [
+   "Fleming's left-hand rule",
+   "The right-hand screw rule",
+   "Ohm's law",
+   "Fleming's right-hand rule"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is electromagnetic induction?",
+  "options": [
+   "Charging a capacitor",
+   "Producing a current using a battery",
+   "Turning iron into a magnet",
+   "Producing an e.m.f. from a changing magnetic field"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which device converts mechanical energy into electrical energy?",
+  "options": [
+   "Heater",
+   "Filament lamp",
+   "Generator",
+   "Electric motor"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A magnetic field is a region where...",
+  "options": [
+   "the temperature must rise",
+   "a magnetic material feels a force",
+   "no forces of any kind act",
+   "an electric current is created"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which particles are found inside the nucleus?",
+  "options": [
+   "Protons and neutrons",
+   "Electrons only",
+   "Neutrons and electrons",
+   "Protons and electrons"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an isotope?",
+  "options": [
+   "Atoms containing no electrons",
+   "Atoms with different proton numbers",
+   "Atoms of different elements",
+   "Atoms of one element with different neutron numbers"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which type of radiation is negatively charged?",
+  "options": [
+   "Gamma",
+   "Ultraviolet",
+   "Beta",
+   "Alpha"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is background radiation?",
+  "options": [
+   "Radiation with no source",
+   "Low-level radiation that is always present",
+   "Radiation from one power station only",
+   "Radiation that can be seen"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Alpha particles are...",
+  "options": [
+   "helium nuclei",
+   "electromagnetic waves",
+   "protons on their own",
+   "fast electrons"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which type of radiation is the most penetrating?",
+  "options": [
+   "Infrared",
+   "Alpha",
+   "Beta",
+   "Gamma"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens during radioactive decay?",
+  "options": [
+   "A nucleus loses heat only",
+   "Electrons leave the atom",
+   "An unstable nucleus emits radiation",
+   "An atom gains electrons"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main use of a transformer?",
+  "options": [
+   "To measure an electric current",
+   "To change the voltage of an a.c. supply",
+   "To change d.c. into a.c.",
+   "To store electrical energy"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is electricity transmitted at high voltage?",
+  "options": [
+   "To reduce energy loss in the cables",
+   "To remove the need for transformers",
+   "To make cables thinner and hotter",
+   "To increase the current"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Half of a radioactive sample decays in 4 days. How much remains after 8 days?",
+  "options": [
+   "None at all",
+   "One half",
+   "One eighth",
+   "One quarter"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which force keeps the planets in orbit around the Sun?",
+  "options": [
+   "Friction",
+   "Upthrust",
+   "Gravitational attraction",
+   "Magnetic attraction"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A sample starts at 80 g with a half-life of 5 days. Mass after 15 days?",
+  "options": [
+   "5 g",
+   "10 g",
+   "40 g",
+   "20 g"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Gamma rays are...",
+  "options": [
+   "high-frequency electromagnetic waves",
+   "helium nuclei",
+   "sound waves",
+   "fast-moving electrons"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which radiation is deflected towards a positively charged plate?",
+  "options": [
+   "Neutrons",
+   "Alpha",
+   "Gamma",
+   "Beta"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A transformer has 1000 primary and 100 secondary turns. Input 240 V. Output?",
+  "options": [
+   "2400 V",
+   "2.4 V",
+   "24 V",
+   "24 A"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why must alpha sources be handled carefully?",
+  "options": [
+   "They make objects magnetic",
+   "They are dangerous if swallowed or inhaled",
+   "They pass easily through lead",
+   "They cause instant burns"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is nuclear fission?",
+  "options": [
+   "The splitting of a heavy nucleus",
+   "The removal of electrons",
+   "The creation of a magnetic field",
+   "The joining of light nuclei"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which observation supports the idea of an expanding universe?",
+  "options": [
+   "The phases of the Moon",
+   "Blue shift of nearby stars",
+   "Fixed positions of the stars",
+   "Red shift of distant galaxies"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A coil carrying a current lies in a magnetic field. It experiences...",
+  "options": [
+   "heating only",
+   "a force straight upwards only",
+   "a turning force",
+   "no force at all"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In alpha decay, what happens to the nucleus?",
+  "options": [
+   "It emits an electron",
+   "Its mass number falls by four",
+   "Its mass number is unchanged",
+   "Its atomic number rises by one"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

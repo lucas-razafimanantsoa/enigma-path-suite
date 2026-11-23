@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "A system is best described as...",
+  "options": [
+   "a single unchanging object",
+   "a list of unrelated facts",
+   "a set of connected parts with inputs and outputs",
+   "a model that is always correct in every situation"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Negative feedback in a system...",
+  "options": [
+   "removes the need for a model",
+   "reduces a change and helps keep conditions stable",
+   "increases a change without limit",
+   "prevents any input from ever entering the system at all"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Positive feedback differs from negative feedback because it...",
+  "options": [
+   "amplifies the original change",
+   "always makes a system stable",
+   "reduces all inputs to zero",
+   "only occurs in living organisms"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why do scientists use models?",
+  "options": [
+   "To collect data without instruments",
+   "To replace all real experiments",
+   "To prove that a hypothesis is definitely true in every case",
+   "To simplify complex systems and make predictions"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a key limitation of a scientific model?",
+  "options": [
+   "It can never be changed once it is widely published",
+   "It contains no mathematics",
+   "It makes assumptions and ignores some factors",
+   "It always predicts the future exactly"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which practice most improves the reliability of a scientific claim?",
+  "options": [
+   "Repeating the same error",
+   "Independent replication by other researchers",
+   "Publishing the work without any form of peer review",
+   "Using only one measurement"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Two variables are strongly correlated. What can be concluded?",
+  "options": [
+   "One may affect the other, but causation is not proved",
+   "The correlation must be accidental and cannot be explained",
+   "Both variables are independent",
+   "One variable definitely causes the other"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is needed to support a causal claim?",
+  "options": [
+   "A mathematical coincidence",
+   "A single anecdote from a friend",
+   "A popular opinion poll of a very large number of people",
+   "A controlled experiment with suitable evidence"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Scientific consensus is best described as...",
+  "options": [
+   "a vote that cannot change",
+   "a theory with no evidence",
+   "the weight of evidence accepted by most experts",
+   "the opinion of one famous scientist who is on television"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Risk is usually estimated from...",
+  "options": [
+   "the age of the equipment being used",
+   "probability and severity of harm",
+   "cost and convenience only",
+   "public opinion alone"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "The precautionary principle suggests that...",
+  "options": [
+   "action should be taken when serious harm is possible but uncertain",
+   "risk should always be ignored",
+   "no action is needed until harm has been proved beyond all possible scientific doubt",
+   "all new technology should be banned"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A life cycle assessment evaluates...",
+  "options": [
+   "the number of workers employed in every stage of production",
+   "the speed of a production line",
+   "the selling price of a product",
+   "environmental impacts from raw materials to disposal"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A carbon footprint measures...",
+  "options": [
+   "the number of vehicles owned",
+   "the area of land covered by trees and other plants",
+   "total greenhouse gases released by an activity",
+   "the amount of carbon in the soil"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which energy source is renewable?",
+  "options": [
+   "Coal",
+   "Geothermal energy",
+   "Natural gas (methane)",
+   "Petroleum"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A major challenge of solar and wind power is...",
+  "options": [
+   "their output is intermittent",
+   "they produce no electricity",
+   "they cannot be scaled up",
+   "they release greenhouse gases"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Sustainable development aims to...",
+  "options": [
+   "use resources as quickly as possible",
+   "maximise economic growth at any cost to the environment",
+   "end all technological progress",
+   "meet present needs without harming future generations"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why is informed consent important in clinical trials?",
+  "options": [
+   "It makes the trial cheaper to run",
+   "It guarantees that the treatment will work for everyone",
+   "Participants can decide freely whether to take part",
+   "It removes the need for controls"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Randomisation in a clinical trial helps to...",
+  "options": [
+   "remove all side effects",
+   "reduce bias between treatment groups",
+   "increase the dose given",
+   "guarantee a cure for every participant"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is anonymisation used in health research?",
+  "options": [
+   "To protect participants' personal privacy",
+   "To reduce the cost of the study",
+   "To allow data to be sold freely to companies",
+   "To make the results more accurate"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Climate models show a range of future temperatures because...",
+  "options": [
+   "scientists cannot agree on basic physics",
+   "the climate is completely random",
+   "all data are unreliable and cannot be used in any model",
+   "some factors are uncertain and models simplify reality"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "The ice-albedo feedback is an example of...",
+  "options": [
+   "a system with no feedback",
+   "a closed system with no inputs",
+   "positive feedback that amplifies warming",
+   "negative feedback that strongly cools the entire planet"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A circular economy attempts to...",
+  "options": [
+   "discourage recycling",
+   "keep materials in use for as long as possible",
+   "increase the amount of single-use packaging in shops",
+   "maximise landfill waste"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is international cooperation needed to tackle climate change?",
+  "options": [
+   "Greenhouse gases affect the whole atmosphere",
+   "No country can act alone on energy",
+   "Climate data are owned by one nation",
+   "Every country has exactly identical emissions"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Peer review is valuable because it...",
+  "options": [
+   "guarantees that results are accurate and reliable",
+   "removes the need for replication",
+   "prevents all new ideas being shared",
+   "checks methods and evidence before publication"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ }
+]

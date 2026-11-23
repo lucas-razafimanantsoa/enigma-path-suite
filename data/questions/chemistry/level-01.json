@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Which state of matter has a fixed shape?",
+  "options": [
+   "Juice",
+   "Solid",
+   "Liquid",
+   "Gas"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a gas at room temperature?",
+  "options": [
+   "Air",
+   "Sand",
+   "Water",
+   "Ice"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which material is most often used to make a window?",
+  "options": [
+   "Cotton",
+   "Clay",
+   "Wood",
+   "Glass"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which material is attracted to a magnet?",
+  "options": [
+   "Glass",
+   "Plastic",
+   "Iron",
+   "Wood"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these floats on water?",
+  "options": [
+   "Glass marble",
+   "Cork",
+   "Iron nail",
+   "Stone"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do we call water when it is frozen?",
+  "options": [
+   "Ice",
+   "Rain",
+   "Vapour",
+   "Steam"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sense tells you that a lemon tastes sour?",
+  "options": [
+   "Touch",
+   "Sight",
+   "Hearing",
+   "Taste"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which material are most coins made from?",
+  "options": [
+   "Wood",
+   "Glass",
+   "Metal",
+   "Paper"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an elastic material able to do?",
+  "options": [
+   "Stay bent forever",
+   "Return to its shape",
+   "Dissolve in water",
+   "Change colour"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A material that lets light through is called...",
+  "options": [
+   "Transparent",
+   "Opaque",
+   "Magnetic",
+   "Flexible"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a liquid at room temperature?",
+  "options": [
+   "Ice",
+   "Rock",
+   "Steam",
+   "Oil"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which property compares the mass of equal volumes?",
+  "options": [
+   "Colour",
+   "Shape",
+   "Density",
+   "Hardness"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which material is a good electrical insulator?",
+  "options": [
+   "Iron",
+   "Rubber",
+   "Aluminium",
+   "Copper"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens to water when it is heated strongly?",
+  "options": [
+   "It boils",
+   "It freezes",
+   "It melts",
+   "It condenses"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which shirt is made from a natural material?",
+  "options": [
+   "Plastic shirt",
+   "Nylon shirt",
+   "Polyester shirt",
+   "Cotton shirt"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which word describes how rough or smooth a surface feels?",
+  "options": [
+   "Temperature",
+   "Mass",
+   "Texture",
+   "Volume"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which property is tested by scratching one material with another?",
+  "options": [
+   "Transparency",
+   "Hardness",
+   "Solubility",
+   "Elasticity"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A dry sponge floats because it has a low...",
+  "options": [
+   "Density",
+   "Temperature",
+   "Mass",
+   "Volume"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which pair could be separated using a magnet?",
+  "options": [
+   "Sand and water",
+   "Sugar and salt",
+   "Salt and water",
+   "Iron filings and sand"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Ice changes into water when it is...",
+  "options": [
+   "Frozen",
+   "Condensed",
+   "Warmed",
+   "Cooled"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about gases is correct?",
+  "options": [
+   "They cannot be squashed",
+   "They fill any container",
+   "They have fixed shapes",
+   "They are all visible"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are metals used for electrical wires?",
+  "options": [
+   "They conduct electricity",
+   "They are very light",
+   "They float on water",
+   "They are transparent"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which material is best for making a raincoat?",
+  "options": [
+   "Wool",
+   "Paper",
+   "Cotton",
+   "Plastic"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which change is difficult to reverse?",
+  "options": [
+   "Dissolving sugar",
+   "Freezing water",
+   "Burning wood",
+   "Melting ice"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A substance that dissolves in water is called...",
+  "options": [
+   "Insoluble",
+   "Soluble",
+   "Dense",
+   "Solid"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

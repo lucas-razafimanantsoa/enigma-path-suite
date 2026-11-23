@@ -306,24 +306,32 @@
     for (var r = 0; r < m.rows; r++) {
       for (var c = 0; c < m.cols; c++) {
         var open = m.open[r][c];
-        ctx.fillStyle = open ? (visited[r + ',' + c] ? '#4d6a82' : '#b2c1c5') : '#141e2b';
+        ctx.fillStyle = open ? (visited[r + ',' + c] ? '#87CEEB' : '#E0FFFF') : '#1E3D56';
         ctx.fillRect(c * cs, r * cs, cs, cs);
         if (!open) {
-          ctx.fillStyle = '#26394d';
+          ctx.fillStyle = '#4682B4';
           ctx.fillRect(c * cs + 1, r * cs + 1, cs - 2, cs - 2);
+        } else {
+          // A faint outline makes each square of a corridor visible.
+          ctx.strokeStyle = 'rgba(70, 130, 180, 0.32)';
+          ctx.lineWidth = 1;
+          ctx.strokeRect(c * cs + 0.5, r * cs + 0.5, cs - 1, cs - 1);
         }
       }
     }
     // start marker
-    ctx.strokeStyle = '#7fc8a0';
+    ctx.strokeStyle = '#2C7562';
     ctx.lineWidth = 2;
     ctx.strokeRect(m.start.c * cs + 2, m.start.r * cs + 2, cs - 4, cs - 4);
     // goal
     var g = m.goal;
-    ctx.fillStyle = '#e6c27a';
+    ctx.fillStyle = '#E0FFFF';
     roundRect(g.c * cs + cs * 0.14, g.r * cs + cs * 0.14, cs * 0.72, cs * 0.72, cs * 0.16);
     ctx.fill();
-    ctx.fillStyle = '#141e2b';
+    ctx.strokeStyle = '#1E3D56';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+    ctx.fillStyle = '#1E3D56';
     ctx.font = '700 ' + Math.round(cs * 0.5) + 'px sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
@@ -347,15 +355,16 @@
     ctx.save();
     ctx.translate(cx, cy);
     ctx.rotate(view.angle);
-    ctx.fillStyle = failedAt >= 0 ? '#e58a8a' : '#e8e9e2';
+    ctx.fillStyle = failedAt >= 0 ? '#A94A5A' : '#1E3D56';
     ctx.beginPath();
     ctx.arc(0, 0, cs * 0.36, 0, Math.PI * 2);
     ctx.fill();
-    ctx.fillStyle = '#141e2b';
+    // Light arrow on a dark robot so the facing direction is unmistakable.
+    ctx.fillStyle = '#E0FFFF';
     ctx.beginPath();
-    ctx.moveTo(0, -cs * 0.3);
-    ctx.lineTo(cs * 0.17, cs * 0.06);
-    ctx.lineTo(-cs * 0.17, cs * 0.06);
+    ctx.moveTo(0, -cs * 0.32);
+    ctx.lineTo(cs * 0.19, cs * 0.08);
+    ctx.lineTo(-cs * 0.19, cs * 0.08);
     ctx.closePath();
     ctx.fill();
     ctx.restore();

@@ -46,7 +46,9 @@ async function open(url, width, height) {
       return r.result.result.value;
     },
     async click(sel) {
-      const pos = JSON.parse(await api.ev("(()=>{const e=document.querySelector(" + JSON.stringify(sel) + ");if(!e)return 'null';e.scrollIntoView({block:'center'});const r=e.getBoundingClientRect();return JSON.stringify([r.x+r.width/2,r.y+r.height/2])})()"));
+      // Scroll instantly: the shared theme uses smooth scrolling, which would
+      // otherwise leave the element's rect stale when we read it straight after.
+      const pos = JSON.parse(await api.ev("(()=>{const e=document.querySelector(" + JSON.stringify(sel) + ");if(!e)return 'null';e.scrollIntoView({block:'center',behavior:'instant'});const r=e.getBoundingClientRect();return JSON.stringify([r.x+r.width/2,r.y+r.height/2])})()"));
       if (!pos) throw new Error('click: no element ' + sel);
       for (const type of ['mousePressed', 'mouseReleased']) {
         await send('Input.dispatchMouseEvent', { type: type, x: pos[0], y: pos[1], button: 'left', buttons: type === 'mousePressed' ? 1 : 0, clickCount: 1 });

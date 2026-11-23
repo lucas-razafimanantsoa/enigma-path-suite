@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is a habitat?",
+  "options": [
+   "The place where an organism lives",
+   "A type of food chain",
+   "The body of a dead animal",
+   "A kind of weather"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a producer?",
+  "options": [
+   "A fox",
+   "A worm",
+   "A rabbit",
+   "Grass"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a food chain, which organism is usually first?",
+  "options": [
+   "A carnivore",
+   "A decomposer",
+   "A plant",
+   "A predator"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which animal eats only plants?",
+  "options": [
+   "A hawk",
+   "A sheep",
+   "A lion",
+   "A snake"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a carnivore?",
+  "options": [
+   "A tiger",
+   "A rabbit",
+   "A cow",
+   "A horse"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a decomposer do?",
+  "options": [
+   "Hunts other animals",
+   "Lays eggs",
+   "Makes its own food",
+   "Breaks down dead organisms"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a habitat?",
+  "options": [
+   "A tooth",
+   "A bone",
+   "A pond",
+   "A seed"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these animals lives in a hot desert?",
+  "options": [
+   "A polar bear",
+   "A camel",
+   "A penguin",
+   "A whale"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these shows a correct simple food chain?",
+  "options": [
+   "Grass → rabbit → fox",
+   "Rabbit → grass → fox",
+   "Fox → rabbit → grass",
+   "Fox → grass → rabbit"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does an arrow in a food chain represent?",
+  "options": [
+   "The animal that is strongest",
+   "The number of offspring",
+   "The distance travelled",
+   "The direction of energy flow"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which feature helps a polar bear survive in the Arctic?",
+  "options": [
+   "Green fur",
+   "Wings for migration",
+   "Thick fur and a layer of fat",
+   "Long thin legs"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is an example of competition?",
+  "options": [
+   "A tree dropping leaves",
+   "Two birds eating the same berries",
+   "A bee visiting a flower",
+   "A cat sleeping in the sun"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a food web?",
+  "options": [
+   "Several connected food chains",
+   "A list of animals in a zoo",
+   "A map of a farm",
+   "One straight food chain"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which organism is a primary consumer?",
+  "options": [
+   "A worm in the soil",
+   "The grass in a field",
+   "A hawk eating a mouse",
+   "A rabbit eating grass"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do plants grow well near a window?",
+  "options": [
+   "They hear less noise",
+   "The soil is wetter there",
+   "They get more light",
+   "They are warmer at night"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which behaviour helps an animal survive a cold winter?",
+  "options": [
+   "Sleeping in the rain",
+   "Migrating to warmer areas",
+   "Growing new leaves",
+   "Shedding its skin daily"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What might happen if all predators were removed from a habitat?",
+  "options": [
+   "Prey numbers could rise and damage vegetation",
+   "Nothing would change",
+   "Prey numbers would fall",
+   "Plants would grow more slowly"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about energy in food chains is correct?",
+  "options": [
+   "Energy is made by consumers",
+   "Energy increases at each step",
+   "Energy stays the same forever",
+   "Energy is lost as heat at each step"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How does a cactus spine help the plant survive?",
+  "options": [
+   "It stores sugar",
+   "It attracts pollinators",
+   "It reduces water loss and protects the plant",
+   "It catches more rain"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is an abiotic factor?",
+  "options": [
+   "A tree",
+   "Temperature",
+   "A fungus",
+   "A bird"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why might an introduced species harm a habitat?",
+  "options": [
+   "It may have no predators and outcompete natives",
+   "It cannot reproduce",
+   "It always dies quickly",
+   "It only eats weeds"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is an example of a mutually beneficial relationship?",
+  "options": [
+   "A parasite feeding on a host",
+   "A lion hunting a zebra",
+   "A bird eating a worm",
+   "A bee getting nectar while pollinating a flower"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which organism is at the third trophic level in: grass → rabbit → fox?",
+  "options": [
+   "The soil",
+   "The sun",
+   "The fox",
+   "The grass"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why are decomposers important in an ecosystem?",
+  "options": [
+   "They make their own food",
+   "They return nutrients to the soil",
+   "They produce oxygen",
+   "They are always at the top of food chains"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

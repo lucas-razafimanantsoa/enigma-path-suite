@@ -1,0 +1,195 @@
+/* Graph / Map Colouring — clean SVG graph and flat controls */
+
+.gc-head { margin-bottom: 22px; }
+.gc-head h1 { font-size: clamp(26px, 4vw, 38px); margin: 4px 0 8px; }
+.gc-head p.muted { max-width: 760px; }
+
+.gc-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: clamp(16px, 3vw, 28px);
+  align-items: start;
+}
+@media (max-width: 860px) {
+  .gc-layout { grid-template-columns: 1fr; }
+}
+
+.gc-graph-card { display: flex; flex-direction: column; gap: 12px; }
+.gc-preset { display: flex; flex-direction: column; gap: 5px; }
+.gc-preset label { font-size: 13px; font-weight: 700; color: var(--muted); }
+.gc-preset select { width: 100%; }
+.gc-graph-title { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 12px; }
+.gc-graph-title h2 { font-size: 19px; }
+.gc-graph-title .badge { white-space: nowrap; }
+.gc-chromatic {
+  margin: -4px 0 0;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-deep);
+  border: 1px solid var(--line);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--soft);
+}
+
+.graph {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.edge {
+  stroke: var(--line-strong);
+  stroke-width: 0.75;
+  transition: stroke 0.18s ease, stroke-width 0.18s ease;
+}
+.edge--conflict {
+  stroke: var(--bad);
+  stroke-width: 1.15;
+  stroke-dasharray: 2.2 1.6;
+}
+.edge--shake {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: gc-shake 0.36s ease;
+}
+
+.node circle {
+  stroke-width: 1.1;
+  cursor: pointer;
+  transition: fill 0.2s ease, stroke 0.2s ease, stroke-width 0.15s ease;
+}
+.node:hover circle { stroke-width: 1.9; }
+.node text {
+  font-family: var(--font-sans);
+  font-size: 3.1px;
+  font-weight: 800;
+  fill: #12283A;
+  stroke: rgba(255, 255, 255, 0.92);
+  stroke-width: 0.75px;
+  paint-order: stroke fill;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+  user-select: none;
+}
+.node--reveal { transform-box: fill-box; transform-origin: center; animation: gc-reveal 0.42s ease both; }
+.node--bump circle { animation: gc-bump 0.24s ease; }
+
+/* Dense graphs: keep labels readable without crowding the edges. */
+.graph--big { max-width: 600px; }
+.graph--big .node text { font-size: 2.6px; }
+.graph--big .edge { stroke-width: 0.62; }
+.graph--big .edge--conflict { stroke-width: 0.9; stroke-dasharray: 1.8 1.4; }
+.graph--huge .node text { font-size: 2.2px; }
+.graph--huge .edge { stroke-width: 0.52; }
+.graph--huge .edge--conflict { stroke-width: 0.78; stroke-dasharray: 1.6 1.2; }
+
+.gc-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; justify-content: center; }
+.swatch { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+.swatch i {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  border: 1px solid var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.gc-legend .swatch__chip {
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 800;
+  color: #12283A;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+/* --- Side --- */
+.gc-side { display: flex; flex-direction: column; gap: 16px; }
+.gc-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 4px;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+.stat__v { font-size: 22px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.stat__l { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.gc-buttons { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.gc-buttons .btn { width: 100%; }
+
+.gc-msg {
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  font-size: 13px;
+  color: var(--muted);
+}
+.gc-msg.is-ok { border-color: var(--ok); color: var(--ok); }
+.gc-msg.is-bad { border-color: var(--bad); color: var(--bad); }
+.gc-msg.is-warn { border-color: var(--warn); color: var(--warn); }
+.gc-solution { align-self: flex-start; }
+
+/* --- Visible explanation --- */
+.gc-explain { margin-top: clamp(16px, 3vw, 28px); }
+.gc-explain h2 { font-size: 21px; margin-bottom: 8px; }
+.gc-explain__intro { max-width: 860px; font-size: 15px; color: var(--muted); }
+.gc-explain__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 26px;
+  margin-top: 18px;
+}
+.gc-explain h3 { font-size: 15px; color: var(--soft); margin-bottom: 5px; }
+.gc-explain p, .gc-explain li { font-size: 14px; line-height: 1.55; color: var(--muted); }
+.gc-explain ul { margin: 6px 0 0; padding-left: 20px; }
+.gc-explain li { margin-bottom: 5px; }
+.gc-theorem { border-left: 3px solid var(--accent); padding-left: 14px; }
+.gc-explain__why {
+  margin-top: 18px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-deep);
+  font-size: 14px;
+}
+@media (max-width: 760px) {
+  .gc-explain__grid { grid-template-columns: 1fr; gap: 14px; }
+}
+
+@keyframes gc-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-0.7px); }
+  75% { transform: translateX(0.7px); }
+}
+@keyframes gc-reveal {
+  from { opacity: 0; transform: scale(0.6); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes gc-bump {
+  50% { transform: scale(1.18); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .edge, .node circle, .node--reveal, .edge--shake, .node--bump { animation: none !important; transition: none !important; }
+}
+
+@media (max-width: 520px) {
+  .gc-buttons .btn { min-height: 44px; }
+  .gc-stats { gap: 6px; }
+  .gc-stats .stat { padding: 8px 4px; }
+  .gc-legend { gap: 6px 12px; font-size: 12px; }
+  .gc-msg { font-size: 12px; }
+  .node { cursor: pointer; }
+  .gc-chromatic { font-size: 13px; }
+}

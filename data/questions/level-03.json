@@ -2,34 +2,34 @@
  {
   "question_text": "Which type of network usually covers just one school building?",
   "options": [
-   "LAN",
    "GPS",
    "WAN",
-   "USB"
+   "USB",
+   "LAN"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "What name is given to a powerful computer that shares files with other computers on a network?",
   "options": [
-   "Server",
-   "Scanner",
    "Monitor",
-   "Cursor"
+   "Cursor",
+   "Server",
+   "Scanner"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "How does a computer worm differ from a virus?",
   "options": [
-   "A worm is a harmless and friendly type of virus",
-   "A worm only ever affects printers and scanners",
    "A worm needs you to open it before it can copy itself",
-   "A worm can spread over a network on its own"
+   "A worm can spread over a network on its own",
+   "A worm is a harmless and friendly type of virus",
+   "A worm only ever affects printers and scanners"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -46,23 +46,23 @@
  {
   "question_text": "What is the name of the firmware on the motherboard that starts the computer?",
   "options": [
-   "BIOS",
    "Cache",
    "Browser",
-   "Driver"
+   "Driver",
+   "BIOS"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "A1 holds 2, A2 holds 3 and A3 holds the formula =A1*A2. What does =SUM(A1:A3) show?",
   "options": [
-   "11",
-   "6",
    "5",
-   "36"
+   "36",
+   "11",
+   "6"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -79,23 +79,23 @@
  {
   "question_text": "Using a Caesar cipher with shift 2, what does CAT become?",
   "options": [
-   "DBU",
-   "FDW",
    "ECV",
-   "AYR"
+   "AYR",
+   "DBU",
+   "FDW"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Cells A1 to A5 hold 4, the word pen, 9, an empty cell and 2. What does =COUNT(A1:A5) show?",
   "options": [
-   "3",
    "5",
    "4",
-   "2"
+   "2",
+   "3"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -112,34 +112,34 @@
  {
   "question_text": "What is a template?",
   "options": [
-   "A backup copy of a file that is kept on the internet",
    "A tool that checks the spelling in a whole document",
    "A ready-made file with its layout set up for reuse",
-   "A document that no other person is able to edit later"
+   "A document that no other person is able to edit later",
+   "A backup copy of a file that is kept on the internet"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is a device driver?",
   "options": [
+   "Software that lets the OS use a device",
    "A person whose job is to repair computers",
    "A cable that supplies power to a printer",
-   "A website where hardware can be bought",
-   "Software that lets the OS use a device"
+   "A website where hardware can be bought"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Using a Caesar cipher with shift 5, what does COMPUTER become?",
   "options": [
-   "IUSVAZKX",
-   "HTRUZYJW",
    "GSQTYXIV",
-   "XJHKPOZM"
+   "XJHKPOZM",
+   "IUSVAZKX",
+   "HTRUZYJW"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -156,34 +156,34 @@
  {
   "question_text": "In a cipher where A=1, B=2, C=3 and so on, what does the word BAD become?",
   "options": [
-   "1 2 4",
-   "4 1 2",
    "2 1 3",
-   "2 1 4"
+   "2 1 4",
+   "1 2 4",
+   "4 1 2"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which chart is best for showing how the temperature changed during one week?",
   "options": [
-   "Flow chart",
    "Line chart",
    "Organisation chart",
-   "Pie chart"
+   "Pie chart",
+   "Flow chart"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which type of software includes tools that tidy, scan or compress your files?",
   "options": [
-   "Utility software",
    "Spreadsheet software",
    "Game software",
-   "Presentation software"
+   "Presentation software",
+   "Utility software"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -200,78 +200,78 @@
  {
   "question_text": "What does the formula =18/3*2 show?",
   "options": [
-   "36",
-   "3",
    "9",
-   "12"
-  ],
-  "correct_answer_index": 3,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "What does bandwidth tell you about a connection?",
-  "options": [
-   "How many people own the computer that it uses",
-   "How far away the server is placed from you",
-   "How much data it can carry per second",
-   "How long the cable has been in use for this link"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 3"
- },
- {
-  "question_text": "A ROT13 cipher changes A into N. What do you get if you apply ROT13 twice to the word HELLO?",
-  "options": [
-   "GDKKN",
-   "HELLO",
-   "JGNNQ",
-   "URYYB"
+   "12",
+   "36",
+   "3"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
-  "question_text": "What does a cookie stored by a website usually contain?",
+  "question_text": "What does bandwidth tell you about a connection?",
   "options": [
-   "Small pieces of data about your visit",
-   "A program that scans for computer viruses",
-   "The name of your computer's operating system",
-   "A full copy of the website you visited"
+   "How much data it can carry per second",
+   "How long the cable has been in use for this link",
+   "How many people own the computer that it uses",
+   "How far away the server is placed from you"
   ],
   "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
-  "question_text": "What is the purpose of Print Preview in a word processor?",
+  "question_text": "A ROT13 cipher changes A into N. What do you get if you apply ROT13 twice to the word HELLO?",
   "options": [
-   "To email the document to a teacher",
-   "To check the spelling of every word",
-   "To print the document twice as fast",
-   "To see how the page will look before it is printed"
+   "JGNNQ",
+   "URYYB",
+   "GDKKN",
+   "HELLO"
   ],
   "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does a cookie stored by a website usually contain?",
+  "options": [
+   "The name of your computer's operating system",
+   "A full copy of the website you visited",
+   "Small pieces of data about your visit",
+   "A program that scans for computer viruses"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the purpose of Print Preview in a word processor?",
+  "options": [
+   "To print the document twice as fast",
+   "To see how the page will look before it is printed",
+   "To email the document to a teacher",
+   "To check the spelling of every word"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "In a spreadsheet, which reference means column C, row 4?",
   "options": [
+   "C4",
    "CR4",
    "4:C",
-   "4C",
-   "C4"
+   "4C"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "The formula =A1*2 in cell B1 is copied down to cell B3. What does it become in B3?",
   "options": [
+   "=A1*6",
    "=A1*2",
    "=B3*2",
-   "=A3*2",
-   "=A1*6"
+   "=A3*2"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
@@ -288,12 +288,12 @@
  {
   "question_text": "What is a username used for?",
   "options": [
-   "Blocking adverts that pop up on a page",
-   "Making the screen look brighter at night",
    "Keeping your files safe on a cloud drive",
-   "Telling the system who is logging in"
+   "Telling the system who is logging in",
+   "Blocking adverts that pop up on a page",
+   "Making the screen look brighter at night"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -310,78 +310,78 @@
  {
   "question_text": "Which keyboard shortcut makes selected text bold in most word processors?",
   "options": [
-   "Ctrl + U",
-   "Ctrl + B",
    "Ctrl + I",
-   "Ctrl + A"
+   "Ctrl + A",
+   "Ctrl + U",
+   "Ctrl + B"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which program tricks you by pretending to be something useful, such as a free game?",
   "options": [
-   "Compiler",
    "Firewall",
    "Browser",
-   "Trojan"
+   "Trojan",
+   "Compiler"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "What happens to the data held in RAM when the computer is switched off?",
   "options": [
-   "It is copied into the ROM chip",
    "It is kept ready for the next day",
    "It is lost",
-   "It is sent to the printer"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "In the formula =B2*$B$1, what does the $ sign do?",
-  "options": [
-   "Makes the answer a whole number only",
-   "Keeps the reference to B1 fixed when copied",
-   "Hides the formula from anyone viewing",
-   "Turns the answer into a sum of money"
+   "It is sent to the printer",
+   "It is copied into the ROM chip"
   ],
   "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
-  "question_text": "How can a word processor build a table of contents for you?",
+  "question_text": "In the formula =B2*$B$1, what does the $ sign do?",
   "options": [
-   "From the pictures that are in the document",
-   "From the name that the file was saved with",
-   "From headings marked with heading styles",
-   "From the longest words used in the text"
+   "Keeps the reference to B1 fixed when copied",
+   "Hides the formula from anyone viewing",
+   "Turns the answer into a sum of money",
+   "Makes the answer a whole number only"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
-  "question_text": "What is a hyperlink?",
+  "question_text": "How can a word processor build a table of contents for you?",
   "options": [
-   "A cable that joins two networks together",
-   "A line of code that deletes a web page",
-   "A box where you type a search word",
-   "Text or a picture you click to go to another page or file"
+   "From the longest words used in the text",
+   "From the pictures that are in the document",
+   "From the name that the file was saved with",
+   "From headings marked with heading styles"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
+  "question_text": "What is a hyperlink?",
+  "options": [
+   "A line of code that deletes a web page",
+   "A box where you type a search word",
+   "Text or a picture you click to go to another page or file",
+   "A cable that joins two networks together"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
   "question_text": "A school wants to stop outsiders reaching its computers over the internet. Which tool helps?",
   "options": [
+   "Spell checker",
    "Firewall",
    "Screen saver",
-   "Print queue",
-   "Spell checker"
+   "Print queue"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -398,23 +398,23 @@
  {
   "question_text": "What is a computer file?",
   "options": [
-   "A program that blocks harmful websites",
-   "A named collection of data kept on a device",
    "A cable that joins two computers",
-   "A tool that cleans the computer screen"
+   "A tool that cleans the computer screen",
+   "A program that blocks harmful websites",
+   "A named collection of data kept on a device"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is 'social engineering' in computer security?",
   "options": [
+   "Writing a program for a social media site",
    "Joining a club for people who like computers",
    "Tricking people into giving away secrets",
-   "Building a computer network for a school",
-   "Writing a program for a social media site"
+   "Building a computer network for a school"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -431,23 +431,23 @@
  {
   "question_text": "You save a 4 MB photo, a 3 MB song and a 20 MB video on a USB stick. How much space do they use?",
   "options": [
-   "13 MB",
    "27 MB",
    "37 MB",
-   "12 MB"
+   "12 MB",
+   "13 MB"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "What does ransomware do?",
   "options": [
-   "Fills your screen with unwanted games",
-   "Locks your files until money is paid",
    "Slows the internet down for all users",
-   "Deletes everything inside the Recycle Bin"
+   "Deletes everything inside the Recycle Bin",
+   "Fills your screen with unwanted games",
+   "Locks your files until money is paid"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
@@ -464,111 +464,111 @@
  {
   "question_text": "What does HTTPS in a web address tell you about the connection?",
   "options": [
-   "The website has no adverts on any of its pages",
    "The page was written by a teacher at a school",
    "The data is encrypted between browser and site",
-   "The website is certain to tell the truth always"
+   "The website is certain to tell the truth always",
+   "The website has no adverts on any of its pages"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "The cipher text DWWDFN was made using shift 3. What was the original word?",
   "options": [
+   "ATTACK",
    "FYYFHP",
    "EXXEGO",
-   "BUUBDL",
-   "ATTACK"
+   "BUUBDL"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does a VPN do for the data you send over the internet?",
   "options": [
+   "Makes it arrive twice as fast",
    "Turns it into a picture",
    "Deletes it as soon as sent",
-   "Encrypts it as it travels",
-   "Makes it arrive twice as fast"
+   "Encrypts it as it travels"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which function is most suitable for finding the price of an item when you type its product code into a table?",
   "options": [
+   "TODAY",
    "ROUND",
    "VLOOKUP",
-   "COUNT",
-   "TODAY"
+   "COUNT"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which habit helps antivirus software protect a computer?",
   "options": [
-   "Switching it off while downloading",
    "Installing it only after a virus appears",
    "Keeping it up to date",
-   "Running it once a year"
+   "Running it once a year",
+   "Switching it off while downloading"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is a header in a word-processed document?",
   "options": [
+   "Text that repeats at the top of every page",
    "The first line of each new paragraph in a text",
    "The name of the folder holding the file itself",
-   "A bar showing the file name and its size in KB",
-   "Text that repeats at the top of every page"
+   "A bar showing the file name and its size in KB"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
   "question_text": "Why is it a good habit to save your work often while you type?",
   "options": [
-   "You lose little if the computer suddenly fails",
    "The file is shrunk so it takes up less space",
    "The document is checked for any spelling errors",
-   "The printer starts working much more quickly"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which password would be the hardest for someone to guess?",
-  "options": [
-   "Blue7!Tiger_Cloud",
-   "mypassword123",
-   "12345678abc",
-   "football2012!"
-  ],
-  "correct_answer_index": 0,
-  "term_category": "Term 1"
- },
- {
-  "question_text": "Which device sends your voice into the computer for a recording project?",
-  "options": [
-   "Projector",
-   "Loudspeaker",
-   "Monitor",
-   "Microphone"
+   "The printer starts working much more quickly",
+   "You lose little if the computer suddenly fails"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
-  "question_text": "Which page orientation makes a page wider than it is tall?",
+  "question_text": "Which password would be the hardest for someone to guess?",
   "options": [
-   "Square",
-   "Landscape",
-   "Portrait",
-   "Vertical"
+   "12345678abc",
+   "football2012!",
+   "Blue7!Tiger_Cloud",
+   "mypassword123"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which device sends your voice into the computer for a recording project?",
+  "options": [
+   "Monitor",
+   "Microphone",
+   "Projector",
+   "Loudspeaker"
   ],
   "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which page orientation makes a page wider than it is tall?",
+  "options": [
+   "Landscape",
+   "Portrait",
+   "Vertical",
+   "Square"
+  ],
+  "correct_answer_index": 0,
   "term_category": "Term 1"
  },
  {
@@ -607,56 +607,56 @@
  {
   "question_text": "Using a Caesar cipher with shift 4, what does the letter Y become?",
   "options": [
-   "D",
-   "B",
    "C",
-   "Z"
+   "Z",
+   "D",
+   "B"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does the Recycle Bin (or Trash) do?",
   "options": [
+   "Checks every file for harmful programs",
    "Copies your files to the internet each day",
    "Shrinks files so they use less space",
-   "Holds deleted files until it is emptied",
-   "Checks every file for harmful programs"
+   "Holds deleted files until it is emptied"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "A cell shows #### after you type a long number. What is the most likely reason?",
   "options": [
-   "The column is too narrow for the number",
-   "The file has been attacked by a computer virus",
    "The whole worksheet has been locked by its owner",
-   "The number has been deleted by mistake by you"
+   "The number has been deleted by mistake by you",
+   "The column is too narrow for the number",
+   "The file has been attacked by a computer virus"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which formula adds up the numbers in cells B2 to B6?",
   "options": [
+   "=TOTAL(B2,B6)",
    "=SUM(B2:B6)",
    "=ADD(B2-B6)",
-   "=B2+B6",
-   "=TOTAL(B2,B6)"
+   "=B2+B6"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "Why is 'Reply All' risky when you want to send a private answer?",
   "options": [
-   "The message is sent to the wrong country",
-   "The sender can never read your reply",
    "Everyone on the original list receives your message",
-   "The message is deleted before it arrives"
+   "The message is deleted before it arrives",
+   "The message is sent to the wrong country",
+   "The sender can never read your reply"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -673,111 +673,111 @@
  {
   "question_text": "What does a page break do in a word-processed document?",
   "options": [
+   "Deletes the empty lines in the text",
    "Saves the document in two files",
    "Starts the following text on a new page",
-   "Splits one word into two parts",
-   "Deletes the empty lines in the text"
+   "Splits one word into two parts"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "What does a surge protector plug help to do?",
   "options": [
+   "Charge a phone without a cable",
    "Protect devices from sudden jumps in electricity",
    "Block viruses from reaching the computer",
-   "Make a computer start up faster",
-   "Charge a phone without a cable"
+   "Make a computer start up faster"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "In English, E is the most common letter. In a long Caesar ciphertext, H is the most common. What shift was probably used?",
   "options": [
+   "3",
    "5",
    "1",
-   "8",
-   "3"
+   "8"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "Cell A1 holds 7. What does a cell with the formula =A1*2 show?",
   "options": [
+   "A1*2",
    "9",
    "72",
-   "14",
-   "A1*2"
+   "14"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What are the two main parts needed for a mail merge?",
   "options": [
-   "A main letter and a list of names",
-   "A printer and a scanner for the pages",
    "A header and a footer for each page",
-   "A username and a password for the file"
+   "A username and a password for the file",
+   "A main letter and a list of names",
+   "A printer and a scanner for the pages"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which connection lets a tablet join the school network without a cable plugged in?",
   "options": [
-   "Ethernet",
    "USB",
    "Wi-Fi",
-   "HDMI"
+   "HDMI",
+   "Ethernet"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "What is the main job of a router?",
   "options": [
+   "Sending data between different networks",
    "Printing pages for lots of users at once",
    "Cooling down the main processor chip",
-   "Keeping all of the school's files safe",
-   "Sending data between different networks"
+   "Keeping all of the school's files safe"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does filtering a table of data do?",
   "options": [
-   "Shows only rows that meet a condition",
    "Changes the colour of every second row in it",
    "Adds up the numbers that are in every column",
-   "Deletes any rows that do not match a rule"
+   "Deletes any rows that do not match a rule",
+   "Shows only rows that meet a condition"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "A spy has only a Caesar-coded message. Why can the spy still crack it?",
   "options": [
-   "Computers can read any message that is coded",
    "All Caesar ciphers use the same shift of three",
    "The shift is always written inside the message",
-   "Only 25 useful shifts exist, so each can be tried"
+   "Only 25 useful shifts exist, so each can be tried",
+   "Computers can read any message that is coded"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is a web server?",
   "options": [
+   "A tool that checks websites for spelling mistakes",
    "A computer that stores websites and sends pages when asked",
    "A device that prints pages from a browser",
-   "A program for typing and editing letters",
-   "A tool that checks websites for spelling mistakes"
+   "A program for typing and editing letters"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -794,67 +794,67 @@
  {
   "question_text": "Why should you list the sources you used in a school project?",
   "options": [
+   "To make the project look much longer than it is",
    "To stop other people from being able to copy it",
    "To make the text in the project show up in colour",
-   "To give credit to the original writers",
-   "To make the project look much longer than it is"
+   "To give credit to the original writers"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Why might a computer ask for an administrator's password before installing a program?",
   "options": [
+   "Because the computer needs to be switched off",
    "Because the program works only at night",
    "So only authorised people can change the system",
-   "Because the program costs a lot of money",
-   "Because the computer needs to be switched off"
+   "Because the program costs a lot of money"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Why should you install software updates when they are offered?",
   "options": [
-   "They mean that you never have to log in again",
-   "They make the computer screen a larger size",
    "They delete old files so there is more room",
-   "They often fix security weaknesses"
+   "They often fix security weaknesses",
+   "They mean that you never have to log in again",
+   "They make the computer screen a larger size"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is freeware?",
   "options": [
+   "Software you can use without paying for it",
    "Software that is safe from every virus",
    "Software that has no instructions",
-   "Software that only works without the internet",
-   "Software you can use without paying for it"
+   "Software that only works without the internet"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "A1 to A4 hold 14, 3, 22 and 9. What does =MAX(A1:A4)-MIN(A1:A4) show?",
   "options": [
-   "19",
    "3",
    "48",
-   "22"
+   "22",
+   "19"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which file name is most likely a music file?",
   "options": [
+   "song.docx",
    "song.pptx",
    "song.mp3",
-   "song.xlsx",
-   "song.docx"
+   "song.xlsx"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -871,34 +871,34 @@
  {
   "question_text": "A file of 360 MB downloads at a steady 12 MB per second. How long does it take?",
   "options": [
-   "15 seconds",
    "30 seconds",
    "60 seconds",
-   "348 seconds"
+   "348 seconds",
+   "15 seconds"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "What is a computer network?",
   "options": [
+   "A program that is used to draw diagrams",
    "A spreadsheet that contains many sheets",
    "A harmful kind of computer software tool",
-   "Computers linked together to share data",
-   "A program that is used to draw diagrams"
+   "Computers linked together to share data"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What does an ISP, such as a phone or cable company, provide?",
   "options": [
-   "A connection to the internet",
-   "Extra memory for your computer",
    "A keyboard for your laptop",
-   "A program for editing photos"
+   "A program for editing photos",
+   "A connection to the internet",
+   "Extra memory for your computer"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -915,12 +915,12 @@
  {
   "question_text": "In a client-server network, what does the server usually do?",
   "options": [
+   "Stores shared files and answers client requests",
    "Draws all of the pictures that are needed for games",
    "Shows a copy of each user's desktop to all other users",
-   "Charges the batteries inside the laptops that are nearby",
-   "Stores shared files and answers client requests"
+   "Charges the batteries inside the laptops that are nearby"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
@@ -937,100 +937,100 @@
  {
   "question_text": "What does it mean to 'upload' a file?",
   "options": [
+   "Copy it from a website over to your own device",
    "Open it inside a different new window on screen",
    "Send it from your device to a website",
-   "Change its name and its file type to a new one",
-   "Copy it from a website over to your own device"
+   "Change its name and its file type to a new one"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which part of a chart tells the reader what each axis measures?",
   "options": [
+   "Page breaks",
    "Axis titles",
    "Sheet tabs",
-   "Cell borders",
-   "Page breaks"
+   "Cell borders"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which feature stops someone typing an age of 200 into a column of ages?",
   "options": [
-   "Conditional formatting",
    "Data validation",
    "Sorting",
-   "Freezing panes"
+   "Freezing panes",
+   "Conditional formatting"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 3"
  },
  {
   "question_text": "A sheet total is =B2*C2. Why does the total change when you change the price in C2?",
   "options": [
-   "Spreadsheets recalculate formulas when a value changes",
    "The old total gets saved in the sheet as plain text instead",
    "The sheet is being copied again by mistake by the person",
-   "The computer makes a brand new guess at the answer for you"
+   "The computer makes a brand new guess at the answer for you",
+   "Spreadsheets recalculate formulas when a value changes"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does the file extension at the end of a file name, such as .jpg, tell you?",
   "options": [
-   "Which folder it is stored in",
    "How old the file is",
    "Who owns the file",
-   "The type of file"
+   "The type of file",
+   "Which folder it is stored in"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
   "question_text": "Which type of cable sends data as pulses of light?",
   "options": [
-   "HDMI lead",
    "Twisted pair",
    "Fibre optic",
-   "Power cable"
+   "Power cable",
+   "HDMI lead"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "What does =MEDIAN(3,9,5,7,1) show?",
   "options": [
+   "5",
    "3",
    "25",
-   "7",
-   "5"
+   "7"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "A larger number of pixels on a screen of the same size usually gives what?",
   "options": [
-   "A sharper picture",
    "A slower mouse",
    "A louder sound",
-   "A heavier monitor"
+   "A heavier monitor",
+   "A sharper picture"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 3,
   "term_category": "Term 3"
  },
  {
   "question_text": "A simple cipher writes each message backwards. What is SECRET in this cipher?",
   "options": [
-   "SECTER",
    "RETSEC",
    "TERCSE",
-   "TERCES"
+   "TERCES",
+   "SECTER"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 2,
   "term_category": "Term 1"
  },
  {
@@ -1047,56 +1047,56 @@
  {
   "question_text": "Which is the best place to keep a backup copy of important files?",
   "options": [
+   "On a separate device or secure online storage",
    "In another folder located on the very same hard disk",
    "Inside the Recycle Bin of the same computer you use",
-   "On the desktop of the same computer you work on daily",
-   "On a separate device or secure online storage"
+   "On the desktop of the same computer you work on daily"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "You select two cells holding 1 and 2 and drag the fill handle down. What do the next three cells usually show?",
   "options": [
+   "1, 2, 1",
    "1, 1, 1",
    "2, 2, 2",
-   "3, 4, 5",
-   "1, 2, 1"
+   "3, 4, 5"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
   "question_text": "What does conditional formatting do?",
   "options": [
+   "Deletes all of the cells that hold an error value",
    "Turns a cell into a tiny pie chart of its data",
    "Changes how a cell looks based on its value",
-   "Stops a cell from ever being edited by anyone",
-   "Deletes all of the cells that hold an error value"
+   "Stops a cell from ever being edited by anyone"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
   "question_text": "Which device can store files and be carried in a pocket?",
   "options": [
+   "Speaker",
    "USB flash drive",
    "Keyboard",
-   "Webcam lens",
-   "Speaker"
+   "Webcam lens"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
   "question_text": "B2 holds 45. What does =IF(B2>=50,\"Pass\",\"Fail\") show?",
   "options": [
-   "50",
    "Fail",
    "Pass",
-   "45"
+   "45",
+   "50"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
@@ -1124,12 +1124,12 @@
  {
   "question_text": "Why should you lock the screen when you leave a computer for a few minutes?",
   "options": [
-   "It makes the files on the computer smaller",
-   "It updates the software on the computer",
    "It frees up memory that was being used",
-   "Nobody else can use your account"
+   "Nobody else can use your account",
+   "It makes the files on the computer smaller",
+   "It updates the software on the computer"
   ],
-  "correct_answer_index": 3,
+  "correct_answer_index": 1,
   "term_category": "Term 1"
  },
  {
@@ -1157,12 +1157,12 @@
  {
   "question_text": "Which unit is used to measure the clock speed of a processor?",
   "options": [
+   "Mbps",
    "dpi",
    "GHz",
-   "GB",
-   "Mbps"
+   "GB"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 2,
   "term_category": "Term 3"
  },
  {
@@ -1190,12 +1190,12 @@
  {
   "question_text": "Which socket would you use to plug in a USB flash drive?",
   "options": [
-   "Power socket",
-   "USB port",
    "Ethernet socket",
-   "Headphone socket"
+   "Headphone socket",
+   "Power socket",
+   "USB port"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 1"
  },
  {
@@ -1212,12 +1212,12 @@
  {
   "question_text": "Which log-in uses two-factor authentication?",
   "options": [
-   "A username followed by a single password",
    "A password followed by a second password",
    "A password plus a code sent to your phone",
-   "Two different usernames typed one after another"
+   "Two different usernames typed one after another",
+   "A username followed by a single password"
   ],
-  "correct_answer_index": 2,
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
@@ -1234,67 +1234,67 @@
  {
   "question_text": "Which type of network can link computers in different countries?",
   "options": [
+   "LAN",
    "ROM",
    "RAM",
-   "WAN",
-   "LAN"
-  ],
-  "correct_answer_index": 2,
-  "term_category": "Term 2"
- },
- {
-  "question_text": "Why might you put several files into a ZIP file before emailing them?",
-  "options": [
-   "It checks the spelling of every document inside",
-   "It makes the files open faster on any device",
-   "It stops other people from ever opening them",
-   "It makes them smaller and keeps them together"
+   "WAN"
   ],
   "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
-  "question_text": "How can you best stop strangers using your home Wi-Fi?",
+  "question_text": "Why might you put several files into a ZIP file before emailing them?",
   "options": [
-   "Switch the router off for a few hours every single day",
-   "Move the router up onto a high shelf in the hall",
-   "Set a strong password and turn on encryption",
-   "Change the network name to 'Free Wi-Fi' for all users"
+   "It makes the files open faster on any device",
+   "It stops other people from ever opening them",
+   "It makes them smaller and keeps them together",
+   "It checks the spelling of every document inside"
   ],
   "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How can you best stop strangers using your home Wi-Fi?",
+  "options": [
+   "Move the router up onto a high shelf in the hall",
+   "Set a strong password and turn on encryption",
+   "Change the network name to 'Free Wi-Fi' for all users",
+   "Switch the router off for a few hours every single day"
+  ],
+  "correct_answer_index": 1,
   "term_category": "Term 3"
  },
  {
   "question_text": "A message LQWHUQHW was made with a Caesar cipher using shift 3. What is the original word?",
   "options": [
-   "NSYJWSJY",
    "INTERNET",
    "JOUFSOFU",
-   "OTZKXTKZ"
+   "OTZKXTKZ",
+   "NSYJWSJY"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 0,
   "term_category": "Term 2"
  },
  {
   "question_text": "What is the difference between the internet and the World Wide Web?",
   "options": [
-   "The web is the cables and the internet is the pages",
-   "The internet is the network; the web is pages on it",
    "The internet is used only for sending emails to people",
-   "They are two different names for the same thing"
+   "They are two different names for the same thing",
+   "The web is the cables and the internet is the pages",
+   "The internet is the network; the web is pages on it"
   ],
-  "correct_answer_index": 1,
+  "correct_answer_index": 3,
   "term_category": "Term 2"
  },
  {
   "question_text": "Which type of harmful software secretly collects information about what you do on a computer?",
   "options": [
-   "Spyware",
-   "Freeware",
    "Middleware",
-   "Shareware"
+   "Shareware",
+   "Spyware",
+   "Freeware"
   ],
-  "correct_answer_index": 0,
+  "correct_answer_index": 2,
   "term_category": "Term 2"
  }
 ]

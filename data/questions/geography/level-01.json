@@ -1,0 +1,266 @@
+[
+ {
+  "question_text": "What is a map?",
+  "options": [
+   "A list of phone numbers",
+   "A drawing that shows where places are",
+   "A story about a faraway place",
+   "A picture of an animal"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which direction is at the top of most maps?",
+  "options": [
+   "North",
+   "East",
+   "West",
+   "South"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the letter N stand for on a compass?",
+  "options": [
+   "Noon",
+   "Nearby",
+   "Nothing",
+   "North"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a compass used for?",
+  "options": [
+   "Drawing the outline of a country",
+   "Counting people in a village",
+   "Finding which way is north",
+   "Measuring how far away a town is"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a symbol on a map usually stand for?",
+  "options": [
+   "A question from the reader",
+   "A real thing or place",
+   "A number of people",
+   "A type of weather"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a map key help you to do?",
+  "options": [
+   "Understand the symbols",
+   "Measure the paper",
+   "Remember where you put it",
+   "Fold the map neatly"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which direction is opposite to south?",
+  "options": [
+   "Down",
+   "East",
+   "West",
+   "North"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main job of a road map?",
+  "options": [
+   "Listing the names of birds",
+   "Showing how to reach a place",
+   "Counting cars in a city",
+   "Showing which shops sell food"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "If you face north and turn to your right, which way do you face?",
+  "options": [
+   "Backwards",
+   "East",
+   "West",
+   "South"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these shows the whole Earth as a round model?",
+  "options": [
+   "A globe",
+   "A grid",
+   "A chart",
+   "A plan"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What are the small pictures on a map called?",
+  "options": [
+   "Borders",
+   "Labels",
+   "Headings",
+   "Symbols"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do maps need a title?",
+  "options": [
+   "To show the price of the map",
+   "To hide the map's key",
+   "To tell you what the map shows",
+   "To make the paper look nice"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these would help you find north outdoors?",
+  "options": [
+   "A rubber",
+   "A compass",
+   "A ruler",
+   "A thermometer"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "On most maps, which way is east?",
+  "options": [
+   "To the right",
+   "Upwards",
+   "Downwards",
+   "To the left"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is an atlas?",
+  "options": [
+   "A tool for digging",
+   "A map of one street",
+   "A list of place names",
+   "A book of maps"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is most likely to be shown by a blue line on a map?",
+  "options": [
+   "A hill",
+   "A border",
+   "A river",
+   "A road"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A map shows a school to the west of a park. Where is the park?",
+  "options": [
+   "Inside the school",
+   "East of the school",
+   "North of the school",
+   "South of the school"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "If you walk west from your house and then turn left, which way are you walking?",
+  "options": [
+   "South",
+   "East",
+   "West",
+   "North"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A scale on a map helps you work out...",
+  "options": [
+   "Who owns the land",
+   "The names of countries",
+   "The colours used",
+   "How far places are apart"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why might two maps of the same town look different?",
+  "options": [
+   "One may be made of paper",
+   "One may be kept in a drawer",
+   "One may have no corners",
+   "One may use different symbols"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a direction on a compass?",
+  "options": [
+   "Inside",
+   "North-east",
+   "Upside-down",
+   "Sideways"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which map would be best for finding a small street in a city?",
+  "options": [
+   "A street map",
+   "An ocean map",
+   "A weather map",
+   "A world map"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does 'north-west' mean?",
+  "options": [
+   "Directly west",
+   "Between north and east",
+   "Between south and east",
+   "Between north and west"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why do explorers take maps with them?",
+  "options": [
+   "To write their names",
+   "To count trees",
+   "To know where to go",
+   "To carry heavy things"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

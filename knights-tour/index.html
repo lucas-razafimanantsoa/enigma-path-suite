@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knight's Tour | EnigmaPath</title>
+<link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../shared/theme.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../shared/gate.css">
+</head><body>
+<header class="ep-topbar">
+  <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+    <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
+    <span>EnigmaPath<small>Knight's Tour</small></span>
+  </a>
+</header>
+<main class="ep-main">
+  <section class="kt-head">
+    <p class="eyebrow">Chessboard puzzle</p>
+    <h1>Knight's Tour</h1>
+    <p class="muted">You move the knight. Pick a starting square, then hop to every other square exactly once — a knight moves two squares in one direction and one across. Highlighted squares are your legal next moves. Stuck? Undo a hop or restart. Teachers can reveal a verified tour with the password.</p>
+  </section>
+
+  <div class="kt-layout">
+    <div class="card kt-board-card">
+      <div class="kt-board-wrap">
+        <div class="board" id="board" role="grid" aria-label="Chessboard">
+          <div class="knight" id="knight" aria-hidden="true">♞</div>
+        </div>
+      </div>
+      <p class="hint kt-start-label" id="start-label">Click any square to place the knight, then choose a highlighted square.</p>
+      <div class="kt-legend" aria-hidden="true">
+        <span><i class="kt-key kt-key--current"></i>Knight</span>
+        <span><i class="kt-key kt-key--move"></i>Can move</span>
+        <span><i class="kt-key kt-key--visited"></i>Visited</span>
+      </div>
+    </div>
+
+    <div class="card kt-side">
+      <div class="field">
+        <label for="size">Board size</label>
+        <select id="size">
+          <option value="5">5 × 5</option>
+          <option value="6">6 × 6</option>
+          <option value="7">7 × 7</option>
+          <option value="8" selected>8 × 8</option>
+        </select>
+      </div>
+
+      <div class="kt-stats">
+        <div class="stat"><span class="stat__v" id="stat-moves">0</span><span class="stat__l">Moves made</span></div>
+        <div class="stat"><span class="stat__v" id="stat-left">64</span><span class="stat__l">Squares left</span></div>
+      </div>
+
+      <div class="kt-buttons">
+        <button class="btn btn--primary" id="btn-new" type="button">New game</button>
+        <button class="btn" id="btn-autopick" type="button">Auto-pick start</button>
+        <button class="btn" id="btn-undo" type="button" disabled>Undo move</button>
+        <button class="btn" id="btn-restart" type="button">Restart</button>
+        <button class="btn" id="btn-hint" type="button" disabled>Hint</button>
+      </div>
+
+      <label class="kt-speed">Solution replay speed
+        <input type="range" id="speed" min="1" max="10" value="6" aria-label="Solution animation speed">
+      </label>
+
+      <div class="kt-msg" id="msg" role="status" aria-live="polite">Pick a starting square</div>
+
+      <button class="btn btn--small kt-solution" id="btn-solution" type="button">Show solution</button>
+      <p class="hint">The solver uses Warnsdorff's rule plus backtracking, then verifies the whole tour.</p>
+    </div>
+  </div>
+</main>
+<script src="../shared/gate.js"></script>
+<script src="../shared/footer.js"></script>
+<script src="js/app.js"></script>
+</body></html>

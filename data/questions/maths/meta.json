@@ -1,0 +1,51 @@
+{
+ "name": "Mathematics",
+ "blurb": "From mental arithmetic to A-Level maths",
+ "icon": "🧮",
+ "levels": [
+  {
+   "title": "Numbers and counting",
+   "blurb": "Place value, ordering, addition and subtraction"
+  },
+  {
+   "title": "Times tables and division",
+   "blurb": "Multiplication, division and sharing"
+  },
+  {
+   "title": "Fractions, decimals and percentages",
+   "blurb": "Parts of a whole and conversions"
+  },
+  {
+   "title": "Ratio, proportion and measures",
+   "blurb": "Scaling, units and real-life problems"
+  },
+  {
+   "title": "Algebra foundations",
+   "blurb": "Expressions, sequences and simple equations"
+  },
+  {
+   "title": "Shapes, angles and area",
+   "blurb": "Geometry basics and measurement"
+  },
+  {
+   "title": "IGCSE number and algebra",
+   "blurb": "Indices, standard form, factors and equations"
+  },
+  {
+   "title": "IGCSE geometry and graphs",
+   "blurb": "Angles, constructions, coordinates and graphs"
+  },
+  {
+   "title": "IGCSE trigonometry and statistics",
+   "blurb": "Trig ratios, probability, averages and charts"
+  },
+  {
+   "title": "IB higher topics",
+   "blurb": "Functions, calculus ideas, vectors and modelling"
+  },
+  {
+   "title": "A-Level extension",
+   "blurb": "Pure calculus, proof, vectors, mechanics and statistics"
+  }
+ ]
+}

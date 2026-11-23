@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "What is a force?",
+  "options": [
+   "A unit of time",
+   "A push or a pull",
+   "A type of light",
+   "A kind of rock"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which force pulls objects down towards the Earth?",
+  "options": [
+   "Gravity",
+   "Friction",
+   "Magnetism",
+   "Upthrust"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is an example of a push?",
+  "options": [
+   "Pulling a sleeve",
+   "Tugging a rope",
+   "Drawing a curtain",
+   "Kicking a ball"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the force that slows a sliding object called?",
+  "options": [
+   "Gravity",
+   "Upthrust",
+   "Friction",
+   "Magnetism"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is needed to make a stationary object start moving?",
+  "options": [
+   "A smell",
+   "A force",
+   "A shadow",
+   "A colour"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which force attracts iron objects?",
+  "options": [
+   "Magnetism",
+   "Friction",
+   "Electricity",
+   "Gravity"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is a pull?",
+  "options": [
+   "Pressing a key",
+   "Pushing a door",
+   "Kicking a ball",
+   "Reeling in a fishing line"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What do we call the force between your shoes and the floor?",
+  "options": [
+   "Electricity",
+   "Gravity",
+   "Friction",
+   "Magnetism"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "The force of gravity on an object is called its what?",
+  "options": [
+   "Mass",
+   "Weight",
+   "Volume",
+   "Length"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which surface gives the most friction?",
+  "options": [
+   "Rough carpet",
+   "Polished stone",
+   "Ice",
+   "Smooth glass"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why do trainers have rough soles?",
+  "options": [
+   "To keep feet cooler",
+   "To make them lighter",
+   "To make them shine",
+   "To increase friction"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A ball stops sooner on grass than on a smooth floor. Why?",
+  "options": [
+   "Grass has no gravity",
+   "Grass makes the ball heavier",
+   "Grass has more friction",
+   "Grass has less friction"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "You push a wall and it does not move. What does the wall do?",
+  "options": [
+   "Does nothing at all",
+   "Pushes back on your hand",
+   "Moves slowly away",
+   "Becomes much heavier"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Two teams pull a rope equally hard in a tug of war. What happens?",
+  "options": [
+   "The rope stays still",
+   "The rope flies upwards",
+   "One team always wins",
+   "The rope breaks at once"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What can a force do to a lump of soft clay?",
+  "options": [
+   "Change its name",
+   "Change its colour",
+   "Change its smell",
+   "Change its shape"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these makes a box easier to pull along the floor?",
+  "options": [
+   "Making the floor rougher",
+   "Taking off the lid",
+   "Fitting wheels",
+   "Adding more weight"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A boat floats because water pushes it up. What is this force called?",
+  "options": [
+   "Magnetism",
+   "Upthrust",
+   "Friction",
+   "Gravity"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is a heavy box harder to slide than a light one?",
+  "options": [
+   "Greater friction with the floor",
+   "No friction with the floor",
+   "A smoother bottom surface",
+   "Less gravity acting on it"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about friction is true?",
+  "options": [
+   "It makes objects lighter",
+   "It always helps objects move",
+   "It only happens in water",
+   "It acts against the motion"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A parachute slows a fall mainly by...",
+  "options": [
+   "removing all friction",
+   "making the person heavier",
+   "increasing air resistance",
+   "increasing gravity"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which force must a swimmer push against to move forward?",
+  "options": [
+   "The Sun",
+   "The water",
+   "The air",
+   "A magnet"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A cyclist pedals harder. Which force on the bike becomes bigger?",
+  "options": [
+   "The driving force",
+   "The friction backwards",
+   "The weight of the bike",
+   "The force of gravity"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Friction can only occur when two surfaces are...",
+  "options": [
+   "in darkness",
+   "far apart",
+   "both magnets",
+   "touching"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is a non-contact force?",
+  "options": [
+   "A push",
+   "A pull",
+   "Magnetism",
+   "Friction"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A magnet can pull a nail without touching it. Which force needs contact?",
+  "options": [
+   "Upthrust",
+   "Friction",
+   "Gravity",
+   "Magnetism"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ }
+]

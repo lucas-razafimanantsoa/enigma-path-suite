@@ -1,0 +1,277 @@
+[
+ {
+  "question_text": "Who painted 'The Starry Night'?",
+  "options": [
+   "Claude Monet",
+   "Paul Cézanne",
+   "Vincent van Gogh",
+   "Pablo Picasso"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which planet was discovered by William Herschel in 1781?",
+  "options": [
+   "Saturn",
+   "Uranus",
+   "Neptune",
+   "Pluto"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who composed 'The Four Seasons'?",
+  "options": [
+   "Antonio Vivaldi",
+   "George Handel",
+   "Franz Haydn",
+   "Johann Bach"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which scientist discovered penicillin?",
+  "options": [
+   "Edward Jenner",
+   "Louis Pasteur",
+   "Robert Koch",
+   "Alexander Fleming"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "How many keys does a standard piano have?",
+  "options": [
+   "76",
+   "100",
+   "88",
+   "66"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Who wrote 'The Origin of Species'?",
+  "options": [
+   "Gregor Mendel",
+   "Charles Darwin",
+   "Thomas Huxley",
+   "Jean Lamarck"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which explorer led the first expedition to reach the South Pole?",
+  "options": [
+   "Roald Amundsen",
+   "Robert Peary",
+   "Fridtjof Nansen",
+   "Ernest Shackleton"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which novelist wrote 'Great Expectations'?",
+  "options": [
+   "William Thackeray",
+   "George Eliot",
+   "Thomas Hardy",
+   "Charles Dickens"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which artist painted 'Guernica'?",
+  "options": [
+   "Henri Matisse",
+   "Georges Braque",
+   "Pablo Picasso",
+   "Salvador Dalí"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who developed the first widely used polio vaccine?",
+  "options": [
+   "Michael DeBakey",
+   "Jonas Salk",
+   "Albert Sabin",
+   "Edward Jenner"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which composer was deaf when he completed his Ninth Symphony?",
+  "options": [
+   "Ludwig van Beethoven",
+   "Johann Bach",
+   "Franz Schubert",
+   "Joseph Haydn"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the chemical symbol for gold?",
+  "options": [
+   "Fe",
+   "Cu",
+   "Ag",
+   "Au"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who is credited with creating the World Wide Web?",
+  "options": [
+   "Alan Turing",
+   "Steve Jobs",
+   "Tim Berners-Lee",
+   "Bill Gates"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which scientist observed Jupiter's moons with a telescope?",
+  "options": [
+   "Copernicus",
+   "Galileo Galilei",
+   "Johannes Kepler",
+   "Isaac Newton"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who wrote the novel 'Pride and Prejudice'?",
+  "options": [
+   "Jane Austen",
+   "George Eliot",
+   "Emily Brontë",
+   "Charlotte Brontë"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which instrument is often called the 'king of instruments'?",
+  "options": [
+   "Harp",
+   "Violin",
+   "Trumpet",
+   "Organ"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Who discovered the electron in 1897?",
+  "options": [
+   "James Chadwick",
+   "Niels Bohr",
+   "J. J. Thomson",
+   "Ernest Rutherford"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which artist painted the melting clocks in 'The Persistence of Memory'?",
+  "options": [
+   "René Magritte",
+   "Salvador Dalí",
+   "Pablo Picasso",
+   "Joan Miró"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which ship did Charles Darwin travel on?",
+  "options": [
+   "HMS Beagle",
+   "HMS Dreadnought",
+   "HMS Discovery",
+   "HMS Victory"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Who was the first woman to fly solo across the Atlantic?",
+  "options": [
+   "Bessie Coleman",
+   "Jacqueline Cochran",
+   "Harriet Quimby",
+   "Amelia Earhart"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which scientist discovered radioactivity?",
+  "options": [
+   "Pierre Curie",
+   "Wilhelm Röntgen",
+   "Henri Becquerel",
+   "Marie Curie"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does DNA stand for?",
+  "options": [
+   "Dinitrogen acid",
+   "Deoxyribonucleic acid",
+   "Dinuclear aldehyde",
+   "Deoxynitric acid"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which invention helped sailors measure longitude accurately at sea?",
+  "options": [
+   "Marine chronometer",
+   "Compass",
+   "Sextant",
+   "Astrolabe"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which element was named after the country of Poland?",
+  "options": [
+   "Radium",
+   "Platinum",
+   "Palladium",
+   "Polonium"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Who wrote the poem 'The Road Not Taken'?",
+  "options": [
+   "Emily Dickinson",
+   "William Wordsworth",
+   "Robert Frost",
+   "Walt Whitman"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

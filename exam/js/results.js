@@ -84,6 +84,7 @@
       var d = el('div', 'sum'); d.append(el('b', null, String(s[1])), el('span', null, s[0])); sum.appendChild(d);
     });
     $('empty-msg').textContent = rows.length ? '' : 'No results match. Results appear here after students submit an exam.';
+    $('btn-clear-history').disabled = all.length === 0;
 
     rows.forEach(function (r) {
       var info = scoreInfo(r);
@@ -224,6 +225,14 @@
   $('f-name').addEventListener('input', render);
   $('btn-csv').addEventListener('click', exportCsv);
   $('btn-json').addEventListener('click', function () { download('enigmapath-results.json', JSON.stringify({ results: filtered() }, null, 1), 'application/json'); });
+  $('btn-clear-history').addEventListener('click', function () {
+    if (!all.length) return;
+    if (!window.confirm('Clear all exam history? This deletes ' + all.length + ' saved attempt(s) and their marked papers from this computer. This cannot be undone.')) return;
+    api('../api/results', { method: 'DELETE' }).then(function (r) {
+      toast('Exam history cleared' + (r.deleted ? ' (' + r.deleted + ' attempts)' : '') + '.', 'ok');
+      load();
+    }).catch(function (e) { toast(e.message, 'error'); });
+  });
   $('f-import').addEventListener('change', function (e) { if (e.target.files.length) importFiles(e.target.files); e.target.value = ''; });
   load();
 }());

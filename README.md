@@ -74,7 +74,7 @@ macOS/Linux:
 
 The server opens <http://127.0.0.1:8000/>. The same password unlocks the teacher pages. Do not leave the password blank.
 
-The exam builder lets you choose a multiple-choice-only exam or a mixed exam with open-ended questions. Open-ended questions require an answer key. After students submit, open **Mark exams** to mark the open answers, add comments, and print or save the marked A4 result paper as a PDF with the browser's print dialog. The builder can also print an answered teacher copy of the exam, with all questions, answers and answer keys.
+The exam builder lets you choose a multiple-choice-only exam or a mixed exam with open-ended questions. Open-ended questions require an answer key. After students submit, open **Mark exams** to mark the open answers, add comments, and print or save the marked A4 result paper as a PDF with the browser's print dialog. The builder can also print an answered teacher copy of the exam, with all questions, answers and answer keys. The results page can download a backup or clear the saved exam history.
 
 ## Data and privacy
 

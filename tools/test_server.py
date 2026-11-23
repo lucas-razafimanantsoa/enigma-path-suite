@@ -230,8 +230,18 @@ for p, symbol in ((100, "A+"), (96, "A+"), (95.9, "A"), (90, "A"), (86, "B+"), (
 s, r = call("DELETE", "/api/results/imported-1")
 check("delete result", s == 200 and len(call("GET", "/api/results?exam=unit-test-exam")[1]["results"]) == 1)
 check("delete denied before login", call("DELETE", "/api/exams/unit-test-exam", as_teacher=False)[0] == 401)
+check("clear history denied before login", call("DELETE", "/api/results", as_teacher=False)[0] == 401)
 check("csv rewritten after delete", "Grace Hopper" not in (server.RESULTS_DIR / "results.csv").read_text(encoding="utf-8-sig"))
 check("delete exam", call("DELETE", "/api/exams/unit-test-exam")[0] == 200 and call("GET", "/api/exams/unit-test-exam")[0] == 404)
+
+# clear all exam history
+s, r = call("DELETE", "/api/results")
+check("clear all exam history", s == 200 and r.get("deleted") == 2, r)
+check("history is empty after clearing", call("GET", "/api/results")[1]["results"] == [])
+check("no attempt files remain after clearing", list(server.RESULTS_DIR.glob("*/*.json")) == [])
+csv_after_clear = (server.RESULTS_DIR / "results.csv").read_text(encoding="utf-8-sig")
+check("csv cleared but header kept", "Ada Lovelace" not in csv_after_clear and "Mary Jackson" not in csv_after_clear
+      and csv_after_clear.startswith("finished_at"), csv_after_clear)
 
 # logout
 s, _, h = call_raw("POST", "/api/logout")

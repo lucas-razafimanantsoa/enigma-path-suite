@@ -35,6 +35,7 @@ API (JSON):
     POST   /api/results/<id>/mark             save open-ended marks and comments (teacher only)
     POST   /api/results/import                merge result files copied from other computers (teacher only)
     DELETE /api/results/<id>                  (teacher only)
+    DELETE /api/results                       clear all saved results (teacher only)
     GET    /api/results.csv                   all results as CSV (teacher only)
 
 Everything marked "teacher only" is also denied without a password on startup.
@@ -820,6 +821,27 @@ class Handler(SimpleHTTPRequestHandler):
         if not self.is_teacher():
             return self.deny_teacher()
         path = unquote(urlparse(self.path).path)
+        if path == "/api/results":
+            with LOCK:
+                deleted = 0
+                for p in sorted(RESULTS_DIR.glob("*/*.json")):
+                    try:
+                        if not p.name.endswith(".marked.json"):
+                            deleted += 1
+                        p.unlink()
+                    except OSError:
+                        pass
+                try:
+                    self.rewrite_csv()
+                except OSError:
+                    pass
+                for folder in list(RESULTS_DIR.iterdir()):
+                    if folder.is_dir():
+                        try:
+                            folder.rmdir()
+                        except OSError:
+                            pass
+            return self.send_json(200, {"ok": True, "deleted": deleted})
         m = re.match(r"^/api/exams/([a-z0-9-]+)$", path)
         if m:
             with LOCK:

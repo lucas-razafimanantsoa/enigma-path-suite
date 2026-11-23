@@ -141,6 +141,19 @@ async function login(page) {
   fs.writeFileSync('/tmp/opencode/enigmaph-path-marked-test.pdf', pdfBytes);
   expect('browser print-to-PDF produces a PDF', pdfBytes.length > 1000 && pdfBytes.slice(0, 4).toString() === '%PDF', pdfBytes.length);
   expect('report errors', m.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, m.logs.join('|'));
+
+  /* ---------------- clear exam history ---------------- */
+  await m.goto(BASE + '/exam/results.html');
+  await m.sleep(500);
+  expect('results page shows saved history', /Mary Jackson/.test(await m.ev('document.getElementById("results-body").textContent')));
+  await m.ev('window.confirm = () => true');
+  await m.click('#btn-clear-history');
+  await m.sleep(800);
+  expect('clear history message shown', /Exam history cleared/.test(await m.ev('document.getElementById("toast").textContent')), await m.ev('document.getElementById("toast").textContent'));
+  expect('results page is empty after clearing', /No results match/.test(await m.ev('document.getElementById("empty-msg").textContent')));
+  const cleared = await (await teacherApi('/api/results')).json();
+  expect('server history is empty after clearing', cleared.results.length === 0, JSON.stringify(cleared));
+  expect('results page errors', m.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, m.logs.join('|'));
   await m.close();
 
   srv.kill();

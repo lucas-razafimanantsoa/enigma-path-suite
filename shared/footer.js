@@ -24,7 +24,7 @@
       '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
       '<a href="mailto:lucas.mirija@pm.me">Contact</a>' +
       '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
-      '<a href="https://github.com/lucas-razafimanantsoa/EnigmaPath" target="_blank" rel="noopener noreferrer">GitHub repository</a>' +
+      '<a href="https://github.com/lucas-razafimanantsoa/enigma-path-suite" target="_blank" rel="noopener noreferrer">GitHub repository</a>' +
     '</span>';
   footer.appendChild(inner);
 

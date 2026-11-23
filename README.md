@@ -1,6 +1,11 @@
 # EnigmaPath
 
-Learning suite: an eight-subject practice quiz, a robot-programming maze game, a cipher lab, a Tower of Hanoi simulator, four algorithm/maths labs, a fun-fact bank and a teacher-made exam with a point-and-click builder. Plain HTML, CSS and JavaScript plus one small Python server for the exam. Everything is local; nothing needs the internet.
+**Version v2026.11.23.0** · **Status: in development**
+
+Learning suite: an eight-subject practice quiz, a robot-programming maze game, a cipher lab, a Tower of Hanoi simulator, four algorithm/maths labs, a Bulls-and-Cows codebreaker, a fun-fact bank and a teacher-made exam with a point-and-click builder. Plain HTML, CSS and JavaScript plus one small Python server for the exam. Everything is local; nothing needs the internet.
+
+> [!NOTE]
+> EnigmaPath is still in development. Content and features are being added, and file formats or behaviour may change in later versions. This README describes **v2026.11.23.0**.
 
 Palette: **Tranquil Light Blue Serenity** — `#ADD8E6` `#87CEEB` `#B0E0E6` `#E0FFFF` `#4682B4`
 (plus derived darker blue tints for readable text and three status colours for correct / wrong / warning).
@@ -17,6 +22,26 @@ The teacher password is **`Mirija04`**. Press Enter at the prompt to accept it. 
 Teacher pages also need a browser login: the hub links open `exam/login.html`; enter the same password. The login is an `HttpOnly` cookie that expires after 8 hours and disappears when the server stops. "Sign out" is on the builder and results pages. The exam itself and submitting answers need no login.
 
 To copy EnigmaPath to another computer, copy the whole folder. Each student PC keeps its own `results/` folder.
+
+## How to use EnigmaPath
+
+EnigmaPath is a set of standalone pages joined by a shared home screen. There is no account and no installation. Everything except the exam runs straight from the local files.
+
+### Students
+
+1. **Open the hub.** Double-click `index.html` in the project folder, or open it from a browser. Every tile on the hub opens one app; the **About the app** link explains the suite and the exam.
+2. **Practise a subject.** Click **Practice Quiz**, choose a subject card (ICT, Mathematics, General Science, Physics, Chemistry, Biology, Geography or General Knowledge), then a level. Pick the difficulty and number of questions, answer one question at a time, and read the review at the end.
+3. **Play a lab.** Open any other tile (Guide the Robot, Cipher Lab, Tower of Hanoi, Binary Search, Knight's Tour, Graph Colouring, Huffman Coding or Guess the Password). Each page has its rules and controls on screen; nothing is saved outside the browser.
+4. **Read the explanation.** Most labs have a **How it works** or **Learn more** link. In the offline labs, the password-protected **Show solution** button uses the teacher password described above.
+5. **Take an exam.** The exam only works while the teacher's server is running. Open `exam/index.html` (or the exam tile on the hub), choose the exam, type your name and grade, answer the questions, and submit. You will not see a score — that goes to the teacher.
+
+### Teachers
+
+1. **Start the exam server.** Run `start.sh` (Linux/macOS) or `start.bat` (Windows). Enter the teacher password when prompted; the browser opens the hub.
+2. **Log in to the teacher pages.** Follow the teacher links on the hub. The browser asks for the same password and keeps you logged in for 8 hours or until the server stops. **Sign out** is on the builder and results pages.
+3. **Build an exam.** Open **Teacher: create an exam**, click **+ New exam**, add questions, maze items, or questions from the practice bank, then **Save exam**. Use **Export file** to move an exam to another computer.
+4. **Let students take it.** Students open the exam page through the server, choose the exam, and submit their answers. They can resume an unfinished exam on the same computer while the server is running.
+5. **Review the results.** Open **Results** to filter attempts, inspect wrong answers, see per-question statistics, and export CSV. Results are stored in `results/`; use **Import result files** to merge results collected on other computers.
 
 ## The apps
 
@@ -145,6 +170,6 @@ data/questions/       question banks         data/exams/            saved exams
 results/              saved exam results     tools/                 build + test scripts
 ```
 
-Contact: lucas.mirija@pm.me · https://github.com/lucas-razafimanantsoa/EnigmaPath
+Contact: lucas.mirija@pm.me · https://github.com/lucas-razafimanantsoa/enigma-path-suite
 
 Lucas M.R 2026, with vibes

@@ -547,6 +547,11 @@
     if (st.dirty && !window.confirm('Print the saved version? Unsaved changes will not appear.')) return;
     window.open('paper.html?id=' + encodeURIComponent(st.exam.id), '_blank', 'noopener');
   });
+  $('btn-paper-exam').addEventListener('click', function () {
+    if (!st.exam || !st.exam.id) { setMsg('Save the exam first, then save the exam paper.', 'error'); return; }
+    if (st.dirty && !window.confirm('Use the saved version? Unsaved changes will not appear.')) return;
+    window.open('paper.html?id=' + encodeURIComponent(st.exam.id) + '&blank=1', '_blank', 'noopener');
+  });
   $('file-import').addEventListener('change', function (e) { if (e.target.files[0]) importFile(e.target.files[0]); e.target.value = ''; });
   $('ex-title').addEventListener('input', function (e) { st.exam.title = e.target.value; setDirty(true); });
   $('ex-subject').addEventListener('input', function (e) { st.exam.subject = e.target.value; setDirty(true); });

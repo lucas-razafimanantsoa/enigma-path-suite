@@ -1,6 +1,9 @@
 # Student attempts and teacher result exports (created automatically by server.py)
 results/
 
+# Teacher-created exams (never commit these)
+data/exams/
+
 # Python
 __pycache__/
 *.py[cod]

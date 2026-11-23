@@ -20,6 +20,23 @@
 .paper-maze__figure { max-width: 480px; background: #f7fbfc; padding: 6px; border-radius: 6px; }
 .paper-maze__figure svg { display: block; width: 100%; height: auto; }
 .paper-error { padding: 24px; text-align: center; }
+.paper-candidate { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 18px 0 0; }
+.paper-candidate__field { display: flex; align-items: flex-end; gap: 8px; flex: 1 1 180px; }
+.paper-candidate__label { color: #33566b; font-weight: 600; white-space: nowrap; }
+.paper-candidate__line { flex: 1; border-bottom: 1px solid #4d6b80; min-height: 1.5em; }
+.paper-instructions { margin: 14px 0 0; padding: 9px 12px; background: #f7fbfc; border: 1px solid #d7e4ea; border-radius: 8px; color: #33566b; }
+.paper-question__head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
+.paper-question__number { font-size: 14px; }
+.paper-question__points { color: #4d6b80; font-size: 13px; }
+.paper-question__maze { color: #6b8494; font-size: 12px; }
+.paper-options--blank li { border: 0; padding: 2px 0; display: flex; align-items: flex-start; gap: 8px; }
+.paper-checkbox { display: inline-block; width: 13px; height: 13px; margin-top: 2px; border: 1.5px solid #33566b; border-radius: 2px; flex: 0 0 auto; }
+.paper-option__text { flex: 1; }
+.paper-answer-space { margin-top: 12px; }
+.paper-answer-label { display: block; color: #33566b; font-weight: 600; margin-bottom: 4px; }
+.paper-answer-line { border-bottom: 1px solid #b8ccd7; height: 24px; }
+.paper-footer { margin-top: 26px; border-top: 1px solid #b8ccd7; padding-top: 8px; color: #6b8494; font-size: 11px; text-align: center; }
 @media print {
   .paper-question, .paper-maze { break-inside: avoid; }
+  .paper-answer-space { break-inside: avoid; }
 }

@@ -56,6 +56,7 @@ async function login(page) {
   await t.click('#btn-save');
   await t.sleep(600);
   expect('mixed exam saved', /Saved/.test(await t.ev('document.getElementById("save-msg").textContent')), await t.ev('document.getElementById("save-msg").textContent'));
+  expect('save exam paper button exists', (await t.ev('!!document.getElementById("btn-paper-exam")')) === true);
   expect('builder errors', t.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, t.logs.join('|'));
   const exams = await (await teacherApi('/api/exams')).json();
   expect('server stores mixed mode and points', exams.exams.length === 1 && exams.exams[0].mode === 'mixed' && exams.exams[0].points === 6, JSON.stringify(exams));
@@ -71,6 +72,25 @@ async function login(page) {
   expect('answered exam has both question cards', (await t.ev('document.querySelectorAll(".paper-question").length')) === 2);
   await t.shot('/tmp/opencode/answered-exam.png', 1100, 1400);
   expect('answered exam errors', t.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, t.logs.join('|'));
+
+  await t.goto(BASE + '/exam/paper.html?id=' + encodeURIComponent(examId) + '&blank=1');
+  await t.sleep(600);
+  const blankText = await t.ev('document.getElementById("paper-page").textContent');
+  expect('blank exam paper shows the questions',
+    /Examination Paper/.test(blankText) && /What is 2 \+ 2\?/.test(blankText) &&
+    /Explain why networks are useful\./.test(blankText), blankText.slice(0, 600));
+  expect('blank exam paper hides the answers',
+    !/Correct answer/.test(blankText) && !/Answer key/.test(blankText) &&
+    !/Devices share files and messages\./.test(blankText), blankText.slice(0, 600));
+  expect('blank exam paper has candidate lines', /Name/.test(blankText) && /Grade/.test(blankText) && /Date/.test(blankText));
+  expect('blank exam paper has checkboxes', (await t.ev('document.querySelectorAll(".paper-checkbox").length')) === 4);
+  expect('blank exam paper has answer lines', (await t.ev('document.querySelectorAll(".paper-answer-line").length')) >= 3);
+  await t.shot('/tmp/opencode/exam-paper.png', 1100, 1400);
+  const blankPdf = await t.send('Page.printToPDF', { printBackground: true, preferCSSPageSize: true });
+  const blankPdfBytes = Buffer.from(blankPdf.result.data, 'base64');
+  fs.writeFileSync('/tmp/opencode/enigmaph-path-exam-paper.pdf', blankPdfBytes);
+  expect('blank exam paper print-to-PDF produces a PDF', blankPdfBytes.slice(0, 4).toString() === '%PDF', blankPdfBytes.length);
+  expect('blank exam paper errors', t.logs.filter((l) => /EXCEPTION|error/i.test(l)).length === 0, t.logs.join('|'));
   await t.close();
 
   /* ---------------- student takes it ---------------- */
